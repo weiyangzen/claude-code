@@ -1,0 +1,2215 @@
+# Research Blueprint Checklist
+
+Project: `claude-code-instructkr`
+Generated at: 2026-04-01 06:29:48 +0800
+
+Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
+Legend: `[ ]` pending, `[x]` researched.
+
+## Directories
+- [x] [DIR] .
+- [x] [DIR] src
+- [x] [DIR] src/assistant
+- [x] [DIR] src/bootstrap
+- [x] [DIR] src/bridge
+- [x] [DIR] src/buddy
+- [x] [DIR] src/cli
+- [x] [DIR] src/cli/handlers
+- [x] [DIR] src/cli/transports
+- [x] [DIR] src/commands
+- [x] [DIR] src/commands/add-dir
+- [x] [DIR] src/commands/agents
+- [x] [DIR] src/commands/ant-trace
+- [x] [DIR] src/commands/autofix-pr
+- [x] [DIR] src/commands/backfill-sessions
+- [x] [DIR] src/commands/branch
+- [x] [DIR] src/commands/break-cache
+- [x] [DIR] src/commands/bridge
+- [x] [DIR] src/commands/btw
+- [x] [DIR] src/commands/bughunter
+- [x] [DIR] src/commands/chrome
+- [x] [DIR] src/commands/clear
+- [x] [DIR] src/commands/color
+- [x] [DIR] src/commands/compact
+- [x] [DIR] src/commands/config
+- [x] [DIR] src/commands/context
+- [x] [DIR] src/commands/copy
+- [x] [DIR] src/commands/cost
+- [x] [DIR] src/commands/ctx_viz
+- [x] [DIR] src/commands/debug-tool-call
+- [x] [DIR] src/commands/desktop
+- [x] [DIR] src/commands/diff
+- [x] [DIR] src/commands/doctor
+- [x] [DIR] src/commands/effort
+- [x] [DIR] src/commands/env
+- [x] [DIR] src/commands/exit
+- [x] [DIR] src/commands/export
+- [x] [DIR] src/commands/extra-usage
+- [x] [DIR] src/commands/fast
+- [x] [DIR] src/commands/feedback
+- [x] [DIR] src/commands/files
+- [x] [DIR] src/commands/good-claude
+- [x] [DIR] src/commands/heapdump
+- [x] [DIR] src/commands/help
+- [x] [DIR] src/commands/hooks
+- [x] [DIR] src/commands/ide
+- [x] [DIR] src/commands/install-github-app
+- [x] [DIR] src/commands/install-slack-app
+- [x] [DIR] src/commands/issue
+- [x] [DIR] src/commands/keybindings
+- [x] [DIR] src/commands/login
+- [x] [DIR] src/commands/logout
+- [x] [DIR] src/commands/mcp
+- [x] [DIR] src/commands/memory
+- [x] [DIR] src/commands/mobile
+- [x] [DIR] src/commands/mock-limits
+- [x] [DIR] src/commands/model
+- [x] [DIR] src/commands/oauth-refresh
+- [x] [DIR] src/commands/onboarding
+- [x] [DIR] src/commands/output-style
+- [x] [DIR] src/commands/passes
+- [x] [DIR] src/commands/perf-issue
+- [x] [DIR] src/commands/permissions
+- [x] [DIR] src/commands/plan
+- [x] [DIR] src/commands/plugin
+- [x] [DIR] src/commands/pr_comments
+- [x] [DIR] src/commands/privacy-settings
+- [x] [DIR] src/commands/rate-limit-options
+- [x] [DIR] src/commands/release-notes
+- [x] [DIR] src/commands/reload-plugins
+- [x] [DIR] src/commands/remote-env
+- [x] [DIR] src/commands/remote-setup
+- [x] [DIR] src/commands/rename
+- [x] [DIR] src/commands/reset-limits
+- [x] [DIR] src/commands/resume
+- [x] [DIR] src/commands/review
+- [x] [DIR] src/commands/rewind
+- [x] [DIR] src/commands/sandbox-toggle
+- [x] [DIR] src/commands/session
+- [x] [DIR] src/commands/share
+- [x] [DIR] src/commands/skills
+- [x] [DIR] src/commands/stats
+- [x] [DIR] src/commands/status
+- [x] [DIR] src/commands/stickers
+- [x] [DIR] src/commands/summary
+- [x] [DIR] src/commands/tag
+- [x] [DIR] src/commands/tasks
+- [x] [DIR] src/commands/teleport
+- [x] [DIR] src/commands/terminalSetup
+- [x] [DIR] src/commands/theme
+- [x] [DIR] src/commands/thinkback
+- [x] [DIR] src/commands/thinkback-play
+- [x] [DIR] src/commands/upgrade
+- [x] [DIR] src/commands/usage
+- [x] [DIR] src/commands/vim
+- [x] [DIR] src/commands/voice
+- [x] [DIR] src/components
+- [x] [DIR] src/components/ClaudeCodeHint
+- [x] [DIR] src/components/CustomSelect
+- [x] [DIR] src/components/DesktopUpsell
+- [x] [DIR] src/components/FeedbackSurvey
+- [x] [DIR] src/components/HelpV2
+- [x] [DIR] src/components/HighlightedCode
+- [x] [DIR] src/components/LogoV2
+- [x] [DIR] src/components/LspRecommendation
+- [x] [DIR] src/components/ManagedSettingsSecurityDialog
+- [x] [DIR] src/components/Passes
+- [x] [DIR] src/components/PromptInput
+- [x] [DIR] src/components/Settings
+- [x] [DIR] src/components/Spinner
+- [x] [DIR] src/components/StructuredDiff
+- [x] [DIR] src/components/TrustDialog
+- [x] [DIR] src/components/agents
+- [x] [DIR] src/components/agents/new-agent-creation
+- [x] [DIR] src/components/agents/new-agent-creation/wizard-steps
+- [x] [DIR] src/components/design-system
+- [x] [DIR] src/components/diff
+- [x] [DIR] src/components/grove
+- [x] [DIR] src/components/hooks
+- [x] [DIR] src/components/mcp
+- [x] [DIR] src/components/mcp/utils
+- [x] [DIR] src/components/memory
+- [x] [DIR] src/components/messages
+- [x] [DIR] src/components/messages/UserToolResultMessage
+- [x] [DIR] src/components/permissions
+- [x] [DIR] src/components/permissions/AskUserQuestionPermissionRequest
+- [x] [DIR] src/components/permissions/BashPermissionRequest
+- [x] [DIR] src/components/permissions/ComputerUseApproval
+- [x] [DIR] src/components/permissions/EnterPlanModePermissionRequest
+- [x] [DIR] src/components/permissions/ExitPlanModePermissionRequest
+- [x] [DIR] src/components/permissions/FileEditPermissionRequest
+- [x] [DIR] src/components/permissions/FilePermissionDialog
+- [x] [DIR] src/components/permissions/FileWritePermissionRequest
+- [x] [DIR] src/components/permissions/FilesystemPermissionRequest
+- [x] [DIR] src/components/permissions/NotebookEditPermissionRequest
+- [x] [DIR] src/components/permissions/PowerShellPermissionRequest
+- [x] [DIR] src/components/permissions/SedEditPermissionRequest
+- [x] [DIR] src/components/permissions/SkillPermissionRequest
+- [x] [DIR] src/components/permissions/WebFetchPermissionRequest
+- [x] [DIR] src/components/permissions/rules
+- [x] [DIR] src/components/sandbox
+- [x] [DIR] src/components/shell
+- [x] [DIR] src/components/skills
+- [x] [DIR] src/components/tasks
+- [x] [DIR] src/components/teams
+- [x] [DIR] src/components/ui
+- [x] [DIR] src/components/wizard
+- [x] [DIR] src/constants
+- [x] [DIR] src/context
+- [x] [DIR] src/coordinator
+- [x] [DIR] src/entrypoints
+- [x] [DIR] src/entrypoints/sdk
+- [x] [DIR] src/hooks
+- [x] [DIR] src/hooks/notifs
+- [x] [DIR] src/hooks/toolPermission
+- [x] [DIR] src/hooks/toolPermission/handlers
+- [x] [DIR] src/ink
+- [x] [DIR] src/ink/components
+- [x] [DIR] src/ink/events
+- [x] [DIR] src/ink/hooks
+- [x] [DIR] src/ink/layout
+- [x] [DIR] src/ink/termio
+- [x] [DIR] src/keybindings
+- [x] [DIR] src/memdir
+- [x] [DIR] src/migrations
+- [x] [DIR] src/moreright
+- [x] [DIR] src/native-ts
+- [x] [DIR] src/native-ts/color-diff
+- [x] [DIR] src/native-ts/file-index
+- [x] [DIR] src/native-ts/yoga-layout
+- [x] [DIR] src/outputStyles
+- [x] [DIR] src/plugins
+- [x] [DIR] src/plugins/bundled
+- [x] [DIR] src/query
+- [x] [DIR] src/remote
+- [x] [DIR] src/schemas
+- [x] [DIR] src/screens
+- [x] [DIR] src/server
+- [x] [DIR] src/services
+- [x] [DIR] src/services/AgentSummary
+- [x] [DIR] src/services/MagicDocs
+- [x] [DIR] src/services/PromptSuggestion
+- [x] [DIR] src/services/SessionMemory
+- [x] [DIR] src/services/analytics
+- [x] [DIR] src/services/api
+- [x] [DIR] src/services/autoDream
+- [x] [DIR] src/services/compact
+- [x] [DIR] src/services/extractMemories
+- [x] [DIR] src/services/lsp
+- [x] [DIR] src/services/mcp
+- [x] [DIR] src/services/oauth
+- [x] [DIR] src/services/plugins
+- [x] [DIR] src/services/policyLimits
+- [x] [DIR] src/services/remoteManagedSettings
+- [x] [DIR] src/services/settingsSync
+- [x] [DIR] src/services/teamMemorySync
+- [x] [DIR] src/services/tips
+- [x] [DIR] src/services/toolUseSummary
+- [x] [DIR] src/services/tools
+- [x] [DIR] src/skills
+- [x] [DIR] src/skills/bundled
+- [x] [DIR] src/state
+- [x] [DIR] src/tasks
+- [x] [DIR] src/tasks/DreamTask
+- [x] [DIR] src/tasks/InProcessTeammateTask
+- [x] [DIR] src/tasks/LocalAgentTask
+- [x] [DIR] src/tasks/LocalShellTask
+- [x] [DIR] src/tasks/RemoteAgentTask
+- [x] [DIR] src/tools
+- [x] [DIR] src/tools/AgentTool
+- [x] [DIR] src/tools/AgentTool/built-in
+- [x] [DIR] src/tools/AskUserQuestionTool
+- [x] [DIR] src/tools/BashTool
+- [x] [DIR] src/tools/BriefTool
+- [x] [DIR] src/tools/ConfigTool
+- [x] [DIR] src/tools/EnterPlanModeTool
+- [x] [DIR] src/tools/EnterWorktreeTool
+- [x] [DIR] src/tools/ExitPlanModeTool
+- [x] [DIR] src/tools/ExitWorktreeTool
+- [x] [DIR] src/tools/FileEditTool
+- [x] [DIR] src/tools/FileReadTool
+- [x] [DIR] src/tools/FileWriteTool
+- [x] [DIR] src/tools/GlobTool
+- [x] [DIR] src/tools/GrepTool
+- [x] [DIR] src/tools/LSPTool
+- [x] [DIR] src/tools/ListMcpResourcesTool
+- [x] [DIR] src/tools/MCPTool
+- [x] [DIR] src/tools/McpAuthTool
+- [x] [DIR] src/tools/NotebookEditTool
+- [x] [DIR] src/tools/PowerShellTool
+- [x] [DIR] src/tools/REPLTool
+- [x] [DIR] src/tools/ReadMcpResourceTool
+- [x] [DIR] src/tools/RemoteTriggerTool
+- [x] [DIR] src/tools/ScheduleCronTool
+- [x] [DIR] src/tools/SendMessageTool
+- [x] [DIR] src/tools/SkillTool
+- [x] [DIR] src/tools/SleepTool
+- [x] [DIR] src/tools/SyntheticOutputTool
+- [x] [DIR] src/tools/TaskCreateTool
+- [x] [DIR] src/tools/TaskGetTool
+- [x] [DIR] src/tools/TaskListTool
+- [x] [DIR] src/tools/TaskOutputTool
+- [x] [DIR] src/tools/TaskStopTool
+- [x] [DIR] src/tools/TaskUpdateTool
+- [x] [DIR] src/tools/TeamCreateTool
+- [x] [DIR] src/tools/TeamDeleteTool
+- [x] [DIR] src/tools/TodoWriteTool
+- [x] [DIR] src/tools/ToolSearchTool
+- [x] [DIR] src/tools/WebFetchTool
+- [x] [DIR] src/tools/WebSearchTool
+- [x] [DIR] src/tools/shared
+- [x] [DIR] src/tools/testing
+- [x] [DIR] src/types
+- [x] [DIR] src/types/generated
+- [x] [DIR] src/types/generated/events_mono
+- [x] [DIR] src/types/generated/events_mono/claude_code
+- [x] [DIR] src/types/generated/events_mono/claude_code/v1
+- [x] [DIR] src/types/generated/events_mono/common
+- [x] [DIR] src/types/generated/events_mono/common/v1
+- [x] [DIR] src/types/generated/events_mono/growthbook
+- [x] [DIR] src/types/generated/events_mono/growthbook/v1
+- [x] [DIR] src/types/generated/google
+- [x] [DIR] src/types/generated/google/protobuf
+- [x] [DIR] src/upstreamproxy
+- [x] [DIR] src/utils
+- [x] [DIR] src/utils/background
+- [x] [DIR] src/utils/background/remote
+- [x] [DIR] src/utils/bash
+- [x] [DIR] src/utils/bash/specs
+- [x] [DIR] src/utils/claudeInChrome
+- [x] [DIR] src/utils/computerUse
+- [x] [DIR] src/utils/deepLink
+- [x] [DIR] src/utils/dxt
+- [x] [DIR] src/utils/filePersistence
+- [x] [DIR] src/utils/git
+- [x] [DIR] src/utils/github
+- [x] [DIR] src/utils/hooks
+- [x] [DIR] src/utils/mcp
+- [x] [DIR] src/utils/memory
+- [x] [DIR] src/utils/messages
+- [x] [DIR] src/utils/model
+- [x] [DIR] src/utils/nativeInstaller
+- [x] [DIR] src/utils/permissions
+- [x] [DIR] src/utils/plugins
+- [x] [DIR] src/utils/powershell
+- [x] [DIR] src/utils/processUserInput
+- [x] [DIR] src/utils/sandbox
+- [x] [DIR] src/utils/secureStorage
+- [x] [DIR] src/utils/settings
+- [x] [DIR] src/utils/settings/mdm
+- [x] [DIR] src/utils/shell
+- [x] [DIR] src/utils/skills
+- [x] [DIR] src/utils/suggestions
+- [x] [DIR] src/utils/swarm
+- [x] [DIR] src/utils/swarm/backends
+- [x] [DIR] src/utils/task
+- [x] [DIR] src/utils/telemetry
+- [x] [DIR] src/utils/teleport
+- [x] [DIR] src/utils/todo
+- [x] [DIR] src/utils/ultraplan
+- [x] [DIR] src/vim
+- [x] [DIR] src/voice
+
+## Files
+- [x] [FILE] src/QueryEngine.ts
+- [x] [FILE] src/Task.ts
+- [x] [FILE] src/Tool.ts
+- [x] [FILE] src/assistant/sessionHistory.ts
+- [x] [FILE] src/bootstrap/state.ts
+- [x] [FILE] src/bridge/bridgeApi.ts
+- [x] [FILE] src/bridge/bridgeConfig.ts
+- [x] [FILE] src/bridge/bridgeDebug.ts
+- [x] [FILE] src/bridge/bridgeEnabled.ts
+- [x] [FILE] src/bridge/bridgeMain.ts
+- [x] [FILE] src/bridge/bridgeMessaging.ts
+- [x] [FILE] src/bridge/bridgePermissionCallbacks.ts
+- [x] [FILE] src/bridge/bridgePointer.ts
+- [x] [FILE] src/bridge/bridgeStatusUtil.ts
+- [x] [FILE] src/bridge/bridgeUI.ts
+- [x] [FILE] src/bridge/capacityWake.ts
+- [x] [FILE] src/bridge/codeSessionApi.ts
+- [x] [FILE] src/bridge/createSession.ts
+- [x] [FILE] src/bridge/debugUtils.ts
+- [x] [FILE] src/bridge/envLessBridgeConfig.ts
+- [x] [FILE] src/bridge/flushGate.ts
+- [x] [FILE] src/bridge/inboundAttachments.ts
+- [x] [FILE] src/bridge/inboundMessages.ts
+- [x] [FILE] src/bridge/initReplBridge.ts
+- [x] [FILE] src/bridge/jwtUtils.ts
+- [x] [FILE] src/bridge/pollConfig.ts
+- [x] [FILE] src/bridge/pollConfigDefaults.ts
+- [x] [FILE] src/bridge/remoteBridgeCore.ts
+- [x] [FILE] src/bridge/replBridge.ts
+- [x] [FILE] src/bridge/replBridgeHandle.ts
+- [x] [FILE] src/bridge/replBridgeTransport.ts
+- [x] [FILE] src/bridge/sessionIdCompat.ts
+- [x] [FILE] src/bridge/sessionRunner.ts
+- [x] [FILE] src/bridge/trustedDevice.ts
+- [x] [FILE] src/bridge/types.ts
+- [x] [FILE] src/bridge/workSecret.ts
+- [x] [FILE] src/buddy/CompanionSprite.tsx
+- [x] [FILE] src/buddy/companion.ts
+- [x] [FILE] src/buddy/prompt.ts
+- [x] [FILE] src/buddy/sprites.ts
+- [x] [FILE] src/buddy/types.ts
+- [x] [FILE] src/buddy/useBuddyNotification.tsx
+- [x] [FILE] src/cli/exit.ts
+- [x] [FILE] src/cli/handlers/agents.ts
+- [x] [FILE] src/cli/handlers/auth.ts
+- [x] [FILE] src/cli/handlers/autoMode.ts
+- [x] [FILE] src/cli/handlers/mcp.tsx
+- [x] [FILE] src/cli/handlers/plugins.ts
+- [x] [FILE] src/cli/handlers/util.tsx
+- [x] [FILE] src/cli/ndjsonSafeStringify.ts
+- [x] [FILE] src/cli/print.ts
+- [x] [FILE] src/cli/remoteIO.ts
+- [x] [FILE] src/cli/structuredIO.ts
+- [x] [FILE] src/cli/transports/HybridTransport.ts
+- [x] [FILE] src/cli/transports/SSETransport.ts
+- [x] [FILE] src/cli/transports/SerialBatchEventUploader.ts
+- [x] [FILE] src/cli/transports/WebSocketTransport.ts
+- [x] [FILE] src/cli/transports/WorkerStateUploader.ts
+- [x] [FILE] src/cli/transports/ccrClient.ts
+- [x] [FILE] src/cli/transports/transportUtils.ts
+- [x] [FILE] src/cli/update.ts
+- [x] [FILE] src/commands.ts
+- [x] [FILE] src/commands/add-dir/add-dir.tsx
+- [x] [FILE] src/commands/add-dir/index.ts
+- [x] [FILE] src/commands/add-dir/validation.ts
+- [x] [FILE] src/commands/advisor.ts
+- [x] [FILE] src/commands/agents/agents.tsx
+- [x] [FILE] src/commands/agents/index.ts
+- [x] [FILE] src/commands/ant-trace/index.js
+- [x] [FILE] src/commands/autofix-pr/index.js
+- [x] [FILE] src/commands/backfill-sessions/index.js
+- [x] [FILE] src/commands/branch/branch.ts
+- [x] [FILE] src/commands/branch/index.ts
+- [x] [FILE] src/commands/break-cache/index.js
+- [x] [FILE] src/commands/bridge-kick.ts
+- [x] [FILE] src/commands/bridge/bridge.tsx
+- [x] [FILE] src/commands/bridge/index.ts
+- [x] [FILE] src/commands/brief.ts
+- [x] [FILE] src/commands/btw/btw.tsx
+- [x] [FILE] src/commands/btw/index.ts
+- [x] [FILE] src/commands/bughunter/index.js
+- [x] [FILE] src/commands/chrome/chrome.tsx
+- [x] [FILE] src/commands/chrome/index.ts
+- [x] [FILE] src/commands/clear/caches.ts
+- [x] [FILE] src/commands/clear/clear.ts
+- [x] [FILE] src/commands/clear/conversation.ts
+- [x] [FILE] src/commands/clear/index.ts
+- [x] [FILE] src/commands/color/color.ts
+- [x] [FILE] src/commands/color/index.ts
+- [x] [FILE] src/commands/commit-push-pr.ts
+- [x] [FILE] src/commands/commit.ts
+- [x] [FILE] src/commands/compact/compact.ts
+- [x] [FILE] src/commands/compact/index.ts
+- [x] [FILE] src/commands/config/config.tsx
+- [x] [FILE] src/commands/config/index.ts
+- [x] [FILE] src/commands/context/context-noninteractive.ts
+- [x] [FILE] src/commands/context/context.tsx
+- [x] [FILE] src/commands/context/index.ts
+- [x] [FILE] src/commands/copy/copy.tsx
+- [x] [FILE] src/commands/copy/index.ts
+- [x] [FILE] src/commands/cost/cost.ts
+- [x] [FILE] src/commands/cost/index.ts
+- [x] [FILE] src/commands/createMovedToPluginCommand.ts
+- [x] [FILE] src/commands/ctx_viz/index.js
+- [x] [FILE] src/commands/debug-tool-call/index.js
+- [x] [FILE] src/commands/desktop/desktop.tsx
+- [x] [FILE] src/commands/desktop/index.ts
+- [x] [FILE] src/commands/diff/diff.tsx
+- [x] [FILE] src/commands/diff/index.ts
+- [x] [FILE] src/commands/doctor/doctor.tsx
+- [x] [FILE] src/commands/doctor/index.ts
+- [ ] [FILE] src/commands/effort/effort.tsx
+- [ ] [FILE] src/commands/effort/index.ts
+- [ ] [FILE] src/commands/env/index.js
+- [ ] [FILE] src/commands/exit/exit.tsx
+- [ ] [FILE] src/commands/exit/index.ts
+- [ ] [FILE] src/commands/export/export.tsx
+- [ ] [FILE] src/commands/export/index.ts
+- [ ] [FILE] src/commands/extra-usage/extra-usage-core.ts
+- [ ] [FILE] src/commands/extra-usage/extra-usage-noninteractive.ts
+- [ ] [FILE] src/commands/extra-usage/extra-usage.tsx
+- [ ] [FILE] src/commands/extra-usage/index.ts
+- [ ] [FILE] src/commands/fast/fast.tsx
+- [ ] [FILE] src/commands/fast/index.ts
+- [ ] [FILE] src/commands/feedback/feedback.tsx
+- [ ] [FILE] src/commands/feedback/index.ts
+- [ ] [FILE] src/commands/files/files.ts
+- [ ] [FILE] src/commands/files/index.ts
+- [ ] [FILE] src/commands/good-claude/index.js
+- [ ] [FILE] src/commands/heapdump/heapdump.ts
+- [ ] [FILE] src/commands/heapdump/index.ts
+- [ ] [FILE] src/commands/help/help.tsx
+- [ ] [FILE] src/commands/help/index.ts
+- [ ] [FILE] src/commands/hooks/hooks.tsx
+- [ ] [FILE] src/commands/hooks/index.ts
+- [ ] [FILE] src/commands/ide/ide.tsx
+- [ ] [FILE] src/commands/ide/index.ts
+- [x] [FILE] src/commands/init-verifiers.ts
+- [x] [FILE] src/commands/init.ts
+- [ ] [FILE] src/commands/insights.ts
+- [ ] [FILE] src/commands/install-github-app/ApiKeyStep.tsx
+- [ ] [FILE] src/commands/install-github-app/CheckExistingSecretStep.tsx
+- [ ] [FILE] src/commands/install-github-app/CheckGitHubStep.tsx
+- [ ] [FILE] src/commands/install-github-app/ChooseRepoStep.tsx
+- [ ] [FILE] src/commands/install-github-app/CreatingStep.tsx
+- [ ] [FILE] src/commands/install-github-app/ErrorStep.tsx
+- [ ] [FILE] src/commands/install-github-app/ExistingWorkflowStep.tsx
+- [ ] [FILE] src/commands/install-github-app/InstallAppStep.tsx
+- [ ] [FILE] src/commands/install-github-app/OAuthFlowStep.tsx
+- [ ] [FILE] src/commands/install-github-app/SuccessStep.tsx
+- [ ] [FILE] src/commands/install-github-app/WarningsStep.tsx
+- [ ] [FILE] src/commands/install-github-app/index.ts
+- [ ] [FILE] src/commands/install-github-app/install-github-app.tsx
+- [ ] [FILE] src/commands/install-github-app/setupGitHubActions.ts
+- [ ] [FILE] src/commands/install-slack-app/index.ts
+- [ ] [FILE] src/commands/install-slack-app/install-slack-app.ts
+- [ ] [FILE] src/commands/install.tsx
+- [ ] [FILE] src/commands/issue/index.js
+- [ ] [FILE] src/commands/keybindings/index.ts
+- [ ] [FILE] src/commands/keybindings/keybindings.ts
+- [ ] [FILE] src/commands/login/index.ts
+- [ ] [FILE] src/commands/login/login.tsx
+- [ ] [FILE] src/commands/logout/index.ts
+- [ ] [FILE] src/commands/logout/logout.tsx
+- [ ] [FILE] src/commands/mcp/addCommand.ts
+- [ ] [FILE] src/commands/mcp/index.ts
+- [ ] [FILE] src/commands/mcp/mcp.tsx
+- [ ] [FILE] src/commands/mcp/xaaIdpCommand.ts
+- [ ] [FILE] src/commands/memory/index.ts
+- [ ] [FILE] src/commands/memory/memory.tsx
+- [ ] [FILE] src/commands/mobile/index.ts
+- [ ] [FILE] src/commands/mobile/mobile.tsx
+- [ ] [FILE] src/commands/mock-limits/index.js
+- [ ] [FILE] src/commands/model/index.ts
+- [ ] [FILE] src/commands/model/model.tsx
+- [ ] [FILE] src/commands/oauth-refresh/index.js
+- [ ] [FILE] src/commands/onboarding/index.js
+- [ ] [FILE] src/commands/output-style/index.ts
+- [ ] [FILE] src/commands/output-style/output-style.tsx
+- [ ] [FILE] src/commands/passes/index.ts
+- [ ] [FILE] src/commands/passes/passes.tsx
+- [ ] [FILE] src/commands/perf-issue/index.js
+- [ ] [FILE] src/commands/permissions/index.ts
+- [ ] [FILE] src/commands/permissions/permissions.tsx
+- [ ] [FILE] src/commands/plan/index.ts
+- [ ] [FILE] src/commands/plan/plan.tsx
+- [ ] [FILE] src/commands/plugin/AddMarketplace.tsx
+- [ ] [FILE] src/commands/plugin/BrowseMarketplace.tsx
+- [ ] [FILE] src/commands/plugin/DiscoverPlugins.tsx
+- [ ] [FILE] src/commands/plugin/ManageMarketplaces.tsx
+- [ ] [FILE] src/commands/plugin/ManagePlugins.tsx
+- [ ] [FILE] src/commands/plugin/PluginErrors.tsx
+- [ ] [FILE] src/commands/plugin/PluginOptionsDialog.tsx
+- [ ] [FILE] src/commands/plugin/PluginOptionsFlow.tsx
+- [ ] [FILE] src/commands/plugin/PluginSettings.tsx
+- [ ] [FILE] src/commands/plugin/PluginTrustWarning.tsx
+- [ ] [FILE] src/commands/plugin/UnifiedInstalledCell.tsx
+- [ ] [FILE] src/commands/plugin/ValidatePlugin.tsx
+- [ ] [FILE] src/commands/plugin/index.tsx
+- [ ] [FILE] src/commands/plugin/parseArgs.ts
+- [ ] [FILE] src/commands/plugin/plugin.tsx
+- [ ] [FILE] src/commands/plugin/pluginDetailsHelpers.tsx
+- [ ] [FILE] src/commands/plugin/usePagination.ts
+- [ ] [FILE] src/commands/pr_comments/index.ts
+- [ ] [FILE] src/commands/privacy-settings/index.ts
+- [ ] [FILE] src/commands/privacy-settings/privacy-settings.tsx
+- [ ] [FILE] src/commands/rate-limit-options/index.ts
+- [ ] [FILE] src/commands/rate-limit-options/rate-limit-options.tsx
+- [ ] [FILE] src/commands/release-notes/index.ts
+- [ ] [FILE] src/commands/release-notes/release-notes.ts
+- [ ] [FILE] src/commands/reload-plugins/index.ts
+- [ ] [FILE] src/commands/reload-plugins/reload-plugins.ts
+- [ ] [FILE] src/commands/remote-env/index.ts
+- [ ] [FILE] src/commands/remote-env/remote-env.tsx
+- [ ] [FILE] src/commands/remote-setup/api.ts
+- [ ] [FILE] src/commands/remote-setup/index.ts
+- [ ] [FILE] src/commands/remote-setup/remote-setup.tsx
+- [ ] [FILE] src/commands/rename/generateSessionName.ts
+- [ ] [FILE] src/commands/rename/index.ts
+- [ ] [FILE] src/commands/rename/rename.ts
+- [ ] [FILE] src/commands/reset-limits/index.js
+- [ ] [FILE] src/commands/resume/index.ts
+- [ ] [FILE] src/commands/resume/resume.tsx
+- [ ] [FILE] src/commands/review.ts
+- [ ] [FILE] src/commands/review/UltrareviewOverageDialog.tsx
+- [ ] [FILE] src/commands/review/reviewRemote.ts
+- [ ] [FILE] src/commands/review/ultrareviewCommand.tsx
+- [ ] [FILE] src/commands/review/ultrareviewEnabled.ts
+- [ ] [FILE] src/commands/rewind/index.ts
+- [ ] [FILE] src/commands/rewind/rewind.ts
+- [ ] [FILE] src/commands/sandbox-toggle/index.ts
+- [ ] [FILE] src/commands/sandbox-toggle/sandbox-toggle.tsx
+- [ ] [FILE] src/commands/security-review.ts
+- [ ] [FILE] src/commands/session/index.ts
+- [ ] [FILE] src/commands/session/session.tsx
+- [ ] [FILE] src/commands/share/index.js
+- [ ] [FILE] src/commands/skills/index.ts
+- [ ] [FILE] src/commands/skills/skills.tsx
+- [ ] [FILE] src/commands/stats/index.ts
+- [ ] [FILE] src/commands/stats/stats.tsx
+- [ ] [FILE] src/commands/status/index.ts
+- [ ] [FILE] src/commands/status/status.tsx
+- [ ] [FILE] src/commands/statusline.tsx
+- [ ] [FILE] src/commands/stickers/index.ts
+- [ ] [FILE] src/commands/stickers/stickers.ts
+- [ ] [FILE] src/commands/summary/index.js
+- [ ] [FILE] src/commands/tag/index.ts
+- [ ] [FILE] src/commands/tag/tag.tsx
+- [ ] [FILE] src/commands/tasks/index.ts
+- [ ] [FILE] src/commands/tasks/tasks.tsx
+- [ ] [FILE] src/commands/teleport/index.js
+- [ ] [FILE] src/commands/terminalSetup/index.ts
+- [ ] [FILE] src/commands/terminalSetup/terminalSetup.tsx
+- [ ] [FILE] src/commands/theme/index.ts
+- [ ] [FILE] src/commands/theme/theme.tsx
+- [ ] [FILE] src/commands/thinkback-play/index.ts
+- [ ] [FILE] src/commands/thinkback-play/thinkback-play.ts
+- [ ] [FILE] src/commands/thinkback/index.ts
+- [ ] [FILE] src/commands/thinkback/thinkback.tsx
+- [ ] [FILE] src/commands/ultraplan.tsx
+- [ ] [FILE] src/commands/upgrade/index.ts
+- [ ] [FILE] src/commands/upgrade/upgrade.tsx
+- [ ] [FILE] src/commands/usage/index.ts
+- [ ] [FILE] src/commands/usage/usage.tsx
+- [ ] [FILE] src/commands/version.ts
+- [ ] [FILE] src/commands/vim/index.ts
+- [ ] [FILE] src/commands/vim/vim.ts
+- [ ] [FILE] src/commands/voice/index.ts
+- [ ] [FILE] src/commands/voice/voice.ts
+- [ ] [FILE] src/components/AgentProgressLine.tsx
+- [ ] [FILE] src/components/App.tsx
+- [ ] [FILE] src/components/ApproveApiKey.tsx
+- [ ] [FILE] src/components/AutoModeOptInDialog.tsx
+- [ ] [FILE] src/components/AutoUpdater.tsx
+- [ ] [FILE] src/components/AutoUpdaterWrapper.tsx
+- [ ] [FILE] src/components/AwsAuthStatusBox.tsx
+- [ ] [FILE] src/components/BaseTextInput.tsx
+- [ ] [FILE] src/components/BashModeProgress.tsx
+- [ ] [FILE] src/components/BridgeDialog.tsx
+- [ ] [FILE] src/components/BypassPermissionsModeDialog.tsx
+- [ ] [FILE] src/components/ChannelDowngradeDialog.tsx
+- [ ] [FILE] src/components/ClaudeCodeHint/PluginHintMenu.tsx
+- [ ] [FILE] src/components/ClaudeInChromeOnboarding.tsx
+- [ ] [FILE] src/components/ClaudeMdExternalIncludesDialog.tsx
+- [ ] [FILE] src/components/ClickableImageRef.tsx
+- [ ] [FILE] src/components/CompactSummary.tsx
+- [ ] [FILE] src/components/ConfigurableShortcutHint.tsx
+- [ ] [FILE] src/components/ConsoleOAuthFlow.tsx
+- [ ] [FILE] src/components/ContextSuggestions.tsx
+- [ ] [FILE] src/components/ContextVisualization.tsx
+- [ ] [FILE] src/components/CoordinatorAgentStatus.tsx
+- [ ] [FILE] src/components/CostThresholdDialog.tsx
+- [ ] [FILE] src/components/CtrlOToExpand.tsx
+- [ ] [FILE] src/components/CustomSelect/SelectMulti.tsx
+- [ ] [FILE] src/components/CustomSelect/index.ts
+- [ ] [FILE] src/components/CustomSelect/option-map.ts
+- [ ] [FILE] src/components/CustomSelect/select-input-option.tsx
+- [ ] [FILE] src/components/CustomSelect/select-option.tsx
+- [ ] [FILE] src/components/CustomSelect/select.tsx
+- [ ] [FILE] src/components/CustomSelect/use-multi-select-state.ts
+- [ ] [FILE] src/components/CustomSelect/use-select-input.ts
+- [ ] [FILE] src/components/CustomSelect/use-select-navigation.ts
+- [ ] [FILE] src/components/CustomSelect/use-select-state.ts
+- [ ] [FILE] src/components/DesktopHandoff.tsx
+- [ ] [FILE] src/components/DesktopUpsell/DesktopUpsellStartup.tsx
+- [ ] [FILE] src/components/DevBar.tsx
+- [ ] [FILE] src/components/DevChannelsDialog.tsx
+- [ ] [FILE] src/components/DiagnosticsDisplay.tsx
+- [ ] [FILE] src/components/EffortCallout.tsx
+- [ ] [FILE] src/components/EffortIndicator.ts
+- [ ] [FILE] src/components/ExitFlow.tsx
+- [ ] [FILE] src/components/ExportDialog.tsx
+- [ ] [FILE] src/components/FallbackToolUseErrorMessage.tsx
+- [ ] [FILE] src/components/FallbackToolUseRejectedMessage.tsx
+- [ ] [FILE] src/components/FastIcon.tsx
+- [ ] [FILE] src/components/Feedback.tsx
+- [ ] [FILE] src/components/FeedbackSurvey/FeedbackSurvey.tsx
+- [ ] [FILE] src/components/FeedbackSurvey/FeedbackSurveyView.tsx
+- [ ] [FILE] src/components/FeedbackSurvey/TranscriptSharePrompt.tsx
+- [ ] [FILE] src/components/FeedbackSurvey/submitTranscriptShare.ts
+- [ ] [FILE] src/components/FeedbackSurvey/useDebouncedDigitInput.ts
+- [ ] [FILE] src/components/FeedbackSurvey/useFeedbackSurvey.tsx
+- [ ] [FILE] src/components/FeedbackSurvey/useMemorySurvey.tsx
+- [ ] [FILE] src/components/FeedbackSurvey/usePostCompactSurvey.tsx
+- [ ] [FILE] src/components/FeedbackSurvey/useSurveyState.tsx
+- [ ] [FILE] src/components/FileEditToolDiff.tsx
+- [ ] [FILE] src/components/FileEditToolUpdatedMessage.tsx
+- [ ] [FILE] src/components/FileEditToolUseRejectedMessage.tsx
+- [ ] [FILE] src/components/FilePathLink.tsx
+- [ ] [FILE] src/components/FullscreenLayout.tsx
+- [ ] [FILE] src/components/GlobalSearchDialog.tsx
+- [ ] [FILE] src/components/HelpV2/Commands.tsx
+- [ ] [FILE] src/components/HelpV2/General.tsx
+- [ ] [FILE] src/components/HelpV2/HelpV2.tsx
+- [ ] [FILE] src/components/HighlightedCode.tsx
+- [ ] [FILE] src/components/HighlightedCode/Fallback.tsx
+- [ ] [FILE] src/components/HistorySearchDialog.tsx
+- [ ] [FILE] src/components/IdeAutoConnectDialog.tsx
+- [ ] [FILE] src/components/IdeOnboardingDialog.tsx
+- [ ] [FILE] src/components/IdeStatusIndicator.tsx
+- [ ] [FILE] src/components/IdleReturnDialog.tsx
+- [ ] [FILE] src/components/InterruptedByUser.tsx
+- [ ] [FILE] src/components/InvalidConfigDialog.tsx
+- [ ] [FILE] src/components/InvalidSettingsDialog.tsx
+- [ ] [FILE] src/components/KeybindingWarnings.tsx
+- [ ] [FILE] src/components/LanguagePicker.tsx
+- [ ] [FILE] src/components/LogSelector.tsx
+- [ ] [FILE] src/components/LogoV2/AnimatedAsterisk.tsx
+- [ ] [FILE] src/components/LogoV2/AnimatedClawd.tsx
+- [ ] [FILE] src/components/LogoV2/ChannelsNotice.tsx
+- [ ] [FILE] src/components/LogoV2/Clawd.tsx
+- [ ] [FILE] src/components/LogoV2/CondensedLogo.tsx
+- [ ] [FILE] src/components/LogoV2/EmergencyTip.tsx
+- [ ] [FILE] src/components/LogoV2/Feed.tsx
+- [ ] [FILE] src/components/LogoV2/FeedColumn.tsx
+- [ ] [FILE] src/components/LogoV2/GuestPassesUpsell.tsx
+- [ ] [FILE] src/components/LogoV2/LogoV2.tsx
+- [ ] [FILE] src/components/LogoV2/Opus1mMergeNotice.tsx
+- [ ] [FILE] src/components/LogoV2/OverageCreditUpsell.tsx
+- [ ] [FILE] src/components/LogoV2/VoiceModeNotice.tsx
+- [ ] [FILE] src/components/LogoV2/WelcomeV2.tsx
+- [ ] [FILE] src/components/LogoV2/feedConfigs.tsx
+- [ ] [FILE] src/components/LspRecommendation/LspRecommendationMenu.tsx
+- [ ] [FILE] src/components/MCPServerApprovalDialog.tsx
+- [ ] [FILE] src/components/MCPServerDesktopImportDialog.tsx
+- [ ] [FILE] src/components/MCPServerDialogCopy.tsx
+- [ ] [FILE] src/components/MCPServerMultiselectDialog.tsx
+- [ ] [FILE] src/components/ManagedSettingsSecurityDialog/ManagedSettingsSecurityDialog.tsx
+- [ ] [FILE] src/components/ManagedSettingsSecurityDialog/utils.ts
+- [ ] [FILE] src/components/Markdown.tsx
+- [ ] [FILE] src/components/MarkdownTable.tsx
+- [ ] [FILE] src/components/MemoryUsageIndicator.tsx
+- [ ] [FILE] src/components/Message.tsx
+- [ ] [FILE] src/components/MessageModel.tsx
+- [ ] [FILE] src/components/MessageResponse.tsx
+- [ ] [FILE] src/components/MessageRow.tsx
+- [ ] [FILE] src/components/MessageSelector.tsx
+- [ ] [FILE] src/components/MessageTimestamp.tsx
+- [ ] [FILE] src/components/Messages.tsx
+- [ ] [FILE] src/components/ModelPicker.tsx
+- [ ] [FILE] src/components/NativeAutoUpdater.tsx
+- [ ] [FILE] src/components/NotebookEditToolUseRejectedMessage.tsx
+- [ ] [FILE] src/components/OffscreenFreeze.tsx
+- [ ] [FILE] src/components/Onboarding.tsx
+- [ ] [FILE] src/components/OutputStylePicker.tsx
+- [ ] [FILE] src/components/PackageManagerAutoUpdater.tsx
+- [ ] [FILE] src/components/Passes/Passes.tsx
+- [ ] [FILE] src/components/PrBadge.tsx
+- [ ] [FILE] src/components/PressEnterToContinue.tsx
+- [ ] [FILE] src/components/PromptInput/HistorySearchInput.tsx
+- [ ] [FILE] src/components/PromptInput/IssueFlagBanner.tsx
+- [ ] [FILE] src/components/PromptInput/Notifications.tsx
+- [ ] [FILE] src/components/PromptInput/PromptInput.tsx
+- [ ] [FILE] src/components/PromptInput/PromptInputFooter.tsx
+- [ ] [FILE] src/components/PromptInput/PromptInputFooterLeftSide.tsx
+- [ ] [FILE] src/components/PromptInput/PromptInputFooterSuggestions.tsx
+- [ ] [FILE] src/components/PromptInput/PromptInputHelpMenu.tsx
+- [ ] [FILE] src/components/PromptInput/PromptInputModeIndicator.tsx
+- [ ] [FILE] src/components/PromptInput/PromptInputQueuedCommands.tsx
+- [ ] [FILE] src/components/PromptInput/PromptInputStashNotice.tsx
+- [ ] [FILE] src/components/PromptInput/SandboxPromptFooterHint.tsx
+- [ ] [FILE] src/components/PromptInput/ShimmeredInput.tsx
+- [ ] [FILE] src/components/PromptInput/VoiceIndicator.tsx
+- [ ] [FILE] src/components/PromptInput/inputModes.ts
+- [ ] [FILE] src/components/PromptInput/inputPaste.ts
+- [ ] [FILE] src/components/PromptInput/useMaybeTruncateInput.ts
+- [ ] [FILE] src/components/PromptInput/usePromptInputPlaceholder.ts
+- [ ] [FILE] src/components/PromptInput/useShowFastIconHint.ts
+- [ ] [FILE] src/components/PromptInput/useSwarmBanner.ts
+- [ ] [FILE] src/components/PromptInput/utils.ts
+- [ ] [FILE] src/components/QuickOpenDialog.tsx
+- [ ] [FILE] src/components/RemoteCallout.tsx
+- [ ] [FILE] src/components/RemoteEnvironmentDialog.tsx
+- [ ] [FILE] src/components/ResumeTask.tsx
+- [ ] [FILE] src/components/SandboxViolationExpandedView.tsx
+- [ ] [FILE] src/components/ScrollKeybindingHandler.tsx
+- [ ] [FILE] src/components/SearchBox.tsx
+- [ ] [FILE] src/components/SentryErrorBoundary.ts
+- [ ] [FILE] src/components/SessionBackgroundHint.tsx
+- [ ] [FILE] src/components/SessionPreview.tsx
+- [ ] [FILE] src/components/Settings/Config.tsx
+- [ ] [FILE] src/components/Settings/Settings.tsx
+- [ ] [FILE] src/components/Settings/Status.tsx
+- [ ] [FILE] src/components/Settings/Usage.tsx
+- [ ] [FILE] src/components/ShowInIDEPrompt.tsx
+- [ ] [FILE] src/components/SkillImprovementSurvey.tsx
+- [ ] [FILE] src/components/Spinner.tsx
+- [ ] [FILE] src/components/Spinner/FlashingChar.tsx
+- [ ] [FILE] src/components/Spinner/GlimmerMessage.tsx
+- [ ] [FILE] src/components/Spinner/ShimmerChar.tsx
+- [ ] [FILE] src/components/Spinner/SpinnerAnimationRow.tsx
+- [ ] [FILE] src/components/Spinner/SpinnerGlyph.tsx
+- [ ] [FILE] src/components/Spinner/TeammateSpinnerLine.tsx
+- [ ] [FILE] src/components/Spinner/TeammateSpinnerTree.tsx
+- [ ] [FILE] src/components/Spinner/index.ts
+- [ ] [FILE] src/components/Spinner/teammateSelectHint.ts
+- [ ] [FILE] src/components/Spinner/useShimmerAnimation.ts
+- [ ] [FILE] src/components/Spinner/useStalledAnimation.ts
+- [ ] [FILE] src/components/Spinner/utils.ts
+- [ ] [FILE] src/components/Stats.tsx
+- [ ] [FILE] src/components/StatusLine.tsx
+- [ ] [FILE] src/components/StatusNotices.tsx
+- [ ] [FILE] src/components/StructuredDiff.tsx
+- [ ] [FILE] src/components/StructuredDiff/Fallback.tsx
+- [ ] [FILE] src/components/StructuredDiff/colorDiff.ts
+- [ ] [FILE] src/components/StructuredDiffList.tsx
+- [ ] [FILE] src/components/TagTabs.tsx
+- [ ] [FILE] src/components/TaskListV2.tsx
+- [ ] [FILE] src/components/TeammateViewHeader.tsx
+- [ ] [FILE] src/components/TeleportError.tsx
+- [ ] [FILE] src/components/TeleportProgress.tsx
+- [ ] [FILE] src/components/TeleportRepoMismatchDialog.tsx
+- [ ] [FILE] src/components/TeleportResumeWrapper.tsx
+- [ ] [FILE] src/components/TeleportStash.tsx
+- [ ] [FILE] src/components/TextInput.tsx
+- [ ] [FILE] src/components/ThemePicker.tsx
+- [ ] [FILE] src/components/ThinkingToggle.tsx
+- [ ] [FILE] src/components/TokenWarning.tsx
+- [ ] [FILE] src/components/ToolUseLoader.tsx
+- [ ] [FILE] src/components/TrustDialog/TrustDialog.tsx
+- [ ] [FILE] src/components/TrustDialog/utils.ts
+- [ ] [FILE] src/components/ValidationErrorsList.tsx
+- [ ] [FILE] src/components/VimTextInput.tsx
+- [ ] [FILE] src/components/VirtualMessageList.tsx
+- [ ] [FILE] src/components/WorkflowMultiselectDialog.tsx
+- [ ] [FILE] src/components/WorktreeExitDialog.tsx
+- [ ] [FILE] src/components/agents/AgentDetail.tsx
+- [ ] [FILE] src/components/agents/AgentEditor.tsx
+- [ ] [FILE] src/components/agents/AgentNavigationFooter.tsx
+- [ ] [FILE] src/components/agents/AgentsList.tsx
+- [ ] [FILE] src/components/agents/AgentsMenu.tsx
+- [ ] [FILE] src/components/agents/ColorPicker.tsx
+- [ ] [FILE] src/components/agents/ModelSelector.tsx
+- [ ] [FILE] src/components/agents/ToolSelector.tsx
+- [ ] [FILE] src/components/agents/agentFileUtils.ts
+- [ ] [FILE] src/components/agents/generateAgent.ts
+- [ ] [FILE] src/components/agents/new-agent-creation/CreateAgentWizard.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ColorStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStepWrapper.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/DescriptionStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/GenerateStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/LocationStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/MemoryStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/MethodStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ModelStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/PromptStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ToolsStep.tsx
+- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/TypeStep.tsx
+- [ ] [FILE] src/components/agents/types.ts
+- [ ] [FILE] src/components/agents/utils.ts
+- [ ] [FILE] src/components/agents/validateAgent.ts
+- [ ] [FILE] src/components/design-system/Byline.tsx
+- [ ] [FILE] src/components/design-system/Dialog.tsx
+- [ ] [FILE] src/components/design-system/Divider.tsx
+- [ ] [FILE] src/components/design-system/FuzzyPicker.tsx
+- [ ] [FILE] src/components/design-system/KeyboardShortcutHint.tsx
+- [ ] [FILE] src/components/design-system/ListItem.tsx
+- [ ] [FILE] src/components/design-system/LoadingState.tsx
+- [ ] [FILE] src/components/design-system/Pane.tsx
+- [ ] [FILE] src/components/design-system/ProgressBar.tsx
+- [ ] [FILE] src/components/design-system/Ratchet.tsx
+- [ ] [FILE] src/components/design-system/StatusIcon.tsx
+- [ ] [FILE] src/components/design-system/Tabs.tsx
+- [ ] [FILE] src/components/design-system/ThemeProvider.tsx
+- [ ] [FILE] src/components/design-system/ThemedBox.tsx
+- [ ] [FILE] src/components/design-system/ThemedText.tsx
+- [ ] [FILE] src/components/design-system/color.ts
+- [ ] [FILE] src/components/diff/DiffDetailView.tsx
+- [ ] [FILE] src/components/diff/DiffDialog.tsx
+- [ ] [FILE] src/components/diff/DiffFileList.tsx
+- [ ] [FILE] src/components/grove/Grove.tsx
+- [ ] [FILE] src/components/hooks/HooksConfigMenu.tsx
+- [ ] [FILE] src/components/hooks/PromptDialog.tsx
+- [ ] [FILE] src/components/hooks/SelectEventMode.tsx
+- [ ] [FILE] src/components/hooks/SelectHookMode.tsx
+- [ ] [FILE] src/components/hooks/SelectMatcherMode.tsx
+- [ ] [FILE] src/components/hooks/ViewHookMode.tsx
+- [ ] [FILE] src/components/mcp/CapabilitiesSection.tsx
+- [ ] [FILE] src/components/mcp/ElicitationDialog.tsx
+- [ ] [FILE] src/components/mcp/MCPAgentServerMenu.tsx
+- [ ] [FILE] src/components/mcp/MCPListPanel.tsx
+- [ ] [FILE] src/components/mcp/MCPReconnect.tsx
+- [ ] [FILE] src/components/mcp/MCPRemoteServerMenu.tsx
+- [ ] [FILE] src/components/mcp/MCPSettings.tsx
+- [ ] [FILE] src/components/mcp/MCPStdioServerMenu.tsx
+- [ ] [FILE] src/components/mcp/MCPToolDetailView.tsx
+- [ ] [FILE] src/components/mcp/MCPToolListView.tsx
+- [ ] [FILE] src/components/mcp/McpParsingWarnings.tsx
+- [ ] [FILE] src/components/mcp/index.ts
+- [ ] [FILE] src/components/mcp/utils/reconnectHelpers.tsx
+- [ ] [FILE] src/components/memory/MemoryFileSelector.tsx
+- [ ] [FILE] src/components/memory/MemoryUpdateNotification.tsx
+- [ ] [FILE] src/components/messageActions.tsx
+- [ ] [FILE] src/components/messages/AdvisorMessage.tsx
+- [ ] [FILE] src/components/messages/AssistantRedactedThinkingMessage.tsx
+- [ ] [FILE] src/components/messages/AssistantTextMessage.tsx
+- [ ] [FILE] src/components/messages/AssistantThinkingMessage.tsx
+- [ ] [FILE] src/components/messages/AssistantToolUseMessage.tsx
+- [ ] [FILE] src/components/messages/AttachmentMessage.tsx
+- [ ] [FILE] src/components/messages/CollapsedReadSearchContent.tsx
+- [ ] [FILE] src/components/messages/CompactBoundaryMessage.tsx
+- [ ] [FILE] src/components/messages/GroupedToolUseContent.tsx
+- [ ] [FILE] src/components/messages/HighlightedThinkingText.tsx
+- [ ] [FILE] src/components/messages/HookProgressMessage.tsx
+- [ ] [FILE] src/components/messages/PlanApprovalMessage.tsx
+- [ ] [FILE] src/components/messages/RateLimitMessage.tsx
+- [ ] [FILE] src/components/messages/ShutdownMessage.tsx
+- [ ] [FILE] src/components/messages/SystemAPIErrorMessage.tsx
+- [ ] [FILE] src/components/messages/SystemTextMessage.tsx
+- [ ] [FILE] src/components/messages/TaskAssignmentMessage.tsx
+- [ ] [FILE] src/components/messages/UserAgentNotificationMessage.tsx
+- [ ] [FILE] src/components/messages/UserBashInputMessage.tsx
+- [ ] [FILE] src/components/messages/UserBashOutputMessage.tsx
+- [ ] [FILE] src/components/messages/UserChannelMessage.tsx
+- [ ] [FILE] src/components/messages/UserCommandMessage.tsx
+- [ ] [FILE] src/components/messages/UserImageMessage.tsx
+- [ ] [FILE] src/components/messages/UserLocalCommandOutputMessage.tsx
+- [ ] [FILE] src/components/messages/UserMemoryInputMessage.tsx
+- [ ] [FILE] src/components/messages/UserPlanMessage.tsx
+- [ ] [FILE] src/components/messages/UserPromptMessage.tsx
+- [ ] [FILE] src/components/messages/UserResourceUpdateMessage.tsx
+- [ ] [FILE] src/components/messages/UserTeammateMessage.tsx
+- [ ] [FILE] src/components/messages/UserTextMessage.tsx
+- [ ] [FILE] src/components/messages/UserToolResultMessage/RejectedPlanMessage.tsx
+- [ ] [FILE] src/components/messages/UserToolResultMessage/RejectedToolUseMessage.tsx
+- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolCanceledMessage.tsx
+- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolErrorMessage.tsx
+- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolRejectMessage.tsx
+- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolResultMessage.tsx
+- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolSuccessMessage.tsx
+- [ ] [FILE] src/components/messages/UserToolResultMessage/utils.tsx
+- [ ] [FILE] src/components/messages/nullRenderingAttachments.ts
+- [ ] [FILE] src/components/messages/teamMemCollapsed.tsx
+- [ ] [FILE] src/components/messages/teamMemSaved.ts
+- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/AskUserQuestionPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/PreviewBox.tsx
+- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/PreviewQuestionView.tsx
+- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/QuestionNavigationBar.tsx
+- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/QuestionView.tsx
+- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/SubmitQuestionsView.tsx
+- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/use-multiple-choice-state.ts
+- [ ] [FILE] src/components/permissions/BashPermissionRequest/BashPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/BashPermissionRequest/bashToolUseOptions.tsx
+- [ ] [FILE] src/components/permissions/ComputerUseApproval/ComputerUseApproval.tsx
+- [ ] [FILE] src/components/permissions/EnterPlanModePermissionRequest/EnterPlanModePermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/FallbackPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/FileEditPermissionRequest/FileEditPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/FilePermissionDialog/FilePermissionDialog.tsx
+- [ ] [FILE] src/components/permissions/FilePermissionDialog/ideDiffConfig.ts
+- [ ] [FILE] src/components/permissions/FilePermissionDialog/permissionOptions.tsx
+- [ ] [FILE] src/components/permissions/FilePermissionDialog/useFilePermissionDialog.ts
+- [ ] [FILE] src/components/permissions/FilePermissionDialog/usePermissionHandler.ts
+- [ ] [FILE] src/components/permissions/FileWritePermissionRequest/FileWritePermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/FileWritePermissionRequest/FileWriteToolDiff.tsx
+- [ ] [FILE] src/components/permissions/FilesystemPermissionRequest/FilesystemPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditToolDiff.tsx
+- [ ] [FILE] src/components/permissions/PermissionDecisionDebugInfo.tsx
+- [ ] [FILE] src/components/permissions/PermissionDialog.tsx
+- [ ] [FILE] src/components/permissions/PermissionExplanation.tsx
+- [ ] [FILE] src/components/permissions/PermissionPrompt.tsx
+- [ ] [FILE] src/components/permissions/PermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/PermissionRequestTitle.tsx
+- [ ] [FILE] src/components/permissions/PermissionRuleExplanation.tsx
+- [ ] [FILE] src/components/permissions/PowerShellPermissionRequest/PowerShellPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/PowerShellPermissionRequest/powershellToolUseOptions.tsx
+- [ ] [FILE] src/components/permissions/SandboxPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/SedEditPermissionRequest/SedEditPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/SkillPermissionRequest/SkillPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/WebFetchPermissionRequest/WebFetchPermissionRequest.tsx
+- [ ] [FILE] src/components/permissions/WorkerBadge.tsx
+- [ ] [FILE] src/components/permissions/WorkerPendingPermission.tsx
+- [ ] [FILE] src/components/permissions/hooks.ts
+- [ ] [FILE] src/components/permissions/rules/AddPermissionRules.tsx
+- [ ] [FILE] src/components/permissions/rules/AddWorkspaceDirectory.tsx
+- [ ] [FILE] src/components/permissions/rules/PermissionRuleDescription.tsx
+- [ ] [FILE] src/components/permissions/rules/PermissionRuleInput.tsx
+- [ ] [FILE] src/components/permissions/rules/PermissionRuleList.tsx
+- [ ] [FILE] src/components/permissions/rules/RecentDenialsTab.tsx
+- [ ] [FILE] src/components/permissions/rules/RemoveWorkspaceDirectory.tsx
+- [ ] [FILE] src/components/permissions/rules/WorkspaceTab.tsx
+- [ ] [FILE] src/components/permissions/shellPermissionHelpers.tsx
+- [ ] [FILE] src/components/permissions/useShellPermissionFeedback.ts
+- [ ] [FILE] src/components/permissions/utils.ts
+- [ ] [FILE] src/components/sandbox/SandboxConfigTab.tsx
+- [ ] [FILE] src/components/sandbox/SandboxDependenciesTab.tsx
+- [ ] [FILE] src/components/sandbox/SandboxDoctorSection.tsx
+- [ ] [FILE] src/components/sandbox/SandboxOverridesTab.tsx
+- [ ] [FILE] src/components/sandbox/SandboxSettings.tsx
+- [ ] [FILE] src/components/shell/ExpandShellOutputContext.tsx
+- [ ] [FILE] src/components/shell/OutputLine.tsx
+- [ ] [FILE] src/components/shell/ShellProgressMessage.tsx
+- [ ] [FILE] src/components/shell/ShellTimeDisplay.tsx
+- [ ] [FILE] src/components/skills/SkillsMenu.tsx
+- [ ] [FILE] src/components/tasks/AsyncAgentDetailDialog.tsx
+- [ ] [FILE] src/components/tasks/BackgroundTask.tsx
+- [ ] [FILE] src/components/tasks/BackgroundTaskStatus.tsx
+- [ ] [FILE] src/components/tasks/BackgroundTasksDialog.tsx
+- [ ] [FILE] src/components/tasks/DreamDetailDialog.tsx
+- [ ] [FILE] src/components/tasks/InProcessTeammateDetailDialog.tsx
+- [ ] [FILE] src/components/tasks/RemoteSessionDetailDialog.tsx
+- [ ] [FILE] src/components/tasks/RemoteSessionProgress.tsx
+- [ ] [FILE] src/components/tasks/ShellDetailDialog.tsx
+- [ ] [FILE] src/components/tasks/ShellProgress.tsx
+- [ ] [FILE] src/components/tasks/renderToolActivity.tsx
+- [ ] [FILE] src/components/tasks/taskStatusUtils.tsx
+- [ ] [FILE] src/components/teams/TeamStatus.tsx
+- [ ] [FILE] src/components/teams/TeamsDialog.tsx
+- [ ] [FILE] src/components/ui/OrderedList.tsx
+- [ ] [FILE] src/components/ui/OrderedListItem.tsx
+- [ ] [FILE] src/components/ui/TreeSelect.tsx
+- [ ] [FILE] src/components/wizard/WizardDialogLayout.tsx
+- [ ] [FILE] src/components/wizard/WizardNavigationFooter.tsx
+- [ ] [FILE] src/components/wizard/WizardProvider.tsx
+- [ ] [FILE] src/components/wizard/index.ts
+- [ ] [FILE] src/components/wizard/useWizard.ts
+- [ ] [FILE] src/constants/apiLimits.ts
+- [ ] [FILE] src/constants/betas.ts
+- [ ] [FILE] src/constants/common.ts
+- [ ] [FILE] src/constants/cyberRiskInstruction.ts
+- [ ] [FILE] src/constants/errorIds.ts
+- [ ] [FILE] src/constants/figures.ts
+- [ ] [FILE] src/constants/files.ts
+- [ ] [FILE] src/constants/github-app.ts
+- [ ] [FILE] src/constants/keys.ts
+- [ ] [FILE] src/constants/messages.ts
+- [ ] [FILE] src/constants/oauth.ts
+- [ ] [FILE] src/constants/outputStyles.ts
+- [ ] [FILE] src/constants/product.ts
+- [ ] [FILE] src/constants/prompts.ts
+- [ ] [FILE] src/constants/spinnerVerbs.ts
+- [ ] [FILE] src/constants/system.ts
+- [ ] [FILE] src/constants/systemPromptSections.ts
+- [ ] [FILE] src/constants/toolLimits.ts
+- [ ] [FILE] src/constants/tools.ts
+- [ ] [FILE] src/constants/turnCompletionVerbs.ts
+- [ ] [FILE] src/constants/xml.ts
+- [x] [FILE] src/context.ts
+- [ ] [FILE] src/context/QueuedMessageContext.tsx
+- [ ] [FILE] src/context/fpsMetrics.tsx
+- [ ] [FILE] src/context/mailbox.tsx
+- [ ] [FILE] src/context/modalContext.tsx
+- [ ] [FILE] src/context/notifications.tsx
+- [ ] [FILE] src/context/overlayContext.tsx
+- [ ] [FILE] src/context/promptOverlayContext.tsx
+- [ ] [FILE] src/context/stats.tsx
+- [ ] [FILE] src/context/voice.tsx
+- [ ] [FILE] src/coordinator/coordinatorMode.ts
+- [x] [FILE] src/cost-tracker.ts
+- [x] [FILE] src/costHook.ts
+- [x] [FILE] src/dialogLaunchers.tsx
+- [ ] [FILE] src/entrypoints/agentSdkTypes.ts
+- [ ] [FILE] src/entrypoints/cli.tsx
+- [ ] [FILE] src/entrypoints/init.ts
+- [ ] [FILE] src/entrypoints/mcp.ts
+- [ ] [FILE] src/entrypoints/sandboxTypes.ts
+- [ ] [FILE] src/entrypoints/sdk/controlSchemas.ts
+- [ ] [FILE] src/entrypoints/sdk/coreSchemas.ts
+- [ ] [FILE] src/entrypoints/sdk/coreTypes.ts
+- [x] [FILE] src/history.ts
+- [ ] [FILE] src/hooks/fileSuggestions.ts
+- [ ] [FILE] src/hooks/notifs/useAutoModeUnavailableNotification.ts
+- [ ] [FILE] src/hooks/notifs/useCanSwitchToExistingSubscription.tsx
+- [ ] [FILE] src/hooks/notifs/useDeprecationWarningNotification.tsx
+- [ ] [FILE] src/hooks/notifs/useFastModeNotification.tsx
+- [ ] [FILE] src/hooks/notifs/useIDEStatusIndicator.tsx
+- [ ] [FILE] src/hooks/notifs/useInstallMessages.tsx
+- [ ] [FILE] src/hooks/notifs/useLspInitializationNotification.tsx
+- [ ] [FILE] src/hooks/notifs/useMcpConnectivityStatus.tsx
+- [ ] [FILE] src/hooks/notifs/useModelMigrationNotifications.tsx
+- [ ] [FILE] src/hooks/notifs/useNpmDeprecationNotification.tsx
+- [ ] [FILE] src/hooks/notifs/usePluginAutoupdateNotification.tsx
+- [ ] [FILE] src/hooks/notifs/usePluginInstallationStatus.tsx
+- [ ] [FILE] src/hooks/notifs/useRateLimitWarningNotification.tsx
+- [ ] [FILE] src/hooks/notifs/useSettingsErrors.tsx
+- [ ] [FILE] src/hooks/notifs/useStartupNotification.ts
+- [ ] [FILE] src/hooks/notifs/useTeammateShutdownNotification.ts
+- [ ] [FILE] src/hooks/renderPlaceholder.ts
+- [ ] [FILE] src/hooks/toolPermission/PermissionContext.ts
+- [ ] [FILE] src/hooks/toolPermission/handlers/coordinatorHandler.ts
+- [ ] [FILE] src/hooks/toolPermission/handlers/interactiveHandler.ts
+- [ ] [FILE] src/hooks/toolPermission/handlers/swarmWorkerHandler.ts
+- [ ] [FILE] src/hooks/toolPermission/permissionLogging.ts
+- [ ] [FILE] src/hooks/unifiedSuggestions.ts
+- [ ] [FILE] src/hooks/useAfterFirstRender.ts
+- [ ] [FILE] src/hooks/useApiKeyVerification.ts
+- [ ] [FILE] src/hooks/useArrowKeyHistory.tsx
+- [ ] [FILE] src/hooks/useAssistantHistory.ts
+- [ ] [FILE] src/hooks/useAwaySummary.ts
+- [ ] [FILE] src/hooks/useBackgroundTaskNavigation.ts
+- [ ] [FILE] src/hooks/useBlink.ts
+- [ ] [FILE] src/hooks/useCanUseTool.tsx
+- [ ] [FILE] src/hooks/useCancelRequest.ts
+- [ ] [FILE] src/hooks/useChromeExtensionNotification.tsx
+- [ ] [FILE] src/hooks/useClaudeCodeHintRecommendation.tsx
+- [ ] [FILE] src/hooks/useClipboardImageHint.ts
+- [ ] [FILE] src/hooks/useCommandKeybindings.tsx
+- [ ] [FILE] src/hooks/useCommandQueue.ts
+- [ ] [FILE] src/hooks/useCopyOnSelect.ts
+- [ ] [FILE] src/hooks/useDeferredHookMessages.ts
+- [ ] [FILE] src/hooks/useDiffData.ts
+- [ ] [FILE] src/hooks/useDiffInIDE.ts
+- [ ] [FILE] src/hooks/useDirectConnect.ts
+- [ ] [FILE] src/hooks/useDoublePress.ts
+- [ ] [FILE] src/hooks/useDynamicConfig.ts
+- [ ] [FILE] src/hooks/useElapsedTime.ts
+- [ ] [FILE] src/hooks/useExitOnCtrlCD.ts
+- [ ] [FILE] src/hooks/useExitOnCtrlCDWithKeybindings.ts
+- [ ] [FILE] src/hooks/useFileHistorySnapshotInit.ts
+- [ ] [FILE] src/hooks/useGlobalKeybindings.tsx
+- [ ] [FILE] src/hooks/useHistorySearch.ts
+- [ ] [FILE] src/hooks/useIDEIntegration.tsx
+- [ ] [FILE] src/hooks/useIdeAtMentioned.ts
+- [ ] [FILE] src/hooks/useIdeConnectionStatus.ts
+- [ ] [FILE] src/hooks/useIdeLogging.ts
+- [ ] [FILE] src/hooks/useIdeSelection.ts
+- [ ] [FILE] src/hooks/useInboxPoller.ts
+- [ ] [FILE] src/hooks/useInputBuffer.ts
+- [ ] [FILE] src/hooks/useIssueFlagBanner.ts
+- [ ] [FILE] src/hooks/useLogMessages.ts
+- [ ] [FILE] src/hooks/useLspPluginRecommendation.tsx
+- [ ] [FILE] src/hooks/useMailboxBridge.ts
+- [ ] [FILE] src/hooks/useMainLoopModel.ts
+- [ ] [FILE] src/hooks/useManagePlugins.ts
+- [ ] [FILE] src/hooks/useMemoryUsage.ts
+- [ ] [FILE] src/hooks/useMergedClients.ts
+- [ ] [FILE] src/hooks/useMergedCommands.ts
+- [ ] [FILE] src/hooks/useMergedTools.ts
+- [ ] [FILE] src/hooks/useMinDisplayTime.ts
+- [ ] [FILE] src/hooks/useNotifyAfterTimeout.ts
+- [ ] [FILE] src/hooks/useOfficialMarketplaceNotification.tsx
+- [ ] [FILE] src/hooks/usePasteHandler.ts
+- [ ] [FILE] src/hooks/usePluginRecommendationBase.tsx
+- [ ] [FILE] src/hooks/usePrStatus.ts
+- [ ] [FILE] src/hooks/usePromptSuggestion.ts
+- [ ] [FILE] src/hooks/usePromptsFromClaudeInChrome.tsx
+- [ ] [FILE] src/hooks/useQueueProcessor.ts
+- [ ] [FILE] src/hooks/useRemoteSession.ts
+- [ ] [FILE] src/hooks/useReplBridge.tsx
+- [ ] [FILE] src/hooks/useSSHSession.ts
+- [ ] [FILE] src/hooks/useScheduledTasks.ts
+- [ ] [FILE] src/hooks/useSearchInput.ts
+- [ ] [FILE] src/hooks/useSessionBackgrounding.ts
+- [ ] [FILE] src/hooks/useSettings.ts
+- [ ] [FILE] src/hooks/useSettingsChange.ts
+- [ ] [FILE] src/hooks/useSkillImprovementSurvey.ts
+- [ ] [FILE] src/hooks/useSkillsChange.ts
+- [ ] [FILE] src/hooks/useSwarmInitialization.ts
+- [ ] [FILE] src/hooks/useSwarmPermissionPoller.ts
+- [ ] [FILE] src/hooks/useTaskListWatcher.ts
+- [ ] [FILE] src/hooks/useTasksV2.ts
+- [ ] [FILE] src/hooks/useTeammateViewAutoExit.ts
+- [ ] [FILE] src/hooks/useTeleportResume.tsx
+- [ ] [FILE] src/hooks/useTerminalSize.ts
+- [ ] [FILE] src/hooks/useTextInput.ts
+- [ ] [FILE] src/hooks/useTimeout.ts
+- [ ] [FILE] src/hooks/useTurnDiffs.ts
+- [ ] [FILE] src/hooks/useTypeahead.tsx
+- [ ] [FILE] src/hooks/useUpdateNotification.ts
+- [ ] [FILE] src/hooks/useVimInput.ts
+- [ ] [FILE] src/hooks/useVirtualScroll.ts
+- [ ] [FILE] src/hooks/useVoice.ts
+- [ ] [FILE] src/hooks/useVoiceEnabled.ts
+- [ ] [FILE] src/hooks/useVoiceIntegration.tsx
+- [x] [FILE] src/ink.ts
+- [ ] [FILE] src/ink/Ansi.tsx
+- [ ] [FILE] src/ink/bidi.ts
+- [ ] [FILE] src/ink/clearTerminal.ts
+- [ ] [FILE] src/ink/colorize.ts
+- [ ] [FILE] src/ink/components/AlternateScreen.tsx
+- [ ] [FILE] src/ink/components/App.tsx
+- [ ] [FILE] src/ink/components/AppContext.ts
+- [ ] [FILE] src/ink/components/Box.tsx
+- [ ] [FILE] src/ink/components/Button.tsx
+- [ ] [FILE] src/ink/components/ClockContext.tsx
+- [ ] [FILE] src/ink/components/CursorDeclarationContext.ts
+- [ ] [FILE] src/ink/components/ErrorOverview.tsx
+- [ ] [FILE] src/ink/components/Link.tsx
+- [ ] [FILE] src/ink/components/Newline.tsx
+- [ ] [FILE] src/ink/components/NoSelect.tsx
+- [ ] [FILE] src/ink/components/RawAnsi.tsx
+- [ ] [FILE] src/ink/components/ScrollBox.tsx
+- [ ] [FILE] src/ink/components/Spacer.tsx
+- [ ] [FILE] src/ink/components/StdinContext.ts
+- [ ] [FILE] src/ink/components/TerminalFocusContext.tsx
+- [ ] [FILE] src/ink/components/TerminalSizeContext.tsx
+- [ ] [FILE] src/ink/components/Text.tsx
+- [ ] [FILE] src/ink/constants.ts
+- [ ] [FILE] src/ink/dom.ts
+- [ ] [FILE] src/ink/events/click-event.ts
+- [ ] [FILE] src/ink/events/dispatcher.ts
+- [ ] [FILE] src/ink/events/emitter.ts
+- [ ] [FILE] src/ink/events/event-handlers.ts
+- [ ] [FILE] src/ink/events/event.ts
+- [ ] [FILE] src/ink/events/focus-event.ts
+- [ ] [FILE] src/ink/events/input-event.ts
+- [ ] [FILE] src/ink/events/keyboard-event.ts
+- [ ] [FILE] src/ink/events/terminal-event.ts
+- [ ] [FILE] src/ink/events/terminal-focus-event.ts
+- [ ] [FILE] src/ink/focus.ts
+- [ ] [FILE] src/ink/frame.ts
+- [ ] [FILE] src/ink/get-max-width.ts
+- [ ] [FILE] src/ink/hit-test.ts
+- [ ] [FILE] src/ink/hooks/use-animation-frame.ts
+- [ ] [FILE] src/ink/hooks/use-app.ts
+- [ ] [FILE] src/ink/hooks/use-declared-cursor.ts
+- [ ] [FILE] src/ink/hooks/use-input.ts
+- [ ] [FILE] src/ink/hooks/use-interval.ts
+- [ ] [FILE] src/ink/hooks/use-search-highlight.ts
+- [ ] [FILE] src/ink/hooks/use-selection.ts
+- [ ] [FILE] src/ink/hooks/use-stdin.ts
+- [ ] [FILE] src/ink/hooks/use-tab-status.ts
+- [ ] [FILE] src/ink/hooks/use-terminal-focus.ts
+- [ ] [FILE] src/ink/hooks/use-terminal-title.ts
+- [ ] [FILE] src/ink/hooks/use-terminal-viewport.ts
+- [ ] [FILE] src/ink/ink.tsx
+- [ ] [FILE] src/ink/instances.ts
+- [ ] [FILE] src/ink/layout/engine.ts
+- [ ] [FILE] src/ink/layout/geometry.ts
+- [ ] [FILE] src/ink/layout/node.ts
+- [ ] [FILE] src/ink/layout/yoga.ts
+- [ ] [FILE] src/ink/line-width-cache.ts
+- [ ] [FILE] src/ink/log-update.ts
+- [ ] [FILE] src/ink/measure-element.ts
+- [ ] [FILE] src/ink/measure-text.ts
+- [ ] [FILE] src/ink/node-cache.ts
+- [ ] [FILE] src/ink/optimizer.ts
+- [ ] [FILE] src/ink/output.ts
+- [ ] [FILE] src/ink/parse-keypress.ts
+- [ ] [FILE] src/ink/reconciler.ts
+- [ ] [FILE] src/ink/render-border.ts
+- [ ] [FILE] src/ink/render-node-to-output.ts
+- [ ] [FILE] src/ink/render-to-screen.ts
+- [ ] [FILE] src/ink/renderer.ts
+- [ ] [FILE] src/ink/root.ts
+- [ ] [FILE] src/ink/screen.ts
+- [ ] [FILE] src/ink/searchHighlight.ts
+- [ ] [FILE] src/ink/selection.ts
+- [ ] [FILE] src/ink/squash-text-nodes.ts
+- [ ] [FILE] src/ink/stringWidth.ts
+- [ ] [FILE] src/ink/styles.ts
+- [ ] [FILE] src/ink/supports-hyperlinks.ts
+- [ ] [FILE] src/ink/tabstops.ts
+- [ ] [FILE] src/ink/terminal-focus-state.ts
+- [ ] [FILE] src/ink/terminal-querier.ts
+- [ ] [FILE] src/ink/terminal.ts
+- [ ] [FILE] src/ink/termio.ts
+- [ ] [FILE] src/ink/termio/ansi.ts
+- [ ] [FILE] src/ink/termio/csi.ts
+- [ ] [FILE] src/ink/termio/dec.ts
+- [ ] [FILE] src/ink/termio/esc.ts
+- [ ] [FILE] src/ink/termio/osc.ts
+- [ ] [FILE] src/ink/termio/parser.ts
+- [ ] [FILE] src/ink/termio/sgr.ts
+- [ ] [FILE] src/ink/termio/tokenize.ts
+- [ ] [FILE] src/ink/termio/types.ts
+- [ ] [FILE] src/ink/useTerminalNotification.ts
+- [ ] [FILE] src/ink/warn.ts
+- [ ] [FILE] src/ink/widest-line.ts
+- [ ] [FILE] src/ink/wrap-text.ts
+- [ ] [FILE] src/ink/wrapAnsi.ts
+- [ ] [FILE] src/interactiveHelpers.tsx
+- [ ] [FILE] src/keybindings/KeybindingContext.tsx
+- [ ] [FILE] src/keybindings/KeybindingProviderSetup.tsx
+- [ ] [FILE] src/keybindings/defaultBindings.ts
+- [ ] [FILE] src/keybindings/loadUserBindings.ts
+- [ ] [FILE] src/keybindings/match.ts
+- [ ] [FILE] src/keybindings/parser.ts
+- [ ] [FILE] src/keybindings/reservedShortcuts.ts
+- [ ] [FILE] src/keybindings/resolver.ts
+- [ ] [FILE] src/keybindings/schema.ts
+- [ ] [FILE] src/keybindings/shortcutFormat.ts
+- [ ] [FILE] src/keybindings/template.ts
+- [ ] [FILE] src/keybindings/useKeybinding.ts
+- [ ] [FILE] src/keybindings/useShortcutDisplay.ts
+- [ ] [FILE] src/keybindings/validate.ts
+- [ ] [FILE] src/main.tsx
+- [ ] [FILE] src/memdir/findRelevantMemories.ts
+- [ ] [FILE] src/memdir/memdir.ts
+- [ ] [FILE] src/memdir/memoryAge.ts
+- [ ] [FILE] src/memdir/memoryScan.ts
+- [ ] [FILE] src/memdir/memoryTypes.ts
+- [ ] [FILE] src/memdir/paths.ts
+- [ ] [FILE] src/memdir/teamMemPaths.ts
+- [ ] [FILE] src/memdir/teamMemPrompts.ts
+- [ ] [FILE] src/migrations/migrateAutoUpdatesToSettings.ts
+- [ ] [FILE] src/migrations/migrateBypassPermissionsAcceptedToSettings.ts
+- [ ] [FILE] src/migrations/migrateEnableAllProjectMcpServersToSettings.ts
+- [ ] [FILE] src/migrations/migrateFennecToOpus.ts
+- [ ] [FILE] src/migrations/migrateLegacyOpusToCurrent.ts
+- [ ] [FILE] src/migrations/migrateOpusToOpus1m.ts
+- [ ] [FILE] src/migrations/migrateReplBridgeEnabledToRemoteControlAtStartup.ts
+- [ ] [FILE] src/migrations/migrateSonnet1mToSonnet45.ts
+- [ ] [FILE] src/migrations/migrateSonnet45ToSonnet46.ts
+- [ ] [FILE] src/migrations/resetAutoModeOptInForDefaultOffer.ts
+- [ ] [FILE] src/migrations/resetProToOpusDefault.ts
+- [ ] [FILE] src/moreright/useMoreRight.tsx
+- [ ] [FILE] src/native-ts/color-diff/index.ts
+- [ ] [FILE] src/native-ts/file-index/index.ts
+- [ ] [FILE] src/native-ts/yoga-layout/enums.ts
+- [ ] [FILE] src/native-ts/yoga-layout/index.ts
+- [ ] [FILE] src/outputStyles/loadOutputStylesDir.ts
+- [ ] [FILE] src/plugins/builtinPlugins.ts
+- [ ] [FILE] src/plugins/bundled/index.ts
+- [ ] [FILE] src/projectOnboardingState.ts
+- [ ] [FILE] src/query.ts
+- [ ] [FILE] src/query/config.ts
+- [ ] [FILE] src/query/deps.ts
+- [ ] [FILE] src/query/stopHooks.ts
+- [ ] [FILE] src/query/tokenBudget.ts
+- [ ] [FILE] src/remote/RemoteSessionManager.ts
+- [ ] [FILE] src/remote/SessionsWebSocket.ts
+- [ ] [FILE] src/remote/remotePermissionBridge.ts
+- [ ] [FILE] src/remote/sdkMessageAdapter.ts
+- [ ] [FILE] src/replLauncher.tsx
+- [ ] [FILE] src/schemas/hooks.ts
+- [ ] [FILE] src/screens/Doctor.tsx
+- [ ] [FILE] src/screens/REPL.tsx
+- [ ] [FILE] src/screens/ResumeConversation.tsx
+- [ ] [FILE] src/server/createDirectConnectSession.ts
+- [ ] [FILE] src/server/directConnectManager.ts
+- [ ] [FILE] src/server/types.ts
+- [ ] [FILE] src/services/AgentSummary/agentSummary.ts
+- [ ] [FILE] src/services/MagicDocs/magicDocs.ts
+- [ ] [FILE] src/services/MagicDocs/prompts.ts
+- [ ] [FILE] src/services/PromptSuggestion/promptSuggestion.ts
+- [ ] [FILE] src/services/PromptSuggestion/speculation.ts
+- [ ] [FILE] src/services/SessionMemory/prompts.ts
+- [ ] [FILE] src/services/SessionMemory/sessionMemory.ts
+- [ ] [FILE] src/services/SessionMemory/sessionMemoryUtils.ts
+- [ ] [FILE] src/services/analytics/config.ts
+- [ ] [FILE] src/services/analytics/datadog.ts
+- [ ] [FILE] src/services/analytics/firstPartyEventLogger.ts
+- [ ] [FILE] src/services/analytics/firstPartyEventLoggingExporter.ts
+- [ ] [FILE] src/services/analytics/growthbook.ts
+- [ ] [FILE] src/services/analytics/index.ts
+- [ ] [FILE] src/services/analytics/metadata.ts
+- [ ] [FILE] src/services/analytics/sink.ts
+- [ ] [FILE] src/services/analytics/sinkKillswitch.ts
+- [ ] [FILE] src/services/api/adminRequests.ts
+- [ ] [FILE] src/services/api/bootstrap.ts
+- [ ] [FILE] src/services/api/claude.ts
+- [ ] [FILE] src/services/api/client.ts
+- [ ] [FILE] src/services/api/dumpPrompts.ts
+- [ ] [FILE] src/services/api/emptyUsage.ts
+- [ ] [FILE] src/services/api/errorUtils.ts
+- [ ] [FILE] src/services/api/errors.ts
+- [ ] [FILE] src/services/api/filesApi.ts
+- [ ] [FILE] src/services/api/firstTokenDate.ts
+- [ ] [FILE] src/services/api/grove.ts
+- [ ] [FILE] src/services/api/logging.ts
+- [ ] [FILE] src/services/api/metricsOptOut.ts
+- [ ] [FILE] src/services/api/overageCreditGrant.ts
+- [ ] [FILE] src/services/api/promptCacheBreakDetection.ts
+- [ ] [FILE] src/services/api/referral.ts
+- [ ] [FILE] src/services/api/sessionIngress.ts
+- [ ] [FILE] src/services/api/ultrareviewQuota.ts
+- [ ] [FILE] src/services/api/usage.ts
+- [ ] [FILE] src/services/api/withRetry.ts
+- [ ] [FILE] src/services/autoDream/autoDream.ts
+- [ ] [FILE] src/services/autoDream/config.ts
+- [ ] [FILE] src/services/autoDream/consolidationLock.ts
+- [ ] [FILE] src/services/autoDream/consolidationPrompt.ts
+- [ ] [FILE] src/services/awaySummary.ts
+- [ ] [FILE] src/services/claudeAiLimits.ts
+- [ ] [FILE] src/services/claudeAiLimitsHook.ts
+- [ ] [FILE] src/services/compact/apiMicrocompact.ts
+- [ ] [FILE] src/services/compact/autoCompact.ts
+- [ ] [FILE] src/services/compact/compact.ts
+- [ ] [FILE] src/services/compact/compactWarningHook.ts
+- [ ] [FILE] src/services/compact/compactWarningState.ts
+- [ ] [FILE] src/services/compact/grouping.ts
+- [ ] [FILE] src/services/compact/microCompact.ts
+- [ ] [FILE] src/services/compact/postCompactCleanup.ts
+- [ ] [FILE] src/services/compact/prompt.ts
+- [ ] [FILE] src/services/compact/sessionMemoryCompact.ts
+- [ ] [FILE] src/services/compact/timeBasedMCConfig.ts
+- [ ] [FILE] src/services/diagnosticTracking.ts
+- [ ] [FILE] src/services/extractMemories/extractMemories.ts
+- [ ] [FILE] src/services/extractMemories/prompts.ts
+- [ ] [FILE] src/services/internalLogging.ts
+- [ ] [FILE] src/services/lsp/LSPClient.ts
+- [ ] [FILE] src/services/lsp/LSPDiagnosticRegistry.ts
+- [ ] [FILE] src/services/lsp/LSPServerInstance.ts
+- [ ] [FILE] src/services/lsp/LSPServerManager.ts
+- [ ] [FILE] src/services/lsp/config.ts
+- [ ] [FILE] src/services/lsp/manager.ts
+- [ ] [FILE] src/services/lsp/passiveFeedback.ts
+- [ ] [FILE] src/services/mcp/InProcessTransport.ts
+- [ ] [FILE] src/services/mcp/MCPConnectionManager.tsx
+- [ ] [FILE] src/services/mcp/SdkControlTransport.ts
+- [ ] [FILE] src/services/mcp/auth.ts
+- [ ] [FILE] src/services/mcp/channelAllowlist.ts
+- [ ] [FILE] src/services/mcp/channelNotification.ts
+- [ ] [FILE] src/services/mcp/channelPermissions.ts
+- [ ] [FILE] src/services/mcp/claudeai.ts
+- [ ] [FILE] src/services/mcp/client.ts
+- [ ] [FILE] src/services/mcp/config.ts
+- [ ] [FILE] src/services/mcp/elicitationHandler.ts
+- [ ] [FILE] src/services/mcp/envExpansion.ts
+- [ ] [FILE] src/services/mcp/headersHelper.ts
+- [ ] [FILE] src/services/mcp/mcpStringUtils.ts
+- [ ] [FILE] src/services/mcp/normalization.ts
+- [ ] [FILE] src/services/mcp/oauthPort.ts
+- [ ] [FILE] src/services/mcp/officialRegistry.ts
+- [ ] [FILE] src/services/mcp/types.ts
+- [ ] [FILE] src/services/mcp/useManageMCPConnections.ts
+- [ ] [FILE] src/services/mcp/utils.ts
+- [ ] [FILE] src/services/mcp/vscodeSdkMcp.ts
+- [ ] [FILE] src/services/mcp/xaa.ts
+- [ ] [FILE] src/services/mcp/xaaIdpLogin.ts
+- [ ] [FILE] src/services/mcpServerApproval.tsx
+- [ ] [FILE] src/services/mockRateLimits.ts
+- [ ] [FILE] src/services/notifier.ts
+- [ ] [FILE] src/services/oauth/auth-code-listener.ts
+- [ ] [FILE] src/services/oauth/client.ts
+- [ ] [FILE] src/services/oauth/crypto.ts
+- [ ] [FILE] src/services/oauth/getOauthProfile.ts
+- [ ] [FILE] src/services/oauth/index.ts
+- [ ] [FILE] src/services/plugins/PluginInstallationManager.ts
+- [ ] [FILE] src/services/plugins/pluginCliCommands.ts
+- [ ] [FILE] src/services/plugins/pluginOperations.ts
+- [ ] [FILE] src/services/policyLimits/index.ts
+- [ ] [FILE] src/services/policyLimits/types.ts
+- [ ] [FILE] src/services/preventSleep.ts
+- [ ] [FILE] src/services/rateLimitMessages.ts
+- [ ] [FILE] src/services/rateLimitMocking.ts
+- [ ] [FILE] src/services/remoteManagedSettings/index.ts
+- [ ] [FILE] src/services/remoteManagedSettings/securityCheck.tsx
+- [ ] [FILE] src/services/remoteManagedSettings/syncCache.ts
+- [ ] [FILE] src/services/remoteManagedSettings/syncCacheState.ts
+- [ ] [FILE] src/services/remoteManagedSettings/types.ts
+- [ ] [FILE] src/services/settingsSync/index.ts
+- [ ] [FILE] src/services/settingsSync/types.ts
+- [ ] [FILE] src/services/teamMemorySync/index.ts
+- [ ] [FILE] src/services/teamMemorySync/secretScanner.ts
+- [ ] [FILE] src/services/teamMemorySync/teamMemSecretGuard.ts
+- [ ] [FILE] src/services/teamMemorySync/types.ts
+- [ ] [FILE] src/services/teamMemorySync/watcher.ts
+- [ ] [FILE] src/services/tips/tipHistory.ts
+- [ ] [FILE] src/services/tips/tipRegistry.ts
+- [ ] [FILE] src/services/tips/tipScheduler.ts
+- [ ] [FILE] src/services/tokenEstimation.ts
+- [ ] [FILE] src/services/toolUseSummary/toolUseSummaryGenerator.ts
+- [ ] [FILE] src/services/tools/StreamingToolExecutor.ts
+- [ ] [FILE] src/services/tools/toolExecution.ts
+- [ ] [FILE] src/services/tools/toolHooks.ts
+- [ ] [FILE] src/services/tools/toolOrchestration.ts
+- [ ] [FILE] src/services/vcr.ts
+- [ ] [FILE] src/services/voice.ts
+- [ ] [FILE] src/services/voiceKeyterms.ts
+- [ ] [FILE] src/services/voiceStreamSTT.ts
+- [ ] [FILE] src/setup.ts
+- [ ] [FILE] src/skills/bundled/batch.ts
+- [ ] [FILE] src/skills/bundled/claudeApi.ts
+- [ ] [FILE] src/skills/bundled/claudeApiContent.ts
+- [ ] [FILE] src/skills/bundled/claudeInChrome.ts
+- [ ] [FILE] src/skills/bundled/debug.ts
+- [ ] [FILE] src/skills/bundled/index.ts
+- [ ] [FILE] src/skills/bundled/keybindings.ts
+- [ ] [FILE] src/skills/bundled/loop.ts
+- [ ] [FILE] src/skills/bundled/loremIpsum.ts
+- [ ] [FILE] src/skills/bundled/remember.ts
+- [ ] [FILE] src/skills/bundled/scheduleRemoteAgents.ts
+- [ ] [FILE] src/skills/bundled/simplify.ts
+- [ ] [FILE] src/skills/bundled/skillify.ts
+- [ ] [FILE] src/skills/bundled/stuck.ts
+- [ ] [FILE] src/skills/bundled/updateConfig.ts
+- [ ] [FILE] src/skills/bundled/verify.ts
+- [ ] [FILE] src/skills/bundled/verifyContent.ts
+- [ ] [FILE] src/skills/bundledSkills.ts
+- [ ] [FILE] src/skills/loadSkillsDir.ts
+- [ ] [FILE] src/skills/mcpSkillBuilders.ts
+- [ ] [FILE] src/state/AppState.tsx
+- [ ] [FILE] src/state/AppStateStore.ts
+- [ ] [FILE] src/state/onChangeAppState.ts
+- [ ] [FILE] src/state/selectors.ts
+- [ ] [FILE] src/state/store.ts
+- [ ] [FILE] src/state/teammateViewHelpers.ts
+- [ ] [FILE] src/tasks.ts
+- [ ] [FILE] src/tasks/DreamTask/DreamTask.ts
+- [ ] [FILE] src/tasks/InProcessTeammateTask/InProcessTeammateTask.tsx
+- [ ] [FILE] src/tasks/InProcessTeammateTask/types.ts
+- [ ] [FILE] src/tasks/LocalAgentTask/LocalAgentTask.tsx
+- [ ] [FILE] src/tasks/LocalMainSessionTask.ts
+- [ ] [FILE] src/tasks/LocalShellTask/LocalShellTask.tsx
+- [ ] [FILE] src/tasks/LocalShellTask/guards.ts
+- [ ] [FILE] src/tasks/LocalShellTask/killShellTasks.ts
+- [ ] [FILE] src/tasks/RemoteAgentTask/RemoteAgentTask.tsx
+- [ ] [FILE] src/tasks/pillLabel.ts
+- [ ] [FILE] src/tasks/stopTask.ts
+- [ ] [FILE] src/tasks/types.ts
+- [ ] [FILE] src/tools.ts
+- [ ] [FILE] src/tools/AgentTool/AgentTool.tsx
+- [ ] [FILE] src/tools/AgentTool/UI.tsx
+- [ ] [FILE] src/tools/AgentTool/agentColorManager.ts
+- [ ] [FILE] src/tools/AgentTool/agentDisplay.ts
+- [ ] [FILE] src/tools/AgentTool/agentMemory.ts
+- [ ] [FILE] src/tools/AgentTool/agentMemorySnapshot.ts
+- [ ] [FILE] src/tools/AgentTool/agentToolUtils.ts
+- [ ] [FILE] src/tools/AgentTool/built-in/claudeCodeGuideAgent.ts
+- [ ] [FILE] src/tools/AgentTool/built-in/exploreAgent.ts
+- [ ] [FILE] src/tools/AgentTool/built-in/generalPurposeAgent.ts
+- [ ] [FILE] src/tools/AgentTool/built-in/planAgent.ts
+- [ ] [FILE] src/tools/AgentTool/built-in/statuslineSetup.ts
+- [ ] [FILE] src/tools/AgentTool/built-in/verificationAgent.ts
+- [ ] [FILE] src/tools/AgentTool/builtInAgents.ts
+- [ ] [FILE] src/tools/AgentTool/constants.ts
+- [ ] [FILE] src/tools/AgentTool/forkSubagent.ts
+- [ ] [FILE] src/tools/AgentTool/loadAgentsDir.ts
+- [ ] [FILE] src/tools/AgentTool/prompt.ts
+- [ ] [FILE] src/tools/AgentTool/resumeAgent.ts
+- [ ] [FILE] src/tools/AgentTool/runAgent.ts
+- [ ] [FILE] src/tools/AskUserQuestionTool/AskUserQuestionTool.tsx
+- [ ] [FILE] src/tools/AskUserQuestionTool/prompt.ts
+- [ ] [FILE] src/tools/BashTool/BashTool.tsx
+- [ ] [FILE] src/tools/BashTool/BashToolResultMessage.tsx
+- [ ] [FILE] src/tools/BashTool/UI.tsx
+- [ ] [FILE] src/tools/BashTool/bashCommandHelpers.ts
+- [ ] [FILE] src/tools/BashTool/bashPermissions.ts
+- [ ] [FILE] src/tools/BashTool/bashSecurity.ts
+- [ ] [FILE] src/tools/BashTool/commandSemantics.ts
+- [ ] [FILE] src/tools/BashTool/commentLabel.ts
+- [ ] [FILE] src/tools/BashTool/destructiveCommandWarning.ts
+- [ ] [FILE] src/tools/BashTool/modeValidation.ts
+- [ ] [FILE] src/tools/BashTool/pathValidation.ts
+- [ ] [FILE] src/tools/BashTool/prompt.ts
+- [ ] [FILE] src/tools/BashTool/readOnlyValidation.ts
+- [ ] [FILE] src/tools/BashTool/sedEditParser.ts
+- [ ] [FILE] src/tools/BashTool/sedValidation.ts
+- [ ] [FILE] src/tools/BashTool/shouldUseSandbox.ts
+- [ ] [FILE] src/tools/BashTool/toolName.ts
+- [ ] [FILE] src/tools/BashTool/utils.ts
+- [ ] [FILE] src/tools/BriefTool/BriefTool.ts
+- [ ] [FILE] src/tools/BriefTool/UI.tsx
+- [ ] [FILE] src/tools/BriefTool/attachments.ts
+- [ ] [FILE] src/tools/BriefTool/prompt.ts
+- [ ] [FILE] src/tools/BriefTool/upload.ts
+- [ ] [FILE] src/tools/ConfigTool/ConfigTool.ts
+- [ ] [FILE] src/tools/ConfigTool/UI.tsx
+- [ ] [FILE] src/tools/ConfigTool/constants.ts
+- [ ] [FILE] src/tools/ConfigTool/prompt.ts
+- [ ] [FILE] src/tools/ConfigTool/supportedSettings.ts
+- [ ] [FILE] src/tools/EnterPlanModeTool/EnterPlanModeTool.ts
+- [ ] [FILE] src/tools/EnterPlanModeTool/UI.tsx
+- [ ] [FILE] src/tools/EnterPlanModeTool/constants.ts
+- [ ] [FILE] src/tools/EnterPlanModeTool/prompt.ts
+- [ ] [FILE] src/tools/EnterWorktreeTool/EnterWorktreeTool.ts
+- [ ] [FILE] src/tools/EnterWorktreeTool/UI.tsx
+- [ ] [FILE] src/tools/EnterWorktreeTool/constants.ts
+- [ ] [FILE] src/tools/EnterWorktreeTool/prompt.ts
+- [ ] [FILE] src/tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts
+- [ ] [FILE] src/tools/ExitPlanModeTool/UI.tsx
+- [ ] [FILE] src/tools/ExitPlanModeTool/constants.ts
+- [ ] [FILE] src/tools/ExitPlanModeTool/prompt.ts
+- [ ] [FILE] src/tools/ExitWorktreeTool/ExitWorktreeTool.ts
+- [ ] [FILE] src/tools/ExitWorktreeTool/UI.tsx
+- [ ] [FILE] src/tools/ExitWorktreeTool/constants.ts
+- [ ] [FILE] src/tools/ExitWorktreeTool/prompt.ts
+- [ ] [FILE] src/tools/FileEditTool/FileEditTool.ts
+- [ ] [FILE] src/tools/FileEditTool/UI.tsx
+- [ ] [FILE] src/tools/FileEditTool/constants.ts
+- [ ] [FILE] src/tools/FileEditTool/prompt.ts
+- [ ] [FILE] src/tools/FileEditTool/types.ts
+- [ ] [FILE] src/tools/FileEditTool/utils.ts
+- [ ] [FILE] src/tools/FileReadTool/FileReadTool.ts
+- [ ] [FILE] src/tools/FileReadTool/UI.tsx
+- [ ] [FILE] src/tools/FileReadTool/imageProcessor.ts
+- [ ] [FILE] src/tools/FileReadTool/limits.ts
+- [ ] [FILE] src/tools/FileReadTool/prompt.ts
+- [ ] [FILE] src/tools/FileWriteTool/FileWriteTool.ts
+- [ ] [FILE] src/tools/FileWriteTool/UI.tsx
+- [ ] [FILE] src/tools/FileWriteTool/prompt.ts
+- [ ] [FILE] src/tools/GlobTool/GlobTool.ts
+- [ ] [FILE] src/tools/GlobTool/UI.tsx
+- [ ] [FILE] src/tools/GlobTool/prompt.ts
+- [ ] [FILE] src/tools/GrepTool/GrepTool.ts
+- [ ] [FILE] src/tools/GrepTool/UI.tsx
+- [ ] [FILE] src/tools/GrepTool/prompt.ts
+- [ ] [FILE] src/tools/LSPTool/LSPTool.ts
+- [ ] [FILE] src/tools/LSPTool/UI.tsx
+- [ ] [FILE] src/tools/LSPTool/formatters.ts
+- [ ] [FILE] src/tools/LSPTool/prompt.ts
+- [ ] [FILE] src/tools/LSPTool/schemas.ts
+- [ ] [FILE] src/tools/LSPTool/symbolContext.ts
+- [ ] [FILE] src/tools/ListMcpResourcesTool/ListMcpResourcesTool.ts
+- [ ] [FILE] src/tools/ListMcpResourcesTool/UI.tsx
+- [ ] [FILE] src/tools/ListMcpResourcesTool/prompt.ts
+- [ ] [FILE] src/tools/MCPTool/MCPTool.ts
+- [ ] [FILE] src/tools/MCPTool/UI.tsx
+- [ ] [FILE] src/tools/MCPTool/classifyForCollapse.ts
+- [ ] [FILE] src/tools/MCPTool/prompt.ts
+- [ ] [FILE] src/tools/McpAuthTool/McpAuthTool.ts
+- [ ] [FILE] src/tools/NotebookEditTool/NotebookEditTool.ts
+- [ ] [FILE] src/tools/NotebookEditTool/UI.tsx
+- [ ] [FILE] src/tools/NotebookEditTool/constants.ts
+- [ ] [FILE] src/tools/NotebookEditTool/prompt.ts
+- [ ] [FILE] src/tools/PowerShellTool/PowerShellTool.tsx
+- [ ] [FILE] src/tools/PowerShellTool/UI.tsx
+- [ ] [FILE] src/tools/PowerShellTool/clmTypes.ts
+- [ ] [FILE] src/tools/PowerShellTool/commandSemantics.ts
+- [ ] [FILE] src/tools/PowerShellTool/commonParameters.ts
+- [ ] [FILE] src/tools/PowerShellTool/destructiveCommandWarning.ts
+- [ ] [FILE] src/tools/PowerShellTool/gitSafety.ts
+- [ ] [FILE] src/tools/PowerShellTool/modeValidation.ts
+- [ ] [FILE] src/tools/PowerShellTool/pathValidation.ts
+- [ ] [FILE] src/tools/PowerShellTool/powershellPermissions.ts
+- [ ] [FILE] src/tools/PowerShellTool/powershellSecurity.ts
+- [ ] [FILE] src/tools/PowerShellTool/prompt.ts
+- [ ] [FILE] src/tools/PowerShellTool/readOnlyValidation.ts
+- [ ] [FILE] src/tools/PowerShellTool/toolName.ts
+- [ ] [FILE] src/tools/REPLTool/constants.ts
+- [ ] [FILE] src/tools/REPLTool/primitiveTools.ts
+- [ ] [FILE] src/tools/ReadMcpResourceTool/ReadMcpResourceTool.ts
+- [ ] [FILE] src/tools/ReadMcpResourceTool/UI.tsx
+- [ ] [FILE] src/tools/ReadMcpResourceTool/prompt.ts
+- [ ] [FILE] src/tools/RemoteTriggerTool/RemoteTriggerTool.ts
+- [ ] [FILE] src/tools/RemoteTriggerTool/UI.tsx
+- [ ] [FILE] src/tools/RemoteTriggerTool/prompt.ts
+- [ ] [FILE] src/tools/ScheduleCronTool/CronCreateTool.ts
+- [ ] [FILE] src/tools/ScheduleCronTool/CronDeleteTool.ts
+- [ ] [FILE] src/tools/ScheduleCronTool/CronListTool.ts
+- [ ] [FILE] src/tools/ScheduleCronTool/UI.tsx
+- [ ] [FILE] src/tools/ScheduleCronTool/prompt.ts
+- [ ] [FILE] src/tools/SendMessageTool/SendMessageTool.ts
+- [ ] [FILE] src/tools/SendMessageTool/UI.tsx
+- [ ] [FILE] src/tools/SendMessageTool/constants.ts
+- [ ] [FILE] src/tools/SendMessageTool/prompt.ts
+- [ ] [FILE] src/tools/SkillTool/SkillTool.ts
+- [ ] [FILE] src/tools/SkillTool/UI.tsx
+- [ ] [FILE] src/tools/SkillTool/constants.ts
+- [ ] [FILE] src/tools/SkillTool/prompt.ts
+- [ ] [FILE] src/tools/SleepTool/prompt.ts
+- [ ] [FILE] src/tools/SyntheticOutputTool/SyntheticOutputTool.ts
+- [ ] [FILE] src/tools/TaskCreateTool/TaskCreateTool.ts
+- [ ] [FILE] src/tools/TaskCreateTool/constants.ts
+- [ ] [FILE] src/tools/TaskCreateTool/prompt.ts
+- [ ] [FILE] src/tools/TaskGetTool/TaskGetTool.ts
+- [ ] [FILE] src/tools/TaskGetTool/constants.ts
+- [ ] [FILE] src/tools/TaskGetTool/prompt.ts
+- [ ] [FILE] src/tools/TaskListTool/TaskListTool.ts
+- [ ] [FILE] src/tools/TaskListTool/constants.ts
+- [ ] [FILE] src/tools/TaskListTool/prompt.ts
+- [ ] [FILE] src/tools/TaskOutputTool/TaskOutputTool.tsx
+- [ ] [FILE] src/tools/TaskOutputTool/constants.ts
+- [ ] [FILE] src/tools/TaskStopTool/TaskStopTool.ts
+- [ ] [FILE] src/tools/TaskStopTool/UI.tsx
+- [ ] [FILE] src/tools/TaskStopTool/prompt.ts
+- [ ] [FILE] src/tools/TaskUpdateTool/TaskUpdateTool.ts
+- [ ] [FILE] src/tools/TaskUpdateTool/constants.ts
+- [ ] [FILE] src/tools/TaskUpdateTool/prompt.ts
+- [ ] [FILE] src/tools/TeamCreateTool/TeamCreateTool.ts
+- [ ] [FILE] src/tools/TeamCreateTool/UI.tsx
+- [ ] [FILE] src/tools/TeamCreateTool/constants.ts
+- [ ] [FILE] src/tools/TeamCreateTool/prompt.ts
+- [ ] [FILE] src/tools/TeamDeleteTool/TeamDeleteTool.ts
+- [ ] [FILE] src/tools/TeamDeleteTool/UI.tsx
+- [ ] [FILE] src/tools/TeamDeleteTool/constants.ts
+- [ ] [FILE] src/tools/TeamDeleteTool/prompt.ts
+- [ ] [FILE] src/tools/TodoWriteTool/TodoWriteTool.ts
+- [ ] [FILE] src/tools/TodoWriteTool/constants.ts
+- [ ] [FILE] src/tools/TodoWriteTool/prompt.ts
+- [ ] [FILE] src/tools/ToolSearchTool/ToolSearchTool.ts
+- [ ] [FILE] src/tools/ToolSearchTool/constants.ts
+- [ ] [FILE] src/tools/ToolSearchTool/prompt.ts
+- [ ] [FILE] src/tools/WebFetchTool/UI.tsx
+- [ ] [FILE] src/tools/WebFetchTool/WebFetchTool.ts
+- [ ] [FILE] src/tools/WebFetchTool/preapproved.ts
+- [ ] [FILE] src/tools/WebFetchTool/prompt.ts
+- [ ] [FILE] src/tools/WebFetchTool/utils.ts
+- [ ] [FILE] src/tools/WebSearchTool/UI.tsx
+- [ ] [FILE] src/tools/WebSearchTool/WebSearchTool.ts
+- [ ] [FILE] src/tools/WebSearchTool/prompt.ts
+- [ ] [FILE] src/tools/shared/gitOperationTracking.ts
+- [ ] [FILE] src/tools/shared/spawnMultiAgent.ts
+- [ ] [FILE] src/tools/testing/TestingPermissionTool.tsx
+- [ ] [FILE] src/tools/utils.ts
+- [ ] [FILE] src/types/command.ts
+- [ ] [FILE] src/types/generated/events_mono/claude_code/v1/claude_code_internal_event.ts
+- [ ] [FILE] src/types/generated/events_mono/common/v1/auth.ts
+- [ ] [FILE] src/types/generated/events_mono/growthbook/v1/growthbook_experiment_event.ts
+- [ ] [FILE] src/types/generated/google/protobuf/timestamp.ts
+- [ ] [FILE] src/types/hooks.ts
+- [ ] [FILE] src/types/ids.ts
+- [ ] [FILE] src/types/logs.ts
+- [ ] [FILE] src/types/permissions.ts
+- [ ] [FILE] src/types/plugin.ts
+- [ ] [FILE] src/types/textInputTypes.ts
+- [ ] [FILE] src/upstreamproxy/relay.ts
+- [ ] [FILE] src/upstreamproxy/upstreamproxy.ts
+- [ ] [FILE] src/utils/CircularBuffer.ts
+- [ ] [FILE] src/utils/Cursor.ts
+- [ ] [FILE] src/utils/QueryGuard.ts
+- [ ] [FILE] src/utils/Shell.ts
+- [ ] [FILE] src/utils/ShellCommand.ts
+- [ ] [FILE] src/utils/abortController.ts
+- [ ] [FILE] src/utils/activityManager.ts
+- [ ] [FILE] src/utils/advisor.ts
+- [ ] [FILE] src/utils/agentContext.ts
+- [ ] [FILE] src/utils/agentId.ts
+- [ ] [FILE] src/utils/agentSwarmsEnabled.ts
+- [ ] [FILE] src/utils/agenticSessionSearch.ts
+- [ ] [FILE] src/utils/analyzeContext.ts
+- [ ] [FILE] src/utils/ansiToPng.ts
+- [ ] [FILE] src/utils/ansiToSvg.ts
+- [ ] [FILE] src/utils/api.ts
+- [ ] [FILE] src/utils/apiPreconnect.ts
+- [ ] [FILE] src/utils/appleTerminalBackup.ts
+- [ ] [FILE] src/utils/argumentSubstitution.ts
+- [ ] [FILE] src/utils/array.ts
+- [ ] [FILE] src/utils/asciicast.ts
+- [ ] [FILE] src/utils/attachments.ts
+- [ ] [FILE] src/utils/attribution.ts
+- [ ] [FILE] src/utils/auth.ts
+- [ ] [FILE] src/utils/authFileDescriptor.ts
+- [ ] [FILE] src/utils/authPortable.ts
+- [ ] [FILE] src/utils/autoModeDenials.ts
+- [ ] [FILE] src/utils/autoRunIssue.tsx
+- [ ] [FILE] src/utils/autoUpdater.ts
+- [ ] [FILE] src/utils/aws.ts
+- [ ] [FILE] src/utils/awsAuthStatusManager.ts
+- [ ] [FILE] src/utils/background/remote/preconditions.ts
+- [ ] [FILE] src/utils/background/remote/remoteSession.ts
+- [ ] [FILE] src/utils/backgroundHousekeeping.ts
+- [ ] [FILE] src/utils/bash/ParsedCommand.ts
+- [ ] [FILE] src/utils/bash/ShellSnapshot.ts
+- [ ] [FILE] src/utils/bash/ast.ts
+- [ ] [FILE] src/utils/bash/bashParser.ts
+- [ ] [FILE] src/utils/bash/bashPipeCommand.ts
+- [ ] [FILE] src/utils/bash/commands.ts
+- [ ] [FILE] src/utils/bash/heredoc.ts
+- [ ] [FILE] src/utils/bash/parser.ts
+- [ ] [FILE] src/utils/bash/prefix.ts
+- [ ] [FILE] src/utils/bash/registry.ts
+- [ ] [FILE] src/utils/bash/shellCompletion.ts
+- [ ] [FILE] src/utils/bash/shellPrefix.ts
+- [ ] [FILE] src/utils/bash/shellQuote.ts
+- [ ] [FILE] src/utils/bash/shellQuoting.ts
+- [ ] [FILE] src/utils/bash/specs/alias.ts
+- [ ] [FILE] src/utils/bash/specs/index.ts
+- [ ] [FILE] src/utils/bash/specs/nohup.ts
+- [ ] [FILE] src/utils/bash/specs/pyright.ts
+- [ ] [FILE] src/utils/bash/specs/sleep.ts
+- [ ] [FILE] src/utils/bash/specs/srun.ts
+- [ ] [FILE] src/utils/bash/specs/time.ts
+- [ ] [FILE] src/utils/bash/specs/timeout.ts
+- [ ] [FILE] src/utils/bash/treeSitterAnalysis.ts
+- [ ] [FILE] src/utils/betas.ts
+- [ ] [FILE] src/utils/billing.ts
+- [ ] [FILE] src/utils/binaryCheck.ts
+- [ ] [FILE] src/utils/browser.ts
+- [ ] [FILE] src/utils/bufferedWriter.ts
+- [ ] [FILE] src/utils/bundledMode.ts
+- [ ] [FILE] src/utils/caCerts.ts
+- [ ] [FILE] src/utils/caCertsConfig.ts
+- [ ] [FILE] src/utils/cachePaths.ts
+- [ ] [FILE] src/utils/classifierApprovals.ts
+- [ ] [FILE] src/utils/classifierApprovalsHook.ts
+- [ ] [FILE] src/utils/claudeCodeHints.ts
+- [ ] [FILE] src/utils/claudeDesktop.ts
+- [ ] [FILE] src/utils/claudeInChrome/chromeNativeHost.ts
+- [ ] [FILE] src/utils/claudeInChrome/common.ts
+- [ ] [FILE] src/utils/claudeInChrome/mcpServer.ts
+- [ ] [FILE] src/utils/claudeInChrome/prompt.ts
+- [ ] [FILE] src/utils/claudeInChrome/setup.ts
+- [ ] [FILE] src/utils/claudeInChrome/setupPortable.ts
+- [ ] [FILE] src/utils/claudeInChrome/toolRendering.tsx
+- [ ] [FILE] src/utils/claudemd.ts
+- [ ] [FILE] src/utils/cleanup.ts
+- [ ] [FILE] src/utils/cleanupRegistry.ts
+- [ ] [FILE] src/utils/cliArgs.ts
+- [ ] [FILE] src/utils/cliHighlight.ts
+- [ ] [FILE] src/utils/codeIndexing.ts
+- [ ] [FILE] src/utils/collapseBackgroundBashNotifications.ts
+- [ ] [FILE] src/utils/collapseHookSummaries.ts
+- [ ] [FILE] src/utils/collapseReadSearch.ts
+- [ ] [FILE] src/utils/collapseTeammateShutdowns.ts
+- [ ] [FILE] src/utils/combinedAbortSignal.ts
+- [ ] [FILE] src/utils/commandLifecycle.ts
+- [ ] [FILE] src/utils/commitAttribution.ts
+- [ ] [FILE] src/utils/completionCache.ts
+- [ ] [FILE] src/utils/computerUse/appNames.ts
+- [ ] [FILE] src/utils/computerUse/cleanup.ts
+- [ ] [FILE] src/utils/computerUse/common.ts
+- [ ] [FILE] src/utils/computerUse/computerUseLock.ts
+- [ ] [FILE] src/utils/computerUse/drainRunLoop.ts
+- [ ] [FILE] src/utils/computerUse/escHotkey.ts
+- [ ] [FILE] src/utils/computerUse/executor.ts
+- [ ] [FILE] src/utils/computerUse/gates.ts
+- [ ] [FILE] src/utils/computerUse/hostAdapter.ts
+- [ ] [FILE] src/utils/computerUse/inputLoader.ts
+- [ ] [FILE] src/utils/computerUse/mcpServer.ts
+- [ ] [FILE] src/utils/computerUse/setup.ts
+- [ ] [FILE] src/utils/computerUse/swiftLoader.ts
+- [ ] [FILE] src/utils/computerUse/toolRendering.tsx
+- [ ] [FILE] src/utils/computerUse/wrapper.tsx
+- [ ] [FILE] src/utils/concurrentSessions.ts
+- [ ] [FILE] src/utils/config.ts
+- [ ] [FILE] src/utils/configConstants.ts
+- [ ] [FILE] src/utils/contentArray.ts
+- [ ] [FILE] src/utils/context.ts
+- [ ] [FILE] src/utils/contextAnalysis.ts
+- [ ] [FILE] src/utils/contextSuggestions.ts
+- [ ] [FILE] src/utils/controlMessageCompat.ts
+- [ ] [FILE] src/utils/conversationRecovery.ts
+- [ ] [FILE] src/utils/cron.ts
+- [ ] [FILE] src/utils/cronJitterConfig.ts
+- [ ] [FILE] src/utils/cronScheduler.ts
+- [ ] [FILE] src/utils/cronTasks.ts
+- [ ] [FILE] src/utils/cronTasksLock.ts
+- [ ] [FILE] src/utils/crossProjectResume.ts
+- [ ] [FILE] src/utils/crypto.ts
+- [ ] [FILE] src/utils/cwd.ts
+- [ ] [FILE] src/utils/debug.ts
+- [ ] [FILE] src/utils/debugFilter.ts
+- [ ] [FILE] src/utils/deepLink/banner.ts
+- [ ] [FILE] src/utils/deepLink/parseDeepLink.ts
+- [ ] [FILE] src/utils/deepLink/protocolHandler.ts
+- [ ] [FILE] src/utils/deepLink/registerProtocol.ts
+- [ ] [FILE] src/utils/deepLink/terminalLauncher.ts
+- [ ] [FILE] src/utils/deepLink/terminalPreference.ts
+- [ ] [FILE] src/utils/desktopDeepLink.ts
+- [ ] [FILE] src/utils/detectRepository.ts
+- [ ] [FILE] src/utils/diagLogs.ts
+- [ ] [FILE] src/utils/diff.ts
+- [ ] [FILE] src/utils/directMemberMessage.ts
+- [ ] [FILE] src/utils/displayTags.ts
+- [ ] [FILE] src/utils/doctorContextWarnings.ts
+- [ ] [FILE] src/utils/doctorDiagnostic.ts
+- [ ] [FILE] src/utils/dxt/helpers.ts
+- [ ] [FILE] src/utils/dxt/zip.ts
+- [ ] [FILE] src/utils/earlyInput.ts
+- [ ] [FILE] src/utils/editor.ts
+- [ ] [FILE] src/utils/effort.ts
+- [ ] [FILE] src/utils/embeddedTools.ts
+- [ ] [FILE] src/utils/env.ts
+- [ ] [FILE] src/utils/envDynamic.ts
+- [ ] [FILE] src/utils/envUtils.ts
+- [ ] [FILE] src/utils/envValidation.ts
+- [ ] [FILE] src/utils/errorLogSink.ts
+- [ ] [FILE] src/utils/errors.ts
+- [ ] [FILE] src/utils/exampleCommands.ts
+- [ ] [FILE] src/utils/execFileNoThrow.ts
+- [ ] [FILE] src/utils/execFileNoThrowPortable.ts
+- [ ] [FILE] src/utils/execSyncWrapper.ts
+- [ ] [FILE] src/utils/exportRenderer.tsx
+- [ ] [FILE] src/utils/extraUsage.ts
+- [ ] [FILE] src/utils/fastMode.ts
+- [ ] [FILE] src/utils/file.ts
+- [ ] [FILE] src/utils/fileHistory.ts
+- [ ] [FILE] src/utils/fileOperationAnalytics.ts
+- [ ] [FILE] src/utils/filePersistence/filePersistence.ts
+- [ ] [FILE] src/utils/filePersistence/outputsScanner.ts
+- [ ] [FILE] src/utils/fileRead.ts
+- [ ] [FILE] src/utils/fileReadCache.ts
+- [ ] [FILE] src/utils/fileStateCache.ts
+- [ ] [FILE] src/utils/findExecutable.ts
+- [ ] [FILE] src/utils/fingerprint.ts
+- [ ] [FILE] src/utils/forkedAgent.ts
+- [ ] [FILE] src/utils/format.ts
+- [ ] [FILE] src/utils/formatBriefTimestamp.ts
+- [ ] [FILE] src/utils/fpsTracker.ts
+- [ ] [FILE] src/utils/frontmatterParser.ts
+- [ ] [FILE] src/utils/fsOperations.ts
+- [ ] [FILE] src/utils/fullscreen.ts
+- [ ] [FILE] src/utils/generatedFiles.ts
+- [ ] [FILE] src/utils/generators.ts
+- [ ] [FILE] src/utils/genericProcessUtils.ts
+- [ ] [FILE] src/utils/getWorktreePaths.ts
+- [ ] [FILE] src/utils/getWorktreePathsPortable.ts
+- [ ] [FILE] src/utils/ghPrStatus.ts
+- [ ] [FILE] src/utils/git.ts
+- [ ] [FILE] src/utils/git/gitConfigParser.ts
+- [ ] [FILE] src/utils/git/gitFilesystem.ts
+- [ ] [FILE] src/utils/git/gitignore.ts
+- [ ] [FILE] src/utils/gitDiff.ts
+- [ ] [FILE] src/utils/gitSettings.ts
+- [ ] [FILE] src/utils/github/ghAuthStatus.ts
+- [ ] [FILE] src/utils/githubRepoPathMapping.ts
+- [ ] [FILE] src/utils/glob.ts
+- [ ] [FILE] src/utils/gracefulShutdown.ts
+- [ ] [FILE] src/utils/groupToolUses.ts
+- [ ] [FILE] src/utils/handlePromptSubmit.ts
+- [ ] [FILE] src/utils/hash.ts
+- [ ] [FILE] src/utils/headlessProfiler.ts
+- [ ] [FILE] src/utils/heapDumpService.ts
+- [ ] [FILE] src/utils/heatmap.ts
+- [ ] [FILE] src/utils/highlightMatch.tsx
+- [ ] [FILE] src/utils/hooks.ts
+- [ ] [FILE] src/utils/hooks/AsyncHookRegistry.ts
+- [ ] [FILE] src/utils/hooks/apiQueryHookHelper.ts
+- [ ] [FILE] src/utils/hooks/execAgentHook.ts
+- [ ] [FILE] src/utils/hooks/execHttpHook.ts
+- [ ] [FILE] src/utils/hooks/execPromptHook.ts
+- [ ] [FILE] src/utils/hooks/fileChangedWatcher.ts
+- [ ] [FILE] src/utils/hooks/hookEvents.ts
+- [ ] [FILE] src/utils/hooks/hookHelpers.ts
+- [ ] [FILE] src/utils/hooks/hooksConfigManager.ts
+- [ ] [FILE] src/utils/hooks/hooksConfigSnapshot.ts
+- [ ] [FILE] src/utils/hooks/hooksSettings.ts
+- [ ] [FILE] src/utils/hooks/postSamplingHooks.ts
+- [ ] [FILE] src/utils/hooks/registerFrontmatterHooks.ts
+- [ ] [FILE] src/utils/hooks/registerSkillHooks.ts
+- [ ] [FILE] src/utils/hooks/sessionHooks.ts
+- [ ] [FILE] src/utils/hooks/skillImprovement.ts
+- [ ] [FILE] src/utils/hooks/ssrfGuard.ts
+- [ ] [FILE] src/utils/horizontalScroll.ts
+- [ ] [FILE] src/utils/http.ts
+- [ ] [FILE] src/utils/hyperlink.ts
+- [ ] [FILE] src/utils/iTermBackup.ts
+- [ ] [FILE] src/utils/ide.ts
+- [ ] [FILE] src/utils/idePathConversion.ts
+- [ ] [FILE] src/utils/idleTimeout.ts
+- [ ] [FILE] src/utils/imagePaste.ts
+- [ ] [FILE] src/utils/imageResizer.ts
+- [ ] [FILE] src/utils/imageStore.ts
+- [ ] [FILE] src/utils/imageValidation.ts
+- [ ] [FILE] src/utils/immediateCommand.ts
+- [ ] [FILE] src/utils/inProcessTeammateHelpers.ts
+- [ ] [FILE] src/utils/ink.ts
+- [ ] [FILE] src/utils/intl.ts
+- [ ] [FILE] src/utils/jetbrains.ts
+- [ ] [FILE] src/utils/json.ts
+- [ ] [FILE] src/utils/jsonRead.ts
+- [ ] [FILE] src/utils/keyboardShortcuts.ts
+- [ ] [FILE] src/utils/lazySchema.ts
+- [ ] [FILE] src/utils/listSessionsImpl.ts
+- [ ] [FILE] src/utils/localInstaller.ts
+- [ ] [FILE] src/utils/lockfile.ts
+- [ ] [FILE] src/utils/log.ts
+- [ ] [FILE] src/utils/logoV2Utils.ts
+- [ ] [FILE] src/utils/mailbox.ts
+- [ ] [FILE] src/utils/managedEnv.ts
+- [ ] [FILE] src/utils/managedEnvConstants.ts
+- [ ] [FILE] src/utils/markdown.ts
+- [ ] [FILE] src/utils/markdownConfigLoader.ts
+- [ ] [FILE] src/utils/mcp/dateTimeParser.ts
+- [ ] [FILE] src/utils/mcp/elicitationValidation.ts
+- [ ] [FILE] src/utils/mcpInstructionsDelta.ts
+- [ ] [FILE] src/utils/mcpOutputStorage.ts
+- [ ] [FILE] src/utils/mcpValidation.ts
+- [ ] [FILE] src/utils/mcpWebSocketTransport.ts
+- [ ] [FILE] src/utils/memoize.ts
+- [ ] [FILE] src/utils/memory/types.ts
+- [ ] [FILE] src/utils/memory/versions.ts
+- [ ] [FILE] src/utils/memoryFileDetection.ts
+- [ ] [FILE] src/utils/messagePredicates.ts
+- [ ] [FILE] src/utils/messageQueueManager.ts
+- [ ] [FILE] src/utils/messages.ts
+- [ ] [FILE] src/utils/messages/mappers.ts
+- [ ] [FILE] src/utils/messages/systemInit.ts
+- [ ] [FILE] src/utils/model/agent.ts
+- [ ] [FILE] src/utils/model/aliases.ts
+- [ ] [FILE] src/utils/model/antModels.ts
+- [ ] [FILE] src/utils/model/bedrock.ts
+- [ ] [FILE] src/utils/model/check1mAccess.ts
+- [ ] [FILE] src/utils/model/configs.ts
+- [ ] [FILE] src/utils/model/contextWindowUpgradeCheck.ts
+- [ ] [FILE] src/utils/model/deprecation.ts
+- [ ] [FILE] src/utils/model/model.ts
+- [ ] [FILE] src/utils/model/modelAllowlist.ts
+- [ ] [FILE] src/utils/model/modelCapabilities.ts
+- [ ] [FILE] src/utils/model/modelOptions.ts
+- [ ] [FILE] src/utils/model/modelStrings.ts
+- [ ] [FILE] src/utils/model/modelSupportOverrides.ts
+- [ ] [FILE] src/utils/model/providers.ts
+- [ ] [FILE] src/utils/model/validateModel.ts
+- [ ] [FILE] src/utils/modelCost.ts
+- [ ] [FILE] src/utils/modifiers.ts
+- [ ] [FILE] src/utils/mtls.ts
+- [ ] [FILE] src/utils/nativeInstaller/download.ts
+- [ ] [FILE] src/utils/nativeInstaller/index.ts
+- [ ] [FILE] src/utils/nativeInstaller/installer.ts
+- [ ] [FILE] src/utils/nativeInstaller/packageManagers.ts
+- [ ] [FILE] src/utils/nativeInstaller/pidLock.ts
+- [ ] [FILE] src/utils/notebook.ts
+- [ ] [FILE] src/utils/objectGroupBy.ts
+- [ ] [FILE] src/utils/pasteStore.ts
+- [ ] [FILE] src/utils/path.ts
+- [ ] [FILE] src/utils/pdf.ts
+- [ ] [FILE] src/utils/pdfUtils.ts
+- [ ] [FILE] src/utils/peerAddress.ts
+- [ ] [FILE] src/utils/permissions/PermissionMode.ts
+- [ ] [FILE] src/utils/permissions/PermissionPromptToolResultSchema.ts
+- [ ] [FILE] src/utils/permissions/PermissionResult.ts
+- [ ] [FILE] src/utils/permissions/PermissionRule.ts
+- [ ] [FILE] src/utils/permissions/PermissionUpdate.ts
+- [ ] [FILE] src/utils/permissions/PermissionUpdateSchema.ts
+- [ ] [FILE] src/utils/permissions/autoModeState.ts
+- [ ] [FILE] src/utils/permissions/bashClassifier.ts
+- [ ] [FILE] src/utils/permissions/bypassPermissionsKillswitch.ts
+- [ ] [FILE] src/utils/permissions/classifierDecision.ts
+- [ ] [FILE] src/utils/permissions/classifierShared.ts
+- [ ] [FILE] src/utils/permissions/dangerousPatterns.ts
+- [ ] [FILE] src/utils/permissions/denialTracking.ts
+- [ ] [FILE] src/utils/permissions/filesystem.ts
+- [ ] [FILE] src/utils/permissions/getNextPermissionMode.ts
+- [ ] [FILE] src/utils/permissions/pathValidation.ts
+- [ ] [FILE] src/utils/permissions/permissionExplainer.ts
+- [ ] [FILE] src/utils/permissions/permissionRuleParser.ts
+- [ ] [FILE] src/utils/permissions/permissionSetup.ts
+- [ ] [FILE] src/utils/permissions/permissions.ts
+- [ ] [FILE] src/utils/permissions/permissionsLoader.ts
+- [ ] [FILE] src/utils/permissions/shadowedRuleDetection.ts
+- [ ] [FILE] src/utils/permissions/shellRuleMatching.ts
+- [ ] [FILE] src/utils/permissions/yoloClassifier.ts
+- [ ] [FILE] src/utils/planModeV2.ts
+- [ ] [FILE] src/utils/plans.ts
+- [ ] [FILE] src/utils/platform.ts
+- [ ] [FILE] src/utils/plugins/addDirPluginSettings.ts
+- [ ] [FILE] src/utils/plugins/cacheUtils.ts
+- [ ] [FILE] src/utils/plugins/dependencyResolver.ts
+- [ ] [FILE] src/utils/plugins/fetchTelemetry.ts
+- [ ] [FILE] src/utils/plugins/gitAvailability.ts
+- [ ] [FILE] src/utils/plugins/headlessPluginInstall.ts
+- [ ] [FILE] src/utils/plugins/hintRecommendation.ts
+- [ ] [FILE] src/utils/plugins/installCounts.ts
+- [ ] [FILE] src/utils/plugins/installedPluginsManager.ts
+- [ ] [FILE] src/utils/plugins/loadPluginAgents.ts
+- [ ] [FILE] src/utils/plugins/loadPluginCommands.ts
+- [ ] [FILE] src/utils/plugins/loadPluginHooks.ts
+- [ ] [FILE] src/utils/plugins/loadPluginOutputStyles.ts
+- [ ] [FILE] src/utils/plugins/lspPluginIntegration.ts
+- [ ] [FILE] src/utils/plugins/lspRecommendation.ts
+- [ ] [FILE] src/utils/plugins/managedPlugins.ts
+- [ ] [FILE] src/utils/plugins/marketplaceHelpers.ts
+- [ ] [FILE] src/utils/plugins/marketplaceManager.ts
+- [ ] [FILE] src/utils/plugins/mcpPluginIntegration.ts
+- [ ] [FILE] src/utils/plugins/mcpbHandler.ts
+- [ ] [FILE] src/utils/plugins/officialMarketplace.ts
+- [ ] [FILE] src/utils/plugins/officialMarketplaceGcs.ts
+- [ ] [FILE] src/utils/plugins/officialMarketplaceStartupCheck.ts
+- [ ] [FILE] src/utils/plugins/orphanedPluginFilter.ts
+- [ ] [FILE] src/utils/plugins/parseMarketplaceInput.ts
+- [ ] [FILE] src/utils/plugins/performStartupChecks.tsx
+- [ ] [FILE] src/utils/plugins/pluginAutoupdate.ts
+- [ ] [FILE] src/utils/plugins/pluginBlocklist.ts
+- [ ] [FILE] src/utils/plugins/pluginDirectories.ts
+- [ ] [FILE] src/utils/plugins/pluginFlagging.ts
+- [ ] [FILE] src/utils/plugins/pluginIdentifier.ts
+- [ ] [FILE] src/utils/plugins/pluginInstallationHelpers.ts
+- [ ] [FILE] src/utils/plugins/pluginLoader.ts
+- [ ] [FILE] src/utils/plugins/pluginOptionsStorage.ts
+- [ ] [FILE] src/utils/plugins/pluginPolicy.ts
+- [ ] [FILE] src/utils/plugins/pluginStartupCheck.ts
+- [ ] [FILE] src/utils/plugins/pluginVersioning.ts
+- [ ] [FILE] src/utils/plugins/reconciler.ts
+- [ ] [FILE] src/utils/plugins/refresh.ts
+- [ ] [FILE] src/utils/plugins/schemas.ts
+- [ ] [FILE] src/utils/plugins/validatePlugin.ts
+- [ ] [FILE] src/utils/plugins/walkPluginMarkdown.ts
+- [ ] [FILE] src/utils/plugins/zipCache.ts
+- [ ] [FILE] src/utils/plugins/zipCacheAdapters.ts
+- [ ] [FILE] src/utils/powershell/dangerousCmdlets.ts
+- [ ] [FILE] src/utils/powershell/parser.ts
+- [ ] [FILE] src/utils/powershell/staticPrefix.ts
+- [ ] [FILE] src/utils/preflightChecks.tsx
+- [ ] [FILE] src/utils/privacyLevel.ts
+- [ ] [FILE] src/utils/process.ts
+- [ ] [FILE] src/utils/processUserInput/processBashCommand.tsx
+- [ ] [FILE] src/utils/processUserInput/processSlashCommand.tsx
+- [ ] [FILE] src/utils/processUserInput/processTextPrompt.ts
+- [ ] [FILE] src/utils/processUserInput/processUserInput.ts
+- [ ] [FILE] src/utils/profilerBase.ts
+- [ ] [FILE] src/utils/promptCategory.ts
+- [ ] [FILE] src/utils/promptEditor.ts
+- [ ] [FILE] src/utils/promptShellExecution.ts
+- [ ] [FILE] src/utils/proxy.ts
+- [ ] [FILE] src/utils/queryContext.ts
+- [ ] [FILE] src/utils/queryHelpers.ts
+- [ ] [FILE] src/utils/queryProfiler.ts
+- [ ] [FILE] src/utils/queueProcessor.ts
+- [ ] [FILE] src/utils/readEditContext.ts
+- [ ] [FILE] src/utils/readFileInRange.ts
+- [ ] [FILE] src/utils/releaseNotes.ts
+- [ ] [FILE] src/utils/renderOptions.ts
+- [ ] [FILE] src/utils/ripgrep.ts
+- [ ] [FILE] src/utils/sandbox/sandbox-adapter.ts
+- [ ] [FILE] src/utils/sandbox/sandbox-ui-utils.ts
+- [ ] [FILE] src/utils/sanitization.ts
+- [ ] [FILE] src/utils/screenshotClipboard.ts
+- [ ] [FILE] src/utils/sdkEventQueue.ts
+- [ ] [FILE] src/utils/secureStorage/fallbackStorage.ts
+- [ ] [FILE] src/utils/secureStorage/index.ts
+- [ ] [FILE] src/utils/secureStorage/keychainPrefetch.ts
+- [ ] [FILE] src/utils/secureStorage/macOsKeychainHelpers.ts
+- [ ] [FILE] src/utils/secureStorage/macOsKeychainStorage.ts
+- [ ] [FILE] src/utils/secureStorage/plainTextStorage.ts
+- [ ] [FILE] src/utils/semanticBoolean.ts
+- [ ] [FILE] src/utils/semanticNumber.ts
+- [ ] [FILE] src/utils/semver.ts
+- [ ] [FILE] src/utils/sequential.ts
+- [ ] [FILE] src/utils/sessionActivity.ts
+- [ ] [FILE] src/utils/sessionEnvVars.ts
+- [ ] [FILE] src/utils/sessionEnvironment.ts
+- [ ] [FILE] src/utils/sessionFileAccessHooks.ts
+- [ ] [FILE] src/utils/sessionIngressAuth.ts
+- [ ] [FILE] src/utils/sessionRestore.ts
+- [ ] [FILE] src/utils/sessionStart.ts
+- [ ] [FILE] src/utils/sessionState.ts
+- [ ] [FILE] src/utils/sessionStorage.ts
+- [ ] [FILE] src/utils/sessionStoragePortable.ts
+- [ ] [FILE] src/utils/sessionTitle.ts
+- [ ] [FILE] src/utils/sessionUrl.ts
+- [ ] [FILE] src/utils/set.ts
+- [ ] [FILE] src/utils/settings/allErrors.ts
+- [ ] [FILE] src/utils/settings/applySettingsChange.ts
+- [ ] [FILE] src/utils/settings/changeDetector.ts
+- [ ] [FILE] src/utils/settings/constants.ts
+- [ ] [FILE] src/utils/settings/internalWrites.ts
+- [ ] [FILE] src/utils/settings/managedPath.ts
+- [ ] [FILE] src/utils/settings/mdm/constants.ts
+- [ ] [FILE] src/utils/settings/mdm/rawRead.ts
+- [ ] [FILE] src/utils/settings/mdm/settings.ts
+- [ ] [FILE] src/utils/settings/permissionValidation.ts
+- [ ] [FILE] src/utils/settings/pluginOnlyPolicy.ts
+- [ ] [FILE] src/utils/settings/schemaOutput.ts
+- [ ] [FILE] src/utils/settings/settings.ts
+- [ ] [FILE] src/utils/settings/settingsCache.ts
+- [ ] [FILE] src/utils/settings/toolValidationConfig.ts
+- [ ] [FILE] src/utils/settings/types.ts
+- [ ] [FILE] src/utils/settings/validateEditTool.ts
+- [ ] [FILE] src/utils/settings/validation.ts
+- [ ] [FILE] src/utils/settings/validationTips.ts
+- [ ] [FILE] src/utils/shell/bashProvider.ts
+- [ ] [FILE] src/utils/shell/outputLimits.ts
+- [ ] [FILE] src/utils/shell/powershellDetection.ts
+- [ ] [FILE] src/utils/shell/powershellProvider.ts
+- [ ] [FILE] src/utils/shell/prefix.ts
+- [ ] [FILE] src/utils/shell/readOnlyCommandValidation.ts
+- [ ] [FILE] src/utils/shell/resolveDefaultShell.ts
+- [ ] [FILE] src/utils/shell/shellProvider.ts
+- [ ] [FILE] src/utils/shell/shellToolUtils.ts
+- [ ] [FILE] src/utils/shell/specPrefix.ts
+- [ ] [FILE] src/utils/shellConfig.ts
+- [ ] [FILE] src/utils/sideQuery.ts
+- [ ] [FILE] src/utils/sideQuestion.ts
+- [ ] [FILE] src/utils/signal.ts
+- [ ] [FILE] src/utils/sinks.ts
+- [ ] [FILE] src/utils/skills/skillChangeDetector.ts
+- [ ] [FILE] src/utils/slashCommandParsing.ts
+- [ ] [FILE] src/utils/sleep.ts
+- [ ] [FILE] src/utils/sliceAnsi.ts
+- [ ] [FILE] src/utils/slowOperations.ts
+- [ ] [FILE] src/utils/standaloneAgent.ts
+- [ ] [FILE] src/utils/startupProfiler.ts
+- [ ] [FILE] src/utils/staticRender.tsx
+- [ ] [FILE] src/utils/stats.ts
+- [ ] [FILE] src/utils/statsCache.ts
+- [ ] [FILE] src/utils/status.tsx
+- [ ] [FILE] src/utils/statusNoticeDefinitions.tsx
+- [ ] [FILE] src/utils/statusNoticeHelpers.ts
+- [ ] [FILE] src/utils/stream.ts
+- [ ] [FILE] src/utils/streamJsonStdoutGuard.ts
+- [ ] [FILE] src/utils/streamlinedTransform.ts
+- [ ] [FILE] src/utils/stringUtils.ts
+- [ ] [FILE] src/utils/subprocessEnv.ts
+- [ ] [FILE] src/utils/suggestions/commandSuggestions.ts
+- [ ] [FILE] src/utils/suggestions/directoryCompletion.ts
+- [ ] [FILE] src/utils/suggestions/shellHistoryCompletion.ts
+- [ ] [FILE] src/utils/suggestions/skillUsageTracking.ts
+- [ ] [FILE] src/utils/suggestions/slackChannelSuggestions.ts
+- [ ] [FILE] src/utils/swarm/It2SetupPrompt.tsx
+- [ ] [FILE] src/utils/swarm/backends/ITermBackend.ts
+- [ ] [FILE] src/utils/swarm/backends/InProcessBackend.ts
+- [ ] [FILE] src/utils/swarm/backends/PaneBackendExecutor.ts
+- [ ] [FILE] src/utils/swarm/backends/TmuxBackend.ts
+- [ ] [FILE] src/utils/swarm/backends/detection.ts
+- [ ] [FILE] src/utils/swarm/backends/it2Setup.ts
+- [ ] [FILE] src/utils/swarm/backends/registry.ts
+- [ ] [FILE] src/utils/swarm/backends/teammateModeSnapshot.ts
+- [ ] [FILE] src/utils/swarm/backends/types.ts
+- [ ] [FILE] src/utils/swarm/constants.ts
+- [ ] [FILE] src/utils/swarm/inProcessRunner.ts
+- [ ] [FILE] src/utils/swarm/leaderPermissionBridge.ts
+- [ ] [FILE] src/utils/swarm/permissionSync.ts
+- [ ] [FILE] src/utils/swarm/reconnection.ts
+- [ ] [FILE] src/utils/swarm/spawnInProcess.ts
+- [ ] [FILE] src/utils/swarm/spawnUtils.ts
+- [ ] [FILE] src/utils/swarm/teamHelpers.ts
+- [ ] [FILE] src/utils/swarm/teammateInit.ts
+- [ ] [FILE] src/utils/swarm/teammateLayoutManager.ts
+- [ ] [FILE] src/utils/swarm/teammateModel.ts
+- [ ] [FILE] src/utils/swarm/teammatePromptAddendum.ts
+- [ ] [FILE] src/utils/systemDirectories.ts
+- [ ] [FILE] src/utils/systemPrompt.ts
+- [ ] [FILE] src/utils/systemPromptType.ts
+- [ ] [FILE] src/utils/systemTheme.ts
+- [ ] [FILE] src/utils/taggedId.ts
+- [ ] [FILE] src/utils/task/TaskOutput.ts
+- [ ] [FILE] src/utils/task/diskOutput.ts
+- [ ] [FILE] src/utils/task/framework.ts
+- [ ] [FILE] src/utils/task/outputFormatting.ts
+- [ ] [FILE] src/utils/task/sdkProgress.ts
+- [ ] [FILE] src/utils/tasks.ts
+- [ ] [FILE] src/utils/teamDiscovery.ts
+- [ ] [FILE] src/utils/teamMemoryOps.ts
+- [ ] [FILE] src/utils/teammate.ts
+- [ ] [FILE] src/utils/teammateContext.ts
+- [ ] [FILE] src/utils/teammateMailbox.ts
+- [ ] [FILE] src/utils/telemetry/betaSessionTracing.ts
+- [ ] [FILE] src/utils/telemetry/bigqueryExporter.ts
+- [ ] [FILE] src/utils/telemetry/events.ts
+- [ ] [FILE] src/utils/telemetry/instrumentation.ts
+- [ ] [FILE] src/utils/telemetry/logger.ts
+- [ ] [FILE] src/utils/telemetry/perfettoTracing.ts
+- [ ] [FILE] src/utils/telemetry/pluginTelemetry.ts
+- [ ] [FILE] src/utils/telemetry/sessionTracing.ts
+- [ ] [FILE] src/utils/telemetry/skillLoadedEvent.ts
+- [ ] [FILE] src/utils/telemetryAttributes.ts
+- [ ] [FILE] src/utils/teleport.tsx
+- [ ] [FILE] src/utils/teleport/api.ts
+- [ ] [FILE] src/utils/teleport/environmentSelection.ts
+- [ ] [FILE] src/utils/teleport/environments.ts
+- [ ] [FILE] src/utils/teleport/gitBundle.ts
+- [ ] [FILE] src/utils/tempfile.ts
+- [ ] [FILE] src/utils/terminal.ts
+- [ ] [FILE] src/utils/terminalPanel.ts
+- [ ] [FILE] src/utils/textHighlighting.ts
+- [ ] [FILE] src/utils/theme.ts
+- [ ] [FILE] src/utils/thinking.ts
+- [ ] [FILE] src/utils/timeouts.ts
+- [ ] [FILE] src/utils/tmuxSocket.ts
+- [ ] [FILE] src/utils/todo/types.ts
+- [ ] [FILE] src/utils/tokenBudget.ts
+- [ ] [FILE] src/utils/tokens.ts
+- [ ] [FILE] src/utils/toolErrors.ts
+- [ ] [FILE] src/utils/toolPool.ts
+- [ ] [FILE] src/utils/toolResultStorage.ts
+- [ ] [FILE] src/utils/toolSchemaCache.ts
+- [ ] [FILE] src/utils/toolSearch.ts
+- [ ] [FILE] src/utils/transcriptSearch.ts
+- [ ] [FILE] src/utils/treeify.ts
+- [ ] [FILE] src/utils/truncate.ts
+- [ ] [FILE] src/utils/ultraplan/ccrSession.ts
+- [ ] [FILE] src/utils/ultraplan/keyword.ts
+- [ ] [FILE] src/utils/unaryLogging.ts
+- [ ] [FILE] src/utils/undercover.ts
+- [ ] [FILE] src/utils/user.ts
+- [ ] [FILE] src/utils/userAgent.ts
+- [ ] [FILE] src/utils/userPromptKeywords.ts
+- [ ] [FILE] src/utils/uuid.ts
+- [ ] [FILE] src/utils/warningHandler.ts
+- [ ] [FILE] src/utils/which.ts
+- [ ] [FILE] src/utils/windowsPaths.ts
+- [ ] [FILE] src/utils/withResolvers.ts
+- [ ] [FILE] src/utils/words.ts
+- [ ] [FILE] src/utils/workloadContext.ts
+- [ ] [FILE] src/utils/worktree.ts
+- [ ] [FILE] src/utils/worktreeModeEnabled.ts
+- [ ] [FILE] src/utils/xdg.ts
+- [ ] [FILE] src/utils/xml.ts
+- [ ] [FILE] src/utils/yaml.ts
+- [ ] [FILE] src/utils/zodToJsonSchema.ts
+- [ ] [FILE] src/vim/motions.ts
+- [ ] [FILE] src/vim/operators.ts
+- [ ] [FILE] src/vim/textObjects.ts
+- [ ] [FILE] src/vim/transitions.ts
+- [ ] [FILE] src/vim/types.ts
+- [ ] [FILE] src/voice/voiceModeEnabled.ts
