@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 07:02:46 +0800
+Generated at: 2026-04-01 07:03:43 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -475,14 +475,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/login/login.tsx
 - [x] [FILE] src/commands/logout/index.ts
 - [x] [FILE] src/commands/logout/logout.tsx
-- [ ] [FILE] src/commands/mcp/addCommand.ts
-- [ ] [FILE] src/commands/mcp/index.ts
-- [ ] [FILE] src/commands/mcp/mcp.tsx
+- [x] [FILE] src/commands/mcp/addCommand.ts
+- [x] [FILE] src/commands/mcp/index.ts
+- [x] [FILE] src/commands/mcp/mcp.tsx
 - [ ] [FILE] src/commands/mcp/xaaIdpCommand.ts
 - [x] [FILE] src/commands/memory/index.ts
 - [x] [FILE] src/commands/memory/memory.tsx
-- [ ] [FILE] src/commands/mobile/index.ts
-- [ ] [FILE] src/commands/mobile/mobile.tsx
+- [x] [FILE] src/commands/mobile/index.ts
+- [x] [FILE] src/commands/mobile/mobile.tsx
 - [ ] [FILE] src/commands/mock-limits/index.js
 - [ ] [FILE] src/commands/model/index.ts
 - [ ] [FILE] src/commands/model/model.tsx
