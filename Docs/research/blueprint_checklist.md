@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 07:46:01 +0800
+Generated at: 2026-04-01 07:51:15 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -530,13 +530,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/remote-setup/remote-setup.tsx
 - [x] [FILE] src/commands/rename/generateSessionName.ts
 - [x] [FILE] src/commands/rename/index.ts
-- [ ] [FILE] src/commands/rename/rename.ts
-- [ ] [FILE] src/commands/reset-limits/index.js
+- [x] [FILE] src/commands/rename/rename.ts
+- [x] [FILE] src/commands/reset-limits/index.js
 - [x] [FILE] src/commands/resume/index.ts
 - [x] [FILE] src/commands/resume/resume.tsx
 - [x] [FILE] src/commands/review.ts
-- [ ] [FILE] src/commands/review/UltrareviewOverageDialog.tsx
-- [ ] [FILE] src/commands/review/reviewRemote.ts
+- [x] [FILE] src/commands/review/UltrareviewOverageDialog.tsx
+- [x] [FILE] src/commands/review/reviewRemote.ts
 - [ ] [FILE] src/commands/review/ultrareviewCommand.tsx
 - [ ] [FILE] src/commands/review/ultrareviewEnabled.ts
 - [ ] [FILE] src/commands/rewind/index.ts
