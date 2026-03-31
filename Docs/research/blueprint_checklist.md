@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 06:32:42 +0800
+Generated at: 2026-04-01 06:33:18 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -425,8 +425,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/effort/effort.tsx
 - [x] [FILE] src/commands/effort/index.ts
 - [x] [FILE] src/commands/env/index.js
-- [ ] [FILE] src/commands/exit/exit.tsx
-- [ ] [FILE] src/commands/exit/index.ts
+- [x] [FILE] src/commands/exit/exit.tsx
+- [x] [FILE] src/commands/exit/index.ts
 - [ ] [FILE] src/commands/export/export.tsx
 - [ ] [FILE] src/commands/export/index.ts
 - [ ] [FILE] src/commands/extra-usage/extra-usage-core.ts
@@ -438,7 +438,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/commands/feedback/feedback.tsx
 - [ ] [FILE] src/commands/feedback/index.ts
 - [ ] [FILE] src/commands/files/files.ts
-- [ ] [FILE] src/commands/files/index.ts
+- [x] [FILE] src/commands/files/index.ts
 - [ ] [FILE] src/commands/good-claude/index.js
 - [ ] [FILE] src/commands/heapdump/heapdump.ts
 - [ ] [FILE] src/commands/heapdump/index.ts
