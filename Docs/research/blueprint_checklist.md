@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 06:29:48 +0800
+Generated at: 2026-04-01 06:32:42 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -422,9 +422,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/diff/index.ts
 - [x] [FILE] src/commands/doctor/doctor.tsx
 - [x] [FILE] src/commands/doctor/index.ts
-- [ ] [FILE] src/commands/effort/effort.tsx
-- [ ] [FILE] src/commands/effort/index.ts
-- [ ] [FILE] src/commands/env/index.js
+- [x] [FILE] src/commands/effort/effort.tsx
+- [x] [FILE] src/commands/effort/index.ts
+- [x] [FILE] src/commands/env/index.js
 - [ ] [FILE] src/commands/exit/exit.tsx
 - [ ] [FILE] src/commands/exit/index.ts
 - [ ] [FILE] src/commands/export/export.tsx
