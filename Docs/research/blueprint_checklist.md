@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 06:40:19 +0800
+Generated at: 2026-04-01 06:42:57 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -445,13 +445,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/help/help.tsx
 - [x] [FILE] src/commands/help/index.ts
 - [x] [FILE] src/commands/hooks/hooks.tsx
-- [ ] [FILE] src/commands/hooks/index.ts
+- [x] [FILE] src/commands/hooks/index.ts
 - [x] [FILE] src/commands/ide/ide.tsx
 - [x] [FILE] src/commands/ide/index.ts
 - [x] [FILE] src/commands/init-verifiers.ts
 - [x] [FILE] src/commands/init.ts
 - [ ] [FILE] src/commands/insights.ts
-- [ ] [FILE] src/commands/install-github-app/ApiKeyStep.tsx
+- [x] [FILE] src/commands/install-github-app/ApiKeyStep.tsx
 - [ ] [FILE] src/commands/install-github-app/CheckExistingSecretStep.tsx
 - [ ] [FILE] src/commands/install-github-app/CheckGitHubStep.tsx
 - [ ] [FILE] src/commands/install-github-app/ChooseRepoStep.tsx
@@ -465,8 +465,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/commands/install-github-app/index.ts
 - [ ] [FILE] src/commands/install-github-app/install-github-app.tsx
 - [ ] [FILE] src/commands/install-github-app/setupGitHubActions.ts
-- [ ] [FILE] src/commands/install-slack-app/index.ts
-- [ ] [FILE] src/commands/install-slack-app/install-slack-app.ts
+- [x] [FILE] src/commands/install-slack-app/index.ts
+- [x] [FILE] src/commands/install-slack-app/install-slack-app.ts
 - [ ] [FILE] src/commands/install.tsx
 - [ ] [FILE] src/commands/issue/index.js
 - [ ] [FILE] src/commands/keybindings/index.ts
