@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 07:23:07 +0800
+Generated at: 2026-04-01 07:26:22 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -497,7 +497,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/permissions/permissions.tsx
 - [x] [FILE] src/commands/plan/index.ts
 - [x] [FILE] src/commands/plan/plan.tsx
-- [ ] [FILE] src/commands/plugin/AddMarketplace.tsx
+- [x] [FILE] src/commands/plugin/AddMarketplace.tsx
 - [ ] [FILE] src/commands/plugin/BrowseMarketplace.tsx
 - [ ] [FILE] src/commands/plugin/DiscoverPlugins.tsx
 - [ ] [FILE] src/commands/plugin/ManageMarketplaces.tsx
