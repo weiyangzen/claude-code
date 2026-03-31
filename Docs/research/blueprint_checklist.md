@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 07:35:07 +0800
+Generated at: 2026-04-01 07:38:00 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -508,7 +508,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/plugin/PluginSettings.tsx
 - [x] [FILE] src/commands/plugin/PluginTrustWarning.tsx
 - [x] [FILE] src/commands/plugin/UnifiedInstalledCell.tsx
-- [ ] [FILE] src/commands/plugin/ValidatePlugin.tsx
+- [x] [FILE] src/commands/plugin/ValidatePlugin.tsx
 - [ ] [FILE] src/commands/plugin/index.tsx
 - [ ] [FILE] src/commands/plugin/parseArgs.ts
 - [ ] [FILE] src/commands/plugin/plugin.tsx
@@ -521,8 +521,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/rate-limit-options/rate-limit-options.tsx
 - [ ] [FILE] src/commands/release-notes/index.ts
 - [ ] [FILE] src/commands/release-notes/release-notes.ts
-- [ ] [FILE] src/commands/reload-plugins/index.ts
-- [ ] [FILE] src/commands/reload-plugins/reload-plugins.ts
+- [x] [FILE] src/commands/reload-plugins/index.ts
+- [x] [FILE] src/commands/reload-plugins/reload-plugins.ts
 - [ ] [FILE] src/commands/remote-env/index.ts
 - [ ] [FILE] src/commands/remote-env/remote-env.tsx
 - [ ] [FILE] src/commands/remote-setup/api.ts
