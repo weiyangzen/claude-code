@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 06:47:45 +0800
+Generated at: 2026-04-01 06:51:31 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -462,12 +462,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/install-github-app/OAuthFlowStep.tsx
 - [x] [FILE] src/commands/install-github-app/SuccessStep.tsx
 - [x] [FILE] src/commands/install-github-app/WarningsStep.tsx
-- [ ] [FILE] src/commands/install-github-app/index.ts
+- [x] [FILE] src/commands/install-github-app/index.ts
 - [x] [FILE] src/commands/install-github-app/install-github-app.tsx
-- [ ] [FILE] src/commands/install-github-app/setupGitHubActions.ts
+- [x] [FILE] src/commands/install-github-app/setupGitHubActions.ts
 - [x] [FILE] src/commands/install-slack-app/index.ts
 - [x] [FILE] src/commands/install-slack-app/install-slack-app.ts
-- [ ] [FILE] src/commands/install.tsx
+- [x] [FILE] src/commands/install.tsx
 - [ ] [FILE] src/commands/issue/index.js
 - [ ] [FILE] src/commands/keybindings/index.ts
 - [ ] [FILE] src/commands/keybindings/keybindings.ts
@@ -534,7 +534,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/commands/reset-limits/index.js
 - [ ] [FILE] src/commands/resume/index.ts
 - [ ] [FILE] src/commands/resume/resume.tsx
-- [ ] [FILE] src/commands/review.ts
+- [x] [FILE] src/commands/review.ts
 - [ ] [FILE] src/commands/review/UltrareviewOverageDialog.tsx
 - [ ] [FILE] src/commands/review/reviewRemote.ts
 - [ ] [FILE] src/commands/review/ultrareviewCommand.tsx
@@ -543,7 +543,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/commands/rewind/rewind.ts
 - [ ] [FILE] src/commands/sandbox-toggle/index.ts
 - [ ] [FILE] src/commands/sandbox-toggle/sandbox-toggle.tsx
-- [ ] [FILE] src/commands/security-review.ts
+- [x] [FILE] src/commands/security-review.ts
 - [ ] [FILE] src/commands/session/index.ts
 - [ ] [FILE] src/commands/session/session.tsx
 - [ ] [FILE] src/commands/share/index.js
