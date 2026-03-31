@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 07:38:13 +0800
+Generated at: 2026-04-01 07:42:12 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -509,11 +509,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/plugin/PluginTrustWarning.tsx
 - [x] [FILE] src/commands/plugin/UnifiedInstalledCell.tsx
 - [x] [FILE] src/commands/plugin/ValidatePlugin.tsx
-- [ ] [FILE] src/commands/plugin/index.tsx
-- [ ] [FILE] src/commands/plugin/parseArgs.ts
-- [ ] [FILE] src/commands/plugin/plugin.tsx
-- [ ] [FILE] src/commands/plugin/pluginDetailsHelpers.tsx
-- [ ] [FILE] src/commands/plugin/usePagination.ts
+- [x] [FILE] src/commands/plugin/index.tsx
+- [x] [FILE] src/commands/plugin/parseArgs.ts
+- [x] [FILE] src/commands/plugin/plugin.tsx
+- [x] [FILE] src/commands/plugin/pluginDetailsHelpers.tsx
+- [x] [FILE] src/commands/plugin/usePagination.ts
 - [x] [FILE] src/commands/pr_comments/index.ts
 - [x] [FILE] src/commands/privacy-settings/index.ts
 - [x] [FILE] src/commands/privacy-settings/privacy-settings.tsx
