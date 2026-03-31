@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 07:31:42 +0800
+Generated at: 2026-04-01 07:34:33 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -515,8 +515,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/commands/plugin/pluginDetailsHelpers.tsx
 - [ ] [FILE] src/commands/plugin/usePagination.ts
 - [ ] [FILE] src/commands/pr_comments/index.ts
-- [ ] [FILE] src/commands/privacy-settings/index.ts
-- [ ] [FILE] src/commands/privacy-settings/privacy-settings.tsx
+- [x] [FILE] src/commands/privacy-settings/index.ts
+- [x] [FILE] src/commands/privacy-settings/privacy-settings.tsx
 - [ ] [FILE] src/commands/rate-limit-options/index.ts
 - [ ] [FILE] src/commands/rate-limit-options/rate-limit-options.tsx
 - [ ] [FILE] src/commands/release-notes/index.ts
