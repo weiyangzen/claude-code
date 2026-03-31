@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 07:42:12 +0800
+Generated at: 2026-04-01 07:42:54 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -523,12 +523,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/release-notes/release-notes.ts
 - [x] [FILE] src/commands/reload-plugins/index.ts
 - [x] [FILE] src/commands/reload-plugins/reload-plugins.ts
-- [ ] [FILE] src/commands/remote-env/index.ts
-- [ ] [FILE] src/commands/remote-env/remote-env.tsx
-- [ ] [FILE] src/commands/remote-setup/api.ts
-- [ ] [FILE] src/commands/remote-setup/index.ts
-- [ ] [FILE] src/commands/remote-setup/remote-setup.tsx
-- [ ] [FILE] src/commands/rename/generateSessionName.ts
+- [x] [FILE] src/commands/remote-env/index.ts
+- [x] [FILE] src/commands/remote-env/remote-env.tsx
+- [x] [FILE] src/commands/remote-setup/api.ts
+- [x] [FILE] src/commands/remote-setup/index.ts
+- [x] [FILE] src/commands/remote-setup/remote-setup.tsx
+- [x] [FILE] src/commands/rename/generateSessionName.ts
 - [ ] [FILE] src/commands/rename/index.ts
 - [ ] [FILE] src/commands/rename/rename.ts
 - [ ] [FILE] src/commands/reset-limits/index.js
