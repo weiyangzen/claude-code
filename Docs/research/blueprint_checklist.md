@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:50:23 +0800
+Generated at: 2026-04-01 18:52:16 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1679,7 +1679,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/backgroundHousekeeping.ts
 - [x] [FILE] src/utils/bash/ParsedCommand.ts
 - [x] [FILE] src/utils/bash/ShellSnapshot.ts
-- [ ] [FILE] src/utils/bash/ast.ts
+- [x] [FILE] src/utils/bash/ast.ts
 - [ ] [FILE] src/utils/bash/bashParser.ts
 - [ ] [FILE] src/utils/bash/bashPipeCommand.ts
 - [ ] [FILE] src/utils/bash/commands.ts
