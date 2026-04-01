@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:03:20 +0800
+Generated at: 2026-04-01 20:03:42 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2034,7 +2034,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/sandbox/sandbox-ui-utils.ts
 - [x] [FILE] src/utils/sanitization.ts
 - [x] [FILE] src/utils/screenshotClipboard.ts
-- [ ] [FILE] src/utils/sdkEventQueue.ts
+- [x] [FILE] src/utils/sdkEventQueue.ts
 - [x] [FILE] src/utils/secureStorage/fallbackStorage.ts
 - [x] [FILE] src/utils/secureStorage/index.ts
 - [x] [FILE] src/utils/secureStorage/keychainPrefetch.ts
@@ -2052,7 +2052,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/sessionIngressAuth.ts
 - [x] [FILE] src/utils/sessionRestore.ts
 - [x] [FILE] src/utils/sessionStart.ts
-- [ ] [FILE] src/utils/sessionState.ts
+- [x] [FILE] src/utils/sessionState.ts
 - [x] [FILE] src/utils/sessionStorage.ts
 - [x] [FILE] src/utils/sessionStoragePortable.ts
 - [x] [FILE] src/utils/sessionTitle.ts
@@ -2062,18 +2062,18 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/settings/applySettingsChange.ts
 - [x] [FILE] src/utils/settings/changeDetector.ts
 - [x] [FILE] src/utils/settings/constants.ts
-- [ ] [FILE] src/utils/settings/internalWrites.ts
+- [x] [FILE] src/utils/settings/internalWrites.ts
 - [ ] [FILE] src/utils/settings/managedPath.ts
 - [x] [FILE] src/utils/settings/mdm/constants.ts
 - [x] [FILE] src/utils/settings/mdm/rawRead.ts
-- [ ] [FILE] src/utils/settings/mdm/settings.ts
+- [x] [FILE] src/utils/settings/mdm/settings.ts
 - [ ] [FILE] src/utils/settings/permissionValidation.ts
 - [ ] [FILE] src/utils/settings/pluginOnlyPolicy.ts
 - [ ] [FILE] src/utils/settings/schemaOutput.ts
 - [ ] [FILE] src/utils/settings/settings.ts
 - [ ] [FILE] src/utils/settings/settingsCache.ts
 - [ ] [FILE] src/utils/settings/toolValidationConfig.ts
-- [ ] [FILE] src/utils/settings/types.ts
+- [x] [FILE] src/utils/settings/types.ts
 - [ ] [FILE] src/utils/settings/validateEditTool.ts
 - [ ] [FILE] src/utils/settings/validation.ts
 - [ ] [FILE] src/utils/settings/validationTips.ts
@@ -2087,8 +2087,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/shell/shellProvider.ts
 - [ ] [FILE] src/utils/shell/shellToolUtils.ts
 - [ ] [FILE] src/utils/shell/specPrefix.ts
-- [ ] [FILE] src/utils/shellConfig.ts
-- [ ] [FILE] src/utils/sideQuery.ts
+- [x] [FILE] src/utils/shellConfig.ts
+- [x] [FILE] src/utils/sideQuery.ts
 - [ ] [FILE] src/utils/sideQuestion.ts
 - [ ] [FILE] src/utils/signal.ts
 - [ ] [FILE] src/utils/sinks.ts
