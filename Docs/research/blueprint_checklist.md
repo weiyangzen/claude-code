@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:06:39 +0800
+Generated at: 2026-04-01 20:06:55 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2045,7 +2045,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/semanticNumber.ts
 - [x] [FILE] src/utils/semver.ts
 - [x] [FILE] src/utils/sequential.ts
-- [ ] [FILE] src/utils/sessionActivity.ts
+- [x] [FILE] src/utils/sessionActivity.ts
 - [ ] [FILE] src/utils/sessionEnvVars.ts
 - [ ] [FILE] src/utils/sessionEnvironment.ts
 - [ ] [FILE] src/utils/sessionFileAccessHooks.ts
@@ -2070,17 +2070,17 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/settings/permissionValidation.ts
 - [x] [FILE] src/utils/settings/pluginOnlyPolicy.ts
 - [x] [FILE] src/utils/settings/schemaOutput.ts
-- [ ] [FILE] src/utils/settings/settings.ts
+- [x] [FILE] src/utils/settings/settings.ts
 - [ ] [FILE] src/utils/settings/settingsCache.ts
 - [ ] [FILE] src/utils/settings/toolValidationConfig.ts
 - [x] [FILE] src/utils/settings/types.ts
 - [x] [FILE] src/utils/settings/validateEditTool.ts
 - [x] [FILE] src/utils/settings/validation.ts
-- [ ] [FILE] src/utils/settings/validationTips.ts
+- [x] [FILE] src/utils/settings/validationTips.ts
 - [x] [FILE] src/utils/shell/bashProvider.ts
 - [x] [FILE] src/utils/shell/outputLimits.ts
 - [x] [FILE] src/utils/shell/powershellDetection.ts
-- [ ] [FILE] src/utils/shell/powershellProvider.ts
+- [x] [FILE] src/utils/shell/powershellProvider.ts
 - [ ] [FILE] src/utils/shell/prefix.ts
 - [ ] [FILE] src/utils/shell/readOnlyCommandValidation.ts
 - [ ] [FILE] src/utils/shell/resolveDefaultShell.ts
@@ -2095,12 +2095,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/skills/skillChangeDetector.ts
 - [x] [FILE] src/utils/slashCommandParsing.ts
 - [x] [FILE] src/utils/sleep.ts
-- [ ] [FILE] src/utils/sliceAnsi.ts
+- [x] [FILE] src/utils/sliceAnsi.ts
 - [ ] [FILE] src/utils/slowOperations.ts
 - [ ] [FILE] src/utils/standaloneAgent.ts
 - [ ] [FILE] src/utils/startupProfiler.ts
 - [ ] [FILE] src/utils/staticRender.tsx
-- [ ] [FILE] src/utils/stats.ts
+- [x] [FILE] src/utils/stats.ts
 - [ ] [FILE] src/utils/statsCache.ts
 - [ ] [FILE] src/utils/status.tsx
 - [ ] [FILE] src/utils/statusNoticeDefinitions.tsx
