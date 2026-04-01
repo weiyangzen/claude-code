@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:23:21 +0800
+Generated at: 2026-04-01 18:23:45 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1618,17 +1618,17 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/ToolSearchTool/ToolSearchTool.ts
 - [x] [FILE] src/tools/ToolSearchTool/constants.ts
 - [x] [FILE] src/tools/ToolSearchTool/prompt.ts
-- [ ] [FILE] src/tools/WebFetchTool/UI.tsx
-- [ ] [FILE] src/tools/WebFetchTool/WebFetchTool.ts
-- [ ] [FILE] src/tools/WebFetchTool/preapproved.ts
+- [x] [FILE] src/tools/WebFetchTool/UI.tsx
+- [x] [FILE] src/tools/WebFetchTool/WebFetchTool.ts
+- [x] [FILE] src/tools/WebFetchTool/preapproved.ts
 - [ ] [FILE] src/tools/WebFetchTool/prompt.ts
 - [ ] [FILE] src/tools/WebFetchTool/utils.ts
 - [ ] [FILE] src/tools/WebSearchTool/UI.tsx
 - [ ] [FILE] src/tools/WebSearchTool/WebSearchTool.ts
 - [ ] [FILE] src/tools/WebSearchTool/prompt.ts
-- [ ] [FILE] src/tools/shared/gitOperationTracking.ts
+- [x] [FILE] src/tools/shared/gitOperationTracking.ts
 - [ ] [FILE] src/tools/shared/spawnMultiAgent.ts
-- [ ] [FILE] src/tools/testing/TestingPermissionTool.tsx
+- [x] [FILE] src/tools/testing/TestingPermissionTool.tsx
 - [ ] [FILE] src/tools/utils.ts
 - [ ] [FILE] src/types/command.ts
 - [ ] [FILE] src/types/generated/events_mono/claude_code/v1/claude_code_internal_event.ts
