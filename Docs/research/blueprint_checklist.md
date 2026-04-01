@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:32:51 +0800
+Generated at: 2026-04-01 13:33:15 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1222,7 +1222,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/keybindings/match.ts
 - [x] [FILE] src/keybindings/parser.ts
 - [x] [FILE] src/keybindings/reservedShortcuts.ts
-- [ ] [FILE] src/keybindings/resolver.ts
+- [x] [FILE] src/keybindings/resolver.ts
 - [ ] [FILE] src/keybindings/schema.ts
 - [ ] [FILE] src/keybindings/shortcutFormat.ts
 - [ ] [FILE] src/keybindings/template.ts
@@ -1233,7 +1233,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/memdir/findRelevantMemories.ts
 - [x] [FILE] src/memdir/memdir.ts
 - [x] [FILE] src/memdir/memoryAge.ts
-- [ ] [FILE] src/memdir/memoryScan.ts
+- [x] [FILE] src/memdir/memoryScan.ts
 - [ ] [FILE] src/memdir/memoryTypes.ts
 - [ ] [FILE] src/memdir/paths.ts
 - [ ] [FILE] src/memdir/teamMemPaths.ts
@@ -1241,7 +1241,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/migrations/migrateAutoUpdatesToSettings.ts
 - [x] [FILE] src/migrations/migrateBypassPermissionsAcceptedToSettings.ts
 - [x] [FILE] src/migrations/migrateEnableAllProjectMcpServersToSettings.ts
-- [ ] [FILE] src/migrations/migrateFennecToOpus.ts
+- [x] [FILE] src/migrations/migrateFennecToOpus.ts
 - [ ] [FILE] src/migrations/migrateLegacyOpusToCurrent.ts
 - [ ] [FILE] src/migrations/migrateOpusToOpus1m.ts
 - [ ] [FILE] src/migrations/migrateReplBridgeEnabledToRemoteControlAtStartup.ts
@@ -1249,7 +1249,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/migrations/migrateSonnet45ToSonnet46.ts
 - [ ] [FILE] src/migrations/resetAutoModeOptInForDefaultOffer.ts
 - [ ] [FILE] src/migrations/resetProToOpusDefault.ts
-- [ ] [FILE] src/moreright/useMoreRight.tsx
+- [x] [FILE] src/moreright/useMoreRight.tsx
 - [ ] [FILE] src/native-ts/color-diff/index.ts
 - [ ] [FILE] src/native-ts/file-index/index.ts
 - [ ] [FILE] src/native-ts/yoga-layout/enums.ts
