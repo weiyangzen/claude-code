@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:26:21 +0800
+Generated at: 2026-04-01 11:27:18 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -885,12 +885,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/messages/UserToolResultMessage/utils.tsx
 - [x] [FILE] src/components/messages/nullRenderingAttachments.ts
 - [x] [FILE] src/components/messages/teamMemCollapsed.tsx
-- [ ] [FILE] src/components/messages/teamMemSaved.ts
+- [x] [FILE] src/components/messages/teamMemSaved.ts
 - [x] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/AskUserQuestionPermissionRequest.tsx
 - [x] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/PreviewBox.tsx
-- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/PreviewQuestionView.tsx
-- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/QuestionNavigationBar.tsx
-- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/QuestionView.tsx
+- [x] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/PreviewQuestionView.tsx
+- [x] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/QuestionNavigationBar.tsx
+- [x] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/QuestionView.tsx
 - [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/SubmitQuestionsView.tsx
 - [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/use-multiple-choice-state.ts
 - [ ] [FILE] src/components/permissions/BashPermissionRequest/BashPermissionRequest.tsx
