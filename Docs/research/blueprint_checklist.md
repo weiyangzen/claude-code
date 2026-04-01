@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:15:00 +0800
+Generated at: 2026-04-01 20:16:24 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2132,7 +2132,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/reconnection.ts
 - [x] [FILE] src/utils/swarm/spawnInProcess.ts
 - [x] [FILE] src/utils/swarm/spawnUtils.ts
-- [ ] [FILE] src/utils/swarm/teamHelpers.ts
+- [x] [FILE] src/utils/swarm/teamHelpers.ts
 - [ ] [FILE] src/utils/swarm/teammateInit.ts
 - [ ] [FILE] src/utils/swarm/teammateLayoutManager.ts
 - [ ] [FILE] src/utils/swarm/teammateModel.ts
@@ -2145,8 +2145,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/task/TaskOutput.ts
 - [x] [FILE] src/utils/task/diskOutput.ts
 - [x] [FILE] src/utils/task/framework.ts
-- [ ] [FILE] src/utils/task/outputFormatting.ts
-- [ ] [FILE] src/utils/task/sdkProgress.ts
+- [x] [FILE] src/utils/task/outputFormatting.ts
+- [x] [FILE] src/utils/task/sdkProgress.ts
 - [ ] [FILE] src/utils/tasks.ts
 - [ ] [FILE] src/utils/teamDiscovery.ts
 - [ ] [FILE] src/utils/teamMemoryOps.ts
@@ -2164,12 +2164,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/telemetry/skillLoadedEvent.ts
 - [x] [FILE] src/utils/telemetryAttributes.ts
 - [x] [FILE] src/utils/teleport.tsx
-- [ ] [FILE] src/utils/teleport/api.ts
+- [x] [FILE] src/utils/teleport/api.ts
 - [ ] [FILE] src/utils/teleport/environmentSelection.ts
 - [ ] [FILE] src/utils/teleport/environments.ts
 - [ ] [FILE] src/utils/teleport/gitBundle.ts
 - [x] [FILE] src/utils/tempfile.ts
-- [ ] [FILE] src/utils/terminal.ts
+- [x] [FILE] src/utils/terminal.ts
 - [ ] [FILE] src/utils/terminalPanel.ts
 - [ ] [FILE] src/utils/textHighlighting.ts
 - [ ] [FILE] src/utils/theme.ts
