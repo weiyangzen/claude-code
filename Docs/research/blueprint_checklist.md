@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:36:26 +0800
+Generated at: 2026-04-01 13:37:10 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1223,36 +1223,36 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/keybindings/parser.ts
 - [x] [FILE] src/keybindings/reservedShortcuts.ts
 - [x] [FILE] src/keybindings/resolver.ts
-- [ ] [FILE] src/keybindings/schema.ts
-- [ ] [FILE] src/keybindings/shortcutFormat.ts
-- [ ] [FILE] src/keybindings/template.ts
+- [x] [FILE] src/keybindings/schema.ts
+- [x] [FILE] src/keybindings/shortcutFormat.ts
+- [x] [FILE] src/keybindings/template.ts
 - [ ] [FILE] src/keybindings/useKeybinding.ts
-- [ ] [FILE] src/keybindings/useShortcutDisplay.ts
+- [x] [FILE] src/keybindings/useShortcutDisplay.ts
 - [ ] [FILE] src/keybindings/validate.ts
 - [x] [FILE] src/main.tsx
 - [x] [FILE] src/memdir/findRelevantMemories.ts
 - [x] [FILE] src/memdir/memdir.ts
 - [x] [FILE] src/memdir/memoryAge.ts
 - [x] [FILE] src/memdir/memoryScan.ts
-- [ ] [FILE] src/memdir/memoryTypes.ts
-- [ ] [FILE] src/memdir/paths.ts
-- [ ] [FILE] src/memdir/teamMemPaths.ts
+- [x] [FILE] src/memdir/memoryTypes.ts
+- [x] [FILE] src/memdir/paths.ts
+- [x] [FILE] src/memdir/teamMemPaths.ts
 - [ ] [FILE] src/memdir/teamMemPrompts.ts
 - [x] [FILE] src/migrations/migrateAutoUpdatesToSettings.ts
 - [x] [FILE] src/migrations/migrateBypassPermissionsAcceptedToSettings.ts
 - [x] [FILE] src/migrations/migrateEnableAllProjectMcpServersToSettings.ts
 - [x] [FILE] src/migrations/migrateFennecToOpus.ts
 - [x] [FILE] src/migrations/migrateLegacyOpusToCurrent.ts
-- [ ] [FILE] src/migrations/migrateOpusToOpus1m.ts
-- [ ] [FILE] src/migrations/migrateReplBridgeEnabledToRemoteControlAtStartup.ts
-- [ ] [FILE] src/migrations/migrateSonnet1mToSonnet45.ts
-- [ ] [FILE] src/migrations/migrateSonnet45ToSonnet46.ts
-- [ ] [FILE] src/migrations/resetAutoModeOptInForDefaultOffer.ts
-- [ ] [FILE] src/migrations/resetProToOpusDefault.ts
+- [x] [FILE] src/migrations/migrateOpusToOpus1m.ts
+- [x] [FILE] src/migrations/migrateReplBridgeEnabledToRemoteControlAtStartup.ts
+- [x] [FILE] src/migrations/migrateSonnet1mToSonnet45.ts
+- [x] [FILE] src/migrations/migrateSonnet45ToSonnet46.ts
+- [x] [FILE] src/migrations/resetAutoModeOptInForDefaultOffer.ts
+- [x] [FILE] src/migrations/resetProToOpusDefault.ts
 - [x] [FILE] src/moreright/useMoreRight.tsx
 - [ ] [FILE] src/native-ts/color-diff/index.ts
 - [x] [FILE] src/native-ts/file-index/index.ts
-- [ ] [FILE] src/native-ts/yoga-layout/enums.ts
+- [x] [FILE] src/native-ts/yoga-layout/enums.ts
 - [ ] [FILE] src/native-ts/yoga-layout/index.ts
 - [ ] [FILE] src/outputStyles/loadOutputStylesDir.ts
 - [ ] [FILE] src/plugins/builtinPlugins.ts
