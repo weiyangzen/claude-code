@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:30:17 +0800
+Generated at: 2026-04-01 10:33:19 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -822,7 +822,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/diff/DiffDetailView.tsx
 - [ ] [FILE] src/components/diff/DiffDialog.tsx
 - [ ] [FILE] src/components/diff/DiffFileList.tsx
-- [ ] [FILE] src/components/grove/Grove.tsx
+- [x] [FILE] src/components/grove/Grove.tsx
 - [ ] [FILE] src/components/hooks/HooksConfigMenu.tsx
 - [ ] [FILE] src/components/hooks/PromptDialog.tsx
 - [ ] [FILE] src/components/hooks/SelectEventMode.tsx
