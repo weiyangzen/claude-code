@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 14:36:51 +0800
+Generated at: 2026-04-01 14:37:32 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1326,10 +1326,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/compact/compactWarningState.ts
 - [x] [FILE] src/services/compact/grouping.ts
 - [x] [FILE] src/services/compact/microCompact.ts
-- [ ] [FILE] src/services/compact/postCompactCleanup.ts
-- [ ] [FILE] src/services/compact/prompt.ts
-- [ ] [FILE] src/services/compact/sessionMemoryCompact.ts
-- [ ] [FILE] src/services/compact/timeBasedMCConfig.ts
+- [x] [FILE] src/services/compact/postCompactCleanup.ts
+- [x] [FILE] src/services/compact/prompt.ts
+- [x] [FILE] src/services/compact/sessionMemoryCompact.ts
+- [x] [FILE] src/services/compact/timeBasedMCConfig.ts
 - [x] [FILE] src/services/diagnosticTracking.ts
 - [ ] [FILE] src/services/extractMemories/extractMemories.ts
 - [ ] [FILE] src/services/extractMemories/prompts.ts
@@ -1365,8 +1365,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/services/mcp/xaa.ts
 - [ ] [FILE] src/services/mcp/xaaIdpLogin.ts
 - [x] [FILE] src/services/mcpServerApproval.tsx
-- [ ] [FILE] src/services/mockRateLimits.ts
-- [ ] [FILE] src/services/notifier.ts
+- [x] [FILE] src/services/mockRateLimits.ts
+- [x] [FILE] src/services/notifier.ts
 - [ ] [FILE] src/services/oauth/auth-code-listener.ts
 - [ ] [FILE] src/services/oauth/client.ts
 - [ ] [FILE] src/services/oauth/crypto.ts
@@ -1377,9 +1377,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/services/plugins/pluginOperations.ts
 - [ ] [FILE] src/services/policyLimits/index.ts
 - [ ] [FILE] src/services/policyLimits/types.ts
-- [ ] [FILE] src/services/preventSleep.ts
-- [ ] [FILE] src/services/rateLimitMessages.ts
-- [ ] [FILE] src/services/rateLimitMocking.ts
+- [x] [FILE] src/services/preventSleep.ts
+- [x] [FILE] src/services/rateLimitMessages.ts
+- [x] [FILE] src/services/rateLimitMocking.ts
 - [ ] [FILE] src/services/remoteManagedSettings/index.ts
 - [ ] [FILE] src/services/remoteManagedSettings/securityCheck.tsx
 - [ ] [FILE] src/services/remoteManagedSettings/syncCache.ts
