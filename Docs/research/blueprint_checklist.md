@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:16:19 +0800
+Generated at: 2026-04-01 13:17:01 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1138,8 +1138,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/components/Spacer.tsx
 - [x] [FILE] src/ink/components/StdinContext.ts
 - [x] [FILE] src/ink/components/TerminalFocusContext.tsx
-- [ ] [FILE] src/ink/components/TerminalSizeContext.tsx
-- [ ] [FILE] src/ink/components/Text.tsx
+- [x] [FILE] src/ink/components/TerminalSizeContext.tsx
+- [x] [FILE] src/ink/components/Text.tsx
 - [x] [FILE] src/ink/constants.ts
 - [x] [FILE] src/ink/dom.ts
 - [x] [FILE] src/ink/events/click-event.ts
@@ -1147,8 +1147,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/events/emitter.ts
 - [x] [FILE] src/ink/events/event-handlers.ts
 - [x] [FILE] src/ink/events/event.ts
-- [ ] [FILE] src/ink/events/focus-event.ts
-- [ ] [FILE] src/ink/events/input-event.ts
+- [x] [FILE] src/ink/events/focus-event.ts
+- [x] [FILE] src/ink/events/input-event.ts
 - [ ] [FILE] src/ink/events/keyboard-event.ts
 - [ ] [FILE] src/ink/events/terminal-event.ts
 - [ ] [FILE] src/ink/events/terminal-focus-event.ts
@@ -1156,8 +1156,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/frame.ts
 - [x] [FILE] src/ink/get-max-width.ts
 - [x] [FILE] src/ink/hit-test.ts
-- [ ] [FILE] src/ink/hooks/use-animation-frame.ts
-- [ ] [FILE] src/ink/hooks/use-app.ts
+- [x] [FILE] src/ink/hooks/use-animation-frame.ts
+- [x] [FILE] src/ink/hooks/use-app.ts
 - [ ] [FILE] src/ink/hooks/use-declared-cursor.ts
 - [ ] [FILE] src/ink/hooks/use-input.ts
 - [ ] [FILE] src/ink/hooks/use-interval.ts
