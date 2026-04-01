@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:47:58 +0800
+Generated at: 2026-04-01 12:59:07 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1047,13 +1047,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/useCanUseTool.tsx
 - [x] [FILE] src/hooks/useCancelRequest.ts
 - [x] [FILE] src/hooks/useChromeExtensionNotification.tsx
-- [ ] [FILE] src/hooks/useClaudeCodeHintRecommendation.tsx
-- [ ] [FILE] src/hooks/useClipboardImageHint.ts
-- [ ] [FILE] src/hooks/useCommandKeybindings.tsx
-- [ ] [FILE] src/hooks/useCommandQueue.ts
-- [ ] [FILE] src/hooks/useCopyOnSelect.ts
-- [ ] [FILE] src/hooks/useDeferredHookMessages.ts
-- [ ] [FILE] src/hooks/useDiffData.ts
+- [x] [FILE] src/hooks/useClaudeCodeHintRecommendation.tsx
+- [x] [FILE] src/hooks/useClipboardImageHint.ts
+- [x] [FILE] src/hooks/useCommandKeybindings.tsx
+- [x] [FILE] src/hooks/useCommandQueue.ts
+- [x] [FILE] src/hooks/useCopyOnSelect.ts
+- [x] [FILE] src/hooks/useDeferredHookMessages.ts
+- [x] [FILE] src/hooks/useDiffData.ts
 - [x] [FILE] src/hooks/useDiffInIDE.ts
 - [x] [FILE] src/hooks/useDirectConnect.ts
 - [x] [FILE] src/hooks/useDoublePress.ts
@@ -1084,13 +1084,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/hooks/useMinDisplayTime.ts
 - [ ] [FILE] src/hooks/useNotifyAfterTimeout.ts
 - [ ] [FILE] src/hooks/useOfficialMarketplaceNotification.tsx
-- [ ] [FILE] src/hooks/usePasteHandler.ts
-- [ ] [FILE] src/hooks/usePluginRecommendationBase.tsx
-- [ ] [FILE] src/hooks/usePrStatus.ts
-- [ ] [FILE] src/hooks/usePromptSuggestion.ts
-- [ ] [FILE] src/hooks/usePromptsFromClaudeInChrome.tsx
-- [ ] [FILE] src/hooks/useQueueProcessor.ts
-- [ ] [FILE] src/hooks/useRemoteSession.ts
+- [x] [FILE] src/hooks/usePasteHandler.ts
+- [x] [FILE] src/hooks/usePluginRecommendationBase.tsx
+- [x] [FILE] src/hooks/usePrStatus.ts
+- [x] [FILE] src/hooks/usePromptSuggestion.ts
+- [x] [FILE] src/hooks/usePromptsFromClaudeInChrome.tsx
+- [x] [FILE] src/hooks/useQueueProcessor.ts
+- [x] [FILE] src/hooks/useRemoteSession.ts
 - [ ] [FILE] src/hooks/useReplBridge.tsx
 - [ ] [FILE] src/hooks/useSSHSession.ts
 - [ ] [FILE] src/hooks/useScheduledTasks.ts
