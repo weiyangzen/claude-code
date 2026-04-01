@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 14:46:26 +0800
+Generated at: 2026-04-01 14:50:59 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1334,16 +1334,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/extractMemories/extractMemories.ts
 - [x] [FILE] src/services/extractMemories/prompts.ts
 - [x] [FILE] src/services/internalLogging.ts
-- [ ] [FILE] src/services/lsp/LSPClient.ts
-- [ ] [FILE] src/services/lsp/LSPDiagnosticRegistry.ts
-- [ ] [FILE] src/services/lsp/LSPServerInstance.ts
+- [x] [FILE] src/services/lsp/LSPClient.ts
+- [x] [FILE] src/services/lsp/LSPDiagnosticRegistry.ts
+- [x] [FILE] src/services/lsp/LSPServerInstance.ts
 - [ ] [FILE] src/services/lsp/LSPServerManager.ts
 - [ ] [FILE] src/services/lsp/config.ts
 - [ ] [FILE] src/services/lsp/manager.ts
 - [ ] [FILE] src/services/lsp/passiveFeedback.ts
-- [ ] [FILE] src/services/mcp/InProcessTransport.ts
-- [ ] [FILE] src/services/mcp/MCPConnectionManager.tsx
-- [ ] [FILE] src/services/mcp/SdkControlTransport.ts
+- [x] [FILE] src/services/mcp/InProcessTransport.ts
+- [x] [FILE] src/services/mcp/MCPConnectionManager.tsx
+- [x] [FILE] src/services/mcp/SdkControlTransport.ts
 - [x] [FILE] src/services/mcp/auth.ts
 - [x] [FILE] src/services/mcp/channelAllowlist.ts
 - [ ] [FILE] src/services/mcp/channelNotification.ts
