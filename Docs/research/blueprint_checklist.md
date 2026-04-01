@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 16:54:07 +0800
+Generated at: 2026-04-01 16:58:44 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1491,11 +1491,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/BriefTool/attachments.ts
 - [x] [FILE] src/tools/BriefTool/prompt.ts
 - [x] [FILE] src/tools/BriefTool/upload.ts
-- [ ] [FILE] src/tools/ConfigTool/ConfigTool.ts
-- [ ] [FILE] src/tools/ConfigTool/UI.tsx
-- [ ] [FILE] src/tools/ConfigTool/constants.ts
-- [ ] [FILE] src/tools/ConfigTool/prompt.ts
-- [ ] [FILE] src/tools/ConfigTool/supportedSettings.ts
+- [x] [FILE] src/tools/ConfigTool/ConfigTool.ts
+- [x] [FILE] src/tools/ConfigTool/UI.tsx
+- [x] [FILE] src/tools/ConfigTool/constants.ts
+- [x] [FILE] src/tools/ConfigTool/prompt.ts
+- [x] [FILE] src/tools/ConfigTool/supportedSettings.ts
 - [ ] [FILE] src/tools/EnterPlanModeTool/EnterPlanModeTool.ts
 - [ ] [FILE] src/tools/EnterPlanModeTool/UI.tsx
 - [ ] [FILE] src/tools/EnterPlanModeTool/constants.ts
