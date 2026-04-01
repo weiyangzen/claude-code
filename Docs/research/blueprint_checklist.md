@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:23:51 +0800
+Generated at: 2026-04-01 08:27:37 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -599,17 +599,17 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/CompactSummary.tsx
 - [x] [FILE] src/components/ConfigurableShortcutHint.tsx
 - [x] [FILE] src/components/ConsoleOAuthFlow.tsx
-- [ ] [FILE] src/components/ContextSuggestions.tsx
+- [x] [FILE] src/components/ContextSuggestions.tsx
 - [x] [FILE] src/components/ContextVisualization.tsx
-- [ ] [FILE] src/components/CoordinatorAgentStatus.tsx
-- [ ] [FILE] src/components/CostThresholdDialog.tsx
+- [x] [FILE] src/components/CoordinatorAgentStatus.tsx
+- [x] [FILE] src/components/CostThresholdDialog.tsx
 - [ ] [FILE] src/components/CtrlOToExpand.tsx
 - [ ] [FILE] src/components/CustomSelect/SelectMulti.tsx
 - [ ] [FILE] src/components/CustomSelect/index.ts
 - [ ] [FILE] src/components/CustomSelect/option-map.ts
 - [ ] [FILE] src/components/CustomSelect/select-input-option.tsx
 - [ ] [FILE] src/components/CustomSelect/select-option.tsx
-- [ ] [FILE] src/components/CustomSelect/select.tsx
+- [x] [FILE] src/components/CustomSelect/select.tsx
 - [ ] [FILE] src/components/CustomSelect/use-multi-select-state.ts
 - [ ] [FILE] src/components/CustomSelect/use-select-input.ts
 - [ ] [FILE] src/components/CustomSelect/use-select-navigation.ts
