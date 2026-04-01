@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:23:51 +0800
+Generated at: 2026-04-01 19:27:44 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1831,8 +1831,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/gitDiff.ts
 - [x] [FILE] src/utils/gitSettings.ts
 - [x] [FILE] src/utils/github/ghAuthStatus.ts
-- [ ] [FILE] src/utils/githubRepoPathMapping.ts
-- [ ] [FILE] src/utils/glob.ts
+- [x] [FILE] src/utils/githubRepoPathMapping.ts
+- [x] [FILE] src/utils/glob.ts
 - [ ] [FILE] src/utils/gracefulShutdown.ts
 - [ ] [FILE] src/utils/groupToolUses.ts
 - [ ] [FILE] src/utils/handlePromptSubmit.ts
@@ -1841,7 +1841,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/heapDumpService.ts
 - [ ] [FILE] src/utils/heatmap.ts
 - [ ] [FILE] src/utils/highlightMatch.tsx
-- [ ] [FILE] src/utils/hooks.ts
+- [x] [FILE] src/utils/hooks.ts
 - [ ] [FILE] src/utils/hooks/AsyncHookRegistry.ts
 - [ ] [FILE] src/utils/hooks/apiQueryHookHelper.ts
 - [ ] [FILE] src/utils/hooks/execAgentHook.ts
