@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:17:01 +0800
+Generated at: 2026-04-01 13:18:26 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1149,7 +1149,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/events/event.ts
 - [x] [FILE] src/ink/events/focus-event.ts
 - [x] [FILE] src/ink/events/input-event.ts
-- [ ] [FILE] src/ink/events/keyboard-event.ts
+- [x] [FILE] src/ink/events/keyboard-event.ts
 - [ ] [FILE] src/ink/events/terminal-event.ts
 - [ ] [FILE] src/ink/events/terminal-focus-event.ts
 - [x] [FILE] src/ink/focus.ts
@@ -1158,7 +1158,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/hit-test.ts
 - [x] [FILE] src/ink/hooks/use-animation-frame.ts
 - [x] [FILE] src/ink/hooks/use-app.ts
-- [ ] [FILE] src/ink/hooks/use-declared-cursor.ts
+- [x] [FILE] src/ink/hooks/use-declared-cursor.ts
 - [ ] [FILE] src/ink/hooks/use-input.ts
 - [ ] [FILE] src/ink/hooks/use-interval.ts
 - [ ] [FILE] src/ink/hooks/use-search-highlight.ts
@@ -1168,7 +1168,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/ink/hooks/use-terminal-focus.ts
 - [ ] [FILE] src/ink/hooks/use-terminal-title.ts
 - [ ] [FILE] src/ink/hooks/use-terminal-viewport.ts
-- [ ] [FILE] src/ink/ink.tsx
+- [x] [FILE] src/ink/ink.tsx
 - [ ] [FILE] src/ink/instances.ts
 - [ ] [FILE] src/ink/layout/engine.ts
 - [ ] [FILE] src/ink/layout/geometry.ts
