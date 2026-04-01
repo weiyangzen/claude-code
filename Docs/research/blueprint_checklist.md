@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:56:41 +0800
+Generated at: 2026-04-01 18:57:47 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1686,19 +1686,19 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/bash/heredoc.ts
 - [x] [FILE] src/utils/bash/parser.ts
 - [x] [FILE] src/utils/bash/prefix.ts
-- [ ] [FILE] src/utils/bash/registry.ts
-- [ ] [FILE] src/utils/bash/shellCompletion.ts
-- [ ] [FILE] src/utils/bash/shellPrefix.ts
-- [ ] [FILE] src/utils/bash/shellQuote.ts
-- [ ] [FILE] src/utils/bash/shellQuoting.ts
+- [x] [FILE] src/utils/bash/registry.ts
+- [x] [FILE] src/utils/bash/shellCompletion.ts
+- [x] [FILE] src/utils/bash/shellPrefix.ts
+- [x] [FILE] src/utils/bash/shellQuote.ts
+- [x] [FILE] src/utils/bash/shellQuoting.ts
 - [x] [FILE] src/utils/bash/specs/alias.ts
 - [x] [FILE] src/utils/bash/specs/index.ts
-- [ ] [FILE] src/utils/bash/specs/nohup.ts
-- [ ] [FILE] src/utils/bash/specs/pyright.ts
-- [ ] [FILE] src/utils/bash/specs/sleep.ts
-- [ ] [FILE] src/utils/bash/specs/srun.ts
-- [ ] [FILE] src/utils/bash/specs/time.ts
-- [ ] [FILE] src/utils/bash/specs/timeout.ts
+- [x] [FILE] src/utils/bash/specs/nohup.ts
+- [x] [FILE] src/utils/bash/specs/pyright.ts
+- [x] [FILE] src/utils/bash/specs/sleep.ts
+- [x] [FILE] src/utils/bash/specs/srun.ts
+- [x] [FILE] src/utils/bash/specs/time.ts
+- [x] [FILE] src/utils/bash/specs/timeout.ts
 - [ ] [FILE] src/utils/bash/treeSitterAnalysis.ts
 - [x] [FILE] src/utils/betas.ts
 - [x] [FILE] src/utils/billing.ts
@@ -1713,16 +1713,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/classifierApprovalsHook.ts
 - [x] [FILE] src/utils/claudeCodeHints.ts
 - [x] [FILE] src/utils/claudeDesktop.ts
-- [ ] [FILE] src/utils/claudeInChrome/chromeNativeHost.ts
-- [ ] [FILE] src/utils/claudeInChrome/common.ts
-- [ ] [FILE] src/utils/claudeInChrome/mcpServer.ts
+- [x] [FILE] src/utils/claudeInChrome/chromeNativeHost.ts
+- [x] [FILE] src/utils/claudeInChrome/common.ts
+- [x] [FILE] src/utils/claudeInChrome/mcpServer.ts
 - [ ] [FILE] src/utils/claudeInChrome/prompt.ts
 - [ ] [FILE] src/utils/claudeInChrome/setup.ts
 - [ ] [FILE] src/utils/claudeInChrome/setupPortable.ts
 - [ ] [FILE] src/utils/claudeInChrome/toolRendering.tsx
-- [ ] [FILE] src/utils/claudemd.ts
-- [ ] [FILE] src/utils/cleanup.ts
-- [ ] [FILE] src/utils/cleanupRegistry.ts
+- [x] [FILE] src/utils/claudemd.ts
+- [x] [FILE] src/utils/cleanup.ts
+- [x] [FILE] src/utils/cleanupRegistry.ts
 - [ ] [FILE] src/utils/cliArgs.ts
 - [ ] [FILE] src/utils/cliHighlight.ts
 - [ ] [FILE] src/utils/codeIndexing.ts
