@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:27:58 +0800
+Generated at: 2026-04-01 13:28:37 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1202,8 +1202,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/termio.ts
 - [x] [FILE] src/ink/termio/ansi.ts
 - [x] [FILE] src/ink/termio/csi.ts
-- [ ] [FILE] src/ink/termio/dec.ts
-- [ ] [FILE] src/ink/termio/esc.ts
+- [x] [FILE] src/ink/termio/dec.ts
+- [x] [FILE] src/ink/termio/esc.ts
 - [ ] [FILE] src/ink/termio/osc.ts
 - [ ] [FILE] src/ink/termio/parser.ts
 - [ ] [FILE] src/ink/termio/sgr.ts
@@ -1214,7 +1214,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/widest-line.ts
 - [x] [FILE] src/ink/wrap-text.ts
 - [x] [FILE] src/ink/wrapAnsi.ts
-- [ ] [FILE] src/interactiveHelpers.tsx
+- [x] [FILE] src/interactiveHelpers.tsx
 - [ ] [FILE] src/keybindings/KeybindingContext.tsx
 - [ ] [FILE] src/keybindings/KeybindingProviderSetup.tsx
 - [ ] [FILE] src/keybindings/defaultBindings.ts
