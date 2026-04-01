@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:21:01 +0800
+Generated at: 2026-04-01 12:22:39 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -982,8 +982,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/constants/oauth.ts
 - [x] [FILE] src/constants/outputStyles.ts
 - [x] [FILE] src/constants/product.ts
-- [ ] [FILE] src/constants/prompts.ts
-- [ ] [FILE] src/constants/spinnerVerbs.ts
+- [x] [FILE] src/constants/prompts.ts
+- [x] [FILE] src/constants/spinnerVerbs.ts
 - [x] [FILE] src/constants/system.ts
 - [x] [FILE] src/constants/systemPromptSections.ts
 - [x] [FILE] src/constants/toolLimits.ts
@@ -1037,8 +1037,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/hooks/toolPermission/handlers/swarmWorkerHandler.ts
 - [ ] [FILE] src/hooks/toolPermission/permissionLogging.ts
 - [x] [FILE] src/hooks/unifiedSuggestions.ts
-- [ ] [FILE] src/hooks/useAfterFirstRender.ts
-- [ ] [FILE] src/hooks/useApiKeyVerification.ts
+- [x] [FILE] src/hooks/useAfterFirstRender.ts
+- [x] [FILE] src/hooks/useApiKeyVerification.ts
 - [ ] [FILE] src/hooks/useArrowKeyHistory.tsx
 - [ ] [FILE] src/hooks/useAssistantHistory.ts
 - [ ] [FILE] src/hooks/useAwaySummary.ts
