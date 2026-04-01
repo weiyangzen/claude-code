@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:11:21 +0800
+Generated at: 2026-04-01 20:13:35 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2107,7 +2107,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/statusNoticeHelpers.ts
 - [x] [FILE] src/utils/stream.ts
 - [x] [FILE] src/utils/streamJsonStdoutGuard.ts
-- [ ] [FILE] src/utils/streamlinedTransform.ts
+- [x] [FILE] src/utils/streamlinedTransform.ts
 - [ ] [FILE] src/utils/stringUtils.ts
 - [ ] [FILE] src/utils/subprocessEnv.ts
 - [x] [FILE] src/utils/suggestions/commandSuggestions.ts
@@ -2118,7 +2118,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/It2SetupPrompt.tsx
 - [x] [FILE] src/utils/swarm/backends/ITermBackend.ts
 - [x] [FILE] src/utils/swarm/backends/InProcessBackend.ts
-- [ ] [FILE] src/utils/swarm/backends/PaneBackendExecutor.ts
+- [x] [FILE] src/utils/swarm/backends/PaneBackendExecutor.ts
 - [ ] [FILE] src/utils/swarm/backends/TmuxBackend.ts
 - [ ] [FILE] src/utils/swarm/backends/detection.ts
 - [ ] [FILE] src/utils/swarm/backends/it2Setup.ts
@@ -2129,7 +2129,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/inProcessRunner.ts
 - [x] [FILE] src/utils/swarm/leaderPermissionBridge.ts
 - [x] [FILE] src/utils/swarm/permissionSync.ts
-- [ ] [FILE] src/utils/swarm/reconnection.ts
+- [x] [FILE] src/utils/swarm/reconnection.ts
 - [ ] [FILE] src/utils/swarm/spawnInProcess.ts
 - [ ] [FILE] src/utils/swarm/spawnUtils.ts
 - [ ] [FILE] src/utils/swarm/teamHelpers.ts
@@ -2142,7 +2142,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/systemPromptType.ts
 - [ ] [FILE] src/utils/systemTheme.ts
 - [ ] [FILE] src/utils/taggedId.ts
-- [ ] [FILE] src/utils/task/TaskOutput.ts
+- [x] [FILE] src/utils/task/TaskOutput.ts
 - [ ] [FILE] src/utils/task/diskOutput.ts
 - [ ] [FILE] src/utils/task/framework.ts
 - [ ] [FILE] src/utils/task/outputFormatting.ts
@@ -2150,7 +2150,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/tasks.ts
 - [ ] [FILE] src/utils/teamDiscovery.ts
 - [ ] [FILE] src/utils/teamMemoryOps.ts
-- [ ] [FILE] src/utils/teammate.ts
+- [x] [FILE] src/utils/teammate.ts
 - [ ] [FILE] src/utils/teammateContext.ts
 - [ ] [FILE] src/utils/teammateMailbox.ts
 - [ ] [FILE] src/utils/telemetry/betaSessionTracing.ts
@@ -2160,8 +2160,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/telemetry/logger.ts
 - [ ] [FILE] src/utils/telemetry/perfettoTracing.ts
 - [ ] [FILE] src/utils/telemetry/pluginTelemetry.ts
-- [ ] [FILE] src/utils/telemetry/sessionTracing.ts
-- [ ] [FILE] src/utils/telemetry/skillLoadedEvent.ts
+- [x] [FILE] src/utils/telemetry/sessionTracing.ts
+- [x] [FILE] src/utils/telemetry/skillLoadedEvent.ts
 - [ ] [FILE] src/utils/telemetryAttributes.ts
 - [ ] [FILE] src/utils/teleport.tsx
 - [ ] [FILE] src/utils/teleport/api.ts
