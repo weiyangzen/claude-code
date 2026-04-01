@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:32:29 +0800
+Generated at: 2026-04-01 18:33:07 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1645,7 +1645,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/upstreamproxy/upstreamproxy.ts
 - [x] [FILE] src/utils/CircularBuffer.ts
 - [x] [FILE] src/utils/Cursor.ts
-- [ ] [FILE] src/utils/QueryGuard.ts
+- [x] [FILE] src/utils/QueryGuard.ts
 - [ ] [FILE] src/utils/Shell.ts
 - [ ] [FILE] src/utils/ShellCommand.ts
 - [ ] [FILE] src/utils/abortController.ts
@@ -1656,7 +1656,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/agentSwarmsEnabled.ts
 - [ ] [FILE] src/utils/agenticSessionSearch.ts
 - [ ] [FILE] src/utils/analyzeContext.ts
-- [ ] [FILE] src/utils/ansiToPng.ts
+- [x] [FILE] src/utils/ansiToPng.ts
 - [ ] [FILE] src/utils/ansiToSvg.ts
 - [ ] [FILE] src/utils/api.ts
 - [ ] [FILE] src/utils/apiPreconnect.ts
