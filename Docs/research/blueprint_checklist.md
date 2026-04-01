@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 09:48:23 +0800
+Generated at: 2026-04-01 09:54:14 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -707,34 +707,34 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/PromptInput/PromptInputFooter.tsx
 - [x] [FILE] src/components/PromptInput/PromptInputFooterLeftSide.tsx
 - [x] [FILE] src/components/PromptInput/PromptInputFooterSuggestions.tsx
-- [ ] [FILE] src/components/PromptInput/PromptInputHelpMenu.tsx
-- [ ] [FILE] src/components/PromptInput/PromptInputModeIndicator.tsx
+- [x] [FILE] src/components/PromptInput/PromptInputHelpMenu.tsx
+- [x] [FILE] src/components/PromptInput/PromptInputModeIndicator.tsx
 - [ ] [FILE] src/components/PromptInput/PromptInputQueuedCommands.tsx
 - [ ] [FILE] src/components/PromptInput/PromptInputStashNotice.tsx
-- [ ] [FILE] src/components/PromptInput/SandboxPromptFooterHint.tsx
-- [ ] [FILE] src/components/PromptInput/ShimmeredInput.tsx
-- [ ] [FILE] src/components/PromptInput/VoiceIndicator.tsx
-- [ ] [FILE] src/components/PromptInput/inputModes.ts
-- [ ] [FILE] src/components/PromptInput/inputPaste.ts
+- [x] [FILE] src/components/PromptInput/SandboxPromptFooterHint.tsx
+- [x] [FILE] src/components/PromptInput/ShimmeredInput.tsx
+- [x] [FILE] src/components/PromptInput/VoiceIndicator.tsx
+- [x] [FILE] src/components/PromptInput/inputModes.ts
+- [x] [FILE] src/components/PromptInput/inputPaste.ts
 - [ ] [FILE] src/components/PromptInput/useMaybeTruncateInput.ts
 - [ ] [FILE] src/components/PromptInput/usePromptInputPlaceholder.ts
 - [ ] [FILE] src/components/PromptInput/useShowFastIconHint.ts
 - [ ] [FILE] src/components/PromptInput/useSwarmBanner.ts
 - [ ] [FILE] src/components/PromptInput/utils.ts
 - [x] [FILE] src/components/QuickOpenDialog.tsx
-- [ ] [FILE] src/components/RemoteCallout.tsx
-- [ ] [FILE] src/components/RemoteEnvironmentDialog.tsx
+- [x] [FILE] src/components/RemoteCallout.tsx
+- [x] [FILE] src/components/RemoteEnvironmentDialog.tsx
 - [ ] [FILE] src/components/ResumeTask.tsx
 - [ ] [FILE] src/components/SandboxViolationExpandedView.tsx
 - [x] [FILE] src/components/ScrollKeybindingHandler.tsx
-- [ ] [FILE] src/components/SearchBox.tsx
-- [ ] [FILE] src/components/SentryErrorBoundary.ts
-- [ ] [FILE] src/components/SessionBackgroundHint.tsx
+- [x] [FILE] src/components/SearchBox.tsx
+- [x] [FILE] src/components/SentryErrorBoundary.ts
+- [x] [FILE] src/components/SessionBackgroundHint.tsx
 - [ ] [FILE] src/components/SessionPreview.tsx
 - [ ] [FILE] src/components/Settings/Config.tsx
-- [ ] [FILE] src/components/Settings/Settings.tsx
-- [ ] [FILE] src/components/Settings/Status.tsx
-- [ ] [FILE] src/components/Settings/Usage.tsx
+- [x] [FILE] src/components/Settings/Settings.tsx
+- [x] [FILE] src/components/Settings/Status.tsx
+- [x] [FILE] src/components/Settings/Usage.tsx
 - [ ] [FILE] src/components/ShowInIDEPrompt.tsx
 - [ ] [FILE] src/components/SkillImprovementSurvey.tsx
 - [ ] [FILE] src/components/Spinner.tsx
