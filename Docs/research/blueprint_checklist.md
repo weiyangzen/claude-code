@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:16:24 +0800
+Generated at: 2026-04-01 20:17:11 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2122,7 +2122,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/backends/TmuxBackend.ts
 - [x] [FILE] src/utils/swarm/backends/detection.ts
 - [x] [FILE] src/utils/swarm/backends/it2Setup.ts
-- [ ] [FILE] src/utils/swarm/backends/registry.ts
+- [x] [FILE] src/utils/swarm/backends/registry.ts
 - [ ] [FILE] src/utils/swarm/backends/teammateModeSnapshot.ts
 - [ ] [FILE] src/utils/swarm/backends/types.ts
 - [x] [FILE] src/utils/swarm/constants.ts
@@ -2141,7 +2141,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/systemPrompt.ts
 - [x] [FILE] src/utils/systemPromptType.ts
 - [x] [FILE] src/utils/systemTheme.ts
-- [ ] [FILE] src/utils/taggedId.ts
+- [x] [FILE] src/utils/taggedId.ts
 - [x] [FILE] src/utils/task/TaskOutput.ts
 - [x] [FILE] src/utils/task/diskOutput.ts
 - [x] [FILE] src/utils/task/framework.ts
@@ -2156,7 +2156,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/telemetry/betaSessionTracing.ts
 - [x] [FILE] src/utils/telemetry/bigqueryExporter.ts
 - [x] [FILE] src/utils/telemetry/events.ts
-- [ ] [FILE] src/utils/telemetry/instrumentation.ts
+- [x] [FILE] src/utils/telemetry/instrumentation.ts
 - [ ] [FILE] src/utils/telemetry/logger.ts
 - [ ] [FILE] src/utils/telemetry/perfettoTracing.ts
 - [ ] [FILE] src/utils/telemetry/pluginTelemetry.ts
@@ -2165,18 +2165,18 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/telemetryAttributes.ts
 - [x] [FILE] src/utils/teleport.tsx
 - [x] [FILE] src/utils/teleport/api.ts
-- [ ] [FILE] src/utils/teleport/environmentSelection.ts
-- [ ] [FILE] src/utils/teleport/environments.ts
+- [x] [FILE] src/utils/teleport/environmentSelection.ts
+- [x] [FILE] src/utils/teleport/environments.ts
 - [ ] [FILE] src/utils/teleport/gitBundle.ts
 - [x] [FILE] src/utils/tempfile.ts
 - [x] [FILE] src/utils/terminal.ts
-- [ ] [FILE] src/utils/terminalPanel.ts
+- [x] [FILE] src/utils/terminalPanel.ts
 - [ ] [FILE] src/utils/textHighlighting.ts
 - [ ] [FILE] src/utils/theme.ts
 - [ ] [FILE] src/utils/thinking.ts
 - [ ] [FILE] src/utils/timeouts.ts
 - [ ] [FILE] src/utils/tmuxSocket.ts
-- [ ] [FILE] src/utils/todo/types.ts
+- [x] [FILE] src/utils/todo/types.ts
 - [ ] [FILE] src/utils/tokenBudget.ts
 - [ ] [FILE] src/utils/tokens.ts
 - [ ] [FILE] src/utils/toolErrors.ts
