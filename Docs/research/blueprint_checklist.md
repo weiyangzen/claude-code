@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:27:27 +0800
+Generated at: 2026-04-01 20:28:05 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2193,9 +2193,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/undercover.ts
 - [x] [FILE] src/utils/user.ts
 - [x] [FILE] src/utils/userAgent.ts
-- [ ] [FILE] src/utils/userPromptKeywords.ts
-- [ ] [FILE] src/utils/uuid.ts
-- [ ] [FILE] src/utils/warningHandler.ts
+- [x] [FILE] src/utils/userPromptKeywords.ts
+- [x] [FILE] src/utils/uuid.ts
+- [x] [FILE] src/utils/warningHandler.ts
 - [x] [FILE] src/utils/which.ts
 - [x] [FILE] src/utils/windowsPaths.ts
 - [x] [FILE] src/utils/withResolvers.ts
