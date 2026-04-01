@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:11:36 +0800
+Generated at: 2026-04-01 19:12:54 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1763,22 +1763,22 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/cronScheduler.ts
 - [x] [FILE] src/utils/cronTasks.ts
 - [x] [FILE] src/utils/cronTasksLock.ts
-- [ ] [FILE] src/utils/crossProjectResume.ts
-- [ ] [FILE] src/utils/crypto.ts
-- [ ] [FILE] src/utils/cwd.ts
+- [x] [FILE] src/utils/crossProjectResume.ts
+- [x] [FILE] src/utils/crypto.ts
+- [x] [FILE] src/utils/cwd.ts
 - [ ] [FILE] src/utils/debug.ts
 - [ ] [FILE] src/utils/debugFilter.ts
 - [x] [FILE] src/utils/deepLink/banner.ts
 - [x] [FILE] src/utils/deepLink/parseDeepLink.ts
-- [ ] [FILE] src/utils/deepLink/protocolHandler.ts
-- [ ] [FILE] src/utils/deepLink/registerProtocol.ts
-- [ ] [FILE] src/utils/deepLink/terminalLauncher.ts
-- [ ] [FILE] src/utils/deepLink/terminalPreference.ts
-- [ ] [FILE] src/utils/desktopDeepLink.ts
-- [ ] [FILE] src/utils/detectRepository.ts
-- [ ] [FILE] src/utils/diagLogs.ts
-- [ ] [FILE] src/utils/diff.ts
-- [ ] [FILE] src/utils/directMemberMessage.ts
+- [x] [FILE] src/utils/deepLink/protocolHandler.ts
+- [x] [FILE] src/utils/deepLink/registerProtocol.ts
+- [x] [FILE] src/utils/deepLink/terminalLauncher.ts
+- [x] [FILE] src/utils/deepLink/terminalPreference.ts
+- [x] [FILE] src/utils/desktopDeepLink.ts
+- [x] [FILE] src/utils/detectRepository.ts
+- [x] [FILE] src/utils/diagLogs.ts
+- [x] [FILE] src/utils/diff.ts
+- [x] [FILE] src/utils/directMemberMessage.ts
 - [ ] [FILE] src/utils/displayTags.ts
 - [ ] [FILE] src/utils/doctorContextWarnings.ts
 - [ ] [FILE] src/utils/doctorDiagnostic.ts
