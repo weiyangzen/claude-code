@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:59:23 +0800
+Generated at: 2026-04-01 20:00:01 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2023,21 +2023,21 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/proxy.ts
 - [x] [FILE] src/utils/queryContext.ts
 - [ ] [FILE] src/utils/queryHelpers.ts
-- [ ] [FILE] src/utils/queryProfiler.ts
+- [x] [FILE] src/utils/queryProfiler.ts
 - [x] [FILE] src/utils/queueProcessor.ts
 - [x] [FILE] src/utils/readEditContext.ts
 - [x] [FILE] src/utils/readFileInRange.ts
 - [x] [FILE] src/utils/releaseNotes.ts
-- [ ] [FILE] src/utils/renderOptions.ts
+- [x] [FILE] src/utils/renderOptions.ts
 - [ ] [FILE] src/utils/ripgrep.ts
 - [x] [FILE] src/utils/sandbox/sandbox-adapter.ts
-- [ ] [FILE] src/utils/sandbox/sandbox-ui-utils.ts
+- [x] [FILE] src/utils/sandbox/sandbox-ui-utils.ts
 - [ ] [FILE] src/utils/sanitization.ts
 - [ ] [FILE] src/utils/screenshotClipboard.ts
 - [ ] [FILE] src/utils/sdkEventQueue.ts
 - [x] [FILE] src/utils/secureStorage/fallbackStorage.ts
 - [x] [FILE] src/utils/secureStorage/index.ts
-- [ ] [FILE] src/utils/secureStorage/keychainPrefetch.ts
+- [x] [FILE] src/utils/secureStorage/keychainPrefetch.ts
 - [ ] [FILE] src/utils/secureStorage/macOsKeychainHelpers.ts
 - [ ] [FILE] src/utils/secureStorage/macOsKeychainStorage.ts
 - [ ] [FILE] src/utils/secureStorage/plainTextStorage.ts
