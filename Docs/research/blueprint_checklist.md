@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:59:07 +0800
+Generated at: 2026-04-01 12:59:41 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1069,21 +1069,21 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/useIdeConnectionStatus.ts
 - [x] [FILE] src/hooks/useIdeLogging.ts
 - [x] [FILE] src/hooks/useIdeSelection.ts
-- [ ] [FILE] src/hooks/useInboxPoller.ts
-- [ ] [FILE] src/hooks/useInputBuffer.ts
-- [ ] [FILE] src/hooks/useIssueFlagBanner.ts
-- [ ] [FILE] src/hooks/useLogMessages.ts
-- [ ] [FILE] src/hooks/useLspPluginRecommendation.tsx
-- [ ] [FILE] src/hooks/useMailboxBridge.ts
-- [ ] [FILE] src/hooks/useMainLoopModel.ts
-- [ ] [FILE] src/hooks/useManagePlugins.ts
-- [ ] [FILE] src/hooks/useMemoryUsage.ts
-- [ ] [FILE] src/hooks/useMergedClients.ts
-- [ ] [FILE] src/hooks/useMergedCommands.ts
-- [ ] [FILE] src/hooks/useMergedTools.ts
-- [ ] [FILE] src/hooks/useMinDisplayTime.ts
-- [ ] [FILE] src/hooks/useNotifyAfterTimeout.ts
-- [ ] [FILE] src/hooks/useOfficialMarketplaceNotification.tsx
+- [x] [FILE] src/hooks/useInboxPoller.ts
+- [x] [FILE] src/hooks/useInputBuffer.ts
+- [x] [FILE] src/hooks/useIssueFlagBanner.ts
+- [x] [FILE] src/hooks/useLogMessages.ts
+- [x] [FILE] src/hooks/useLspPluginRecommendation.tsx
+- [x] [FILE] src/hooks/useMailboxBridge.ts
+- [x] [FILE] src/hooks/useMainLoopModel.ts
+- [x] [FILE] src/hooks/useManagePlugins.ts
+- [x] [FILE] src/hooks/useMemoryUsage.ts
+- [x] [FILE] src/hooks/useMergedClients.ts
+- [x] [FILE] src/hooks/useMergedCommands.ts
+- [x] [FILE] src/hooks/useMergedTools.ts
+- [x] [FILE] src/hooks/useMinDisplayTime.ts
+- [x] [FILE] src/hooks/useNotifyAfterTimeout.ts
+- [x] [FILE] src/hooks/useOfficialMarketplaceNotification.tsx
 - [x] [FILE] src/hooks/usePasteHandler.ts
 - [x] [FILE] src/hooks/usePluginRecommendationBase.tsx
 - [x] [FILE] src/hooks/usePrStatus.ts
