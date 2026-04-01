@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:02:28 +0800
+Generated at: 2026-04-01 13:03:39 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1092,7 +1092,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/useQueueProcessor.ts
 - [x] [FILE] src/hooks/useRemoteSession.ts
 - [x] [FILE] src/hooks/useReplBridge.tsx
-- [ ] [FILE] src/hooks/useSSHSession.ts
+- [x] [FILE] src/hooks/useSSHSession.ts
 - [ ] [FILE] src/hooks/useScheduledTasks.ts
 - [ ] [FILE] src/hooks/useSearchInput.ts
 - [ ] [FILE] src/hooks/useSessionBackgrounding.ts
@@ -1110,9 +1110,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/hooks/useTextInput.ts
 - [ ] [FILE] src/hooks/useTimeout.ts
 - [ ] [FILE] src/hooks/useTurnDiffs.ts
-- [ ] [FILE] src/hooks/useTypeahead.tsx
-- [ ] [FILE] src/hooks/useUpdateNotification.ts
-- [ ] [FILE] src/hooks/useVimInput.ts
+- [x] [FILE] src/hooks/useTypeahead.tsx
+- [x] [FILE] src/hooks/useUpdateNotification.ts
+- [x] [FILE] src/hooks/useVimInput.ts
 - [ ] [FILE] src/hooks/useVirtualScroll.ts
 - [ ] [FILE] src/hooks/useVoice.ts
 - [ ] [FILE] src/hooks/useVoiceEnabled.ts
