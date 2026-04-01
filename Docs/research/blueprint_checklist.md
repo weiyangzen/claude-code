@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:32:29 +0800
+Generated at: 2026-04-01 13:32:51 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1218,10 +1218,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/keybindings/KeybindingContext.tsx
 - [x] [FILE] src/keybindings/KeybindingProviderSetup.tsx
 - [x] [FILE] src/keybindings/defaultBindings.ts
-- [ ] [FILE] src/keybindings/loadUserBindings.ts
-- [ ] [FILE] src/keybindings/match.ts
+- [x] [FILE] src/keybindings/loadUserBindings.ts
+- [x] [FILE] src/keybindings/match.ts
 - [x] [FILE] src/keybindings/parser.ts
-- [ ] [FILE] src/keybindings/reservedShortcuts.ts
+- [x] [FILE] src/keybindings/reservedShortcuts.ts
 - [ ] [FILE] src/keybindings/resolver.ts
 - [ ] [FILE] src/keybindings/schema.ts
 - [ ] [FILE] src/keybindings/shortcutFormat.ts
@@ -1231,16 +1231,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/keybindings/validate.ts
 - [x] [FILE] src/main.tsx
 - [x] [FILE] src/memdir/findRelevantMemories.ts
-- [ ] [FILE] src/memdir/memdir.ts
-- [ ] [FILE] src/memdir/memoryAge.ts
+- [x] [FILE] src/memdir/memdir.ts
+- [x] [FILE] src/memdir/memoryAge.ts
 - [ ] [FILE] src/memdir/memoryScan.ts
 - [ ] [FILE] src/memdir/memoryTypes.ts
 - [ ] [FILE] src/memdir/paths.ts
 - [ ] [FILE] src/memdir/teamMemPaths.ts
 - [ ] [FILE] src/memdir/teamMemPrompts.ts
-- [ ] [FILE] src/migrations/migrateAutoUpdatesToSettings.ts
-- [ ] [FILE] src/migrations/migrateBypassPermissionsAcceptedToSettings.ts
-- [ ] [FILE] src/migrations/migrateEnableAllProjectMcpServersToSettings.ts
+- [x] [FILE] src/migrations/migrateAutoUpdatesToSettings.ts
+- [x] [FILE] src/migrations/migrateBypassPermissionsAcceptedToSettings.ts
+- [x] [FILE] src/migrations/migrateEnableAllProjectMcpServersToSettings.ts
 - [ ] [FILE] src/migrations/migrateFennecToOpus.ts
 - [ ] [FILE] src/migrations/migrateLegacyOpusToCurrent.ts
 - [ ] [FILE] src/migrations/migrateOpusToOpus1m.ts
