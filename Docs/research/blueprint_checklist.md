@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:03:22 +0800
+Generated at: 2026-04-01 08:03:55 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -558,7 +558,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/stickers/stickers.ts
 - [x] [FILE] src/commands/summary/index.js
 - [x] [FILE] src/commands/tag/index.ts
-- [ ] [FILE] src/commands/tag/tag.tsx
+- [x] [FILE] src/commands/tag/tag.tsx
 - [x] [FILE] src/commands/tasks/index.ts
 - [x] [FILE] src/commands/tasks/tasks.tsx
 - [ ] [FILE] src/commands/teleport/index.js
@@ -566,8 +566,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/terminalSetup/terminalSetup.tsx
 - [x] [FILE] src/commands/theme/index.ts
 - [x] [FILE] src/commands/theme/theme.tsx
-- [ ] [FILE] src/commands/thinkback-play/index.ts
-- [ ] [FILE] src/commands/thinkback-play/thinkback-play.ts
+- [x] [FILE] src/commands/thinkback-play/index.ts
+- [x] [FILE] src/commands/thinkback-play/thinkback-play.ts
 - [ ] [FILE] src/commands/thinkback/index.ts
 - [ ] [FILE] src/commands/thinkback/thinkback.tsx
 - [ ] [FILE] src/commands/ultraplan.tsx
