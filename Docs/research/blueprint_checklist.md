@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:58:07 +0800
+Generated at: 2026-04-01 14:01:21 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1278,11 +1278,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/AgentSummary/agentSummary.ts
 - [x] [FILE] src/services/MagicDocs/magicDocs.ts
 - [x] [FILE] src/services/MagicDocs/prompts.ts
-- [ ] [FILE] src/services/PromptSuggestion/promptSuggestion.ts
-- [ ] [FILE] src/services/PromptSuggestion/speculation.ts
-- [ ] [FILE] src/services/SessionMemory/prompts.ts
-- [ ] [FILE] src/services/SessionMemory/sessionMemory.ts
-- [ ] [FILE] src/services/SessionMemory/sessionMemoryUtils.ts
+- [x] [FILE] src/services/PromptSuggestion/promptSuggestion.ts
+- [x] [FILE] src/services/PromptSuggestion/speculation.ts
+- [x] [FILE] src/services/SessionMemory/prompts.ts
+- [x] [FILE] src/services/SessionMemory/sessionMemory.ts
+- [x] [FILE] src/services/SessionMemory/sessionMemoryUtils.ts
 - [ ] [FILE] src/services/analytics/config.ts
 - [ ] [FILE] src/services/analytics/datadog.ts
 - [ ] [FILE] src/services/analytics/firstPartyEventLogger.ts
