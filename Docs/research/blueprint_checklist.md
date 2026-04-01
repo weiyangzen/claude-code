@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:10:31 +0800
+Generated at: 2026-04-01 20:11:21 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2103,10 +2103,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/stats.ts
 - [x] [FILE] src/utils/statsCache.ts
 - [x] [FILE] src/utils/status.tsx
-- [ ] [FILE] src/utils/statusNoticeDefinitions.tsx
+- [x] [FILE] src/utils/statusNoticeDefinitions.tsx
 - [x] [FILE] src/utils/statusNoticeHelpers.ts
-- [ ] [FILE] src/utils/stream.ts
-- [ ] [FILE] src/utils/streamJsonStdoutGuard.ts
+- [x] [FILE] src/utils/stream.ts
+- [x] [FILE] src/utils/streamJsonStdoutGuard.ts
 - [ ] [FILE] src/utils/streamlinedTransform.ts
 - [ ] [FILE] src/utils/stringUtils.ts
 - [ ] [FILE] src/utils/subprocessEnv.ts
@@ -2127,7 +2127,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/swarm/backends/types.ts
 - [x] [FILE] src/utils/swarm/constants.ts
 - [x] [FILE] src/utils/swarm/inProcessRunner.ts
-- [ ] [FILE] src/utils/swarm/leaderPermissionBridge.ts
+- [x] [FILE] src/utils/swarm/leaderPermissionBridge.ts
 - [x] [FILE] src/utils/swarm/permissionSync.ts
 - [ ] [FILE] src/utils/swarm/reconnection.ts
 - [ ] [FILE] src/utils/swarm/spawnInProcess.ts
