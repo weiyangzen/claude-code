@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:30:20 +0800
+Generated at: 2026-04-01 18:32:12 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1642,7 +1642,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/types/plugin.ts
 - [ ] [FILE] src/types/textInputTypes.ts
 - [x] [FILE] src/upstreamproxy/relay.ts
-- [ ] [FILE] src/upstreamproxy/upstreamproxy.ts
+- [x] [FILE] src/upstreamproxy/upstreamproxy.ts
 - [ ] [FILE] src/utils/CircularBuffer.ts
 - [ ] [FILE] src/utils/Cursor.ts
 - [ ] [FILE] src/utils/QueryGuard.ts
