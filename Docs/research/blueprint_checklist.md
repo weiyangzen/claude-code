@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:52:51 +0800
+Generated at: 2026-04-01 13:55:13 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1276,8 +1276,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/server/directConnectManager.ts
 - [x] [FILE] src/server/types.ts
 - [x] [FILE] src/services/AgentSummary/agentSummary.ts
-- [ ] [FILE] src/services/MagicDocs/magicDocs.ts
-- [ ] [FILE] src/services/MagicDocs/prompts.ts
+- [x] [FILE] src/services/MagicDocs/magicDocs.ts
+- [x] [FILE] src/services/MagicDocs/prompts.ts
 - [ ] [FILE] src/services/PromptSuggestion/promptSuggestion.ts
 - [ ] [FILE] src/services/PromptSuggestion/speculation.ts
 - [ ] [FILE] src/services/SessionMemory/prompts.ts
