@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:35:48 +0800
+Generated at: 2026-04-01 08:39:57 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -621,25 +621,25 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/DiagnosticsDisplay.tsx
 - [x] [FILE] src/components/EffortCallout.tsx
 - [x] [FILE] src/components/EffortIndicator.ts
-- [ ] [FILE] src/components/ExitFlow.tsx
-- [ ] [FILE] src/components/ExportDialog.tsx
-- [ ] [FILE] src/components/FallbackToolUseErrorMessage.tsx
-- [ ] [FILE] src/components/FallbackToolUseRejectedMessage.tsx
-- [ ] [FILE] src/components/FastIcon.tsx
-- [ ] [FILE] src/components/Feedback.tsx
-- [ ] [FILE] src/components/FeedbackSurvey/FeedbackSurvey.tsx
-- [ ] [FILE] src/components/FeedbackSurvey/FeedbackSurveyView.tsx
-- [ ] [FILE] src/components/FeedbackSurvey/TranscriptSharePrompt.tsx
+- [x] [FILE] src/components/ExitFlow.tsx
+- [x] [FILE] src/components/ExportDialog.tsx
+- [x] [FILE] src/components/FallbackToolUseErrorMessage.tsx
+- [x] [FILE] src/components/FallbackToolUseRejectedMessage.tsx
+- [x] [FILE] src/components/FastIcon.tsx
+- [x] [FILE] src/components/Feedback.tsx
+- [x] [FILE] src/components/FeedbackSurvey/FeedbackSurvey.tsx
+- [x] [FILE] src/components/FeedbackSurvey/FeedbackSurveyView.tsx
+- [x] [FILE] src/components/FeedbackSurvey/TranscriptSharePrompt.tsx
 - [ ] [FILE] src/components/FeedbackSurvey/submitTranscriptShare.ts
 - [ ] [FILE] src/components/FeedbackSurvey/useDebouncedDigitInput.ts
 - [ ] [FILE] src/components/FeedbackSurvey/useFeedbackSurvey.tsx
 - [ ] [FILE] src/components/FeedbackSurvey/useMemorySurvey.tsx
 - [ ] [FILE] src/components/FeedbackSurvey/usePostCompactSurvey.tsx
 - [ ] [FILE] src/components/FeedbackSurvey/useSurveyState.tsx
-- [ ] [FILE] src/components/FileEditToolDiff.tsx
-- [ ] [FILE] src/components/FileEditToolUpdatedMessage.tsx
-- [ ] [FILE] src/components/FileEditToolUseRejectedMessage.tsx
-- [ ] [FILE] src/components/FilePathLink.tsx
+- [x] [FILE] src/components/FileEditToolDiff.tsx
+- [x] [FILE] src/components/FileEditToolUpdatedMessage.tsx
+- [x] [FILE] src/components/FileEditToolUseRejectedMessage.tsx
+- [x] [FILE] src/components/FilePathLink.tsx
 - [ ] [FILE] src/components/FullscreenLayout.tsx
 - [ ] [FILE] src/components/GlobalSearchDialog.tsx
 - [ ] [FILE] src/components/HelpV2/Commands.tsx
