@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:02:02 +0800
+Generated at: 2026-04-01 19:04:34 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1727,19 +1727,19 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/cliHighlight.ts
 - [x] [FILE] src/utils/codeIndexing.ts
 - [x] [FILE] src/utils/collapseBackgroundBashNotifications.ts
-- [ ] [FILE] src/utils/collapseHookSummaries.ts
+- [x] [FILE] src/utils/collapseHookSummaries.ts
 - [x] [FILE] src/utils/collapseReadSearch.ts
-- [ ] [FILE] src/utils/collapseTeammateShutdowns.ts
-- [ ] [FILE] src/utils/combinedAbortSignal.ts
-- [ ] [FILE] src/utils/commandLifecycle.ts
-- [ ] [FILE] src/utils/commitAttribution.ts
-- [ ] [FILE] src/utils/completionCache.ts
+- [x] [FILE] src/utils/collapseTeammateShutdowns.ts
+- [x] [FILE] src/utils/combinedAbortSignal.ts
+- [x] [FILE] src/utils/commandLifecycle.ts
+- [x] [FILE] src/utils/commitAttribution.ts
+- [x] [FILE] src/utils/completionCache.ts
 - [x] [FILE] src/utils/computerUse/appNames.ts
 - [x] [FILE] src/utils/computerUse/cleanup.ts
-- [ ] [FILE] src/utils/computerUse/common.ts
-- [ ] [FILE] src/utils/computerUse/computerUseLock.ts
-- [ ] [FILE] src/utils/computerUse/drainRunLoop.ts
-- [ ] [FILE] src/utils/computerUse/escHotkey.ts
+- [x] [FILE] src/utils/computerUse/common.ts
+- [x] [FILE] src/utils/computerUse/computerUseLock.ts
+- [x] [FILE] src/utils/computerUse/drainRunLoop.ts
+- [x] [FILE] src/utils/computerUse/escHotkey.ts
 - [ ] [FILE] src/utils/computerUse/executor.ts
 - [ ] [FILE] src/utils/computerUse/gates.ts
 - [ ] [FILE] src/utils/computerUse/hostAdapter.ts
@@ -1749,8 +1749,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/computerUse/swiftLoader.ts
 - [ ] [FILE] src/utils/computerUse/toolRendering.tsx
 - [x] [FILE] src/utils/computerUse/wrapper.tsx
-- [ ] [FILE] src/utils/concurrentSessions.ts
-- [ ] [FILE] src/utils/config.ts
+- [x] [FILE] src/utils/concurrentSessions.ts
+- [x] [FILE] src/utils/config.ts
 - [ ] [FILE] src/utils/configConstants.ts
 - [ ] [FILE] src/utils/contentArray.ts
 - [ ] [FILE] src/utils/context.ts
