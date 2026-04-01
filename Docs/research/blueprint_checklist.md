@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:13:05 +0800
+Generated at: 2026-04-01 19:18:14 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1779,9 +1779,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/diagLogs.ts
 - [x] [FILE] src/utils/diff.ts
 - [x] [FILE] src/utils/directMemberMessage.ts
-- [ ] [FILE] src/utils/displayTags.ts
-- [ ] [FILE] src/utils/doctorContextWarnings.ts
-- [ ] [FILE] src/utils/doctorDiagnostic.ts
+- [x] [FILE] src/utils/displayTags.ts
+- [x] [FILE] src/utils/doctorContextWarnings.ts
+- [x] [FILE] src/utils/doctorDiagnostic.ts
 - [x] [FILE] src/utils/dxt/helpers.ts
 - [x] [FILE] src/utils/dxt/zip.ts
 - [ ] [FILE] src/utils/earlyInput.ts
@@ -1792,8 +1792,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/envDynamic.ts
 - [ ] [FILE] src/utils/envUtils.ts
 - [ ] [FILE] src/utils/envValidation.ts
-- [ ] [FILE] src/utils/errorLogSink.ts
-- [ ] [FILE] src/utils/errors.ts
+- [x] [FILE] src/utils/errorLogSink.ts
+- [x] [FILE] src/utils/errors.ts
 - [ ] [FILE] src/utils/exampleCommands.ts
 - [ ] [FILE] src/utils/execFileNoThrow.ts
 - [ ] [FILE] src/utils/execFileNoThrowPortable.ts
@@ -1804,8 +1804,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/file.ts
 - [ ] [FILE] src/utils/fileHistory.ts
 - [ ] [FILE] src/utils/fileOperationAnalytics.ts
-- [ ] [FILE] src/utils/filePersistence/filePersistence.ts
-- [ ] [FILE] src/utils/filePersistence/outputsScanner.ts
+- [x] [FILE] src/utils/filePersistence/filePersistence.ts
+- [x] [FILE] src/utils/filePersistence/outputsScanner.ts
 - [ ] [FILE] src/utils/fileRead.ts
 - [ ] [FILE] src/utils/fileReadCache.ts
 - [ ] [FILE] src/utils/fileStateCache.ts
