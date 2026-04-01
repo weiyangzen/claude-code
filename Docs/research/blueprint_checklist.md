@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:46:12 +0800
+Generated at: 2026-04-01 11:49:33 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -925,7 +925,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/permissions/WebFetchPermissionRequest/WebFetchPermissionRequest.tsx
 - [x] [FILE] src/components/permissions/WorkerBadge.tsx
 - [x] [FILE] src/components/permissions/WorkerPendingPermission.tsx
-- [ ] [FILE] src/components/permissions/hooks.ts
+- [x] [FILE] src/components/permissions/hooks.ts
 - [ ] [FILE] src/components/permissions/rules/AddPermissionRules.tsx
 - [ ] [FILE] src/components/permissions/rules/AddWorkspaceDirectory.tsx
 - [ ] [FILE] src/components/permissions/rules/PermissionRuleDescription.tsx
@@ -934,9 +934,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/permissions/rules/RecentDenialsTab.tsx
 - [ ] [FILE] src/components/permissions/rules/RemoveWorkspaceDirectory.tsx
 - [ ] [FILE] src/components/permissions/rules/WorkspaceTab.tsx
-- [ ] [FILE] src/components/permissions/shellPermissionHelpers.tsx
-- [ ] [FILE] src/components/permissions/useShellPermissionFeedback.ts
-- [ ] [FILE] src/components/permissions/utils.ts
+- [x] [FILE] src/components/permissions/shellPermissionHelpers.tsx
+- [x] [FILE] src/components/permissions/useShellPermissionFeedback.ts
+- [x] [FILE] src/components/permissions/utils.ts
 - [ ] [FILE] src/components/sandbox/SandboxConfigTab.tsx
 - [ ] [FILE] src/components/sandbox/SandboxDependenciesTab.tsx
 - [ ] [FILE] src/components/sandbox/SandboxDoctorSection.tsx
