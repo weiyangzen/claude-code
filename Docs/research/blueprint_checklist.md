@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:51:21 +0800
+Generated at: 2026-04-01 19:51:40 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1918,8 +1918,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/model/modelOptions.ts
 - [x] [FILE] src/utils/model/modelStrings.ts
 - [x] [FILE] src/utils/model/modelSupportOverrides.ts
-- [ ] [FILE] src/utils/model/providers.ts
-- [ ] [FILE] src/utils/model/validateModel.ts
+- [x] [FILE] src/utils/model/providers.ts
+- [x] [FILE] src/utils/model/validateModel.ts
 - [x] [FILE] src/utils/modelCost.ts
 - [x] [FILE] src/utils/modifiers.ts
 - [x] [FILE] src/utils/mtls.ts
@@ -1932,7 +1932,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/objectGroupBy.ts
 - [x] [FILE] src/utils/pasteStore.ts
 - [x] [FILE] src/utils/path.ts
-- [ ] [FILE] src/utils/pdf.ts
+- [x] [FILE] src/utils/pdf.ts
 - [ ] [FILE] src/utils/pdfUtils.ts
 - [ ] [FILE] src/utils/peerAddress.ts
 - [x] [FILE] src/utils/permissions/PermissionMode.ts
@@ -1946,14 +1946,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/permissions/bypassPermissionsKillswitch.ts
 - [x] [FILE] src/utils/permissions/classifierDecision.ts
 - [x] [FILE] src/utils/permissions/classifierShared.ts
-- [ ] [FILE] src/utils/permissions/dangerousPatterns.ts
-- [ ] [FILE] src/utils/permissions/denialTracking.ts
+- [x] [FILE] src/utils/permissions/dangerousPatterns.ts
+- [x] [FILE] src/utils/permissions/denialTracking.ts
 - [ ] [FILE] src/utils/permissions/filesystem.ts
 - [x] [FILE] src/utils/permissions/getNextPermissionMode.ts
 - [x] [FILE] src/utils/permissions/pathValidation.ts
 - [x] [FILE] src/utils/permissions/permissionExplainer.ts
 - [x] [FILE] src/utils/permissions/permissionRuleParser.ts
-- [ ] [FILE] src/utils/permissions/permissionSetup.ts
+- [x] [FILE] src/utils/permissions/permissionSetup.ts
 - [x] [FILE] src/utils/permissions/permissions.ts
 - [x] [FILE] src/utils/permissions/permissionsLoader.ts
 - [x] [FILE] src/utils/permissions/shadowedRuleDetection.ts
@@ -1968,13 +1968,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/fetchTelemetry.ts
 - [x] [FILE] src/utils/plugins/gitAvailability.ts
 - [x] [FILE] src/utils/plugins/headlessPluginInstall.ts
-- [ ] [FILE] src/utils/plugins/hintRecommendation.ts
+- [x] [FILE] src/utils/plugins/hintRecommendation.ts
 - [ ] [FILE] src/utils/plugins/installCounts.ts
 - [ ] [FILE] src/utils/plugins/installedPluginsManager.ts
 - [ ] [FILE] src/utils/plugins/loadPluginAgents.ts
 - [x] [FILE] src/utils/plugins/loadPluginCommands.ts
 - [x] [FILE] src/utils/plugins/loadPluginHooks.ts
-- [ ] [FILE] src/utils/plugins/loadPluginOutputStyles.ts
+- [x] [FILE] src/utils/plugins/loadPluginOutputStyles.ts
 - [ ] [FILE] src/utils/plugins/lspPluginIntegration.ts
 - [ ] [FILE] src/utils/plugins/lspRecommendation.ts
 - [ ] [FILE] src/utils/plugins/managedPlugins.ts
@@ -1983,14 +1983,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/mcpPluginIntegration.ts
 - [x] [FILE] src/utils/plugins/mcpbHandler.ts
 - [x] [FILE] src/utils/plugins/officialMarketplace.ts
-- [ ] [FILE] src/utils/plugins/officialMarketplaceGcs.ts
+- [x] [FILE] src/utils/plugins/officialMarketplaceGcs.ts
 - [ ] [FILE] src/utils/plugins/officialMarketplaceStartupCheck.ts
 - [ ] [FILE] src/utils/plugins/orphanedPluginFilter.ts
 - [ ] [FILE] src/utils/plugins/parseMarketplaceInput.ts
 - [ ] [FILE] src/utils/plugins/performStartupChecks.tsx
 - [x] [FILE] src/utils/plugins/pluginAutoupdate.ts
 - [x] [FILE] src/utils/plugins/pluginBlocklist.ts
-- [ ] [FILE] src/utils/plugins/pluginDirectories.ts
+- [x] [FILE] src/utils/plugins/pluginDirectories.ts
 - [ ] [FILE] src/utils/plugins/pluginFlagging.ts
 - [ ] [FILE] src/utils/plugins/pluginIdentifier.ts
 - [ ] [FILE] src/utils/plugins/pluginInstallationHelpers.ts
