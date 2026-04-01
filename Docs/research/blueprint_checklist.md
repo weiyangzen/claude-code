@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:32:12 +0800
+Generated at: 2026-04-01 18:32:29 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1639,19 +1639,19 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/types/ids.ts
 - [x] [FILE] src/types/logs.ts
 - [x] [FILE] src/types/permissions.ts
-- [ ] [FILE] src/types/plugin.ts
-- [ ] [FILE] src/types/textInputTypes.ts
+- [x] [FILE] src/types/plugin.ts
+- [x] [FILE] src/types/textInputTypes.ts
 - [x] [FILE] src/upstreamproxy/relay.ts
 - [x] [FILE] src/upstreamproxy/upstreamproxy.ts
-- [ ] [FILE] src/utils/CircularBuffer.ts
-- [ ] [FILE] src/utils/Cursor.ts
+- [x] [FILE] src/utils/CircularBuffer.ts
+- [x] [FILE] src/utils/Cursor.ts
 - [ ] [FILE] src/utils/QueryGuard.ts
 - [ ] [FILE] src/utils/Shell.ts
 - [ ] [FILE] src/utils/ShellCommand.ts
 - [ ] [FILE] src/utils/abortController.ts
 - [ ] [FILE] src/utils/activityManager.ts
 - [ ] [FILE] src/utils/advisor.ts
-- [ ] [FILE] src/utils/agentContext.ts
+- [x] [FILE] src/utils/agentContext.ts
 - [ ] [FILE] src/utils/agentId.ts
 - [ ] [FILE] src/utils/agentSwarmsEnabled.ts
 - [ ] [FILE] src/utils/agenticSessionSearch.ts
