@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:58:09 +0800
+Generated at: 2026-04-01 11:58:19 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -941,7 +941,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/sandbox/SandboxDependenciesTab.tsx
 - [x] [FILE] src/components/sandbox/SandboxDoctorSection.tsx
 - [x] [FILE] src/components/sandbox/SandboxOverridesTab.tsx
-- [ ] [FILE] src/components/sandbox/SandboxSettings.tsx
+- [x] [FILE] src/components/sandbox/SandboxSettings.tsx
 - [x] [FILE] src/components/shell/ExpandShellOutputContext.tsx
 - [x] [FILE] src/components/shell/OutputLine.tsx
 - [x] [FILE] src/components/shell/ShellProgressMessage.tsx
