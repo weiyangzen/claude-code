@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:04:34 +0800
+Generated at: 2026-04-01 19:07:13 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1740,10 +1740,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/computerUse/computerUseLock.ts
 - [x] [FILE] src/utils/computerUse/drainRunLoop.ts
 - [x] [FILE] src/utils/computerUse/escHotkey.ts
-- [ ] [FILE] src/utils/computerUse/executor.ts
-- [ ] [FILE] src/utils/computerUse/gates.ts
-- [ ] [FILE] src/utils/computerUse/hostAdapter.ts
-- [ ] [FILE] src/utils/computerUse/inputLoader.ts
+- [x] [FILE] src/utils/computerUse/executor.ts
+- [x] [FILE] src/utils/computerUse/gates.ts
+- [x] [FILE] src/utils/computerUse/hostAdapter.ts
+- [x] [FILE] src/utils/computerUse/inputLoader.ts
 - [ ] [FILE] src/utils/computerUse/mcpServer.ts
 - [ ] [FILE] src/utils/computerUse/setup.ts
 - [ ] [FILE] src/utils/computerUse/swiftLoader.ts
@@ -1751,13 +1751,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/computerUse/wrapper.tsx
 - [x] [FILE] src/utils/concurrentSessions.ts
 - [x] [FILE] src/utils/config.ts
-- [ ] [FILE] src/utils/configConstants.ts
-- [ ] [FILE] src/utils/contentArray.ts
-- [ ] [FILE] src/utils/context.ts
-- [ ] [FILE] src/utils/contextAnalysis.ts
-- [ ] [FILE] src/utils/contextSuggestions.ts
-- [ ] [FILE] src/utils/controlMessageCompat.ts
-- [ ] [FILE] src/utils/conversationRecovery.ts
+- [x] [FILE] src/utils/configConstants.ts
+- [x] [FILE] src/utils/contentArray.ts
+- [x] [FILE] src/utils/context.ts
+- [x] [FILE] src/utils/contextAnalysis.ts
+- [x] [FILE] src/utils/contextSuggestions.ts
+- [x] [FILE] src/utils/controlMessageCompat.ts
+- [x] [FILE] src/utils/conversationRecovery.ts
 - [ ] [FILE] src/utils/cron.ts
 - [ ] [FILE] src/utils/cronJitterConfig.ts
 - [ ] [FILE] src/utils/cronScheduler.ts
