@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:02:05 +0800
+Generated at: 2026-04-01 20:02:20 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2020,26 +2020,26 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/promptCategory.ts
 - [x] [FILE] src/utils/promptEditor.ts
 - [x] [FILE] src/utils/promptShellExecution.ts
-- [ ] [FILE] src/utils/proxy.ts
+- [x] [FILE] src/utils/proxy.ts
 - [x] [FILE] src/utils/queryContext.ts
-- [ ] [FILE] src/utils/queryHelpers.ts
+- [x] [FILE] src/utils/queryHelpers.ts
 - [x] [FILE] src/utils/queryProfiler.ts
 - [x] [FILE] src/utils/queueProcessor.ts
 - [x] [FILE] src/utils/readEditContext.ts
 - [x] [FILE] src/utils/readFileInRange.ts
 - [x] [FILE] src/utils/releaseNotes.ts
 - [x] [FILE] src/utils/renderOptions.ts
-- [ ] [FILE] src/utils/ripgrep.ts
+- [x] [FILE] src/utils/ripgrep.ts
 - [x] [FILE] src/utils/sandbox/sandbox-adapter.ts
 - [x] [FILE] src/utils/sandbox/sandbox-ui-utils.ts
-- [ ] [FILE] src/utils/sanitization.ts
-- [ ] [FILE] src/utils/screenshotClipboard.ts
+- [x] [FILE] src/utils/sanitization.ts
+- [x] [FILE] src/utils/screenshotClipboard.ts
 - [ ] [FILE] src/utils/sdkEventQueue.ts
 - [x] [FILE] src/utils/secureStorage/fallbackStorage.ts
 - [x] [FILE] src/utils/secureStorage/index.ts
 - [x] [FILE] src/utils/secureStorage/keychainPrefetch.ts
-- [ ] [FILE] src/utils/secureStorage/macOsKeychainHelpers.ts
-- [ ] [FILE] src/utils/secureStorage/macOsKeychainStorage.ts
+- [x] [FILE] src/utils/secureStorage/macOsKeychainHelpers.ts
+- [x] [FILE] src/utils/secureStorage/macOsKeychainStorage.ts
 - [ ] [FILE] src/utils/secureStorage/plainTextStorage.ts
 - [ ] [FILE] src/utils/semanticBoolean.ts
 - [ ] [FILE] src/utils/semanticNumber.ts
@@ -2050,21 +2050,21 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/sessionEnvironment.ts
 - [ ] [FILE] src/utils/sessionFileAccessHooks.ts
 - [ ] [FILE] src/utils/sessionIngressAuth.ts
-- [ ] [FILE] src/utils/sessionRestore.ts
-- [ ] [FILE] src/utils/sessionStart.ts
+- [x] [FILE] src/utils/sessionRestore.ts
+- [x] [FILE] src/utils/sessionStart.ts
 - [ ] [FILE] src/utils/sessionState.ts
 - [x] [FILE] src/utils/sessionStorage.ts
-- [ ] [FILE] src/utils/sessionStoragePortable.ts
-- [ ] [FILE] src/utils/sessionTitle.ts
-- [ ] [FILE] src/utils/sessionUrl.ts
-- [ ] [FILE] src/utils/set.ts
-- [ ] [FILE] src/utils/settings/allErrors.ts
-- [ ] [FILE] src/utils/settings/applySettingsChange.ts
-- [ ] [FILE] src/utils/settings/changeDetector.ts
+- [x] [FILE] src/utils/sessionStoragePortable.ts
+- [x] [FILE] src/utils/sessionTitle.ts
+- [x] [FILE] src/utils/sessionUrl.ts
+- [x] [FILE] src/utils/set.ts
+- [x] [FILE] src/utils/settings/allErrors.ts
+- [x] [FILE] src/utils/settings/applySettingsChange.ts
+- [x] [FILE] src/utils/settings/changeDetector.ts
 - [ ] [FILE] src/utils/settings/constants.ts
 - [ ] [FILE] src/utils/settings/internalWrites.ts
 - [ ] [FILE] src/utils/settings/managedPath.ts
-- [ ] [FILE] src/utils/settings/mdm/constants.ts
+- [x] [FILE] src/utils/settings/mdm/constants.ts
 - [ ] [FILE] src/utils/settings/mdm/rawRead.ts
 - [ ] [FILE] src/utils/settings/mdm/settings.ts
 - [ ] [FILE] src/utils/settings/permissionValidation.ts
