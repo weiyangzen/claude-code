@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:39:17 +0800
+Generated at: 2026-04-01 19:41:34 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1880,7 +1880,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/keyboardShortcuts.ts
 - [x] [FILE] src/utils/lazySchema.ts
 - [x] [FILE] src/utils/listSessionsImpl.ts
-- [ ] [FILE] src/utils/localInstaller.ts
+- [x] [FILE] src/utils/localInstaller.ts
 - [ ] [FILE] src/utils/lockfile.ts
 - [ ] [FILE] src/utils/log.ts
 - [ ] [FILE] src/utils/logoV2Utils.ts
@@ -1896,8 +1896,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/mcpValidation.ts
 - [ ] [FILE] src/utils/mcpWebSocketTransport.ts
 - [ ] [FILE] src/utils/memoize.ts
-- [ ] [FILE] src/utils/memory/types.ts
-- [ ] [FILE] src/utils/memory/versions.ts
+- [x] [FILE] src/utils/memory/types.ts
+- [x] [FILE] src/utils/memory/versions.ts
 - [ ] [FILE] src/utils/memoryFileDetection.ts
 - [ ] [FILE] src/utils/messagePredicates.ts
 - [ ] [FILE] src/utils/messageQueueManager.ts
