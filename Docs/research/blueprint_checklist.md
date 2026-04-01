@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:13:15 +0800
+Generated at: 2026-04-01 08:17:23 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -583,12 +583,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/AgentProgressLine.tsx
 - [x] [FILE] src/components/App.tsx
 - [x] [FILE] src/components/ApproveApiKey.tsx
-- [ ] [FILE] src/components/AutoModeOptInDialog.tsx
-- [ ] [FILE] src/components/AutoUpdater.tsx
-- [ ] [FILE] src/components/AutoUpdaterWrapper.tsx
-- [ ] [FILE] src/components/AwsAuthStatusBox.tsx
+- [x] [FILE] src/components/AutoModeOptInDialog.tsx
+- [x] [FILE] src/components/AutoUpdater.tsx
+- [x] [FILE] src/components/AutoUpdaterWrapper.tsx
+- [x] [FILE] src/components/AwsAuthStatusBox.tsx
 - [x] [FILE] src/components/BaseTextInput.tsx
-- [ ] [FILE] src/components/BashModeProgress.tsx
+- [x] [FILE] src/components/BashModeProgress.tsx
 - [ ] [FILE] src/components/BridgeDialog.tsx
 - [ ] [FILE] src/components/BypassPermissionsModeDialog.tsx
 - [ ] [FILE] src/components/ChannelDowngradeDialog.tsx
