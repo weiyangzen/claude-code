@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 17:04:58 +0800
+Generated at: 2026-04-01 17:06:07 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1504,14 +1504,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/EnterWorktreeTool/UI.tsx
 - [x] [FILE] src/tools/EnterWorktreeTool/constants.ts
 - [x] [FILE] src/tools/EnterWorktreeTool/prompt.ts
-- [ ] [FILE] src/tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts
+- [x] [FILE] src/tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts
 - [ ] [FILE] src/tools/ExitPlanModeTool/UI.tsx
 - [ ] [FILE] src/tools/ExitPlanModeTool/constants.ts
 - [ ] [FILE] src/tools/ExitPlanModeTool/prompt.ts
-- [ ] [FILE] src/tools/ExitWorktreeTool/ExitWorktreeTool.ts
-- [ ] [FILE] src/tools/ExitWorktreeTool/UI.tsx
-- [ ] [FILE] src/tools/ExitWorktreeTool/constants.ts
-- [ ] [FILE] src/tools/ExitWorktreeTool/prompt.ts
+- [x] [FILE] src/tools/ExitWorktreeTool/ExitWorktreeTool.ts
+- [x] [FILE] src/tools/ExitWorktreeTool/UI.tsx
+- [x] [FILE] src/tools/ExitWorktreeTool/constants.ts
+- [x] [FILE] src/tools/ExitWorktreeTool/prompt.ts
 - [ ] [FILE] src/tools/FileEditTool/FileEditTool.ts
 - [ ] [FILE] src/tools/FileEditTool/UI.tsx
 - [ ] [FILE] src/tools/FileEditTool/constants.ts
