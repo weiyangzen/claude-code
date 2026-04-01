@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:16:47 +0800
+Generated at: 2026-04-01 12:21:01 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -975,21 +975,21 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/constants/cyberRiskInstruction.ts
 - [x] [FILE] src/constants/errorIds.ts
 - [x] [FILE] src/constants/figures.ts
-- [ ] [FILE] src/constants/files.ts
-- [ ] [FILE] src/constants/github-app.ts
-- [ ] [FILE] src/constants/keys.ts
-- [ ] [FILE] src/constants/messages.ts
-- [ ] [FILE] src/constants/oauth.ts
-- [ ] [FILE] src/constants/outputStyles.ts
-- [ ] [FILE] src/constants/product.ts
+- [x] [FILE] src/constants/files.ts
+- [x] [FILE] src/constants/github-app.ts
+- [x] [FILE] src/constants/keys.ts
+- [x] [FILE] src/constants/messages.ts
+- [x] [FILE] src/constants/oauth.ts
+- [x] [FILE] src/constants/outputStyles.ts
+- [x] [FILE] src/constants/product.ts
 - [ ] [FILE] src/constants/prompts.ts
 - [ ] [FILE] src/constants/spinnerVerbs.ts
 - [x] [FILE] src/constants/system.ts
 - [x] [FILE] src/constants/systemPromptSections.ts
 - [x] [FILE] src/constants/toolLimits.ts
 - [x] [FILE] src/constants/tools.ts
-- [ ] [FILE] src/constants/turnCompletionVerbs.ts
-- [ ] [FILE] src/constants/xml.ts
+- [x] [FILE] src/constants/turnCompletionVerbs.ts
+- [x] [FILE] src/constants/xml.ts
 - [x] [FILE] src/context.ts
 - [x] [FILE] src/context/QueuedMessageContext.tsx
 - [x] [FILE] src/context/fpsMetrics.tsx
@@ -1004,16 +1004,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/cost-tracker.ts
 - [x] [FILE] src/costHook.ts
 - [x] [FILE] src/dialogLaunchers.tsx
-- [ ] [FILE] src/entrypoints/agentSdkTypes.ts
-- [ ] [FILE] src/entrypoints/cli.tsx
-- [ ] [FILE] src/entrypoints/init.ts
-- [ ] [FILE] src/entrypoints/mcp.ts
-- [ ] [FILE] src/entrypoints/sandboxTypes.ts
-- [ ] [FILE] src/entrypoints/sdk/controlSchemas.ts
-- [ ] [FILE] src/entrypoints/sdk/coreSchemas.ts
-- [ ] [FILE] src/entrypoints/sdk/coreTypes.ts
+- [x] [FILE] src/entrypoints/agentSdkTypes.ts
+- [x] [FILE] src/entrypoints/cli.tsx
+- [x] [FILE] src/entrypoints/init.ts
+- [x] [FILE] src/entrypoints/mcp.ts
+- [x] [FILE] src/entrypoints/sandboxTypes.ts
+- [x] [FILE] src/entrypoints/sdk/controlSchemas.ts
+- [x] [FILE] src/entrypoints/sdk/coreSchemas.ts
+- [x] [FILE] src/entrypoints/sdk/coreTypes.ts
 - [x] [FILE] src/history.ts
-- [ ] [FILE] src/hooks/fileSuggestions.ts
+- [x] [FILE] src/hooks/fileSuggestions.ts
 - [ ] [FILE] src/hooks/notifs/useAutoModeUnavailableNotification.ts
 - [ ] [FILE] src/hooks/notifs/useCanSwitchToExistingSubscription.tsx
 - [ ] [FILE] src/hooks/notifs/useDeprecationWarningNotification.tsx
@@ -1030,13 +1030,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/hooks/notifs/useSettingsErrors.tsx
 - [ ] [FILE] src/hooks/notifs/useStartupNotification.ts
 - [ ] [FILE] src/hooks/notifs/useTeammateShutdownNotification.ts
-- [ ] [FILE] src/hooks/renderPlaceholder.ts
+- [x] [FILE] src/hooks/renderPlaceholder.ts
 - [ ] [FILE] src/hooks/toolPermission/PermissionContext.ts
 - [ ] [FILE] src/hooks/toolPermission/handlers/coordinatorHandler.ts
 - [ ] [FILE] src/hooks/toolPermission/handlers/interactiveHandler.ts
 - [ ] [FILE] src/hooks/toolPermission/handlers/swarmWorkerHandler.ts
 - [ ] [FILE] src/hooks/toolPermission/permissionLogging.ts
-- [ ] [FILE] src/hooks/unifiedSuggestions.ts
+- [x] [FILE] src/hooks/unifiedSuggestions.ts
 - [ ] [FILE] src/hooks/useAfterFirstRender.ts
 - [ ] [FILE] src/hooks/useApiKeyVerification.ts
 - [ ] [FILE] src/hooks/useArrowKeyHistory.tsx
