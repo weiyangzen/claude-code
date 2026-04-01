@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:39:57 +0800
+Generated at: 2026-04-01 08:40:08 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -633,9 +633,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/FeedbackSurvey/submitTranscriptShare.ts
 - [ ] [FILE] src/components/FeedbackSurvey/useDebouncedDigitInput.ts
 - [ ] [FILE] src/components/FeedbackSurvey/useFeedbackSurvey.tsx
-- [ ] [FILE] src/components/FeedbackSurvey/useMemorySurvey.tsx
-- [ ] [FILE] src/components/FeedbackSurvey/usePostCompactSurvey.tsx
-- [ ] [FILE] src/components/FeedbackSurvey/useSurveyState.tsx
+- [x] [FILE] src/components/FeedbackSurvey/useMemorySurvey.tsx
+- [x] [FILE] src/components/FeedbackSurvey/usePostCompactSurvey.tsx
+- [x] [FILE] src/components/FeedbackSurvey/useSurveyState.tsx
 - [x] [FILE] src/components/FileEditToolDiff.tsx
 - [x] [FILE] src/components/FileEditToolUpdatedMessage.tsx
 - [x] [FILE] src/components/FileEditToolUseRejectedMessage.tsx
