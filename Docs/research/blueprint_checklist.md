@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:55:10 +0800
+Generated at: 2026-04-01 19:56:26 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1978,7 +1978,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/lspPluginIntegration.ts
 - [x] [FILE] src/utils/plugins/lspRecommendation.ts
 - [x] [FILE] src/utils/plugins/managedPlugins.ts
-- [ ] [FILE] src/utils/plugins/marketplaceHelpers.ts
+- [x] [FILE] src/utils/plugins/marketplaceHelpers.ts
 - [x] [FILE] src/utils/plugins/marketplaceManager.ts
 - [x] [FILE] src/utils/plugins/mcpPluginIntegration.ts
 - [x] [FILE] src/utils/plugins/mcpbHandler.ts
@@ -2002,9 +2002,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/plugins/reconciler.ts
 - [ ] [FILE] src/utils/plugins/refresh.ts
 - [x] [FILE] src/utils/plugins/schemas.ts
-- [ ] [FILE] src/utils/plugins/validatePlugin.ts
+- [x] [FILE] src/utils/plugins/validatePlugin.ts
 - [ ] [FILE] src/utils/plugins/walkPluginMarkdown.ts
-- [ ] [FILE] src/utils/plugins/zipCache.ts
+- [x] [FILE] src/utils/plugins/zipCache.ts
 - [ ] [FILE] src/utils/plugins/zipCacheAdapters.ts
 - [ ] [FILE] src/utils/powershell/dangerousCmdlets.ts
 - [ ] [FILE] src/utils/powershell/parser.ts
