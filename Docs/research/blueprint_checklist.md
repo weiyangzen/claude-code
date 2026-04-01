@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:27:28 +0800
+Generated at: 2026-04-01 10:29:12 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -792,7 +792,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStep.tsx
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStepWrapper.tsx
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/DescriptionStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/GenerateStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/GenerateStep.tsx
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/LocationStep.tsx
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/MemoryStep.tsx
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/MethodStep.tsx
