@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:39:01 +0800
+Generated at: 2026-04-01 10:39:11 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -813,9 +813,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/design-system/Pane.tsx
 - [x] [FILE] src/components/design-system/ProgressBar.tsx
 - [x] [FILE] src/components/design-system/Ratchet.tsx
-- [ ] [FILE] src/components/design-system/StatusIcon.tsx
-- [ ] [FILE] src/components/design-system/Tabs.tsx
-- [ ] [FILE] src/components/design-system/ThemeProvider.tsx
+- [x] [FILE] src/components/design-system/StatusIcon.tsx
+- [x] [FILE] src/components/design-system/Tabs.tsx
+- [x] [FILE] src/components/design-system/ThemeProvider.tsx
 - [x] [FILE] src/components/design-system/ThemedBox.tsx
 - [x] [FILE] src/components/design-system/ThemedText.tsx
 - [x] [FILE] src/components/design-system/color.ts
