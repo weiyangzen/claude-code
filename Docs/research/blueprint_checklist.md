@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:37:59 +0800
+Generated at: 2026-04-01 18:41:40 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1668,14 +1668,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/attribution.ts
 - [x] [FILE] src/utils/auth.ts
 - [x] [FILE] src/utils/authFileDescriptor.ts
-- [ ] [FILE] src/utils/authPortable.ts
+- [x] [FILE] src/utils/authPortable.ts
 - [ ] [FILE] src/utils/autoModeDenials.ts
 - [ ] [FILE] src/utils/autoRunIssue.tsx
 - [ ] [FILE] src/utils/autoUpdater.ts
 - [ ] [FILE] src/utils/aws.ts
 - [ ] [FILE] src/utils/awsAuthStatusManager.ts
-- [ ] [FILE] src/utils/background/remote/preconditions.ts
-- [ ] [FILE] src/utils/background/remote/remoteSession.ts
+- [x] [FILE] src/utils/background/remote/preconditions.ts
+- [x] [FILE] src/utils/background/remote/remoteSession.ts
 - [ ] [FILE] src/utils/backgroundHousekeeping.ts
 - [ ] [FILE] src/utils/bash/ParsedCommand.ts
 - [ ] [FILE] src/utils/bash/ShellSnapshot.ts
