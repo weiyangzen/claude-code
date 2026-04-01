@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 09:05:03 +0800
+Generated at: 2026-04-01 09:28:36 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -686,10 +686,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/Message.tsx
 - [x] [FILE] src/components/MessageModel.tsx
 - [x] [FILE] src/components/MessageResponse.tsx
-- [ ] [FILE] src/components/MessageRow.tsx
-- [ ] [FILE] src/components/MessageSelector.tsx
-- [ ] [FILE] src/components/MessageTimestamp.tsx
-- [ ] [FILE] src/components/Messages.tsx
+- [x] [FILE] src/components/MessageRow.tsx
+- [x] [FILE] src/components/MessageSelector.tsx
+- [x] [FILE] src/components/MessageTimestamp.tsx
+- [x] [FILE] src/components/Messages.tsx
 - [ ] [FILE] src/components/ModelPicker.tsx
 - [ ] [FILE] src/components/NativeAutoUpdater.tsx
 - [ ] [FILE] src/components/NotebookEditToolUseRejectedMessage.tsx
