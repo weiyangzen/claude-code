@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:45:49 +0800
+Generated at: 2026-04-01 13:47:49 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1259,8 +1259,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/plugins/bundled/index.ts
 - [x] [FILE] src/projectOnboardingState.ts
 - [x] [FILE] src/query.ts
-- [ ] [FILE] src/query/config.ts
-- [ ] [FILE] src/query/deps.ts
+- [x] [FILE] src/query/config.ts
+- [x] [FILE] src/query/deps.ts
 - [ ] [FILE] src/query/stopHooks.ts
 - [ ] [FILE] src/query/tokenBudget.ts
 - [ ] [FILE] src/remote/RemoteSessionManager.ts
@@ -1271,7 +1271,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/schemas/hooks.ts
 - [x] [FILE] src/screens/Doctor.tsx
 - [ ] [FILE] src/screens/REPL.tsx
-- [ ] [FILE] src/screens/ResumeConversation.tsx
+- [x] [FILE] src/screens/ResumeConversation.tsx
 - [ ] [FILE] src/server/createDirectConnectSession.ts
 - [ ] [FILE] src/server/directConnectManager.ts
 - [ ] [FILE] src/server/types.ts
@@ -1432,7 +1432,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/state/selectors.ts
 - [ ] [FILE] src/state/store.ts
 - [ ] [FILE] src/state/teammateViewHelpers.ts
-- [ ] [FILE] src/tasks.ts
+- [x] [FILE] src/tasks.ts
 - [ ] [FILE] src/tasks/DreamTask/DreamTask.ts
 - [ ] [FILE] src/tasks/InProcessTeammateTask/InProcessTeammateTask.tsx
 - [ ] [FILE] src/tasks/InProcessTeammateTask/types.ts
