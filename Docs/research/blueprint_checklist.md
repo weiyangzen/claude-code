@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:27:06 +0800
+Generated at: 2026-04-01 10:27:28 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -787,16 +787,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/agents/ToolSelector.tsx
 - [x] [FILE] src/components/agents/agentFileUtils.ts
 - [x] [FILE] src/components/agents/generateAgent.ts
-- [ ] [FILE] src/components/agents/new-agent-creation/CreateAgentWizard.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ColorStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStepWrapper.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/DescriptionStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/CreateAgentWizard.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/ColorStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStepWrapper.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/DescriptionStep.tsx
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/GenerateStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/LocationStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/MemoryStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/MethodStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ModelStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/LocationStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/MemoryStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/MethodStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/ModelStep.tsx
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/PromptStep.tsx
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ToolsStep.tsx
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/TypeStep.tsx
