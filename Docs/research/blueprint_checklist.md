@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:10:21 +0800
+Generated at: 2026-04-01 10:10:43 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -748,8 +748,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/Spinner/index.ts
 - [x] [FILE] src/components/Spinner/teammateSelectHint.ts
 - [x] [FILE] src/components/Spinner/useShimmerAnimation.ts
-- [ ] [FILE] src/components/Spinner/useStalledAnimation.ts
-- [ ] [FILE] src/components/Spinner/utils.ts
+- [x] [FILE] src/components/Spinner/useStalledAnimation.ts
+- [x] [FILE] src/components/Spinner/utils.ts
 - [x] [FILE] src/components/Stats.tsx
 - [x] [FILE] src/components/StatusLine.tsx
 - [x] [FILE] src/components/StatusNotices.tsx
@@ -761,8 +761,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/TaskListV2.tsx
 - [x] [FILE] src/components/TeammateViewHeader.tsx
 - [x] [FILE] src/components/TeleportError.tsx
-- [ ] [FILE] src/components/TeleportProgress.tsx
-- [ ] [FILE] src/components/TeleportRepoMismatchDialog.tsx
+- [x] [FILE] src/components/TeleportProgress.tsx
+- [x] [FILE] src/components/TeleportRepoMismatchDialog.tsx
 - [ ] [FILE] src/components/TeleportResumeWrapper.tsx
 - [ ] [FILE] src/components/TeleportStash.tsx
 - [ ] [FILE] src/components/TextInput.tsx
