@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 15:59:34 +0800
+Generated at: 2026-04-01 16:01:32 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1420,9 +1420,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/skills/bundled/simplify.ts
 - [x] [FILE] src/skills/bundled/skillify.ts
 - [x] [FILE] src/skills/bundled/stuck.ts
-- [ ] [FILE] src/skills/bundled/updateConfig.ts
-- [ ] [FILE] src/skills/bundled/verify.ts
-- [ ] [FILE] src/skills/bundled/verifyContent.ts
+- [x] [FILE] src/skills/bundled/updateConfig.ts
+- [x] [FILE] src/skills/bundled/verify.ts
+- [x] [FILE] src/skills/bundled/verifyContent.ts
 - [ ] [FILE] src/skills/bundledSkills.ts
 - [ ] [FILE] src/skills/loadSkillsDir.ts
 - [ ] [FILE] src/skills/mcpSkillBuilders.ts
