@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 14:06:04 +0800
+Generated at: 2026-04-01 14:06:49 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1289,8 +1289,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/analytics/firstPartyEventLoggingExporter.ts
 - [x] [FILE] src/services/analytics/growthbook.ts
 - [x] [FILE] src/services/analytics/index.ts
-- [ ] [FILE] src/services/analytics/metadata.ts
-- [ ] [FILE] src/services/analytics/sink.ts
+- [x] [FILE] src/services/analytics/metadata.ts
+- [x] [FILE] src/services/analytics/sink.ts
 - [ ] [FILE] src/services/analytics/sinkKillswitch.ts
 - [ ] [FILE] src/services/api/adminRequests.ts
 - [ ] [FILE] src/services/api/bootstrap.ts
