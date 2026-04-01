@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:44:37 +0800
+Generated at: 2026-04-01 10:45:24 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -831,14 +831,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/hooks/ViewHookMode.tsx
 - [x] [FILE] src/components/mcp/CapabilitiesSection.tsx
 - [x] [FILE] src/components/mcp/ElicitationDialog.tsx
-- [ ] [FILE] src/components/mcp/MCPAgentServerMenu.tsx
-- [ ] [FILE] src/components/mcp/MCPListPanel.tsx
+- [x] [FILE] src/components/mcp/MCPAgentServerMenu.tsx
+- [x] [FILE] src/components/mcp/MCPListPanel.tsx
 - [ ] [FILE] src/components/mcp/MCPReconnect.tsx
 - [x] [FILE] src/components/mcp/MCPRemoteServerMenu.tsx
-- [ ] [FILE] src/components/mcp/MCPSettings.tsx
-- [ ] [FILE] src/components/mcp/MCPStdioServerMenu.tsx
-- [ ] [FILE] src/components/mcp/MCPToolDetailView.tsx
-- [ ] [FILE] src/components/mcp/MCPToolListView.tsx
+- [x] [FILE] src/components/mcp/MCPSettings.tsx
+- [x] [FILE] src/components/mcp/MCPStdioServerMenu.tsx
+- [x] [FILE] src/components/mcp/MCPToolDetailView.tsx
+- [x] [FILE] src/components/mcp/MCPToolListView.tsx
 - [ ] [FILE] src/components/mcp/McpParsingWarnings.tsx
 - [ ] [FILE] src/components/mcp/index.ts
 - [ ] [FILE] src/components/mcp/utils/reconnectHelpers.tsx
