@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:03:15 +0800
+Generated at: 2026-04-01 10:04:59 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -740,11 +740,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/Spinner.tsx
 - [x] [FILE] src/components/Spinner/FlashingChar.tsx
 - [x] [FILE] src/components/Spinner/GlimmerMessage.tsx
-- [ ] [FILE] src/components/Spinner/ShimmerChar.tsx
+- [x] [FILE] src/components/Spinner/ShimmerChar.tsx
 - [ ] [FILE] src/components/Spinner/SpinnerAnimationRow.tsx
 - [ ] [FILE] src/components/Spinner/SpinnerGlyph.tsx
 - [x] [FILE] src/components/Spinner/TeammateSpinnerLine.tsx
-- [ ] [FILE] src/components/Spinner/TeammateSpinnerTree.tsx
+- [x] [FILE] src/components/Spinner/TeammateSpinnerTree.tsx
 - [ ] [FILE] src/components/Spinner/index.ts
 - [ ] [FILE] src/components/Spinner/teammateSelectHint.ts
 - [ ] [FILE] src/components/Spinner/useShimmerAnimation.ts
@@ -754,8 +754,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/StatusLine.tsx
 - [ ] [FILE] src/components/StatusNotices.tsx
 - [ ] [FILE] src/components/StructuredDiff.tsx
-- [ ] [FILE] src/components/StructuredDiff/Fallback.tsx
-- [ ] [FILE] src/components/StructuredDiff/colorDiff.ts
+- [x] [FILE] src/components/StructuredDiff/Fallback.tsx
+- [x] [FILE] src/components/StructuredDiff/colorDiff.ts
 - [ ] [FILE] src/components/StructuredDiffList.tsx
 - [ ] [FILE] src/components/TagTabs.tsx
 - [ ] [FILE] src/components/TaskListV2.tsx
