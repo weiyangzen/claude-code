@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:31:39 +0800
+Generated at: 2026-04-01 08:35:48 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -611,16 +611,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/CustomSelect/select-option.tsx
 - [x] [FILE] src/components/CustomSelect/select.tsx
 - [x] [FILE] src/components/CustomSelect/use-multi-select-state.ts
-- [ ] [FILE] src/components/CustomSelect/use-select-input.ts
-- [ ] [FILE] src/components/CustomSelect/use-select-navigation.ts
-- [ ] [FILE] src/components/CustomSelect/use-select-state.ts
+- [x] [FILE] src/components/CustomSelect/use-select-input.ts
+- [x] [FILE] src/components/CustomSelect/use-select-navigation.ts
+- [x] [FILE] src/components/CustomSelect/use-select-state.ts
 - [x] [FILE] src/components/DesktopHandoff.tsx
 - [x] [FILE] src/components/DesktopUpsell/DesktopUpsellStartup.tsx
 - [x] [FILE] src/components/DevBar.tsx
 - [x] [FILE] src/components/DevChannelsDialog.tsx
 - [x] [FILE] src/components/DiagnosticsDisplay.tsx
-- [ ] [FILE] src/components/EffortCallout.tsx
-- [ ] [FILE] src/components/EffortIndicator.ts
+- [x] [FILE] src/components/EffortCallout.tsx
+- [x] [FILE] src/components/EffortIndicator.ts
 - [ ] [FILE] src/components/ExitFlow.tsx
 - [ ] [FILE] src/components/ExportDialog.tsx
 - [ ] [FILE] src/components/FallbackToolUseErrorMessage.tsx
