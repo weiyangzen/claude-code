@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:02:44 +0800
+Generated at: 2026-04-01 18:08:25 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1577,10 +1577,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/tools/ScheduleCronTool/CronListTool.ts
 - [ ] [FILE] src/tools/ScheduleCronTool/UI.tsx
 - [ ] [FILE] src/tools/ScheduleCronTool/prompt.ts
-- [ ] [FILE] src/tools/SendMessageTool/SendMessageTool.ts
-- [ ] [FILE] src/tools/SendMessageTool/UI.tsx
-- [ ] [FILE] src/tools/SendMessageTool/constants.ts
-- [ ] [FILE] src/tools/SendMessageTool/prompt.ts
+- [x] [FILE] src/tools/SendMessageTool/SendMessageTool.ts
+- [x] [FILE] src/tools/SendMessageTool/UI.tsx
+- [x] [FILE] src/tools/SendMessageTool/constants.ts
+- [x] [FILE] src/tools/SendMessageTool/prompt.ts
 - [ ] [FILE] src/tools/SkillTool/SkillTool.ts
 - [ ] [FILE] src/tools/SkillTool/UI.tsx
 - [ ] [FILE] src/tools/SkillTool/constants.ts
