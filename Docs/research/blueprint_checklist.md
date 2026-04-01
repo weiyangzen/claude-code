@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:23:44 +0800
+Generated at: 2026-04-01 11:26:21 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -874,20 +874,20 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/messages/UserPromptMessage.tsx
 - [x] [FILE] src/components/messages/UserResourceUpdateMessage.tsx
 - [x] [FILE] src/components/messages/UserTeammateMessage.tsx
-- [ ] [FILE] src/components/messages/UserTextMessage.tsx
-- [ ] [FILE] src/components/messages/UserToolResultMessage/RejectedPlanMessage.tsx
-- [ ] [FILE] src/components/messages/UserToolResultMessage/RejectedToolUseMessage.tsx
-- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolCanceledMessage.tsx
-- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolErrorMessage.tsx
-- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolRejectMessage.tsx
-- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolResultMessage.tsx
-- [ ] [FILE] src/components/messages/UserToolResultMessage/UserToolSuccessMessage.tsx
-- [ ] [FILE] src/components/messages/UserToolResultMessage/utils.tsx
-- [ ] [FILE] src/components/messages/nullRenderingAttachments.ts
-- [ ] [FILE] src/components/messages/teamMemCollapsed.tsx
+- [x] [FILE] src/components/messages/UserTextMessage.tsx
+- [x] [FILE] src/components/messages/UserToolResultMessage/RejectedPlanMessage.tsx
+- [x] [FILE] src/components/messages/UserToolResultMessage/RejectedToolUseMessage.tsx
+- [x] [FILE] src/components/messages/UserToolResultMessage/UserToolCanceledMessage.tsx
+- [x] [FILE] src/components/messages/UserToolResultMessage/UserToolErrorMessage.tsx
+- [x] [FILE] src/components/messages/UserToolResultMessage/UserToolRejectMessage.tsx
+- [x] [FILE] src/components/messages/UserToolResultMessage/UserToolResultMessage.tsx
+- [x] [FILE] src/components/messages/UserToolResultMessage/UserToolSuccessMessage.tsx
+- [x] [FILE] src/components/messages/UserToolResultMessage/utils.tsx
+- [x] [FILE] src/components/messages/nullRenderingAttachments.ts
+- [x] [FILE] src/components/messages/teamMemCollapsed.tsx
 - [ ] [FILE] src/components/messages/teamMemSaved.ts
 - [x] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/AskUserQuestionPermissionRequest.tsx
-- [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/PreviewBox.tsx
+- [x] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/PreviewBox.tsx
 - [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/PreviewQuestionView.tsx
 - [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/QuestionNavigationBar.tsx
 - [ ] [FILE] src/components/permissions/AskUserQuestionPermissionRequest/QuestionView.tsx
