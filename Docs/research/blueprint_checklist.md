@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 17:34:02 +0800
+Generated at: 2026-04-01 17:34:20 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1529,23 +1529,23 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/GlobTool/GlobTool.ts
 - [x] [FILE] src/tools/GlobTool/UI.tsx
 - [x] [FILE] src/tools/GlobTool/prompt.ts
-- [ ] [FILE] src/tools/GrepTool/GrepTool.ts
-- [ ] [FILE] src/tools/GrepTool/UI.tsx
+- [x] [FILE] src/tools/GrepTool/GrepTool.ts
+- [x] [FILE] src/tools/GrepTool/UI.tsx
 - [ ] [FILE] src/tools/GrepTool/prompt.ts
-- [ ] [FILE] src/tools/LSPTool/LSPTool.ts
+- [x] [FILE] src/tools/LSPTool/LSPTool.ts
 - [ ] [FILE] src/tools/LSPTool/UI.tsx
 - [ ] [FILE] src/tools/LSPTool/formatters.ts
 - [ ] [FILE] src/tools/LSPTool/prompt.ts
 - [ ] [FILE] src/tools/LSPTool/schemas.ts
 - [ ] [FILE] src/tools/LSPTool/symbolContext.ts
-- [ ] [FILE] src/tools/ListMcpResourcesTool/ListMcpResourcesTool.ts
-- [ ] [FILE] src/tools/ListMcpResourcesTool/UI.tsx
+- [x] [FILE] src/tools/ListMcpResourcesTool/ListMcpResourcesTool.ts
+- [x] [FILE] src/tools/ListMcpResourcesTool/UI.tsx
 - [ ] [FILE] src/tools/ListMcpResourcesTool/prompt.ts
 - [ ] [FILE] src/tools/MCPTool/MCPTool.ts
 - [ ] [FILE] src/tools/MCPTool/UI.tsx
 - [ ] [FILE] src/tools/MCPTool/classifyForCollapse.ts
 - [ ] [FILE] src/tools/MCPTool/prompt.ts
-- [ ] [FILE] src/tools/McpAuthTool/McpAuthTool.ts
+- [x] [FILE] src/tools/McpAuthTool/McpAuthTool.ts
 - [ ] [FILE] src/tools/NotebookEditTool/NotebookEditTool.ts
 - [ ] [FILE] src/tools/NotebookEditTool/UI.tsx
 - [ ] [FILE] src/tools/NotebookEditTool/constants.ts
