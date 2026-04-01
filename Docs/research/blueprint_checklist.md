@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:18:47 +0800
+Generated at: 2026-04-01 13:21:18 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1161,7 +1161,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/hooks/use-declared-cursor.ts
 - [x] [FILE] src/ink/hooks/use-input.ts
 - [x] [FILE] src/ink/hooks/use-interval.ts
-- [ ] [FILE] src/ink/hooks/use-search-highlight.ts
+- [x] [FILE] src/ink/hooks/use-search-highlight.ts
 - [ ] [FILE] src/ink/hooks/use-selection.ts
 - [ ] [FILE] src/ink/hooks/use-stdin.ts
 - [ ] [FILE] src/ink/hooks/use-tab-status.ts
@@ -1171,9 +1171,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/ink.tsx
 - [x] [FILE] src/ink/instances.ts
 - [x] [FILE] src/ink/layout/engine.ts
-- [ ] [FILE] src/ink/layout/geometry.ts
-- [ ] [FILE] src/ink/layout/node.ts
-- [ ] [FILE] src/ink/layout/yoga.ts
+- [x] [FILE] src/ink/layout/geometry.ts
+- [x] [FILE] src/ink/layout/node.ts
+- [x] [FILE] src/ink/layout/yoga.ts
 - [x] [FILE] src/ink/line-width-cache.ts
 - [ ] [FILE] src/ink/log-update.ts
 - [ ] [FILE] src/ink/measure-element.ts
