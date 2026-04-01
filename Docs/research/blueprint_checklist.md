@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:25:37 +0800
+Generated at: 2026-04-01 18:26:34 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1629,8 +1629,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/shared/gitOperationTracking.ts
 - [x] [FILE] src/tools/shared/spawnMultiAgent.ts
 - [x] [FILE] src/tools/testing/TestingPermissionTool.tsx
-- [ ] [FILE] src/tools/utils.ts
-- [ ] [FILE] src/types/command.ts
+- [x] [FILE] src/tools/utils.ts
+- [x] [FILE] src/types/command.ts
 - [ ] [FILE] src/types/generated/events_mono/claude_code/v1/claude_code_internal_event.ts
 - [ ] [FILE] src/types/generated/events_mono/common/v1/auth.ts
 - [ ] [FILE] src/types/generated/events_mono/growthbook/v1/growthbook_experiment_event.ts
