@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:04:18 +0800
+Generated at: 2026-04-01 08:07:08 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -561,7 +561,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/tag/tag.tsx
 - [x] [FILE] src/commands/tasks/index.ts
 - [x] [FILE] src/commands/tasks/tasks.tsx
-- [ ] [FILE] src/commands/teleport/index.js
+- [x] [FILE] src/commands/teleport/index.js
 - [x] [FILE] src/commands/terminalSetup/index.ts
 - [x] [FILE] src/commands/terminalSetup/terminalSetup.tsx
 - [x] [FILE] src/commands/theme/index.ts
@@ -573,8 +573,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/commands/ultraplan.tsx
 - [ ] [FILE] src/commands/upgrade/index.ts
 - [ ] [FILE] src/commands/upgrade/upgrade.tsx
-- [ ] [FILE] src/commands/usage/index.ts
-- [ ] [FILE] src/commands/usage/usage.tsx
+- [x] [FILE] src/commands/usage/index.ts
+- [x] [FILE] src/commands/usage/usage.tsx
 - [ ] [FILE] src/commands/version.ts
 - [ ] [FILE] src/commands/vim/index.ts
 - [ ] [FILE] src/commands/vim/vim.ts
