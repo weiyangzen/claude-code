@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:02:20 +0800
+Generated at: 2026-04-01 20:03:20 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2040,7 +2040,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/secureStorage/keychainPrefetch.ts
 - [x] [FILE] src/utils/secureStorage/macOsKeychainHelpers.ts
 - [x] [FILE] src/utils/secureStorage/macOsKeychainStorage.ts
-- [ ] [FILE] src/utils/secureStorage/plainTextStorage.ts
+- [x] [FILE] src/utils/secureStorage/plainTextStorage.ts
 - [ ] [FILE] src/utils/semanticBoolean.ts
 - [ ] [FILE] src/utils/semanticNumber.ts
 - [ ] [FILE] src/utils/semver.ts
@@ -2061,11 +2061,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/settings/allErrors.ts
 - [x] [FILE] src/utils/settings/applySettingsChange.ts
 - [x] [FILE] src/utils/settings/changeDetector.ts
-- [ ] [FILE] src/utils/settings/constants.ts
+- [x] [FILE] src/utils/settings/constants.ts
 - [ ] [FILE] src/utils/settings/internalWrites.ts
 - [ ] [FILE] src/utils/settings/managedPath.ts
 - [x] [FILE] src/utils/settings/mdm/constants.ts
-- [ ] [FILE] src/utils/settings/mdm/rawRead.ts
+- [x] [FILE] src/utils/settings/mdm/rawRead.ts
 - [ ] [FILE] src/utils/settings/mdm/settings.ts
 - [ ] [FILE] src/utils/settings/permissionValidation.ts
 - [ ] [FILE] src/utils/settings/pluginOnlyPolicy.ts
