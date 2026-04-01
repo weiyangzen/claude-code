@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 15:56:25 +0800
+Generated at: 2026-04-01 15:59:22 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1406,15 +1406,15 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/voiceKeyterms.ts
 - [x] [FILE] src/services/voiceStreamSTT.ts
 - [x] [FILE] src/setup.ts
-- [ ] [FILE] src/skills/bundled/batch.ts
-- [ ] [FILE] src/skills/bundled/claudeApi.ts
-- [ ] [FILE] src/skills/bundled/claudeApiContent.ts
-- [ ] [FILE] src/skills/bundled/claudeInChrome.ts
-- [ ] [FILE] src/skills/bundled/debug.ts
-- [ ] [FILE] src/skills/bundled/index.ts
-- [ ] [FILE] src/skills/bundled/keybindings.ts
-- [ ] [FILE] src/skills/bundled/loop.ts
-- [ ] [FILE] src/skills/bundled/loremIpsum.ts
+- [x] [FILE] src/skills/bundled/batch.ts
+- [x] [FILE] src/skills/bundled/claudeApi.ts
+- [x] [FILE] src/skills/bundled/claudeApiContent.ts
+- [x] [FILE] src/skills/bundled/claudeInChrome.ts
+- [x] [FILE] src/skills/bundled/debug.ts
+- [x] [FILE] src/skills/bundled/index.ts
+- [x] [FILE] src/skills/bundled/keybindings.ts
+- [x] [FILE] src/skills/bundled/loop.ts
+- [x] [FILE] src/skills/bundled/loremIpsum.ts
 - [ ] [FILE] src/skills/bundled/remember.ts
 - [ ] [FILE] src/skills/bundled/scheduleRemoteAgents.ts
 - [ ] [FILE] src/skills/bundled/simplify.ts
