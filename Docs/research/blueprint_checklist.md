@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:20:26 +0800
+Generated at: 2026-04-01 08:21:50 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -598,9 +598,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/ClickableImageRef.tsx
 - [x] [FILE] src/components/CompactSummary.tsx
 - [x] [FILE] src/components/ConfigurableShortcutHint.tsx
-- [ ] [FILE] src/components/ConsoleOAuthFlow.tsx
+- [x] [FILE] src/components/ConsoleOAuthFlow.tsx
 - [ ] [FILE] src/components/ContextSuggestions.tsx
-- [ ] [FILE] src/components/ContextVisualization.tsx
+- [x] [FILE] src/components/ContextVisualization.tsx
 - [ ] [FILE] src/components/CoordinatorAgentStatus.tsx
 - [ ] [FILE] src/components/CostThresholdDialog.tsx
 - [ ] [FILE] src/components/CtrlOToExpand.tsx
