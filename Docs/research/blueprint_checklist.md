@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:50:34 +0800
+Generated at: 2026-04-01 19:51:21 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1893,13 +1893,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/mcp/elicitationValidation.ts
 - [x] [FILE] src/utils/mcpInstructionsDelta.ts
 - [x] [FILE] src/utils/mcpOutputStorage.ts
-- [ ] [FILE] src/utils/mcpValidation.ts
-- [ ] [FILE] src/utils/mcpWebSocketTransport.ts
-- [ ] [FILE] src/utils/memoize.ts
+- [x] [FILE] src/utils/mcpValidation.ts
+- [x] [FILE] src/utils/mcpWebSocketTransport.ts
+- [x] [FILE] src/utils/memoize.ts
 - [x] [FILE] src/utils/memory/types.ts
 - [x] [FILE] src/utils/memory/versions.ts
-- [ ] [FILE] src/utils/memoryFileDetection.ts
-- [ ] [FILE] src/utils/messagePredicates.ts
+- [x] [FILE] src/utils/memoryFileDetection.ts
+- [x] [FILE] src/utils/messagePredicates.ts
 - [x] [FILE] src/utils/messageQueueManager.ts
 - [x] [FILE] src/utils/messages.ts
 - [x] [FILE] src/utils/messages/mappers.ts
@@ -1911,27 +1911,27 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/model/check1mAccess.ts
 - [x] [FILE] src/utils/model/configs.ts
 - [x] [FILE] src/utils/model/contextWindowUpgradeCheck.ts
-- [ ] [FILE] src/utils/model/deprecation.ts
-- [ ] [FILE] src/utils/model/model.ts
-- [ ] [FILE] src/utils/model/modelAllowlist.ts
-- [ ] [FILE] src/utils/model/modelCapabilities.ts
-- [ ] [FILE] src/utils/model/modelOptions.ts
-- [ ] [FILE] src/utils/model/modelStrings.ts
-- [ ] [FILE] src/utils/model/modelSupportOverrides.ts
+- [x] [FILE] src/utils/model/deprecation.ts
+- [x] [FILE] src/utils/model/model.ts
+- [x] [FILE] src/utils/model/modelAllowlist.ts
+- [x] [FILE] src/utils/model/modelCapabilities.ts
+- [x] [FILE] src/utils/model/modelOptions.ts
+- [x] [FILE] src/utils/model/modelStrings.ts
+- [x] [FILE] src/utils/model/modelSupportOverrides.ts
 - [ ] [FILE] src/utils/model/providers.ts
 - [ ] [FILE] src/utils/model/validateModel.ts
 - [x] [FILE] src/utils/modelCost.ts
 - [x] [FILE] src/utils/modifiers.ts
 - [x] [FILE] src/utils/mtls.ts
 - [x] [FILE] src/utils/nativeInstaller/download.ts
-- [ ] [FILE] src/utils/nativeInstaller/index.ts
-- [ ] [FILE] src/utils/nativeInstaller/installer.ts
-- [ ] [FILE] src/utils/nativeInstaller/packageManagers.ts
-- [ ] [FILE] src/utils/nativeInstaller/pidLock.ts
-- [ ] [FILE] src/utils/notebook.ts
-- [ ] [FILE] src/utils/objectGroupBy.ts
-- [ ] [FILE] src/utils/pasteStore.ts
-- [ ] [FILE] src/utils/path.ts
+- [x] [FILE] src/utils/nativeInstaller/index.ts
+- [x] [FILE] src/utils/nativeInstaller/installer.ts
+- [x] [FILE] src/utils/nativeInstaller/packageManagers.ts
+- [x] [FILE] src/utils/nativeInstaller/pidLock.ts
+- [x] [FILE] src/utils/notebook.ts
+- [x] [FILE] src/utils/objectGroupBy.ts
+- [x] [FILE] src/utils/pasteStore.ts
+- [x] [FILE] src/utils/path.ts
 - [ ] [FILE] src/utils/pdf.ts
 - [ ] [FILE] src/utils/pdfUtils.ts
 - [ ] [FILE] src/utils/peerAddress.ts
@@ -1940,56 +1940,56 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/permissions/PermissionResult.ts
 - [x] [FILE] src/utils/permissions/PermissionRule.ts
 - [x] [FILE] src/utils/permissions/PermissionUpdate.ts
-- [ ] [FILE] src/utils/permissions/PermissionUpdateSchema.ts
-- [ ] [FILE] src/utils/permissions/autoModeState.ts
-- [ ] [FILE] src/utils/permissions/bashClassifier.ts
-- [ ] [FILE] src/utils/permissions/bypassPermissionsKillswitch.ts
-- [ ] [FILE] src/utils/permissions/classifierDecision.ts
-- [ ] [FILE] src/utils/permissions/classifierShared.ts
+- [x] [FILE] src/utils/permissions/PermissionUpdateSchema.ts
+- [x] [FILE] src/utils/permissions/autoModeState.ts
+- [x] [FILE] src/utils/permissions/bashClassifier.ts
+- [x] [FILE] src/utils/permissions/bypassPermissionsKillswitch.ts
+- [x] [FILE] src/utils/permissions/classifierDecision.ts
+- [x] [FILE] src/utils/permissions/classifierShared.ts
 - [ ] [FILE] src/utils/permissions/dangerousPatterns.ts
 - [ ] [FILE] src/utils/permissions/denialTracking.ts
 - [ ] [FILE] src/utils/permissions/filesystem.ts
 - [x] [FILE] src/utils/permissions/getNextPermissionMode.ts
-- [ ] [FILE] src/utils/permissions/pathValidation.ts
-- [ ] [FILE] src/utils/permissions/permissionExplainer.ts
-- [ ] [FILE] src/utils/permissions/permissionRuleParser.ts
+- [x] [FILE] src/utils/permissions/pathValidation.ts
+- [x] [FILE] src/utils/permissions/permissionExplainer.ts
+- [x] [FILE] src/utils/permissions/permissionRuleParser.ts
 - [ ] [FILE] src/utils/permissions/permissionSetup.ts
-- [ ] [FILE] src/utils/permissions/permissions.ts
-- [ ] [FILE] src/utils/permissions/permissionsLoader.ts
-- [ ] [FILE] src/utils/permissions/shadowedRuleDetection.ts
-- [ ] [FILE] src/utils/permissions/shellRuleMatching.ts
+- [x] [FILE] src/utils/permissions/permissions.ts
+- [x] [FILE] src/utils/permissions/permissionsLoader.ts
+- [x] [FILE] src/utils/permissions/shadowedRuleDetection.ts
+- [x] [FILE] src/utils/permissions/shellRuleMatching.ts
 - [x] [FILE] src/utils/permissions/yoloClassifier.ts
 - [ ] [FILE] src/utils/planModeV2.ts
 - [ ] [FILE] src/utils/plans.ts
 - [ ] [FILE] src/utils/platform.ts
 - [x] [FILE] src/utils/plugins/addDirPluginSettings.ts
-- [ ] [FILE] src/utils/plugins/cacheUtils.ts
-- [ ] [FILE] src/utils/plugins/dependencyResolver.ts
-- [ ] [FILE] src/utils/plugins/fetchTelemetry.ts
-- [ ] [FILE] src/utils/plugins/gitAvailability.ts
-- [ ] [FILE] src/utils/plugins/headlessPluginInstall.ts
+- [x] [FILE] src/utils/plugins/cacheUtils.ts
+- [x] [FILE] src/utils/plugins/dependencyResolver.ts
+- [x] [FILE] src/utils/plugins/fetchTelemetry.ts
+- [x] [FILE] src/utils/plugins/gitAvailability.ts
+- [x] [FILE] src/utils/plugins/headlessPluginInstall.ts
 - [ ] [FILE] src/utils/plugins/hintRecommendation.ts
 - [ ] [FILE] src/utils/plugins/installCounts.ts
 - [ ] [FILE] src/utils/plugins/installedPluginsManager.ts
 - [ ] [FILE] src/utils/plugins/loadPluginAgents.ts
-- [ ] [FILE] src/utils/plugins/loadPluginCommands.ts
-- [ ] [FILE] src/utils/plugins/loadPluginHooks.ts
+- [x] [FILE] src/utils/plugins/loadPluginCommands.ts
+- [x] [FILE] src/utils/plugins/loadPluginHooks.ts
 - [ ] [FILE] src/utils/plugins/loadPluginOutputStyles.ts
 - [ ] [FILE] src/utils/plugins/lspPluginIntegration.ts
 - [ ] [FILE] src/utils/plugins/lspRecommendation.ts
 - [ ] [FILE] src/utils/plugins/managedPlugins.ts
 - [ ] [FILE] src/utils/plugins/marketplaceHelpers.ts
-- [ ] [FILE] src/utils/plugins/marketplaceManager.ts
-- [ ] [FILE] src/utils/plugins/mcpPluginIntegration.ts
-- [ ] [FILE] src/utils/plugins/mcpbHandler.ts
-- [ ] [FILE] src/utils/plugins/officialMarketplace.ts
+- [x] [FILE] src/utils/plugins/marketplaceManager.ts
+- [x] [FILE] src/utils/plugins/mcpPluginIntegration.ts
+- [x] [FILE] src/utils/plugins/mcpbHandler.ts
+- [x] [FILE] src/utils/plugins/officialMarketplace.ts
 - [ ] [FILE] src/utils/plugins/officialMarketplaceGcs.ts
 - [ ] [FILE] src/utils/plugins/officialMarketplaceStartupCheck.ts
 - [ ] [FILE] src/utils/plugins/orphanedPluginFilter.ts
 - [ ] [FILE] src/utils/plugins/parseMarketplaceInput.ts
 - [ ] [FILE] src/utils/plugins/performStartupChecks.tsx
-- [ ] [FILE] src/utils/plugins/pluginAutoupdate.ts
-- [ ] [FILE] src/utils/plugins/pluginBlocklist.ts
+- [x] [FILE] src/utils/plugins/pluginAutoupdate.ts
+- [x] [FILE] src/utils/plugins/pluginBlocklist.ts
 - [ ] [FILE] src/utils/plugins/pluginDirectories.ts
 - [ ] [FILE] src/utils/plugins/pluginFlagging.ts
 - [ ] [FILE] src/utils/plugins/pluginIdentifier.ts
