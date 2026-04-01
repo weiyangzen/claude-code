@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:52:16 +0800
+Generated at: 2026-04-01 18:52:55 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1680,8 +1680,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/bash/ParsedCommand.ts
 - [x] [FILE] src/utils/bash/ShellSnapshot.ts
 - [x] [FILE] src/utils/bash/ast.ts
-- [ ] [FILE] src/utils/bash/bashParser.ts
-- [ ] [FILE] src/utils/bash/bashPipeCommand.ts
+- [x] [FILE] src/utils/bash/bashParser.ts
+- [x] [FILE] src/utils/bash/bashPipeCommand.ts
 - [ ] [FILE] src/utils/bash/commands.ts
 - [ ] [FILE] src/utils/bash/heredoc.ts
 - [ ] [FILE] src/utils/bash/parser.ts
@@ -1691,7 +1691,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/bash/shellPrefix.ts
 - [ ] [FILE] src/utils/bash/shellQuote.ts
 - [ ] [FILE] src/utils/bash/shellQuoting.ts
-- [ ] [FILE] src/utils/bash/specs/alias.ts
+- [x] [FILE] src/utils/bash/specs/alias.ts
 - [ ] [FILE] src/utils/bash/specs/index.ts
 - [ ] [FILE] src/utils/bash/specs/nohup.ts
 - [ ] [FILE] src/utils/bash/specs/pyright.ts
