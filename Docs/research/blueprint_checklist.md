@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:28:37 +0800
+Generated at: 2026-04-01 13:30:53 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1204,8 +1204,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/termio/csi.ts
 - [x] [FILE] src/ink/termio/dec.ts
 - [x] [FILE] src/ink/termio/esc.ts
-- [ ] [FILE] src/ink/termio/osc.ts
-- [ ] [FILE] src/ink/termio/parser.ts
+- [x] [FILE] src/ink/termio/osc.ts
+- [x] [FILE] src/ink/termio/parser.ts
 - [ ] [FILE] src/ink/termio/sgr.ts
 - [ ] [FILE] src/ink/termio/tokenize.ts
 - [ ] [FILE] src/ink/termio/types.ts
@@ -1215,8 +1215,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/wrap-text.ts
 - [x] [FILE] src/ink/wrapAnsi.ts
 - [x] [FILE] src/interactiveHelpers.tsx
-- [ ] [FILE] src/keybindings/KeybindingContext.tsx
-- [ ] [FILE] src/keybindings/KeybindingProviderSetup.tsx
+- [x] [FILE] src/keybindings/KeybindingContext.tsx
+- [x] [FILE] src/keybindings/KeybindingProviderSetup.tsx
 - [ ] [FILE] src/keybindings/defaultBindings.ts
 - [ ] [FILE] src/keybindings/loadUserBindings.ts
 - [ ] [FILE] src/keybindings/match.ts
@@ -1229,7 +1229,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/keybindings/useKeybinding.ts
 - [ ] [FILE] src/keybindings/useShortcutDisplay.ts
 - [ ] [FILE] src/keybindings/validate.ts
-- [ ] [FILE] src/main.tsx
+- [x] [FILE] src/main.tsx
 - [ ] [FILE] src/memdir/findRelevantMemories.ts
 - [ ] [FILE] src/memdir/memdir.ts
 - [ ] [FILE] src/memdir/memoryAge.ts
