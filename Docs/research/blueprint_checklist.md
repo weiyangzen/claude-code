@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 16:23:06 +0800
+Generated at: 2026-04-01 16:26:21 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1452,21 +1452,21 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/AgentTool/agentDisplay.ts
 - [x] [FILE] src/tools/AgentTool/agentMemory.ts
 - [x] [FILE] src/tools/AgentTool/agentMemorySnapshot.ts
-- [ ] [FILE] src/tools/AgentTool/agentToolUtils.ts
+- [x] [FILE] src/tools/AgentTool/agentToolUtils.ts
 - [x] [FILE] src/tools/AgentTool/built-in/claudeCodeGuideAgent.ts
 - [x] [FILE] src/tools/AgentTool/built-in/exploreAgent.ts
-- [ ] [FILE] src/tools/AgentTool/built-in/generalPurposeAgent.ts
+- [x] [FILE] src/tools/AgentTool/built-in/generalPurposeAgent.ts
 - [x] [FILE] src/tools/AgentTool/built-in/planAgent.ts
 - [x] [FILE] src/tools/AgentTool/built-in/statuslineSetup.ts
-- [ ] [FILE] src/tools/AgentTool/built-in/verificationAgent.ts
-- [ ] [FILE] src/tools/AgentTool/builtInAgents.ts
-- [ ] [FILE] src/tools/AgentTool/constants.ts
-- [ ] [FILE] src/tools/AgentTool/forkSubagent.ts
-- [ ] [FILE] src/tools/AgentTool/loadAgentsDir.ts
-- [ ] [FILE] src/tools/AgentTool/prompt.ts
+- [x] [FILE] src/tools/AgentTool/built-in/verificationAgent.ts
+- [x] [FILE] src/tools/AgentTool/builtInAgents.ts
+- [x] [FILE] src/tools/AgentTool/constants.ts
+- [x] [FILE] src/tools/AgentTool/forkSubagent.ts
+- [x] [FILE] src/tools/AgentTool/loadAgentsDir.ts
+- [x] [FILE] src/tools/AgentTool/prompt.ts
 - [x] [FILE] src/tools/AgentTool/resumeAgent.ts
 - [x] [FILE] src/tools/AgentTool/runAgent.ts
-- [ ] [FILE] src/tools/AskUserQuestionTool/AskUserQuestionTool.tsx
+- [x] [FILE] src/tools/AskUserQuestionTool/AskUserQuestionTool.tsx
 - [ ] [FILE] src/tools/AskUserQuestionTool/prompt.ts
 - [ ] [FILE] src/tools/BashTool/BashTool.tsx
 - [ ] [FILE] src/tools/BashTool/BashToolResultMessage.tsx
