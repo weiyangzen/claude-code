@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:19:48 +0800
+Generated at: 2026-04-01 20:20:05 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2135,8 +2135,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/teamHelpers.ts
 - [x] [FILE] src/utils/swarm/teammateInit.ts
 - [x] [FILE] src/utils/swarm/teammateLayoutManager.ts
-- [ ] [FILE] src/utils/swarm/teammateModel.ts
-- [ ] [FILE] src/utils/swarm/teammatePromptAddendum.ts
+- [x] [FILE] src/utils/swarm/teammateModel.ts
+- [x] [FILE] src/utils/swarm/teammatePromptAddendum.ts
 - [x] [FILE] src/utils/systemDirectories.ts
 - [x] [FILE] src/utils/systemPrompt.ts
 - [x] [FILE] src/utils/systemPromptType.ts
@@ -2149,7 +2149,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/task/sdkProgress.ts
 - [x] [FILE] src/utils/tasks.ts
 - [x] [FILE] src/utils/teamDiscovery.ts
-- [ ] [FILE] src/utils/teamMemoryOps.ts
+- [x] [FILE] src/utils/teamMemoryOps.ts
 - [x] [FILE] src/utils/teammate.ts
 - [x] [FILE] src/utils/teammateContext.ts
 - [x] [FILE] src/utils/teammateMailbox.ts
@@ -2159,7 +2159,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/telemetry/instrumentation.ts
 - [x] [FILE] src/utils/telemetry/logger.ts
 - [x] [FILE] src/utils/telemetry/perfettoTracing.ts
-- [ ] [FILE] src/utils/telemetry/pluginTelemetry.ts
+- [x] [FILE] src/utils/telemetry/pluginTelemetry.ts
 - [x] [FILE] src/utils/telemetry/sessionTracing.ts
 - [x] [FILE] src/utils/telemetry/skillLoadedEvent.ts
 - [x] [FILE] src/utils/telemetryAttributes.ts
@@ -2173,7 +2173,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/terminalPanel.ts
 - [x] [FILE] src/utils/textHighlighting.ts
 - [x] [FILE] src/utils/theme.ts
-- [ ] [FILE] src/utils/thinking.ts
+- [x] [FILE] src/utils/thinking.ts
 - [ ] [FILE] src/utils/timeouts.ts
 - [ ] [FILE] src/utils/tmuxSocket.ts
 - [x] [FILE] src/utils/todo/types.ts
@@ -2181,8 +2181,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/tokens.ts
 - [ ] [FILE] src/utils/toolErrors.ts
 - [ ] [FILE] src/utils/toolPool.ts
-- [ ] [FILE] src/utils/toolResultStorage.ts
-- [ ] [FILE] src/utils/toolSchemaCache.ts
+- [x] [FILE] src/utils/toolResultStorage.ts
+- [x] [FILE] src/utils/toolSchemaCache.ts
 - [ ] [FILE] src/utils/toolSearch.ts
 - [ ] [FILE] src/utils/transcriptSearch.ts
 - [ ] [FILE] src/utils/treeify.ts
@@ -2197,8 +2197,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/uuid.ts
 - [ ] [FILE] src/utils/warningHandler.ts
 - [x] [FILE] src/utils/which.ts
-- [ ] [FILE] src/utils/windowsPaths.ts
-- [ ] [FILE] src/utils/withResolvers.ts
+- [x] [FILE] src/utils/windowsPaths.ts
+- [x] [FILE] src/utils/withResolvers.ts
 - [ ] [FILE] src/utils/words.ts
 - [ ] [FILE] src/utils/workloadContext.ts
 - [ ] [FILE] src/utils/worktree.ts
@@ -2207,7 +2207,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/xml.ts
 - [ ] [FILE] src/utils/yaml.ts
 - [ ] [FILE] src/utils/zodToJsonSchema.ts
-- [ ] [FILE] src/vim/motions.ts
+- [x] [FILE] src/vim/motions.ts
 - [ ] [FILE] src/vim/operators.ts
 - [ ] [FILE] src/vim/textObjects.ts
 - [ ] [FILE] src/vim/transitions.ts
