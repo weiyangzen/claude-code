@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:59:41 +0800
+Generated at: 2026-04-01 13:02:28 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1091,7 +1091,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/usePromptsFromClaudeInChrome.tsx
 - [x] [FILE] src/hooks/useQueueProcessor.ts
 - [x] [FILE] src/hooks/useRemoteSession.ts
-- [ ] [FILE] src/hooks/useReplBridge.tsx
+- [x] [FILE] src/hooks/useReplBridge.tsx
 - [ ] [FILE] src/hooks/useSSHSession.ts
 - [ ] [FILE] src/hooks/useScheduledTasks.ts
 - [ ] [FILE] src/hooks/useSearchInput.ts
