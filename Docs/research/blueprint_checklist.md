@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:03:52 +0800
+Generated at: 2026-04-01 20:05:56 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2041,8 +2041,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/secureStorage/macOsKeychainHelpers.ts
 - [x] [FILE] src/utils/secureStorage/macOsKeychainStorage.ts
 - [x] [FILE] src/utils/secureStorage/plainTextStorage.ts
-- [ ] [FILE] src/utils/semanticBoolean.ts
-- [ ] [FILE] src/utils/semanticNumber.ts
+- [x] [FILE] src/utils/semanticBoolean.ts
+- [x] [FILE] src/utils/semanticNumber.ts
 - [ ] [FILE] src/utils/semver.ts
 - [ ] [FILE] src/utils/sequential.ts
 - [ ] [FILE] src/utils/sessionActivity.ts
@@ -2063,18 +2063,18 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/settings/changeDetector.ts
 - [x] [FILE] src/utils/settings/constants.ts
 - [x] [FILE] src/utils/settings/internalWrites.ts
-- [ ] [FILE] src/utils/settings/managedPath.ts
+- [x] [FILE] src/utils/settings/managedPath.ts
 - [x] [FILE] src/utils/settings/mdm/constants.ts
 - [x] [FILE] src/utils/settings/mdm/rawRead.ts
 - [x] [FILE] src/utils/settings/mdm/settings.ts
-- [ ] [FILE] src/utils/settings/permissionValidation.ts
+- [x] [FILE] src/utils/settings/permissionValidation.ts
 - [ ] [FILE] src/utils/settings/pluginOnlyPolicy.ts
 - [ ] [FILE] src/utils/settings/schemaOutput.ts
 - [ ] [FILE] src/utils/settings/settings.ts
 - [ ] [FILE] src/utils/settings/settingsCache.ts
 - [ ] [FILE] src/utils/settings/toolValidationConfig.ts
 - [x] [FILE] src/utils/settings/types.ts
-- [ ] [FILE] src/utils/settings/validateEditTool.ts
+- [x] [FILE] src/utils/settings/validateEditTool.ts
 - [ ] [FILE] src/utils/settings/validation.ts
 - [ ] [FILE] src/utils/settings/validationTips.ts
 - [ ] [FILE] src/utils/shell/bashProvider.ts
@@ -2089,10 +2089,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/shell/specPrefix.ts
 - [x] [FILE] src/utils/shellConfig.ts
 - [x] [FILE] src/utils/sideQuery.ts
-- [ ] [FILE] src/utils/sideQuestion.ts
+- [x] [FILE] src/utils/sideQuestion.ts
 - [ ] [FILE] src/utils/signal.ts
 - [ ] [FILE] src/utils/sinks.ts
-- [ ] [FILE] src/utils/skills/skillChangeDetector.ts
+- [x] [FILE] src/utils/skills/skillChangeDetector.ts
 - [ ] [FILE] src/utils/slashCommandParsing.ts
 - [ ] [FILE] src/utils/sleep.ts
 - [ ] [FILE] src/utils/sliceAnsi.ts
