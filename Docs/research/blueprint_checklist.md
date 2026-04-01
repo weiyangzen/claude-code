@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:30:54 +0800
+Generated at: 2026-04-01 11:31:33 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -896,7 +896,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/permissions/BashPermissionRequest/BashPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/BashPermissionRequest/bashToolUseOptions.tsx
 - [x] [FILE] src/components/permissions/ComputerUseApproval/ComputerUseApproval.tsx
-- [ ] [FILE] src/components/permissions/EnterPlanModePermissionRequest/EnterPlanModePermissionRequest.tsx
+- [x] [FILE] src/components/permissions/EnterPlanModePermissionRequest/EnterPlanModePermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/FallbackPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/FileEditPermissionRequest/FileEditPermissionRequest.tsx
