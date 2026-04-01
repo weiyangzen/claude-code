@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:19:18 +0800
+Generated at: 2026-04-01 18:19:51 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1596,22 +1596,22 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/TaskListTool/TaskListTool.ts
 - [x] [FILE] src/tools/TaskListTool/constants.ts
 - [x] [FILE] src/tools/TaskListTool/prompt.ts
-- [ ] [FILE] src/tools/TaskOutputTool/TaskOutputTool.tsx
-- [ ] [FILE] src/tools/TaskOutputTool/constants.ts
+- [x] [FILE] src/tools/TaskOutputTool/TaskOutputTool.tsx
+- [x] [FILE] src/tools/TaskOutputTool/constants.ts
 - [x] [FILE] src/tools/TaskStopTool/TaskStopTool.ts
 - [x] [FILE] src/tools/TaskStopTool/UI.tsx
 - [x] [FILE] src/tools/TaskStopTool/prompt.ts
 - [x] [FILE] src/tools/TaskUpdateTool/TaskUpdateTool.ts
 - [x] [FILE] src/tools/TaskUpdateTool/constants.ts
 - [x] [FILE] src/tools/TaskUpdateTool/prompt.ts
-- [ ] [FILE] src/tools/TeamCreateTool/TeamCreateTool.ts
-- [ ] [FILE] src/tools/TeamCreateTool/UI.tsx
-- [ ] [FILE] src/tools/TeamCreateTool/constants.ts
-- [ ] [FILE] src/tools/TeamCreateTool/prompt.ts
-- [ ] [FILE] src/tools/TeamDeleteTool/TeamDeleteTool.ts
-- [ ] [FILE] src/tools/TeamDeleteTool/UI.tsx
-- [ ] [FILE] src/tools/TeamDeleteTool/constants.ts
-- [ ] [FILE] src/tools/TeamDeleteTool/prompt.ts
+- [x] [FILE] src/tools/TeamCreateTool/TeamCreateTool.ts
+- [x] [FILE] src/tools/TeamCreateTool/UI.tsx
+- [x] [FILE] src/tools/TeamCreateTool/constants.ts
+- [x] [FILE] src/tools/TeamCreateTool/prompt.ts
+- [x] [FILE] src/tools/TeamDeleteTool/TeamDeleteTool.ts
+- [x] [FILE] src/tools/TeamDeleteTool/UI.tsx
+- [x] [FILE] src/tools/TeamDeleteTool/constants.ts
+- [x] [FILE] src/tools/TeamDeleteTool/prompt.ts
 - [x] [FILE] src/tools/TodoWriteTool/TodoWriteTool.ts
 - [x] [FILE] src/tools/TodoWriteTool/constants.ts
 - [x] [FILE] src/tools/TodoWriteTool/prompt.ts
