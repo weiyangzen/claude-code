@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:26:21 +0800
+Generated at: 2026-04-01 13:27:58 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1199,9 +1199,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/terminal-focus-state.ts
 - [x] [FILE] src/ink/terminal-querier.ts
 - [x] [FILE] src/ink/terminal.ts
-- [ ] [FILE] src/ink/termio.ts
-- [ ] [FILE] src/ink/termio/ansi.ts
-- [ ] [FILE] src/ink/termio/csi.ts
+- [x] [FILE] src/ink/termio.ts
+- [x] [FILE] src/ink/termio/ansi.ts
+- [x] [FILE] src/ink/termio/csi.ts
 - [ ] [FILE] src/ink/termio/dec.ts
 - [ ] [FILE] src/ink/termio/esc.ts
 - [ ] [FILE] src/ink/termio/osc.ts
@@ -1209,11 +1209,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/ink/termio/sgr.ts
 - [ ] [FILE] src/ink/termio/tokenize.ts
 - [ ] [FILE] src/ink/termio/types.ts
-- [ ] [FILE] src/ink/useTerminalNotification.ts
-- [ ] [FILE] src/ink/warn.ts
-- [ ] [FILE] src/ink/widest-line.ts
-- [ ] [FILE] src/ink/wrap-text.ts
-- [ ] [FILE] src/ink/wrapAnsi.ts
+- [x] [FILE] src/ink/useTerminalNotification.ts
+- [x] [FILE] src/ink/warn.ts
+- [x] [FILE] src/ink/widest-line.ts
+- [x] [FILE] src/ink/wrap-text.ts
+- [x] [FILE] src/ink/wrapAnsi.ts
 - [ ] [FILE] src/interactiveHelpers.tsx
 - [ ] [FILE] src/keybindings/KeybindingContext.tsx
 - [ ] [FILE] src/keybindings/KeybindingProviderSetup.tsx
