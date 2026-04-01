@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:11:21 +0800
+Generated at: 2026-04-01 13:14:00 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1104,7 +1104,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/useSwarmPermissionPoller.ts
 - [x] [FILE] src/hooks/useTaskListWatcher.ts
 - [x] [FILE] src/hooks/useTasksV2.ts
-- [ ] [FILE] src/hooks/useTeammateViewAutoExit.ts
+- [x] [FILE] src/hooks/useTeammateViewAutoExit.ts
 - [ ] [FILE] src/hooks/useTeleportResume.tsx
 - [ ] [FILE] src/hooks/useTerminalSize.ts
 - [ ] [FILE] src/hooks/useTextInput.ts
@@ -1126,7 +1126,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/components/App.tsx
 - [x] [FILE] src/ink/components/AppContext.ts
 - [x] [FILE] src/ink/components/Box.tsx
-- [ ] [FILE] src/ink/components/Button.tsx
+- [x] [FILE] src/ink/components/Button.tsx
 - [ ] [FILE] src/ink/components/ClockContext.tsx
 - [ ] [FILE] src/ink/components/CursorDeclarationContext.ts
 - [ ] [FILE] src/ink/components/ErrorOverview.tsx
