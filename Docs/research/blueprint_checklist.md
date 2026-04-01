@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 17:39:31 +0800
+Generated at: 2026-04-01 17:41:29 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1534,10 +1534,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/GrepTool/prompt.ts
 - [x] [FILE] src/tools/LSPTool/LSPTool.ts
 - [x] [FILE] src/tools/LSPTool/UI.tsx
-- [ ] [FILE] src/tools/LSPTool/formatters.ts
-- [ ] [FILE] src/tools/LSPTool/prompt.ts
-- [ ] [FILE] src/tools/LSPTool/schemas.ts
-- [ ] [FILE] src/tools/LSPTool/symbolContext.ts
+- [x] [FILE] src/tools/LSPTool/formatters.ts
+- [x] [FILE] src/tools/LSPTool/prompt.ts
+- [x] [FILE] src/tools/LSPTool/schemas.ts
+- [x] [FILE] src/tools/LSPTool/symbolContext.ts
 - [x] [FILE] src/tools/ListMcpResourcesTool/ListMcpResourcesTool.ts
 - [x] [FILE] src/tools/ListMcpResourcesTool/UI.tsx
 - [x] [FILE] src/tools/ListMcpResourcesTool/prompt.ts
@@ -1551,8 +1551,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/tools/NotebookEditTool/constants.ts
 - [ ] [FILE] src/tools/NotebookEditTool/prompt.ts
 - [ ] [FILE] src/tools/PowerShellTool/PowerShellTool.tsx
-- [ ] [FILE] src/tools/PowerShellTool/UI.tsx
-- [ ] [FILE] src/tools/PowerShellTool/clmTypes.ts
+- [x] [FILE] src/tools/PowerShellTool/UI.tsx
+- [x] [FILE] src/tools/PowerShellTool/clmTypes.ts
 - [ ] [FILE] src/tools/PowerShellTool/commandSemantics.ts
 - [ ] [FILE] src/tools/PowerShellTool/commonParameters.ts
 - [ ] [FILE] src/tools/PowerShellTool/destructiveCommandWarning.ts
