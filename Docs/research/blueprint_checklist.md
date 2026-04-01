@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 16:06:15 +0800
+Generated at: 2026-04-01 16:07:52 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1431,7 +1431,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/state/onChangeAppState.ts
 - [x] [FILE] src/state/selectors.ts
 - [x] [FILE] src/state/store.ts
-- [ ] [FILE] src/state/teammateViewHelpers.ts
+- [x] [FILE] src/state/teammateViewHelpers.ts
 - [x] [FILE] src/tasks.ts
 - [x] [FILE] src/tasks/DreamTask/DreamTask.ts
 - [x] [FILE] src/tasks/InProcessTeammateTask/InProcessTeammateTask.tsx
