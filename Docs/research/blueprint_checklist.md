@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:17:11 +0800
+Generated at: 2026-04-01 20:17:30 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2123,7 +2123,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/backends/detection.ts
 - [x] [FILE] src/utils/swarm/backends/it2Setup.ts
 - [x] [FILE] src/utils/swarm/backends/registry.ts
-- [ ] [FILE] src/utils/swarm/backends/teammateModeSnapshot.ts
+- [x] [FILE] src/utils/swarm/backends/teammateModeSnapshot.ts
 - [ ] [FILE] src/utils/swarm/backends/types.ts
 - [x] [FILE] src/utils/swarm/constants.ts
 - [x] [FILE] src/utils/swarm/inProcessRunner.ts
@@ -2133,7 +2133,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/spawnInProcess.ts
 - [x] [FILE] src/utils/swarm/spawnUtils.ts
 - [x] [FILE] src/utils/swarm/teamHelpers.ts
-- [ ] [FILE] src/utils/swarm/teammateInit.ts
+- [x] [FILE] src/utils/swarm/teammateInit.ts
 - [ ] [FILE] src/utils/swarm/teammateLayoutManager.ts
 - [ ] [FILE] src/utils/swarm/teammateModel.ts
 - [ ] [FILE] src/utils/swarm/teammatePromptAddendum.ts
@@ -2157,7 +2157,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/telemetry/bigqueryExporter.ts
 - [x] [FILE] src/utils/telemetry/events.ts
 - [x] [FILE] src/utils/telemetry/instrumentation.ts
-- [ ] [FILE] src/utils/telemetry/logger.ts
+- [x] [FILE] src/utils/telemetry/logger.ts
 - [ ] [FILE] src/utils/telemetry/perfettoTracing.ts
 - [ ] [FILE] src/utils/telemetry/pluginTelemetry.ts
 - [x] [FILE] src/utils/telemetry/sessionTracing.ts
@@ -2167,11 +2167,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/teleport/api.ts
 - [x] [FILE] src/utils/teleport/environmentSelection.ts
 - [x] [FILE] src/utils/teleport/environments.ts
-- [ ] [FILE] src/utils/teleport/gitBundle.ts
+- [x] [FILE] src/utils/teleport/gitBundle.ts
 - [x] [FILE] src/utils/tempfile.ts
 - [x] [FILE] src/utils/terminal.ts
 - [x] [FILE] src/utils/terminalPanel.ts
-- [ ] [FILE] src/utils/textHighlighting.ts
+- [x] [FILE] src/utils/textHighlighting.ts
 - [ ] [FILE] src/utils/theme.ts
 - [ ] [FILE] src/utils/thinking.ts
 - [ ] [FILE] src/utils/timeouts.ts
