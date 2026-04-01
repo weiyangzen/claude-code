@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:13:49 +0800
+Generated at: 2026-04-01 12:16:47 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -974,7 +974,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/constants/common.ts
 - [x] [FILE] src/constants/cyberRiskInstruction.ts
 - [x] [FILE] src/constants/errorIds.ts
-- [ ] [FILE] src/constants/figures.ts
+- [x] [FILE] src/constants/figures.ts
 - [ ] [FILE] src/constants/files.ts
 - [ ] [FILE] src/constants/github-app.ts
 - [ ] [FILE] src/constants/keys.ts
@@ -987,18 +987,18 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/constants/system.ts
 - [x] [FILE] src/constants/systemPromptSections.ts
 - [x] [FILE] src/constants/toolLimits.ts
-- [ ] [FILE] src/constants/tools.ts
+- [x] [FILE] src/constants/tools.ts
 - [ ] [FILE] src/constants/turnCompletionVerbs.ts
 - [ ] [FILE] src/constants/xml.ts
 - [x] [FILE] src/context.ts
 - [x] [FILE] src/context/QueuedMessageContext.tsx
 - [x] [FILE] src/context/fpsMetrics.tsx
 - [x] [FILE] src/context/mailbox.tsx
-- [ ] [FILE] src/context/modalContext.tsx
-- [ ] [FILE] src/context/notifications.tsx
-- [ ] [FILE] src/context/overlayContext.tsx
-- [ ] [FILE] src/context/promptOverlayContext.tsx
-- [ ] [FILE] src/context/stats.tsx
+- [x] [FILE] src/context/modalContext.tsx
+- [x] [FILE] src/context/notifications.tsx
+- [x] [FILE] src/context/overlayContext.tsx
+- [x] [FILE] src/context/promptOverlayContext.tsx
+- [x] [FILE] src/context/stats.tsx
 - [x] [FILE] src/context/voice.tsx
 - [x] [FILE] src/coordinator/coordinatorMode.ts
 - [x] [FILE] src/cost-tracker.ts
