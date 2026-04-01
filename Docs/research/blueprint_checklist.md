@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:01:54 +0800
+Generated at: 2026-04-01 20:02:05 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2053,7 +2053,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/sessionRestore.ts
 - [ ] [FILE] src/utils/sessionStart.ts
 - [ ] [FILE] src/utils/sessionState.ts
-- [ ] [FILE] src/utils/sessionStorage.ts
+- [x] [FILE] src/utils/sessionStorage.ts
 - [ ] [FILE] src/utils/sessionStoragePortable.ts
 - [ ] [FILE] src/utils/sessionTitle.ts
 - [ ] [FILE] src/utils/sessionUrl.ts
