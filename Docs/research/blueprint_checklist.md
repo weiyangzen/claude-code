@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 09:47:00 +0800
+Generated at: 2026-04-01 09:48:23 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -706,7 +706,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/PromptInput/PromptInput.tsx
 - [x] [FILE] src/components/PromptInput/PromptInputFooter.tsx
 - [x] [FILE] src/components/PromptInput/PromptInputFooterLeftSide.tsx
-- [ ] [FILE] src/components/PromptInput/PromptInputFooterSuggestions.tsx
+- [x] [FILE] src/components/PromptInput/PromptInputFooterSuggestions.tsx
 - [ ] [FILE] src/components/PromptInput/PromptInputHelpMenu.tsx
 - [ ] [FILE] src/components/PromptInput/PromptInputModeIndicator.tsx
 - [ ] [FILE] src/components/PromptInput/PromptInputQueuedCommands.tsx
@@ -726,7 +726,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/RemoteEnvironmentDialog.tsx
 - [ ] [FILE] src/components/ResumeTask.tsx
 - [ ] [FILE] src/components/SandboxViolationExpandedView.tsx
-- [ ] [FILE] src/components/ScrollKeybindingHandler.tsx
+- [x] [FILE] src/components/ScrollKeybindingHandler.tsx
 - [ ] [FILE] src/components/SearchBox.tsx
 - [ ] [FILE] src/components/SentryErrorBoundary.ts
 - [ ] [FILE] src/components/SessionBackgroundHint.tsx
