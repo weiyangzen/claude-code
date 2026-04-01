@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 17:35:00 +0800
+Generated at: 2026-04-01 17:35:18 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1540,7 +1540,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/tools/LSPTool/symbolContext.ts
 - [x] [FILE] src/tools/ListMcpResourcesTool/ListMcpResourcesTool.ts
 - [x] [FILE] src/tools/ListMcpResourcesTool/UI.tsx
-- [ ] [FILE] src/tools/ListMcpResourcesTool/prompt.ts
+- [x] [FILE] src/tools/ListMcpResourcesTool/prompt.ts
 - [ ] [FILE] src/tools/MCPTool/MCPTool.ts
 - [ ] [FILE] src/tools/MCPTool/UI.tsx
 - [ ] [FILE] src/tools/MCPTool/classifyForCollapse.ts
