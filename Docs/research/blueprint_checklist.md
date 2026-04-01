@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 17:12:31 +0800
+Generated at: 2026-04-01 17:13:22 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1515,18 +1515,18 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/FileEditTool/FileEditTool.ts
 - [x] [FILE] src/tools/FileEditTool/UI.tsx
 - [x] [FILE] src/tools/FileEditTool/constants.ts
-- [ ] [FILE] src/tools/FileEditTool/prompt.ts
-- [ ] [FILE] src/tools/FileEditTool/types.ts
+- [x] [FILE] src/tools/FileEditTool/prompt.ts
+- [x] [FILE] src/tools/FileEditTool/types.ts
 - [ ] [FILE] src/tools/FileEditTool/utils.ts
 - [x] [FILE] src/tools/FileReadTool/FileReadTool.ts
 - [x] [FILE] src/tools/FileReadTool/UI.tsx
-- [ ] [FILE] src/tools/FileReadTool/imageProcessor.ts
-- [ ] [FILE] src/tools/FileReadTool/limits.ts
+- [x] [FILE] src/tools/FileReadTool/imageProcessor.ts
+- [x] [FILE] src/tools/FileReadTool/limits.ts
 - [ ] [FILE] src/tools/FileReadTool/prompt.ts
 - [x] [FILE] src/tools/FileWriteTool/FileWriteTool.ts
 - [x] [FILE] src/tools/FileWriteTool/UI.tsx
 - [x] [FILE] src/tools/FileWriteTool/prompt.ts
-- [ ] [FILE] src/tools/GlobTool/GlobTool.ts
+- [x] [FILE] src/tools/GlobTool/GlobTool.ts
 - [ ] [FILE] src/tools/GlobTool/UI.tsx
 - [ ] [FILE] src/tools/GlobTool/prompt.ts
 - [ ] [FILE] src/tools/GrepTool/GrepTool.ts
