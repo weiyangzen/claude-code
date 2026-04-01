@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:45:40 +0800
+Generated at: 2026-04-01 18:46:15 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1664,7 +1664,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/argumentSubstitution.ts
 - [x] [FILE] src/utils/array.ts
 - [x] [FILE] src/utils/asciicast.ts
-- [ ] [FILE] src/utils/attachments.ts
+- [x] [FILE] src/utils/attachments.ts
 - [x] [FILE] src/utils/attribution.ts
 - [x] [FILE] src/utils/auth.ts
 - [x] [FILE] src/utils/authFileDescriptor.ts
@@ -1701,14 +1701,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/bash/specs/timeout.ts
 - [ ] [FILE] src/utils/bash/treeSitterAnalysis.ts
 - [x] [FILE] src/utils/betas.ts
-- [ ] [FILE] src/utils/billing.ts
-- [ ] [FILE] src/utils/binaryCheck.ts
-- [ ] [FILE] src/utils/browser.ts
-- [ ] [FILE] src/utils/bufferedWriter.ts
-- [ ] [FILE] src/utils/bundledMode.ts
-- [ ] [FILE] src/utils/caCerts.ts
-- [ ] [FILE] src/utils/caCertsConfig.ts
-- [ ] [FILE] src/utils/cachePaths.ts
+- [x] [FILE] src/utils/billing.ts
+- [x] [FILE] src/utils/binaryCheck.ts
+- [x] [FILE] src/utils/browser.ts
+- [x] [FILE] src/utils/bufferedWriter.ts
+- [x] [FILE] src/utils/bundledMode.ts
+- [x] [FILE] src/utils/caCerts.ts
+- [x] [FILE] src/utils/caCertsConfig.ts
+- [x] [FILE] src/utils/cachePaths.ts
 - [ ] [FILE] src/utils/classifierApprovals.ts
 - [ ] [FILE] src/utils/classifierApprovalsHook.ts
 - [ ] [FILE] src/utils/claudeCodeHints.ts
