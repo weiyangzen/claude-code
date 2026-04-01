@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:09:00 +0800
+Generated at: 2026-04-01 11:17:03 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -860,10 +860,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/messages/RateLimitMessage.tsx
 - [ ] [FILE] src/components/messages/ShutdownMessage.tsx
 - [ ] [FILE] src/components/messages/SystemAPIErrorMessage.tsx
-- [ ] [FILE] src/components/messages/SystemTextMessage.tsx
-- [ ] [FILE] src/components/messages/TaskAssignmentMessage.tsx
-- [ ] [FILE] src/components/messages/UserAgentNotificationMessage.tsx
-- [ ] [FILE] src/components/messages/UserBashInputMessage.tsx
+- [x] [FILE] src/components/messages/SystemTextMessage.tsx
+- [x] [FILE] src/components/messages/TaskAssignmentMessage.tsx
+- [x] [FILE] src/components/messages/UserAgentNotificationMessage.tsx
+- [x] [FILE] src/components/messages/UserBashInputMessage.tsx
 - [ ] [FILE] src/components/messages/UserBashOutputMessage.tsx
 - [ ] [FILE] src/components/messages/UserChannelMessage.tsx
 - [ ] [FILE] src/components/messages/UserCommandMessage.tsx
