@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 17:06:19 +0800
+Generated at: 2026-04-01 17:08:10 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1505,9 +1505,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/EnterWorktreeTool/constants.ts
 - [x] [FILE] src/tools/EnterWorktreeTool/prompt.ts
 - [x] [FILE] src/tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts
-- [ ] [FILE] src/tools/ExitPlanModeTool/UI.tsx
-- [ ] [FILE] src/tools/ExitPlanModeTool/constants.ts
-- [ ] [FILE] src/tools/ExitPlanModeTool/prompt.ts
+- [x] [FILE] src/tools/ExitPlanModeTool/UI.tsx
+- [x] [FILE] src/tools/ExitPlanModeTool/constants.ts
+- [x] [FILE] src/tools/ExitPlanModeTool/prompt.ts
 - [x] [FILE] src/tools/ExitWorktreeTool/ExitWorktreeTool.ts
 - [x] [FILE] src/tools/ExitWorktreeTool/UI.tsx
 - [x] [FILE] src/tools/ExitWorktreeTool/constants.ts
