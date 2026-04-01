@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:29:28 +0800
+Generated at: 2026-04-01 19:39:17 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1837,49 +1837,49 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/groupToolUses.ts
 - [x] [FILE] src/utils/handlePromptSubmit.ts
 - [x] [FILE] src/utils/hash.ts
-- [ ] [FILE] src/utils/headlessProfiler.ts
-- [ ] [FILE] src/utils/heapDumpService.ts
-- [ ] [FILE] src/utils/heatmap.ts
-- [ ] [FILE] src/utils/highlightMatch.tsx
+- [x] [FILE] src/utils/headlessProfiler.ts
+- [x] [FILE] src/utils/heapDumpService.ts
+- [x] [FILE] src/utils/heatmap.ts
+- [x] [FILE] src/utils/highlightMatch.tsx
 - [x] [FILE] src/utils/hooks.ts
 - [x] [FILE] src/utils/hooks/AsyncHookRegistry.ts
 - [x] [FILE] src/utils/hooks/apiQueryHookHelper.ts
 - [x] [FILE] src/utils/hooks/execAgentHook.ts
 - [x] [FILE] src/utils/hooks/execHttpHook.ts
-- [ ] [FILE] src/utils/hooks/execPromptHook.ts
-- [ ] [FILE] src/utils/hooks/fileChangedWatcher.ts
-- [ ] [FILE] src/utils/hooks/hookEvents.ts
-- [ ] [FILE] src/utils/hooks/hookHelpers.ts
-- [ ] [FILE] src/utils/hooks/hooksConfigManager.ts
-- [ ] [FILE] src/utils/hooks/hooksConfigSnapshot.ts
-- [ ] [FILE] src/utils/hooks/hooksSettings.ts
-- [ ] [FILE] src/utils/hooks/postSamplingHooks.ts
-- [ ] [FILE] src/utils/hooks/registerFrontmatterHooks.ts
-- [ ] [FILE] src/utils/hooks/registerSkillHooks.ts
+- [x] [FILE] src/utils/hooks/execPromptHook.ts
+- [x] [FILE] src/utils/hooks/fileChangedWatcher.ts
+- [x] [FILE] src/utils/hooks/hookEvents.ts
+- [x] [FILE] src/utils/hooks/hookHelpers.ts
+- [x] [FILE] src/utils/hooks/hooksConfigManager.ts
+- [x] [FILE] src/utils/hooks/hooksConfigSnapshot.ts
+- [x] [FILE] src/utils/hooks/hooksSettings.ts
+- [x] [FILE] src/utils/hooks/postSamplingHooks.ts
+- [x] [FILE] src/utils/hooks/registerFrontmatterHooks.ts
+- [x] [FILE] src/utils/hooks/registerSkillHooks.ts
 - [x] [FILE] src/utils/hooks/sessionHooks.ts
 - [x] [FILE] src/utils/hooks/skillImprovement.ts
 - [x] [FILE] src/utils/hooks/ssrfGuard.ts
-- [ ] [FILE] src/utils/horizontalScroll.ts
-- [ ] [FILE] src/utils/http.ts
-- [ ] [FILE] src/utils/hyperlink.ts
-- [ ] [FILE] src/utils/iTermBackup.ts
-- [ ] [FILE] src/utils/ide.ts
-- [ ] [FILE] src/utils/idePathConversion.ts
-- [ ] [FILE] src/utils/idleTimeout.ts
-- [ ] [FILE] src/utils/imagePaste.ts
-- [ ] [FILE] src/utils/imageResizer.ts
-- [ ] [FILE] src/utils/imageStore.ts
-- [ ] [FILE] src/utils/imageValidation.ts
-- [ ] [FILE] src/utils/immediateCommand.ts
-- [ ] [FILE] src/utils/inProcessTeammateHelpers.ts
-- [ ] [FILE] src/utils/ink.ts
-- [ ] [FILE] src/utils/intl.ts
-- [ ] [FILE] src/utils/jetbrains.ts
-- [ ] [FILE] src/utils/json.ts
-- [ ] [FILE] src/utils/jsonRead.ts
-- [ ] [FILE] src/utils/keyboardShortcuts.ts
-- [ ] [FILE] src/utils/lazySchema.ts
-- [ ] [FILE] src/utils/listSessionsImpl.ts
+- [x] [FILE] src/utils/horizontalScroll.ts
+- [x] [FILE] src/utils/http.ts
+- [x] [FILE] src/utils/hyperlink.ts
+- [x] [FILE] src/utils/iTermBackup.ts
+- [x] [FILE] src/utils/ide.ts
+- [x] [FILE] src/utils/idePathConversion.ts
+- [x] [FILE] src/utils/idleTimeout.ts
+- [x] [FILE] src/utils/imagePaste.ts
+- [x] [FILE] src/utils/imageResizer.ts
+- [x] [FILE] src/utils/imageStore.ts
+- [x] [FILE] src/utils/imageValidation.ts
+- [x] [FILE] src/utils/immediateCommand.ts
+- [x] [FILE] src/utils/inProcessTeammateHelpers.ts
+- [x] [FILE] src/utils/ink.ts
+- [x] [FILE] src/utils/intl.ts
+- [x] [FILE] src/utils/jetbrains.ts
+- [x] [FILE] src/utils/json.ts
+- [x] [FILE] src/utils/jsonRead.ts
+- [x] [FILE] src/utils/keyboardShortcuts.ts
+- [x] [FILE] src/utils/lazySchema.ts
+- [x] [FILE] src/utils/listSessionsImpl.ts
 - [ ] [FILE] src/utils/localInstaller.ts
 - [ ] [FILE] src/utils/lockfile.ts
 - [ ] [FILE] src/utils/log.ts
