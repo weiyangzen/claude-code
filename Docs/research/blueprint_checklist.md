@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 09:28:36 +0800
+Generated at: 2026-04-01 09:34:38 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -690,16 +690,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/MessageSelector.tsx
 - [x] [FILE] src/components/MessageTimestamp.tsx
 - [x] [FILE] src/components/Messages.tsx
-- [ ] [FILE] src/components/ModelPicker.tsx
-- [ ] [FILE] src/components/NativeAutoUpdater.tsx
-- [ ] [FILE] src/components/NotebookEditToolUseRejectedMessage.tsx
-- [ ] [FILE] src/components/OffscreenFreeze.tsx
-- [ ] [FILE] src/components/Onboarding.tsx
-- [ ] [FILE] src/components/OutputStylePicker.tsx
-- [ ] [FILE] src/components/PackageManagerAutoUpdater.tsx
+- [x] [FILE] src/components/ModelPicker.tsx
+- [x] [FILE] src/components/NativeAutoUpdater.tsx
+- [x] [FILE] src/components/NotebookEditToolUseRejectedMessage.tsx
+- [x] [FILE] src/components/OffscreenFreeze.tsx
+- [x] [FILE] src/components/Onboarding.tsx
+- [x] [FILE] src/components/OutputStylePicker.tsx
+- [x] [FILE] src/components/PackageManagerAutoUpdater.tsx
 - [ ] [FILE] src/components/Passes/Passes.tsx
-- [ ] [FILE] src/components/PrBadge.tsx
-- [ ] [FILE] src/components/PressEnterToContinue.tsx
+- [x] [FILE] src/components/PrBadge.tsx
+- [x] [FILE] src/components/PressEnterToContinue.tsx
 - [ ] [FILE] src/components/PromptInput/HistorySearchInput.tsx
 - [ ] [FILE] src/components/PromptInput/IssueFlagBanner.tsx
 - [ ] [FILE] src/components/PromptInput/Notifications.tsx
@@ -721,7 +721,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/PromptInput/useShowFastIconHint.ts
 - [ ] [FILE] src/components/PromptInput/useSwarmBanner.ts
 - [ ] [FILE] src/components/PromptInput/utils.ts
-- [ ] [FILE] src/components/QuickOpenDialog.tsx
+- [x] [FILE] src/components/QuickOpenDialog.tsx
 - [ ] [FILE] src/components/RemoteCallout.tsx
 - [ ] [FILE] src/components/RemoteEnvironmentDialog.tsx
 - [ ] [FILE] src/components/ResumeTask.tsx
