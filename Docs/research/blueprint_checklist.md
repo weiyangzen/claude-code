@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:13:35 +0800
+Generated at: 2026-04-01 20:14:30 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2108,8 +2108,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/stream.ts
 - [x] [FILE] src/utils/streamJsonStdoutGuard.ts
 - [x] [FILE] src/utils/streamlinedTransform.ts
-- [ ] [FILE] src/utils/stringUtils.ts
-- [ ] [FILE] src/utils/subprocessEnv.ts
+- [x] [FILE] src/utils/stringUtils.ts
+- [x] [FILE] src/utils/subprocessEnv.ts
 - [x] [FILE] src/utils/suggestions/commandSuggestions.ts
 - [x] [FILE] src/utils/suggestions/directoryCompletion.ts
 - [x] [FILE] src/utils/suggestions/shellHistoryCompletion.ts
@@ -2119,8 +2119,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/backends/ITermBackend.ts
 - [x] [FILE] src/utils/swarm/backends/InProcessBackend.ts
 - [x] [FILE] src/utils/swarm/backends/PaneBackendExecutor.ts
-- [ ] [FILE] src/utils/swarm/backends/TmuxBackend.ts
-- [ ] [FILE] src/utils/swarm/backends/detection.ts
+- [x] [FILE] src/utils/swarm/backends/TmuxBackend.ts
+- [x] [FILE] src/utils/swarm/backends/detection.ts
 - [ ] [FILE] src/utils/swarm/backends/it2Setup.ts
 - [ ] [FILE] src/utils/swarm/backends/registry.ts
 - [ ] [FILE] src/utils/swarm/backends/teammateModeSnapshot.ts
@@ -2130,20 +2130,20 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/leaderPermissionBridge.ts
 - [x] [FILE] src/utils/swarm/permissionSync.ts
 - [x] [FILE] src/utils/swarm/reconnection.ts
-- [ ] [FILE] src/utils/swarm/spawnInProcess.ts
-- [ ] [FILE] src/utils/swarm/spawnUtils.ts
+- [x] [FILE] src/utils/swarm/spawnInProcess.ts
+- [x] [FILE] src/utils/swarm/spawnUtils.ts
 - [ ] [FILE] src/utils/swarm/teamHelpers.ts
 - [ ] [FILE] src/utils/swarm/teammateInit.ts
 - [ ] [FILE] src/utils/swarm/teammateLayoutManager.ts
 - [ ] [FILE] src/utils/swarm/teammateModel.ts
 - [ ] [FILE] src/utils/swarm/teammatePromptAddendum.ts
-- [ ] [FILE] src/utils/systemDirectories.ts
-- [ ] [FILE] src/utils/systemPrompt.ts
-- [ ] [FILE] src/utils/systemPromptType.ts
+- [x] [FILE] src/utils/systemDirectories.ts
+- [x] [FILE] src/utils/systemPrompt.ts
+- [x] [FILE] src/utils/systemPromptType.ts
 - [ ] [FILE] src/utils/systemTheme.ts
 - [ ] [FILE] src/utils/taggedId.ts
 - [x] [FILE] src/utils/task/TaskOutput.ts
-- [ ] [FILE] src/utils/task/diskOutput.ts
+- [x] [FILE] src/utils/task/diskOutput.ts
 - [ ] [FILE] src/utils/task/framework.ts
 - [ ] [FILE] src/utils/task/outputFormatting.ts
 - [ ] [FILE] src/utils/task/sdkProgress.ts
@@ -2151,10 +2151,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/teamDiscovery.ts
 - [ ] [FILE] src/utils/teamMemoryOps.ts
 - [x] [FILE] src/utils/teammate.ts
-- [ ] [FILE] src/utils/teammateContext.ts
-- [ ] [FILE] src/utils/teammateMailbox.ts
-- [ ] [FILE] src/utils/telemetry/betaSessionTracing.ts
-- [ ] [FILE] src/utils/telemetry/bigqueryExporter.ts
+- [x] [FILE] src/utils/teammateContext.ts
+- [x] [FILE] src/utils/teammateMailbox.ts
+- [x] [FILE] src/utils/telemetry/betaSessionTracing.ts
+- [x] [FILE] src/utils/telemetry/bigqueryExporter.ts
 - [ ] [FILE] src/utils/telemetry/events.ts
 - [ ] [FILE] src/utils/telemetry/instrumentation.ts
 - [ ] [FILE] src/utils/telemetry/logger.ts
@@ -2163,12 +2163,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/telemetry/sessionTracing.ts
 - [x] [FILE] src/utils/telemetry/skillLoadedEvent.ts
 - [ ] [FILE] src/utils/telemetryAttributes.ts
-- [ ] [FILE] src/utils/teleport.tsx
+- [x] [FILE] src/utils/teleport.tsx
 - [ ] [FILE] src/utils/teleport/api.ts
 - [ ] [FILE] src/utils/teleport/environmentSelection.ts
 - [ ] [FILE] src/utils/teleport/environments.ts
 - [ ] [FILE] src/utils/teleport/gitBundle.ts
-- [ ] [FILE] src/utils/tempfile.ts
+- [x] [FILE] src/utils/tempfile.ts
 - [ ] [FILE] src/utils/terminal.ts
 - [ ] [FILE] src/utils/terminalPanel.ts
 - [ ] [FILE] src/utils/textHighlighting.ts
