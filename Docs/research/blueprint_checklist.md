@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:37:22 +0800
+Generated at: 2026-04-01 11:38:00 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -856,10 +856,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/messages/GroupedToolUseContent.tsx
 - [x] [FILE] src/components/messages/HighlightedThinkingText.tsx
 - [x] [FILE] src/components/messages/HookProgressMessage.tsx
-- [ ] [FILE] src/components/messages/PlanApprovalMessage.tsx
-- [ ] [FILE] src/components/messages/RateLimitMessage.tsx
-- [ ] [FILE] src/components/messages/ShutdownMessage.tsx
-- [ ] [FILE] src/components/messages/SystemAPIErrorMessage.tsx
+- [x] [FILE] src/components/messages/PlanApprovalMessage.tsx
+- [x] [FILE] src/components/messages/RateLimitMessage.tsx
+- [x] [FILE] src/components/messages/ShutdownMessage.tsx
+- [x] [FILE] src/components/messages/SystemAPIErrorMessage.tsx
 - [x] [FILE] src/components/messages/SystemTextMessage.tsx
 - [x] [FILE] src/components/messages/TaskAssignmentMessage.tsx
 - [x] [FILE] src/components/messages/UserAgentNotificationMessage.tsx
@@ -900,9 +900,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx
 - [x] [FILE] src/components/permissions/FallbackPermissionRequest.tsx
 - [x] [FILE] src/components/permissions/FileEditPermissionRequest/FileEditPermissionRequest.tsx
-- [ ] [FILE] src/components/permissions/FilePermissionDialog/FilePermissionDialog.tsx
-- [ ] [FILE] src/components/permissions/FilePermissionDialog/ideDiffConfig.ts
-- [ ] [FILE] src/components/permissions/FilePermissionDialog/permissionOptions.tsx
+- [x] [FILE] src/components/permissions/FilePermissionDialog/FilePermissionDialog.tsx
+- [x] [FILE] src/components/permissions/FilePermissionDialog/ideDiffConfig.ts
+- [x] [FILE] src/components/permissions/FilePermissionDialog/permissionOptions.tsx
 - [ ] [FILE] src/components/permissions/FilePermissionDialog/useFilePermissionDialog.ts
 - [ ] [FILE] src/components/permissions/FilePermissionDialog/usePermissionHandler.ts
 - [x] [FILE] src/components/permissions/FileWritePermissionRequest/FileWritePermissionRequest.tsx
@@ -910,8 +910,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/permissions/FilesystemPermissionRequest/FilesystemPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditToolDiff.tsx
-- [ ] [FILE] src/components/permissions/PermissionDecisionDebugInfo.tsx
-- [ ] [FILE] src/components/permissions/PermissionDialog.tsx
+- [x] [FILE] src/components/permissions/PermissionDecisionDebugInfo.tsx
+- [x] [FILE] src/components/permissions/PermissionDialog.tsx
 - [ ] [FILE] src/components/permissions/PermissionExplanation.tsx
 - [ ] [FILE] src/components/permissions/PermissionPrompt.tsx
 - [ ] [FILE] src/components/permissions/PermissionRequest.tsx
