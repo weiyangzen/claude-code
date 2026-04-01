@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:33:15 +0800
+Generated at: 2026-04-01 13:36:26 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1242,7 +1242,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/migrations/migrateBypassPermissionsAcceptedToSettings.ts
 - [x] [FILE] src/migrations/migrateEnableAllProjectMcpServersToSettings.ts
 - [x] [FILE] src/migrations/migrateFennecToOpus.ts
-- [ ] [FILE] src/migrations/migrateLegacyOpusToCurrent.ts
+- [x] [FILE] src/migrations/migrateLegacyOpusToCurrent.ts
 - [ ] [FILE] src/migrations/migrateOpusToOpus1m.ts
 - [ ] [FILE] src/migrations/migrateReplBridgeEnabledToRemoteControlAtStartup.ts
 - [ ] [FILE] src/migrations/migrateSonnet1mToSonnet45.ts
@@ -1251,7 +1251,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/migrations/resetProToOpusDefault.ts
 - [x] [FILE] src/moreright/useMoreRight.tsx
 - [ ] [FILE] src/native-ts/color-diff/index.ts
-- [ ] [FILE] src/native-ts/file-index/index.ts
+- [x] [FILE] src/native-ts/file-index/index.ts
 - [ ] [FILE] src/native-ts/yoga-layout/enums.ts
 - [ ] [FILE] src/native-ts/yoga-layout/index.ts
 - [ ] [FILE] src/outputStyles/loadOutputStylesDir.ts
