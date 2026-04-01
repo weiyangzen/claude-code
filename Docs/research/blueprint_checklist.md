@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:41:34 +0800
+Generated at: 2026-04-01 19:41:51 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1881,15 +1881,15 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/lazySchema.ts
 - [x] [FILE] src/utils/listSessionsImpl.ts
 - [x] [FILE] src/utils/localInstaller.ts
-- [ ] [FILE] src/utils/lockfile.ts
-- [ ] [FILE] src/utils/log.ts
-- [ ] [FILE] src/utils/logoV2Utils.ts
-- [ ] [FILE] src/utils/mailbox.ts
-- [ ] [FILE] src/utils/managedEnv.ts
+- [x] [FILE] src/utils/lockfile.ts
+- [x] [FILE] src/utils/log.ts
+- [x] [FILE] src/utils/logoV2Utils.ts
+- [x] [FILE] src/utils/mailbox.ts
+- [x] [FILE] src/utils/managedEnv.ts
 - [ ] [FILE] src/utils/managedEnvConstants.ts
 - [ ] [FILE] src/utils/markdown.ts
 - [ ] [FILE] src/utils/markdownConfigLoader.ts
-- [ ] [FILE] src/utils/mcp/dateTimeParser.ts
+- [x] [FILE] src/utils/mcp/dateTimeParser.ts
 - [ ] [FILE] src/utils/mcp/elicitationValidation.ts
 - [ ] [FILE] src/utils/mcpInstructionsDelta.ts
 - [ ] [FILE] src/utils/mcpOutputStorage.ts
@@ -1904,7 +1904,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/messages.ts
 - [ ] [FILE] src/utils/messages/mappers.ts
 - [ ] [FILE] src/utils/messages/systemInit.ts
-- [ ] [FILE] src/utils/model/agent.ts
+- [x] [FILE] src/utils/model/agent.ts
 - [ ] [FILE] src/utils/model/aliases.ts
 - [ ] [FILE] src/utils/model/antModels.ts
 - [ ] [FILE] src/utils/model/bedrock.ts
