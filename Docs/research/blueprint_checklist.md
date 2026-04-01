@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:18:56 +0800
+Generated at: 2026-04-01 18:19:06 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1598,9 +1598,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/TaskListTool/prompt.ts
 - [ ] [FILE] src/tools/TaskOutputTool/TaskOutputTool.tsx
 - [ ] [FILE] src/tools/TaskOutputTool/constants.ts
-- [ ] [FILE] src/tools/TaskStopTool/TaskStopTool.ts
-- [ ] [FILE] src/tools/TaskStopTool/UI.tsx
-- [ ] [FILE] src/tools/TaskStopTool/prompt.ts
+- [x] [FILE] src/tools/TaskStopTool/TaskStopTool.ts
+- [x] [FILE] src/tools/TaskStopTool/UI.tsx
+- [x] [FILE] src/tools/TaskStopTool/prompt.ts
 - [ ] [FILE] src/tools/TaskUpdateTool/TaskUpdateTool.ts
 - [ ] [FILE] src/tools/TaskUpdateTool/constants.ts
 - [ ] [FILE] src/tools/TaskUpdateTool/prompt.ts
