@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:42:15 +0800
+Generated at: 2026-04-01 19:50:34 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1886,13 +1886,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/logoV2Utils.ts
 - [x] [FILE] src/utils/mailbox.ts
 - [x] [FILE] src/utils/managedEnv.ts
-- [ ] [FILE] src/utils/managedEnvConstants.ts
-- [ ] [FILE] src/utils/markdown.ts
-- [ ] [FILE] src/utils/markdownConfigLoader.ts
+- [x] [FILE] src/utils/managedEnvConstants.ts
+- [x] [FILE] src/utils/markdown.ts
+- [x] [FILE] src/utils/markdownConfigLoader.ts
 - [x] [FILE] src/utils/mcp/dateTimeParser.ts
-- [ ] [FILE] src/utils/mcp/elicitationValidation.ts
-- [ ] [FILE] src/utils/mcpInstructionsDelta.ts
-- [ ] [FILE] src/utils/mcpOutputStorage.ts
+- [x] [FILE] src/utils/mcp/elicitationValidation.ts
+- [x] [FILE] src/utils/mcpInstructionsDelta.ts
+- [x] [FILE] src/utils/mcpOutputStorage.ts
 - [ ] [FILE] src/utils/mcpValidation.ts
 - [ ] [FILE] src/utils/mcpWebSocketTransport.ts
 - [ ] [FILE] src/utils/memoize.ts
@@ -1900,17 +1900,17 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/memory/versions.ts
 - [ ] [FILE] src/utils/memoryFileDetection.ts
 - [ ] [FILE] src/utils/messagePredicates.ts
-- [ ] [FILE] src/utils/messageQueueManager.ts
-- [ ] [FILE] src/utils/messages.ts
-- [ ] [FILE] src/utils/messages/mappers.ts
-- [ ] [FILE] src/utils/messages/systemInit.ts
+- [x] [FILE] src/utils/messageQueueManager.ts
+- [x] [FILE] src/utils/messages.ts
+- [x] [FILE] src/utils/messages/mappers.ts
+- [x] [FILE] src/utils/messages/systemInit.ts
 - [x] [FILE] src/utils/model/agent.ts
 - [x] [FILE] src/utils/model/aliases.ts
-- [ ] [FILE] src/utils/model/antModels.ts
-- [ ] [FILE] src/utils/model/bedrock.ts
-- [ ] [FILE] src/utils/model/check1mAccess.ts
-- [ ] [FILE] src/utils/model/configs.ts
-- [ ] [FILE] src/utils/model/contextWindowUpgradeCheck.ts
+- [x] [FILE] src/utils/model/antModels.ts
+- [x] [FILE] src/utils/model/bedrock.ts
+- [x] [FILE] src/utils/model/check1mAccess.ts
+- [x] [FILE] src/utils/model/configs.ts
+- [x] [FILE] src/utils/model/contextWindowUpgradeCheck.ts
 - [ ] [FILE] src/utils/model/deprecation.ts
 - [ ] [FILE] src/utils/model/model.ts
 - [ ] [FILE] src/utils/model/modelAllowlist.ts
@@ -1920,10 +1920,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/model/modelSupportOverrides.ts
 - [ ] [FILE] src/utils/model/providers.ts
 - [ ] [FILE] src/utils/model/validateModel.ts
-- [ ] [FILE] src/utils/modelCost.ts
-- [ ] [FILE] src/utils/modifiers.ts
-- [ ] [FILE] src/utils/mtls.ts
-- [ ] [FILE] src/utils/nativeInstaller/download.ts
+- [x] [FILE] src/utils/modelCost.ts
+- [x] [FILE] src/utils/modifiers.ts
+- [x] [FILE] src/utils/mtls.ts
+- [x] [FILE] src/utils/nativeInstaller/download.ts
 - [ ] [FILE] src/utils/nativeInstaller/index.ts
 - [ ] [FILE] src/utils/nativeInstaller/installer.ts
 - [ ] [FILE] src/utils/nativeInstaller/packageManagers.ts
@@ -1935,11 +1935,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/pdf.ts
 - [ ] [FILE] src/utils/pdfUtils.ts
 - [ ] [FILE] src/utils/peerAddress.ts
-- [ ] [FILE] src/utils/permissions/PermissionMode.ts
-- [ ] [FILE] src/utils/permissions/PermissionPromptToolResultSchema.ts
-- [ ] [FILE] src/utils/permissions/PermissionResult.ts
-- [ ] [FILE] src/utils/permissions/PermissionRule.ts
-- [ ] [FILE] src/utils/permissions/PermissionUpdate.ts
+- [x] [FILE] src/utils/permissions/PermissionMode.ts
+- [x] [FILE] src/utils/permissions/PermissionPromptToolResultSchema.ts
+- [x] [FILE] src/utils/permissions/PermissionResult.ts
+- [x] [FILE] src/utils/permissions/PermissionRule.ts
+- [x] [FILE] src/utils/permissions/PermissionUpdate.ts
 - [ ] [FILE] src/utils/permissions/PermissionUpdateSchema.ts
 - [ ] [FILE] src/utils/permissions/autoModeState.ts
 - [ ] [FILE] src/utils/permissions/bashClassifier.ts
@@ -1949,7 +1949,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/permissions/dangerousPatterns.ts
 - [ ] [FILE] src/utils/permissions/denialTracking.ts
 - [ ] [FILE] src/utils/permissions/filesystem.ts
-- [ ] [FILE] src/utils/permissions/getNextPermissionMode.ts
+- [x] [FILE] src/utils/permissions/getNextPermissionMode.ts
 - [ ] [FILE] src/utils/permissions/pathValidation.ts
 - [ ] [FILE] src/utils/permissions/permissionExplainer.ts
 - [ ] [FILE] src/utils/permissions/permissionRuleParser.ts
@@ -1958,11 +1958,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/permissions/permissionsLoader.ts
 - [ ] [FILE] src/utils/permissions/shadowedRuleDetection.ts
 - [ ] [FILE] src/utils/permissions/shellRuleMatching.ts
-- [ ] [FILE] src/utils/permissions/yoloClassifier.ts
+- [x] [FILE] src/utils/permissions/yoloClassifier.ts
 - [ ] [FILE] src/utils/planModeV2.ts
 - [ ] [FILE] src/utils/plans.ts
 - [ ] [FILE] src/utils/platform.ts
-- [ ] [FILE] src/utils/plugins/addDirPluginSettings.ts
+- [x] [FILE] src/utils/plugins/addDirPluginSettings.ts
 - [ ] [FILE] src/utils/plugins/cacheUtils.ts
 - [ ] [FILE] src/utils/plugins/dependencyResolver.ts
 - [ ] [FILE] src/utils/plugins/fetchTelemetry.ts
