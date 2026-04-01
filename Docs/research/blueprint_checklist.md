@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:52:55 +0800
+Generated at: 2026-04-01 18:56:41 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1682,17 +1682,17 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/bash/ast.ts
 - [x] [FILE] src/utils/bash/bashParser.ts
 - [x] [FILE] src/utils/bash/bashPipeCommand.ts
-- [ ] [FILE] src/utils/bash/commands.ts
-- [ ] [FILE] src/utils/bash/heredoc.ts
-- [ ] [FILE] src/utils/bash/parser.ts
-- [ ] [FILE] src/utils/bash/prefix.ts
+- [x] [FILE] src/utils/bash/commands.ts
+- [x] [FILE] src/utils/bash/heredoc.ts
+- [x] [FILE] src/utils/bash/parser.ts
+- [x] [FILE] src/utils/bash/prefix.ts
 - [ ] [FILE] src/utils/bash/registry.ts
 - [ ] [FILE] src/utils/bash/shellCompletion.ts
 - [ ] [FILE] src/utils/bash/shellPrefix.ts
 - [ ] [FILE] src/utils/bash/shellQuote.ts
 - [ ] [FILE] src/utils/bash/shellQuoting.ts
 - [x] [FILE] src/utils/bash/specs/alias.ts
-- [ ] [FILE] src/utils/bash/specs/index.ts
+- [x] [FILE] src/utils/bash/specs/index.ts
 - [ ] [FILE] src/utils/bash/specs/nohup.ts
 - [ ] [FILE] src/utils/bash/specs/pyright.ts
 - [ ] [FILE] src/utils/bash/specs/sleep.ts
