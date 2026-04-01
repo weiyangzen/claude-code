@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 09:02:03 +0800
+Generated at: 2026-04-01 09:02:28 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -681,8 +681,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/ManagedSettingsSecurityDialog/ManagedSettingsSecurityDialog.tsx
 - [x] [FILE] src/components/ManagedSettingsSecurityDialog/utils.ts
 - [x] [FILE] src/components/Markdown.tsx
-- [ ] [FILE] src/components/MarkdownTable.tsx
-- [ ] [FILE] src/components/MemoryUsageIndicator.tsx
+- [x] [FILE] src/components/MarkdownTable.tsx
+- [x] [FILE] src/components/MemoryUsageIndicator.tsx
 - [ ] [FILE] src/components/Message.tsx
 - [ ] [FILE] src/components/MessageModel.tsx
 - [ ] [FILE] src/components/MessageResponse.tsx
