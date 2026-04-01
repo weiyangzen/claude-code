@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:14:30 +0800
+Generated at: 2026-04-01 20:15:00 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2121,7 +2121,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/backends/PaneBackendExecutor.ts
 - [x] [FILE] src/utils/swarm/backends/TmuxBackend.ts
 - [x] [FILE] src/utils/swarm/backends/detection.ts
-- [ ] [FILE] src/utils/swarm/backends/it2Setup.ts
+- [x] [FILE] src/utils/swarm/backends/it2Setup.ts
 - [ ] [FILE] src/utils/swarm/backends/registry.ts
 - [ ] [FILE] src/utils/swarm/backends/teammateModeSnapshot.ts
 - [ ] [FILE] src/utils/swarm/backends/types.ts
@@ -2140,11 +2140,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/systemDirectories.ts
 - [x] [FILE] src/utils/systemPrompt.ts
 - [x] [FILE] src/utils/systemPromptType.ts
-- [ ] [FILE] src/utils/systemTheme.ts
+- [x] [FILE] src/utils/systemTheme.ts
 - [ ] [FILE] src/utils/taggedId.ts
 - [x] [FILE] src/utils/task/TaskOutput.ts
 - [x] [FILE] src/utils/task/diskOutput.ts
-- [ ] [FILE] src/utils/task/framework.ts
+- [x] [FILE] src/utils/task/framework.ts
 - [ ] [FILE] src/utils/task/outputFormatting.ts
 - [ ] [FILE] src/utils/task/sdkProgress.ts
 - [ ] [FILE] src/utils/tasks.ts
@@ -2155,14 +2155,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/teammateMailbox.ts
 - [x] [FILE] src/utils/telemetry/betaSessionTracing.ts
 - [x] [FILE] src/utils/telemetry/bigqueryExporter.ts
-- [ ] [FILE] src/utils/telemetry/events.ts
+- [x] [FILE] src/utils/telemetry/events.ts
 - [ ] [FILE] src/utils/telemetry/instrumentation.ts
 - [ ] [FILE] src/utils/telemetry/logger.ts
 - [ ] [FILE] src/utils/telemetry/perfettoTracing.ts
 - [ ] [FILE] src/utils/telemetry/pluginTelemetry.ts
 - [x] [FILE] src/utils/telemetry/sessionTracing.ts
 - [x] [FILE] src/utils/telemetry/skillLoadedEvent.ts
-- [ ] [FILE] src/utils/telemetryAttributes.ts
+- [x] [FILE] src/utils/telemetryAttributes.ts
 - [x] [FILE] src/utils/teleport.tsx
 - [ ] [FILE] src/utils/teleport/api.ts
 - [ ] [FILE] src/utils/teleport/environmentSelection.ts
