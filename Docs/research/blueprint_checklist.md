@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 14:55:27 +0800
+Generated at: 2026-04-01 15:04:17 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1350,20 +1350,20 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/mcp/channelPermissions.ts
 - [x] [FILE] src/services/mcp/claudeai.ts
 - [x] [FILE] src/services/mcp/client.ts
-- [ ] [FILE] src/services/mcp/config.ts
-- [ ] [FILE] src/services/mcp/elicitationHandler.ts
+- [x] [FILE] src/services/mcp/config.ts
+- [x] [FILE] src/services/mcp/elicitationHandler.ts
 - [ ] [FILE] src/services/mcp/envExpansion.ts
 - [ ] [FILE] src/services/mcp/headersHelper.ts
 - [ ] [FILE] src/services/mcp/mcpStringUtils.ts
 - [ ] [FILE] src/services/mcp/normalization.ts
 - [ ] [FILE] src/services/mcp/oauthPort.ts
 - [ ] [FILE] src/services/mcp/officialRegistry.ts
-- [ ] [FILE] src/services/mcp/types.ts
-- [ ] [FILE] src/services/mcp/useManageMCPConnections.ts
-- [ ] [FILE] src/services/mcp/utils.ts
-- [ ] [FILE] src/services/mcp/vscodeSdkMcp.ts
-- [ ] [FILE] src/services/mcp/xaa.ts
-- [ ] [FILE] src/services/mcp/xaaIdpLogin.ts
+- [x] [FILE] src/services/mcp/types.ts
+- [x] [FILE] src/services/mcp/useManageMCPConnections.ts
+- [x] [FILE] src/services/mcp/utils.ts
+- [x] [FILE] src/services/mcp/vscodeSdkMcp.ts
+- [x] [FILE] src/services/mcp/xaa.ts
+- [x] [FILE] src/services/mcp/xaaIdpLogin.ts
 - [x] [FILE] src/services/mcpServerApproval.tsx
 - [x] [FILE] src/services/mockRateLimits.ts
 - [x] [FILE] src/services/notifier.ts
