@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:46:15 +0800
+Generated at: 2026-04-01 18:48:19 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1709,10 +1709,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/caCerts.ts
 - [x] [FILE] src/utils/caCertsConfig.ts
 - [x] [FILE] src/utils/cachePaths.ts
-- [ ] [FILE] src/utils/classifierApprovals.ts
-- [ ] [FILE] src/utils/classifierApprovalsHook.ts
-- [ ] [FILE] src/utils/claudeCodeHints.ts
-- [ ] [FILE] src/utils/claudeDesktop.ts
+- [x] [FILE] src/utils/classifierApprovals.ts
+- [x] [FILE] src/utils/classifierApprovalsHook.ts
+- [x] [FILE] src/utils/claudeCodeHints.ts
+- [x] [FILE] src/utils/claudeDesktop.ts
 - [ ] [FILE] src/utils/claudeInChrome/chromeNativeHost.ts
 - [ ] [FILE] src/utils/claudeInChrome/common.ts
 - [ ] [FILE] src/utils/claudeInChrome/mcpServer.ts
