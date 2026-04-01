@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:40:17 +0800
+Generated at: 2026-04-01 10:44:37 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -834,7 +834,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/mcp/MCPAgentServerMenu.tsx
 - [ ] [FILE] src/components/mcp/MCPListPanel.tsx
 - [ ] [FILE] src/components/mcp/MCPReconnect.tsx
-- [ ] [FILE] src/components/mcp/MCPRemoteServerMenu.tsx
+- [x] [FILE] src/components/mcp/MCPRemoteServerMenu.tsx
 - [ ] [FILE] src/components/mcp/MCPSettings.tsx
 - [ ] [FILE] src/components/mcp/MCPStdioServerMenu.tsx
 - [ ] [FILE] src/components/mcp/MCPToolDetailView.tsx
