@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:12:09 +0800
+Generated at: 2026-04-01 08:13:15 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -578,16 +578,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/version.ts
 - [x] [FILE] src/commands/vim/index.ts
 - [x] [FILE] src/commands/vim/vim.ts
-- [ ] [FILE] src/commands/voice/index.ts
-- [ ] [FILE] src/commands/voice/voice.ts
-- [ ] [FILE] src/components/AgentProgressLine.tsx
-- [ ] [FILE] src/components/App.tsx
-- [ ] [FILE] src/components/ApproveApiKey.tsx
+- [x] [FILE] src/commands/voice/index.ts
+- [x] [FILE] src/commands/voice/voice.ts
+- [x] [FILE] src/components/AgentProgressLine.tsx
+- [x] [FILE] src/components/App.tsx
+- [x] [FILE] src/components/ApproveApiKey.tsx
 - [ ] [FILE] src/components/AutoModeOptInDialog.tsx
 - [ ] [FILE] src/components/AutoUpdater.tsx
 - [ ] [FILE] src/components/AutoUpdaterWrapper.tsx
 - [ ] [FILE] src/components/AwsAuthStatusBox.tsx
-- [ ] [FILE] src/components/BaseTextInput.tsx
+- [x] [FILE] src/components/BaseTextInput.tsx
 - [ ] [FILE] src/components/BashModeProgress.tsx
 - [ ] [FILE] src/components/BridgeDialog.tsx
 - [ ] [FILE] src/components/BypassPermissionsModeDialog.tsx
