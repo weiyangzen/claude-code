@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:09:06 +0800
+Generated at: 2026-04-01 13:10:43 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1098,10 +1098,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/useSessionBackgrounding.ts
 - [x] [FILE] src/hooks/useSettings.ts
 - [x] [FILE] src/hooks/useSettingsChange.ts
-- [ ] [FILE] src/hooks/useSkillImprovementSurvey.ts
-- [ ] [FILE] src/hooks/useSkillsChange.ts
-- [ ] [FILE] src/hooks/useSwarmInitialization.ts
-- [ ] [FILE] src/hooks/useSwarmPermissionPoller.ts
+- [x] [FILE] src/hooks/useSkillImprovementSurvey.ts
+- [x] [FILE] src/hooks/useSkillsChange.ts
+- [x] [FILE] src/hooks/useSwarmInitialization.ts
+- [x] [FILE] src/hooks/useSwarmPermissionPoller.ts
 - [ ] [FILE] src/hooks/useTaskListWatcher.ts
 - [ ] [FILE] src/hooks/useTasksV2.ts
 - [ ] [FILE] src/hooks/useTeammateViewAutoExit.ts
@@ -1120,11 +1120,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink.ts
 - [x] [FILE] src/ink/Ansi.tsx
 - [x] [FILE] src/ink/bidi.ts
-- [ ] [FILE] src/ink/clearTerminal.ts
-- [ ] [FILE] src/ink/colorize.ts
+- [x] [FILE] src/ink/clearTerminal.ts
+- [x] [FILE] src/ink/colorize.ts
 - [x] [FILE] src/ink/components/AlternateScreen.tsx
-- [ ] [FILE] src/ink/components/App.tsx
-- [ ] [FILE] src/ink/components/AppContext.ts
+- [x] [FILE] src/ink/components/App.tsx
+- [x] [FILE] src/ink/components/AppContext.ts
 - [ ] [FILE] src/ink/components/Box.tsx
 - [ ] [FILE] src/ink/components/Button.tsx
 - [ ] [FILE] src/ink/components/ClockContext.tsx
@@ -1140,8 +1140,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/ink/components/TerminalFocusContext.tsx
 - [ ] [FILE] src/ink/components/TerminalSizeContext.tsx
 - [ ] [FILE] src/ink/components/Text.tsx
-- [ ] [FILE] src/ink/constants.ts
-- [ ] [FILE] src/ink/dom.ts
+- [x] [FILE] src/ink/constants.ts
+- [x] [FILE] src/ink/dom.ts
 - [ ] [FILE] src/ink/events/click-event.ts
 - [ ] [FILE] src/ink/events/dispatcher.ts
 - [ ] [FILE] src/ink/events/emitter.ts
@@ -1152,7 +1152,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/ink/events/keyboard-event.ts
 - [ ] [FILE] src/ink/events/terminal-event.ts
 - [ ] [FILE] src/ink/events/terminal-focus-event.ts
-- [ ] [FILE] src/ink/focus.ts
+- [x] [FILE] src/ink/focus.ts
 - [ ] [FILE] src/ink/frame.ts
 - [ ] [FILE] src/ink/get-max-width.ts
 - [ ] [FILE] src/ink/hit-test.ts
