@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:50:56 +0800
+Generated at: 2026-04-01 11:53:22 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -930,7 +930,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/permissions/rules/AddWorkspaceDirectory.tsx
 - [ ] [FILE] src/components/permissions/rules/PermissionRuleDescription.tsx
 - [ ] [FILE] src/components/permissions/rules/PermissionRuleInput.tsx
-- [ ] [FILE] src/components/permissions/rules/PermissionRuleList.tsx
+- [x] [FILE] src/components/permissions/rules/PermissionRuleList.tsx
 - [ ] [FILE] src/components/permissions/rules/RecentDenialsTab.tsx
 - [ ] [FILE] src/components/permissions/rules/RemoveWorkspaceDirectory.tsx
 - [ ] [FILE] src/components/permissions/rules/WorkspaceTab.tsx
