@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:29:12 +0800
+Generated at: 2026-04-01 10:30:17 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -797,19 +797,19 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/MemoryStep.tsx
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/MethodStep.tsx
 - [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/ModelStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/PromptStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ToolsStep.tsx
-- [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/TypeStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/PromptStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/ToolsStep.tsx
+- [x] [FILE] src/components/agents/new-agent-creation/wizard-steps/TypeStep.tsx
 - [x] [FILE] src/components/agents/types.ts
 - [x] [FILE] src/components/agents/utils.ts
 - [x] [FILE] src/components/agents/validateAgent.ts
-- [ ] [FILE] src/components/design-system/Byline.tsx
-- [ ] [FILE] src/components/design-system/Dialog.tsx
+- [x] [FILE] src/components/design-system/Byline.tsx
+- [x] [FILE] src/components/design-system/Dialog.tsx
 - [ ] [FILE] src/components/design-system/Divider.tsx
 - [ ] [FILE] src/components/design-system/FuzzyPicker.tsx
 - [ ] [FILE] src/components/design-system/KeyboardShortcutHint.tsx
 - [ ] [FILE] src/components/design-system/ListItem.tsx
-- [ ] [FILE] src/components/design-system/LoadingState.tsx
+- [x] [FILE] src/components/design-system/LoadingState.tsx
 - [ ] [FILE] src/components/design-system/Pane.tsx
 - [ ] [FILE] src/components/design-system/ProgressBar.tsx
 - [ ] [FILE] src/components/design-system/Ratchet.tsx
