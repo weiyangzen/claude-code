@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:17:30 +0800
+Generated at: 2026-04-01 20:18:21 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2124,7 +2124,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/backends/it2Setup.ts
 - [x] [FILE] src/utils/swarm/backends/registry.ts
 - [x] [FILE] src/utils/swarm/backends/teammateModeSnapshot.ts
-- [ ] [FILE] src/utils/swarm/backends/types.ts
+- [x] [FILE] src/utils/swarm/backends/types.ts
 - [x] [FILE] src/utils/swarm/constants.ts
 - [x] [FILE] src/utils/swarm/inProcessRunner.ts
 - [x] [FILE] src/utils/swarm/leaderPermissionBridge.ts
@@ -2148,7 +2148,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/task/outputFormatting.ts
 - [x] [FILE] src/utils/task/sdkProgress.ts
 - [ ] [FILE] src/utils/tasks.ts
-- [ ] [FILE] src/utils/teamDiscovery.ts
+- [x] [FILE] src/utils/teamDiscovery.ts
 - [ ] [FILE] src/utils/teamMemoryOps.ts
 - [x] [FILE] src/utils/teammate.ts
 - [x] [FILE] src/utils/teammateContext.ts
