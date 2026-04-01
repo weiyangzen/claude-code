@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:38:42 +0800
+Generated at: 2026-04-01 13:39:18 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1226,7 +1226,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/keybindings/schema.ts
 - [x] [FILE] src/keybindings/shortcutFormat.ts
 - [x] [FILE] src/keybindings/template.ts
-- [ ] [FILE] src/keybindings/useKeybinding.ts
+- [x] [FILE] src/keybindings/useKeybinding.ts
 - [x] [FILE] src/keybindings/useShortcutDisplay.ts
 - [x] [FILE] src/keybindings/validate.ts
 - [x] [FILE] src/main.tsx
@@ -1254,7 +1254,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/native-ts/file-index/index.ts
 - [x] [FILE] src/native-ts/yoga-layout/enums.ts
 - [x] [FILE] src/native-ts/yoga-layout/index.ts
-- [ ] [FILE] src/outputStyles/loadOutputStylesDir.ts
+- [x] [FILE] src/outputStyles/loadOutputStylesDir.ts
 - [ ] [FILE] src/plugins/builtinPlugins.ts
 - [ ] [FILE] src/plugins/bundled/index.ts
 - [ ] [FILE] src/projectOnboardingState.ts
