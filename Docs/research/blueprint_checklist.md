@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:33:30 +0800
+Generated at: 2026-04-01 11:37:11 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -898,15 +898,15 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/permissions/ComputerUseApproval/ComputerUseApproval.tsx
 - [x] [FILE] src/components/permissions/EnterPlanModePermissionRequest/EnterPlanModePermissionRequest.tsx
 - [x] [FILE] src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx
-- [ ] [FILE] src/components/permissions/FallbackPermissionRequest.tsx
+- [x] [FILE] src/components/permissions/FallbackPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/FileEditPermissionRequest/FileEditPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/FilePermissionDialog/FilePermissionDialog.tsx
 - [ ] [FILE] src/components/permissions/FilePermissionDialog/ideDiffConfig.ts
 - [ ] [FILE] src/components/permissions/FilePermissionDialog/permissionOptions.tsx
 - [ ] [FILE] src/components/permissions/FilePermissionDialog/useFilePermissionDialog.ts
 - [ ] [FILE] src/components/permissions/FilePermissionDialog/usePermissionHandler.ts
-- [ ] [FILE] src/components/permissions/FileWritePermissionRequest/FileWritePermissionRequest.tsx
-- [ ] [FILE] src/components/permissions/FileWritePermissionRequest/FileWriteToolDiff.tsx
+- [x] [FILE] src/components/permissions/FileWritePermissionRequest/FileWritePermissionRequest.tsx
+- [x] [FILE] src/components/permissions/FileWritePermissionRequest/FileWriteToolDiff.tsx
 - [ ] [FILE] src/components/permissions/FilesystemPermissionRequest/FilesystemPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditToolDiff.tsx
