@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:54:31 +0800
+Generated at: 2026-04-01 19:54:53 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1961,7 +1961,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/permissions/yoloClassifier.ts
 - [x] [FILE] src/utils/planModeV2.ts
 - [x] [FILE] src/utils/plans.ts
-- [ ] [FILE] src/utils/platform.ts
+- [x] [FILE] src/utils/platform.ts
 - [x] [FILE] src/utils/plugins/addDirPluginSettings.ts
 - [x] [FILE] src/utils/plugins/cacheUtils.ts
 - [x] [FILE] src/utils/plugins/dependencyResolver.ts
@@ -1977,7 +1977,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/loadPluginOutputStyles.ts
 - [x] [FILE] src/utils/plugins/lspPluginIntegration.ts
 - [x] [FILE] src/utils/plugins/lspRecommendation.ts
-- [ ] [FILE] src/utils/plugins/managedPlugins.ts
+- [x] [FILE] src/utils/plugins/managedPlugins.ts
 - [ ] [FILE] src/utils/plugins/marketplaceHelpers.ts
 - [x] [FILE] src/utils/plugins/marketplaceManager.ts
 - [x] [FILE] src/utils/plugins/mcpPluginIntegration.ts
@@ -1987,21 +1987,21 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/officialMarketplaceStartupCheck.ts
 - [x] [FILE] src/utils/plugins/orphanedPluginFilter.ts
 - [x] [FILE] src/utils/plugins/parseMarketplaceInput.ts
-- [ ] [FILE] src/utils/plugins/performStartupChecks.tsx
+- [x] [FILE] src/utils/plugins/performStartupChecks.tsx
 - [x] [FILE] src/utils/plugins/pluginAutoupdate.ts
 - [x] [FILE] src/utils/plugins/pluginBlocklist.ts
 - [x] [FILE] src/utils/plugins/pluginDirectories.ts
 - [x] [FILE] src/utils/plugins/pluginFlagging.ts
 - [x] [FILE] src/utils/plugins/pluginIdentifier.ts
 - [x] [FILE] src/utils/plugins/pluginInstallationHelpers.ts
-- [ ] [FILE] src/utils/plugins/pluginLoader.ts
+- [x] [FILE] src/utils/plugins/pluginLoader.ts
 - [x] [FILE] src/utils/plugins/pluginOptionsStorage.ts
-- [ ] [FILE] src/utils/plugins/pluginPolicy.ts
+- [x] [FILE] src/utils/plugins/pluginPolicy.ts
 - [ ] [FILE] src/utils/plugins/pluginStartupCheck.ts
 - [ ] [FILE] src/utils/plugins/pluginVersioning.ts
 - [ ] [FILE] src/utils/plugins/reconciler.ts
 - [ ] [FILE] src/utils/plugins/refresh.ts
-- [ ] [FILE] src/utils/plugins/schemas.ts
+- [x] [FILE] src/utils/plugins/schemas.ts
 - [ ] [FILE] src/utils/plugins/validatePlugin.ts
 - [ ] [FILE] src/utils/plugins/walkPluginMarkdown.ts
 - [ ] [FILE] src/utils/plugins/zipCache.ts
