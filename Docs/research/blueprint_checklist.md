@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:17:34 +0800
+Generated at: 2026-04-01 08:20:26 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -589,15 +589,15 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/AwsAuthStatusBox.tsx
 - [x] [FILE] src/components/BaseTextInput.tsx
 - [x] [FILE] src/components/BashModeProgress.tsx
-- [ ] [FILE] src/components/BridgeDialog.tsx
-- [ ] [FILE] src/components/BypassPermissionsModeDialog.tsx
-- [ ] [FILE] src/components/ChannelDowngradeDialog.tsx
-- [ ] [FILE] src/components/ClaudeCodeHint/PluginHintMenu.tsx
-- [ ] [FILE] src/components/ClaudeInChromeOnboarding.tsx
-- [ ] [FILE] src/components/ClaudeMdExternalIncludesDialog.tsx
-- [ ] [FILE] src/components/ClickableImageRef.tsx
-- [ ] [FILE] src/components/CompactSummary.tsx
-- [ ] [FILE] src/components/ConfigurableShortcutHint.tsx
+- [x] [FILE] src/components/BridgeDialog.tsx
+- [x] [FILE] src/components/BypassPermissionsModeDialog.tsx
+- [x] [FILE] src/components/ChannelDowngradeDialog.tsx
+- [x] [FILE] src/components/ClaudeCodeHint/PluginHintMenu.tsx
+- [x] [FILE] src/components/ClaudeInChromeOnboarding.tsx
+- [x] [FILE] src/components/ClaudeMdExternalIncludesDialog.tsx
+- [x] [FILE] src/components/ClickableImageRef.tsx
+- [x] [FILE] src/components/CompactSummary.tsx
+- [x] [FILE] src/components/ConfigurableShortcutHint.tsx
 - [ ] [FILE] src/components/ConsoleOAuthFlow.tsx
 - [ ] [FILE] src/components/ContextSuggestions.tsx
 - [ ] [FILE] src/components/ContextVisualization.tsx
