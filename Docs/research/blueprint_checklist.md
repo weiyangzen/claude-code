@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:47:49 +0800
+Generated at: 2026-04-01 13:51:16 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1261,20 +1261,20 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/query.ts
 - [x] [FILE] src/query/config.ts
 - [x] [FILE] src/query/deps.ts
-- [ ] [FILE] src/query/stopHooks.ts
-- [ ] [FILE] src/query/tokenBudget.ts
-- [ ] [FILE] src/remote/RemoteSessionManager.ts
-- [ ] [FILE] src/remote/SessionsWebSocket.ts
+- [x] [FILE] src/query/stopHooks.ts
+- [x] [FILE] src/query/tokenBudget.ts
+- [x] [FILE] src/remote/RemoteSessionManager.ts
+- [x] [FILE] src/remote/SessionsWebSocket.ts
 - [ ] [FILE] src/remote/remotePermissionBridge.ts
 - [ ] [FILE] src/remote/sdkMessageAdapter.ts
 - [x] [FILE] src/replLauncher.tsx
 - [x] [FILE] src/schemas/hooks.ts
 - [x] [FILE] src/screens/Doctor.tsx
-- [ ] [FILE] src/screens/REPL.tsx
+- [x] [FILE] src/screens/REPL.tsx
 - [x] [FILE] src/screens/ResumeConversation.tsx
-- [ ] [FILE] src/server/createDirectConnectSession.ts
-- [ ] [FILE] src/server/directConnectManager.ts
-- [ ] [FILE] src/server/types.ts
+- [x] [FILE] src/server/createDirectConnectSession.ts
+- [x] [FILE] src/server/directConnectManager.ts
+- [x] [FILE] src/server/types.ts
 - [ ] [FILE] src/services/AgentSummary/agentSummary.ts
 - [ ] [FILE] src/services/MagicDocs/magicDocs.ts
 - [ ] [FILE] src/services/MagicDocs/prompts.ts
