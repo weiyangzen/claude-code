@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:09:39 +0800
+Generated at: 2026-04-01 20:10:21 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2049,7 +2049,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/sessionEnvVars.ts
 - [x] [FILE] src/utils/sessionEnvironment.ts
 - [x] [FILE] src/utils/sessionFileAccessHooks.ts
-- [ ] [FILE] src/utils/sessionIngressAuth.ts
+- [x] [FILE] src/utils/sessionIngressAuth.ts
 - [x] [FILE] src/utils/sessionRestore.ts
 - [x] [FILE] src/utils/sessionStart.ts
 - [x] [FILE] src/utils/sessionState.ts
@@ -2104,7 +2104,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/statsCache.ts
 - [x] [FILE] src/utils/status.tsx
 - [ ] [FILE] src/utils/statusNoticeDefinitions.tsx
-- [ ] [FILE] src/utils/statusNoticeHelpers.ts
+- [x] [FILE] src/utils/statusNoticeHelpers.ts
 - [ ] [FILE] src/utils/stream.ts
 - [ ] [FILE] src/utils/streamJsonStdoutGuard.ts
 - [ ] [FILE] src/utils/streamlinedTransform.ts
@@ -2117,7 +2117,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/suggestions/slackChannelSuggestions.ts
 - [x] [FILE] src/utils/swarm/It2SetupPrompt.tsx
 - [x] [FILE] src/utils/swarm/backends/ITermBackend.ts
-- [ ] [FILE] src/utils/swarm/backends/InProcessBackend.ts
+- [x] [FILE] src/utils/swarm/backends/InProcessBackend.ts
 - [ ] [FILE] src/utils/swarm/backends/PaneBackendExecutor.ts
 - [ ] [FILE] src/utils/swarm/backends/TmuxBackend.ts
 - [ ] [FILE] src/utils/swarm/backends/detection.ts
@@ -2126,9 +2126,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/swarm/backends/teammateModeSnapshot.ts
 - [ ] [FILE] src/utils/swarm/backends/types.ts
 - [x] [FILE] src/utils/swarm/constants.ts
-- [ ] [FILE] src/utils/swarm/inProcessRunner.ts
+- [x] [FILE] src/utils/swarm/inProcessRunner.ts
 - [ ] [FILE] src/utils/swarm/leaderPermissionBridge.ts
-- [ ] [FILE] src/utils/swarm/permissionSync.ts
+- [x] [FILE] src/utils/swarm/permissionSync.ts
 - [ ] [FILE] src/utils/swarm/reconnection.ts
 - [ ] [FILE] src/utils/swarm/spawnInProcess.ts
 - [ ] [FILE] src/utils/swarm/spawnUtils.ts
