@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:08:17 +0800
+Generated at: 2026-04-01 08:12:09 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -572,12 +572,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/commands/thinkback/thinkback.tsx
 - [x] [FILE] src/commands/ultraplan.tsx
 - [x] [FILE] src/commands/upgrade/index.ts
-- [ ] [FILE] src/commands/upgrade/upgrade.tsx
+- [x] [FILE] src/commands/upgrade/upgrade.tsx
 - [x] [FILE] src/commands/usage/index.ts
 - [x] [FILE] src/commands/usage/usage.tsx
 - [x] [FILE] src/commands/version.ts
-- [ ] [FILE] src/commands/vim/index.ts
-- [ ] [FILE] src/commands/vim/vim.ts
+- [x] [FILE] src/commands/vim/index.ts
+- [x] [FILE] src/commands/vim/vim.ts
 - [ ] [FILE] src/commands/voice/index.ts
 - [ ] [FILE] src/commands/voice/voice.ts
 - [ ] [FILE] src/components/AgentProgressLine.tsx
