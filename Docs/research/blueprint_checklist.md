@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:57:13 +0800
+Generated at: 2026-04-01 09:00:01 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -673,14 +673,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/LogoV2/VoiceModeNotice.tsx
 - [x] [FILE] src/components/LogoV2/WelcomeV2.tsx
 - [x] [FILE] src/components/LogoV2/feedConfigs.tsx
-- [ ] [FILE] src/components/LspRecommendation/LspRecommendationMenu.tsx
-- [ ] [FILE] src/components/MCPServerApprovalDialog.tsx
-- [ ] [FILE] src/components/MCPServerDesktopImportDialog.tsx
-- [ ] [FILE] src/components/MCPServerDialogCopy.tsx
-- [ ] [FILE] src/components/MCPServerMultiselectDialog.tsx
+- [x] [FILE] src/components/LspRecommendation/LspRecommendationMenu.tsx
+- [x] [FILE] src/components/MCPServerApprovalDialog.tsx
+- [x] [FILE] src/components/MCPServerDesktopImportDialog.tsx
+- [x] [FILE] src/components/MCPServerDialogCopy.tsx
+- [x] [FILE] src/components/MCPServerMultiselectDialog.tsx
 - [ ] [FILE] src/components/ManagedSettingsSecurityDialog/ManagedSettingsSecurityDialog.tsx
 - [ ] [FILE] src/components/ManagedSettingsSecurityDialog/utils.ts
-- [ ] [FILE] src/components/Markdown.tsx
+- [x] [FILE] src/components/Markdown.tsx
 - [ ] [FILE] src/components/MarkdownTable.tsx
 - [ ] [FILE] src/components/MemoryUsageIndicator.tsx
 - [ ] [FILE] src/components/Message.tsx
