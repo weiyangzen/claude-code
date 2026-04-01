@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:45:34 +0800
+Generated at: 2026-04-01 11:46:12 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -918,13 +918,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/permissions/PermissionRequestTitle.tsx
 - [x] [FILE] src/components/permissions/PermissionRuleExplanation.tsx
 - [x] [FILE] src/components/permissions/PowerShellPermissionRequest/PowerShellPermissionRequest.tsx
-- [ ] [FILE] src/components/permissions/PowerShellPermissionRequest/powershellToolUseOptions.tsx
+- [x] [FILE] src/components/permissions/PowerShellPermissionRequest/powershellToolUseOptions.tsx
 - [x] [FILE] src/components/permissions/SandboxPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/SedEditPermissionRequest/SedEditPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/SkillPermissionRequest/SkillPermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/WebFetchPermissionRequest/WebFetchPermissionRequest.tsx
-- [ ] [FILE] src/components/permissions/WorkerBadge.tsx
-- [ ] [FILE] src/components/permissions/WorkerPendingPermission.tsx
+- [x] [FILE] src/components/permissions/WorkerBadge.tsx
+- [x] [FILE] src/components/permissions/WorkerPendingPermission.tsx
 - [ ] [FILE] src/components/permissions/hooks.ts
 - [ ] [FILE] src/components/permissions/rules/AddPermissionRules.tsx
 - [ ] [FILE] src/components/permissions/rules/AddWorkspaceDirectory.tsx
