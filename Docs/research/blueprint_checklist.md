@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:18:21 +0800
+Generated at: 2026-04-01 20:19:48 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2134,7 +2134,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/swarm/spawnUtils.ts
 - [x] [FILE] src/utils/swarm/teamHelpers.ts
 - [x] [FILE] src/utils/swarm/teammateInit.ts
-- [ ] [FILE] src/utils/swarm/teammateLayoutManager.ts
+- [x] [FILE] src/utils/swarm/teammateLayoutManager.ts
 - [ ] [FILE] src/utils/swarm/teammateModel.ts
 - [ ] [FILE] src/utils/swarm/teammatePromptAddendum.ts
 - [x] [FILE] src/utils/systemDirectories.ts
@@ -2147,7 +2147,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/task/framework.ts
 - [x] [FILE] src/utils/task/outputFormatting.ts
 - [x] [FILE] src/utils/task/sdkProgress.ts
-- [ ] [FILE] src/utils/tasks.ts
+- [x] [FILE] src/utils/tasks.ts
 - [x] [FILE] src/utils/teamDiscovery.ts
 - [ ] [FILE] src/utils/teamMemoryOps.ts
 - [x] [FILE] src/utils/teammate.ts
@@ -2158,7 +2158,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/telemetry/events.ts
 - [x] [FILE] src/utils/telemetry/instrumentation.ts
 - [x] [FILE] src/utils/telemetry/logger.ts
-- [ ] [FILE] src/utils/telemetry/perfettoTracing.ts
+- [x] [FILE] src/utils/telemetry/perfettoTracing.ts
 - [ ] [FILE] src/utils/telemetry/pluginTelemetry.ts
 - [x] [FILE] src/utils/telemetry/sessionTracing.ts
 - [x] [FILE] src/utils/telemetry/skillLoadedEvent.ts
@@ -2172,7 +2172,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/terminal.ts
 - [x] [FILE] src/utils/terminalPanel.ts
 - [x] [FILE] src/utils/textHighlighting.ts
-- [ ] [FILE] src/utils/theme.ts
+- [x] [FILE] src/utils/theme.ts
 - [ ] [FILE] src/utils/thinking.ts
 - [ ] [FILE] src/utils/timeouts.ts
 - [ ] [FILE] src/utils/tmuxSocket.ts
@@ -2187,8 +2187,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/transcriptSearch.ts
 - [ ] [FILE] src/utils/treeify.ts
 - [ ] [FILE] src/utils/truncate.ts
-- [ ] [FILE] src/utils/ultraplan/ccrSession.ts
-- [ ] [FILE] src/utils/ultraplan/keyword.ts
+- [x] [FILE] src/utils/ultraplan/ccrSession.ts
+- [x] [FILE] src/utils/ultraplan/keyword.ts
 - [ ] [FILE] src/utils/unaryLogging.ts
 - [ ] [FILE] src/utils/undercover.ts
 - [ ] [FILE] src/utils/user.ts
@@ -2196,7 +2196,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/userPromptKeywords.ts
 - [ ] [FILE] src/utils/uuid.ts
 - [ ] [FILE] src/utils/warningHandler.ts
-- [ ] [FILE] src/utils/which.ts
+- [x] [FILE] src/utils/which.ts
 - [ ] [FILE] src/utils/windowsPaths.ts
 - [ ] [FILE] src/utils/withResolvers.ts
 - [ ] [FILE] src/utils/words.ts
