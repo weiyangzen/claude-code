@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:12:54 +0800
+Generated at: 2026-04-01 19:13:05 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1766,8 +1766,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/crossProjectResume.ts
 - [x] [FILE] src/utils/crypto.ts
 - [x] [FILE] src/utils/cwd.ts
-- [ ] [FILE] src/utils/debug.ts
-- [ ] [FILE] src/utils/debugFilter.ts
+- [x] [FILE] src/utils/debug.ts
+- [x] [FILE] src/utils/debugFilter.ts
 - [x] [FILE] src/utils/deepLink/banner.ts
 - [x] [FILE] src/utils/deepLink/parseDeepLink.ts
 - [x] [FILE] src/utils/deepLink/protocolHandler.ts
