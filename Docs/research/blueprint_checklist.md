@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:33:07 +0800
+Generated at: 2026-04-01 18:37:16 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1652,10 +1652,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/activityManager.ts
 - [ ] [FILE] src/utils/advisor.ts
 - [x] [FILE] src/utils/agentContext.ts
-- [ ] [FILE] src/utils/agentId.ts
-- [ ] [FILE] src/utils/agentSwarmsEnabled.ts
-- [ ] [FILE] src/utils/agenticSessionSearch.ts
-- [ ] [FILE] src/utils/analyzeContext.ts
+- [x] [FILE] src/utils/agentId.ts
+- [x] [FILE] src/utils/agentSwarmsEnabled.ts
+- [x] [FILE] src/utils/agenticSessionSearch.ts
+- [x] [FILE] src/utils/analyzeContext.ts
 - [x] [FILE] src/utils/ansiToPng.ts
 - [ ] [FILE] src/utils/ansiToSvg.ts
 - [ ] [FILE] src/utils/api.ts
