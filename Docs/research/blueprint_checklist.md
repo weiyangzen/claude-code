@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 15:09:58 +0800
+Generated at: 2026-04-01 15:17:42 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1371,7 +1371,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/oauth/client.ts
 - [x] [FILE] src/services/oauth/crypto.ts
 - [x] [FILE] src/services/oauth/getOauthProfile.ts
-- [ ] [FILE] src/services/oauth/index.ts
+- [x] [FILE] src/services/oauth/index.ts
 - [x] [FILE] src/services/plugins/PluginInstallationManager.ts
 - [x] [FILE] src/services/plugins/pluginCliCommands.ts
 - [x] [FILE] src/services/plugins/pluginOperations.ts
@@ -1380,11 +1380,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/preventSleep.ts
 - [x] [FILE] src/services/rateLimitMessages.ts
 - [x] [FILE] src/services/rateLimitMocking.ts
-- [ ] [FILE] src/services/remoteManagedSettings/index.ts
-- [ ] [FILE] src/services/remoteManagedSettings/securityCheck.tsx
-- [ ] [FILE] src/services/remoteManagedSettings/syncCache.ts
-- [ ] [FILE] src/services/remoteManagedSettings/syncCacheState.ts
-- [ ] [FILE] src/services/remoteManagedSettings/types.ts
+- [x] [FILE] src/services/remoteManagedSettings/index.ts
+- [x] [FILE] src/services/remoteManagedSettings/securityCheck.tsx
+- [x] [FILE] src/services/remoteManagedSettings/syncCache.ts
+- [x] [FILE] src/services/remoteManagedSettings/syncCacheState.ts
+- [x] [FILE] src/services/remoteManagedSettings/types.ts
 - [ ] [FILE] src/services/settingsSync/index.ts
 - [ ] [FILE] src/services/settingsSync/types.ts
 - [ ] [FILE] src/services/teamMemorySync/index.ts
