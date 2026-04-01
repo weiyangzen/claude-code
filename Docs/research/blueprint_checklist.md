@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 15:22:51 +0800
+Generated at: 2026-04-01 15:26:59 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1387,14 +1387,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/remoteManagedSettings/types.ts
 - [x] [FILE] src/services/settingsSync/index.ts
 - [x] [FILE] src/services/settingsSync/types.ts
-- [ ] [FILE] src/services/teamMemorySync/index.ts
-- [ ] [FILE] src/services/teamMemorySync/secretScanner.ts
+- [x] [FILE] src/services/teamMemorySync/index.ts
+- [x] [FILE] src/services/teamMemorySync/secretScanner.ts
 - [ ] [FILE] src/services/teamMemorySync/teamMemSecretGuard.ts
 - [ ] [FILE] src/services/teamMemorySync/types.ts
 - [ ] [FILE] src/services/teamMemorySync/watcher.ts
-- [ ] [FILE] src/services/tips/tipHistory.ts
-- [ ] [FILE] src/services/tips/tipRegistry.ts
-- [ ] [FILE] src/services/tips/tipScheduler.ts
+- [x] [FILE] src/services/tips/tipHistory.ts
+- [x] [FILE] src/services/tips/tipRegistry.ts
+- [x] [FILE] src/services/tips/tipScheduler.ts
 - [ ] [FILE] src/services/tokenEstimation.ts
 - [ ] [FILE] src/services/toolUseSummary/toolUseSummaryGenerator.ts
 - [ ] [FILE] src/services/tools/StreamingToolExecutor.ts
