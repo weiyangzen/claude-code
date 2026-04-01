@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:27:44 +0800
+Generated at: 2026-04-01 19:29:28 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1833,19 +1833,19 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/github/ghAuthStatus.ts
 - [x] [FILE] src/utils/githubRepoPathMapping.ts
 - [x] [FILE] src/utils/glob.ts
-- [ ] [FILE] src/utils/gracefulShutdown.ts
-- [ ] [FILE] src/utils/groupToolUses.ts
-- [ ] [FILE] src/utils/handlePromptSubmit.ts
-- [ ] [FILE] src/utils/hash.ts
+- [x] [FILE] src/utils/gracefulShutdown.ts
+- [x] [FILE] src/utils/groupToolUses.ts
+- [x] [FILE] src/utils/handlePromptSubmit.ts
+- [x] [FILE] src/utils/hash.ts
 - [ ] [FILE] src/utils/headlessProfiler.ts
 - [ ] [FILE] src/utils/heapDumpService.ts
 - [ ] [FILE] src/utils/heatmap.ts
 - [ ] [FILE] src/utils/highlightMatch.tsx
 - [x] [FILE] src/utils/hooks.ts
-- [ ] [FILE] src/utils/hooks/AsyncHookRegistry.ts
-- [ ] [FILE] src/utils/hooks/apiQueryHookHelper.ts
-- [ ] [FILE] src/utils/hooks/execAgentHook.ts
-- [ ] [FILE] src/utils/hooks/execHttpHook.ts
+- [x] [FILE] src/utils/hooks/AsyncHookRegistry.ts
+- [x] [FILE] src/utils/hooks/apiQueryHookHelper.ts
+- [x] [FILE] src/utils/hooks/execAgentHook.ts
+- [x] [FILE] src/utils/hooks/execHttpHook.ts
 - [ ] [FILE] src/utils/hooks/execPromptHook.ts
 - [ ] [FILE] src/utils/hooks/fileChangedWatcher.ts
 - [ ] [FILE] src/utils/hooks/hookEvents.ts
@@ -1856,9 +1856,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/hooks/postSamplingHooks.ts
 - [ ] [FILE] src/utils/hooks/registerFrontmatterHooks.ts
 - [ ] [FILE] src/utils/hooks/registerSkillHooks.ts
-- [ ] [FILE] src/utils/hooks/sessionHooks.ts
-- [ ] [FILE] src/utils/hooks/skillImprovement.ts
-- [ ] [FILE] src/utils/hooks/ssrfGuard.ts
+- [x] [FILE] src/utils/hooks/sessionHooks.ts
+- [x] [FILE] src/utils/hooks/skillImprovement.ts
+- [x] [FILE] src/utils/hooks/ssrfGuard.ts
 - [ ] [FILE] src/utils/horizontalScroll.ts
 - [ ] [FILE] src/utils/http.ts
 - [ ] [FILE] src/utils/hyperlink.ts
