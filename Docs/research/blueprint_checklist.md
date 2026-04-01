@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:57:47 +0800
+Generated at: 2026-04-01 18:58:19 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1699,7 +1699,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/bash/specs/srun.ts
 - [x] [FILE] src/utils/bash/specs/time.ts
 - [x] [FILE] src/utils/bash/specs/timeout.ts
-- [ ] [FILE] src/utils/bash/treeSitterAnalysis.ts
+- [x] [FILE] src/utils/bash/treeSitterAnalysis.ts
 - [x] [FILE] src/utils/betas.ts
 - [x] [FILE] src/utils/billing.ts
 - [x] [FILE] src/utils/binaryCheck.ts
@@ -1716,14 +1716,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/claudeInChrome/chromeNativeHost.ts
 - [x] [FILE] src/utils/claudeInChrome/common.ts
 - [x] [FILE] src/utils/claudeInChrome/mcpServer.ts
-- [ ] [FILE] src/utils/claudeInChrome/prompt.ts
+- [x] [FILE] src/utils/claudeInChrome/prompt.ts
 - [ ] [FILE] src/utils/claudeInChrome/setup.ts
 - [ ] [FILE] src/utils/claudeInChrome/setupPortable.ts
 - [ ] [FILE] src/utils/claudeInChrome/toolRendering.tsx
 - [x] [FILE] src/utils/claudemd.ts
 - [x] [FILE] src/utils/cleanup.ts
 - [x] [FILE] src/utils/cleanupRegistry.ts
-- [ ] [FILE] src/utils/cliArgs.ts
+- [x] [FILE] src/utils/cliArgs.ts
 - [ ] [FILE] src/utils/cliHighlight.ts
 - [ ] [FILE] src/utils/codeIndexing.ts
 - [ ] [FILE] src/utils/collapseBackgroundBashNotifications.ts
