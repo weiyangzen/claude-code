@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:40:56 +0800
+Generated at: 2026-04-01 11:44:10 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -908,11 +908,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/permissions/FileWritePermissionRequest/FileWritePermissionRequest.tsx
 - [x] [FILE] src/components/permissions/FileWritePermissionRequest/FileWriteToolDiff.tsx
 - [x] [FILE] src/components/permissions/FilesystemPermissionRequest/FilesystemPermissionRequest.tsx
-- [ ] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditPermissionRequest.tsx
-- [ ] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditToolDiff.tsx
+- [x] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditPermissionRequest.tsx
+- [x] [FILE] src/components/permissions/NotebookEditPermissionRequest/NotebookEditToolDiff.tsx
 - [x] [FILE] src/components/permissions/PermissionDecisionDebugInfo.tsx
 - [x] [FILE] src/components/permissions/PermissionDialog.tsx
-- [ ] [FILE] src/components/permissions/PermissionExplanation.tsx
+- [x] [FILE] src/components/permissions/PermissionExplanation.tsx
 - [ ] [FILE] src/components/permissions/PermissionPrompt.tsx
 - [ ] [FILE] src/components/permissions/PermissionRequest.tsx
 - [ ] [FILE] src/components/permissions/PermissionRequestTitle.tsx
