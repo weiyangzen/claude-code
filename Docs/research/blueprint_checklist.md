@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 15:29:22 +0800
+Generated at: 2026-04-01 15:36:42 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1395,13 +1395,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/tips/tipHistory.ts
 - [x] [FILE] src/services/tips/tipRegistry.ts
 - [x] [FILE] src/services/tips/tipScheduler.ts
-- [ ] [FILE] src/services/tokenEstimation.ts
+- [x] [FILE] src/services/tokenEstimation.ts
 - [ ] [FILE] src/services/toolUseSummary/toolUseSummaryGenerator.ts
-- [ ] [FILE] src/services/tools/StreamingToolExecutor.ts
-- [ ] [FILE] src/services/tools/toolExecution.ts
-- [ ] [FILE] src/services/tools/toolHooks.ts
+- [x] [FILE] src/services/tools/StreamingToolExecutor.ts
+- [x] [FILE] src/services/tools/toolExecution.ts
+- [x] [FILE] src/services/tools/toolHooks.ts
 - [ ] [FILE] src/services/tools/toolOrchestration.ts
-- [ ] [FILE] src/services/vcr.ts
+- [x] [FILE] src/services/vcr.ts
 - [ ] [FILE] src/services/voice.ts
 - [ ] [FILE] src/services/voiceKeyterms.ts
 - [ ] [FILE] src/services/voiceStreamSTT.ts
