@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 11:55:06 +0800
+Generated at: 2026-04-01 11:56:41 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -927,9 +927,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/permissions/WorkerPendingPermission.tsx
 - [x] [FILE] src/components/permissions/hooks.ts
 - [x] [FILE] src/components/permissions/rules/AddPermissionRules.tsx
-- [ ] [FILE] src/components/permissions/rules/AddWorkspaceDirectory.tsx
-- [ ] [FILE] src/components/permissions/rules/PermissionRuleDescription.tsx
-- [ ] [FILE] src/components/permissions/rules/PermissionRuleInput.tsx
+- [x] [FILE] src/components/permissions/rules/AddWorkspaceDirectory.tsx
+- [x] [FILE] src/components/permissions/rules/PermissionRuleDescription.tsx
+- [x] [FILE] src/components/permissions/rules/PermissionRuleInput.tsx
 - [x] [FILE] src/components/permissions/rules/PermissionRuleList.tsx
 - [x] [FILE] src/components/permissions/rules/RecentDenialsTab.tsx
 - [x] [FILE] src/components/permissions/rules/RemoveWorkspaceDirectory.tsx
@@ -938,7 +938,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/permissions/useShellPermissionFeedback.ts
 - [x] [FILE] src/components/permissions/utils.ts
 - [x] [FILE] src/components/sandbox/SandboxConfigTab.tsx
-- [ ] [FILE] src/components/sandbox/SandboxDependenciesTab.tsx
+- [x] [FILE] src/components/sandbox/SandboxDependenciesTab.tsx
 - [ ] [FILE] src/components/sandbox/SandboxDoctorSection.tsx
 - [ ] [FILE] src/components/sandbox/SandboxOverridesTab.tsx
 - [ ] [FILE] src/components/sandbox/SandboxSettings.tsx
