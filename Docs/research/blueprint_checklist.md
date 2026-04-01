@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:24:28 +0800
+Generated at: 2026-04-01 20:25:40 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2175,22 +2175,22 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/theme.ts
 - [x] [FILE] src/utils/thinking.ts
 - [x] [FILE] src/utils/timeouts.ts
-- [ ] [FILE] src/utils/tmuxSocket.ts
+- [x] [FILE] src/utils/tmuxSocket.ts
 - [x] [FILE] src/utils/todo/types.ts
-- [ ] [FILE] src/utils/tokenBudget.ts
+- [x] [FILE] src/utils/tokenBudget.ts
 - [ ] [FILE] src/utils/tokens.ts
 - [ ] [FILE] src/utils/toolErrors.ts
 - [ ] [FILE] src/utils/toolPool.ts
 - [x] [FILE] src/utils/toolResultStorage.ts
 - [x] [FILE] src/utils/toolSchemaCache.ts
 - [x] [FILE] src/utils/toolSearch.ts
-- [ ] [FILE] src/utils/transcriptSearch.ts
-- [ ] [FILE] src/utils/treeify.ts
-- [ ] [FILE] src/utils/truncate.ts
+- [x] [FILE] src/utils/transcriptSearch.ts
+- [x] [FILE] src/utils/treeify.ts
+- [x] [FILE] src/utils/truncate.ts
 - [x] [FILE] src/utils/ultraplan/ccrSession.ts
 - [x] [FILE] src/utils/ultraplan/keyword.ts
-- [ ] [FILE] src/utils/unaryLogging.ts
-- [ ] [FILE] src/utils/undercover.ts
+- [x] [FILE] src/utils/unaryLogging.ts
+- [x] [FILE] src/utils/undercover.ts
 - [ ] [FILE] src/utils/user.ts
 - [ ] [FILE] src/utils/userAgent.ts
 - [ ] [FILE] src/utils/userPromptKeywords.ts
@@ -2201,15 +2201,15 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/withResolvers.ts
 - [x] [FILE] src/utils/words.ts
 - [x] [FILE] src/utils/workloadContext.ts
-- [ ] [FILE] src/utils/worktree.ts
-- [ ] [FILE] src/utils/worktreeModeEnabled.ts
-- [ ] [FILE] src/utils/xdg.ts
-- [ ] [FILE] src/utils/xml.ts
-- [ ] [FILE] src/utils/yaml.ts
+- [x] [FILE] src/utils/worktree.ts
+- [x] [FILE] src/utils/worktreeModeEnabled.ts
+- [x] [FILE] src/utils/xdg.ts
+- [x] [FILE] src/utils/xml.ts
+- [x] [FILE] src/utils/yaml.ts
 - [ ] [FILE] src/utils/zodToJsonSchema.ts
 - [x] [FILE] src/vim/motions.ts
 - [x] [FILE] src/vim/operators.ts
-- [ ] [FILE] src/vim/textObjects.ts
-- [ ] [FILE] src/vim/transitions.ts
-- [ ] [FILE] src/vim/types.ts
+- [x] [FILE] src/vim/textObjects.ts
+- [x] [FILE] src/vim/transitions.ts
+- [x] [FILE] src/vim/types.ts
 - [x] [FILE] src/voice/voiceModeEnabled.ts
