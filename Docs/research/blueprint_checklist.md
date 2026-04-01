@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:05:56 +0800
+Generated at: 2026-04-01 20:06:39 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2043,8 +2043,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/secureStorage/plainTextStorage.ts
 - [x] [FILE] src/utils/semanticBoolean.ts
 - [x] [FILE] src/utils/semanticNumber.ts
-- [ ] [FILE] src/utils/semver.ts
-- [ ] [FILE] src/utils/sequential.ts
+- [x] [FILE] src/utils/semver.ts
+- [x] [FILE] src/utils/sequential.ts
 - [ ] [FILE] src/utils/sessionActivity.ts
 - [ ] [FILE] src/utils/sessionEnvVars.ts
 - [ ] [FILE] src/utils/sessionEnvironment.ts
@@ -2068,33 +2068,33 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/settings/mdm/rawRead.ts
 - [x] [FILE] src/utils/settings/mdm/settings.ts
 - [x] [FILE] src/utils/settings/permissionValidation.ts
-- [ ] [FILE] src/utils/settings/pluginOnlyPolicy.ts
-- [ ] [FILE] src/utils/settings/schemaOutput.ts
+- [x] [FILE] src/utils/settings/pluginOnlyPolicy.ts
+- [x] [FILE] src/utils/settings/schemaOutput.ts
 - [ ] [FILE] src/utils/settings/settings.ts
 - [ ] [FILE] src/utils/settings/settingsCache.ts
 - [ ] [FILE] src/utils/settings/toolValidationConfig.ts
 - [x] [FILE] src/utils/settings/types.ts
 - [x] [FILE] src/utils/settings/validateEditTool.ts
-- [ ] [FILE] src/utils/settings/validation.ts
+- [x] [FILE] src/utils/settings/validation.ts
 - [ ] [FILE] src/utils/settings/validationTips.ts
-- [ ] [FILE] src/utils/shell/bashProvider.ts
-- [ ] [FILE] src/utils/shell/outputLimits.ts
-- [ ] [FILE] src/utils/shell/powershellDetection.ts
+- [x] [FILE] src/utils/shell/bashProvider.ts
+- [x] [FILE] src/utils/shell/outputLimits.ts
+- [x] [FILE] src/utils/shell/powershellDetection.ts
 - [ ] [FILE] src/utils/shell/powershellProvider.ts
 - [ ] [FILE] src/utils/shell/prefix.ts
 - [ ] [FILE] src/utils/shell/readOnlyCommandValidation.ts
 - [ ] [FILE] src/utils/shell/resolveDefaultShell.ts
 - [ ] [FILE] src/utils/shell/shellProvider.ts
-- [ ] [FILE] src/utils/shell/shellToolUtils.ts
-- [ ] [FILE] src/utils/shell/specPrefix.ts
+- [x] [FILE] src/utils/shell/shellToolUtils.ts
+- [x] [FILE] src/utils/shell/specPrefix.ts
 - [x] [FILE] src/utils/shellConfig.ts
 - [x] [FILE] src/utils/sideQuery.ts
 - [x] [FILE] src/utils/sideQuestion.ts
-- [ ] [FILE] src/utils/signal.ts
-- [ ] [FILE] src/utils/sinks.ts
+- [x] [FILE] src/utils/signal.ts
+- [x] [FILE] src/utils/sinks.ts
 - [x] [FILE] src/utils/skills/skillChangeDetector.ts
-- [ ] [FILE] src/utils/slashCommandParsing.ts
-- [ ] [FILE] src/utils/sleep.ts
+- [x] [FILE] src/utils/slashCommandParsing.ts
+- [x] [FILE] src/utils/sleep.ts
 - [ ] [FILE] src/utils/sliceAnsi.ts
 - [ ] [FILE] src/utils/slowOperations.ts
 - [ ] [FILE] src/utils/standaloneAgent.ts
@@ -2110,7 +2110,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/streamlinedTransform.ts
 - [ ] [FILE] src/utils/stringUtils.ts
 - [ ] [FILE] src/utils/subprocessEnv.ts
-- [ ] [FILE] src/utils/suggestions/commandSuggestions.ts
+- [x] [FILE] src/utils/suggestions/commandSuggestions.ts
 - [ ] [FILE] src/utils/suggestions/directoryCompletion.ts
 - [ ] [FILE] src/utils/suggestions/shellHistoryCompletion.ts
 - [ ] [FILE] src/utils/suggestions/skillUsageTracking.ts
