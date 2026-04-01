@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:41:26 +0800
+Generated at: 2026-04-01 13:43:20 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1268,7 +1268,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/remote/remotePermissionBridge.ts
 - [ ] [FILE] src/remote/sdkMessageAdapter.ts
 - [ ] [FILE] src/replLauncher.tsx
-- [ ] [FILE] src/schemas/hooks.ts
+- [x] [FILE] src/schemas/hooks.ts
 - [ ] [FILE] src/screens/Doctor.tsx
 - [ ] [FILE] src/screens/REPL.tsx
 - [ ] [FILE] src/screens/ResumeConversation.tsx
