@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:05:47 +0800
+Generated at: 2026-04-01 13:09:06 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1119,10 +1119,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/useVoiceIntegration.tsx
 - [x] [FILE] src/ink.ts
 - [x] [FILE] src/ink/Ansi.tsx
-- [ ] [FILE] src/ink/bidi.ts
+- [x] [FILE] src/ink/bidi.ts
 - [ ] [FILE] src/ink/clearTerminal.ts
 - [ ] [FILE] src/ink/colorize.ts
-- [ ] [FILE] src/ink/components/AlternateScreen.tsx
+- [x] [FILE] src/ink/components/AlternateScreen.tsx
 - [ ] [FILE] src/ink/components/App.tsx
 - [ ] [FILE] src/ink/components/AppContext.ts
 - [ ] [FILE] src/ink/components/Box.tsx
