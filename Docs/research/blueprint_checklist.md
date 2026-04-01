@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 09:58:19 +0800
+Generated at: 2026-04-01 09:58:49 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -737,7 +737,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/Settings/Usage.tsx
 - [x] [FILE] src/components/ShowInIDEPrompt.tsx
 - [x] [FILE] src/components/SkillImprovementSurvey.tsx
-- [ ] [FILE] src/components/Spinner.tsx
+- [x] [FILE] src/components/Spinner.tsx
 - [ ] [FILE] src/components/Spinner/FlashingChar.tsx
 - [ ] [FILE] src/components/Spinner/GlimmerMessage.tsx
 - [ ] [FILE] src/components/Spinner/ShimmerChar.tsx
