@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:21:04 +0800
+Generated at: 2026-04-01 10:27:06 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -784,9 +784,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/agents/AgentsMenu.tsx
 - [x] [FILE] src/components/agents/ColorPicker.tsx
 - [x] [FILE] src/components/agents/ModelSelector.tsx
-- [ ] [FILE] src/components/agents/ToolSelector.tsx
-- [ ] [FILE] src/components/agents/agentFileUtils.ts
-- [ ] [FILE] src/components/agents/generateAgent.ts
+- [x] [FILE] src/components/agents/ToolSelector.tsx
+- [x] [FILE] src/components/agents/agentFileUtils.ts
+- [x] [FILE] src/components/agents/generateAgent.ts
 - [ ] [FILE] src/components/agents/new-agent-creation/CreateAgentWizard.tsx
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ColorStep.tsx
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ConfirmStep.tsx
@@ -800,9 +800,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/PromptStep.tsx
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/ToolsStep.tsx
 - [ ] [FILE] src/components/agents/new-agent-creation/wizard-steps/TypeStep.tsx
-- [ ] [FILE] src/components/agents/types.ts
-- [ ] [FILE] src/components/agents/utils.ts
-- [ ] [FILE] src/components/agents/validateAgent.ts
+- [x] [FILE] src/components/agents/types.ts
+- [x] [FILE] src/components/agents/utils.ts
+- [x] [FILE] src/components/agents/validateAgent.ts
 - [ ] [FILE] src/components/design-system/Byline.tsx
 - [ ] [FILE] src/components/design-system/Dialog.tsx
 - [ ] [FILE] src/components/design-system/Divider.tsx
