@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:01:48 +0800
+Generated at: 2026-04-01 18:02:44 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1569,9 +1569,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/ReadMcpResourceTool/ReadMcpResourceTool.ts
 - [x] [FILE] src/tools/ReadMcpResourceTool/UI.tsx
 - [x] [FILE] src/tools/ReadMcpResourceTool/prompt.ts
-- [ ] [FILE] src/tools/RemoteTriggerTool/RemoteTriggerTool.ts
-- [ ] [FILE] src/tools/RemoteTriggerTool/UI.tsx
-- [ ] [FILE] src/tools/RemoteTriggerTool/prompt.ts
+- [x] [FILE] src/tools/RemoteTriggerTool/RemoteTriggerTool.ts
+- [x] [FILE] src/tools/RemoteTriggerTool/UI.tsx
+- [x] [FILE] src/tools/RemoteTriggerTool/prompt.ts
 - [ ] [FILE] src/tools/ScheduleCronTool/CronCreateTool.ts
 - [ ] [FILE] src/tools/ScheduleCronTool/CronDeleteTool.ts
 - [ ] [FILE] src/tools/ScheduleCronTool/CronListTool.ts
