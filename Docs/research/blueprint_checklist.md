@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:54:53 +0800
+Generated at: 2026-04-01 19:55:10 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1997,7 +1997,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/pluginLoader.ts
 - [x] [FILE] src/utils/plugins/pluginOptionsStorage.ts
 - [x] [FILE] src/utils/plugins/pluginPolicy.ts
-- [ ] [FILE] src/utils/plugins/pluginStartupCheck.ts
+- [x] [FILE] src/utils/plugins/pluginStartupCheck.ts
 - [ ] [FILE] src/utils/plugins/pluginVersioning.ts
 - [ ] [FILE] src/utils/plugins/reconciler.ts
 - [ ] [FILE] src/utils/plugins/refresh.ts
