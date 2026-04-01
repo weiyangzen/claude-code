@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:37:21 +0800
+Generated at: 2026-04-01 13:37:41 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1228,7 +1228,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/keybindings/template.ts
 - [ ] [FILE] src/keybindings/useKeybinding.ts
 - [x] [FILE] src/keybindings/useShortcutDisplay.ts
-- [ ] [FILE] src/keybindings/validate.ts
+- [x] [FILE] src/keybindings/validate.ts
 - [x] [FILE] src/main.tsx
 - [x] [FILE] src/memdir/findRelevantMemories.ts
 - [x] [FILE] src/memdir/memdir.ts
@@ -1237,7 +1237,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/memdir/memoryTypes.ts
 - [x] [FILE] src/memdir/paths.ts
 - [x] [FILE] src/memdir/teamMemPaths.ts
-- [ ] [FILE] src/memdir/teamMemPrompts.ts
+- [x] [FILE] src/memdir/teamMemPrompts.ts
 - [x] [FILE] src/migrations/migrateAutoUpdatesToSettings.ts
 - [x] [FILE] src/migrations/migrateBypassPermissionsAcceptedToSettings.ts
 - [x] [FILE] src/migrations/migrateEnableAllProjectMcpServersToSettings.ts
