@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:15:11 +0800
+Generated at: 2026-04-01 13:16:19 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1131,13 +1131,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/components/CursorDeclarationContext.ts
 - [x] [FILE] src/ink/components/ErrorOverview.tsx
 - [x] [FILE] src/ink/components/Link.tsx
-- [ ] [FILE] src/ink/components/Newline.tsx
-- [ ] [FILE] src/ink/components/NoSelect.tsx
-- [ ] [FILE] src/ink/components/RawAnsi.tsx
+- [x] [FILE] src/ink/components/Newline.tsx
+- [x] [FILE] src/ink/components/NoSelect.tsx
+- [x] [FILE] src/ink/components/RawAnsi.tsx
 - [x] [FILE] src/ink/components/ScrollBox.tsx
 - [x] [FILE] src/ink/components/Spacer.tsx
 - [x] [FILE] src/ink/components/StdinContext.ts
-- [ ] [FILE] src/ink/components/TerminalFocusContext.tsx
+- [x] [FILE] src/ink/components/TerminalFocusContext.tsx
 - [ ] [FILE] src/ink/components/TerminalSizeContext.tsx
 - [ ] [FILE] src/ink/components/Text.tsx
 - [x] [FILE] src/ink/constants.ts
@@ -1145,8 +1145,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/events/click-event.ts
 - [x] [FILE] src/ink/events/dispatcher.ts
 - [x] [FILE] src/ink/events/emitter.ts
-- [ ] [FILE] src/ink/events/event-handlers.ts
-- [ ] [FILE] src/ink/events/event.ts
+- [x] [FILE] src/ink/events/event-handlers.ts
+- [x] [FILE] src/ink/events/event.ts
 - [ ] [FILE] src/ink/events/focus-event.ts
 - [ ] [FILE] src/ink/events/input-event.ts
 - [ ] [FILE] src/ink/events/keyboard-event.ts
