@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:23:45 +0800
+Generated at: 2026-04-01 18:25:08 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1621,13 +1621,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/WebFetchTool/UI.tsx
 - [x] [FILE] src/tools/WebFetchTool/WebFetchTool.ts
 - [x] [FILE] src/tools/WebFetchTool/preapproved.ts
-- [ ] [FILE] src/tools/WebFetchTool/prompt.ts
+- [x] [FILE] src/tools/WebFetchTool/prompt.ts
 - [ ] [FILE] src/tools/WebFetchTool/utils.ts
 - [ ] [FILE] src/tools/WebSearchTool/UI.tsx
 - [ ] [FILE] src/tools/WebSearchTool/WebSearchTool.ts
 - [ ] [FILE] src/tools/WebSearchTool/prompt.ts
 - [x] [FILE] src/tools/shared/gitOperationTracking.ts
-- [ ] [FILE] src/tools/shared/spawnMultiAgent.ts
+- [x] [FILE] src/tools/shared/spawnMultiAgent.ts
 - [x] [FILE] src/tools/testing/TestingPermissionTool.tsx
 - [ ] [FILE] src/tools/utils.ts
 - [ ] [FILE] src/types/command.ts
