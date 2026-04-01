@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:37:41 +0800
+Generated at: 2026-04-01 13:38:42 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1253,7 +1253,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/native-ts/color-diff/index.ts
 - [x] [FILE] src/native-ts/file-index/index.ts
 - [x] [FILE] src/native-ts/yoga-layout/enums.ts
-- [ ] [FILE] src/native-ts/yoga-layout/index.ts
+- [x] [FILE] src/native-ts/yoga-layout/index.ts
 - [ ] [FILE] src/outputStyles/loadOutputStylesDir.ts
 - [ ] [FILE] src/plugins/builtinPlugins.ts
 - [ ] [FILE] src/plugins/bundled/index.ts
