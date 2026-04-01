@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:04:31 +0800
+Generated at: 2026-04-01 12:07:06 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -959,8 +959,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/components/tasks/ShellProgress.tsx
 - [ ] [FILE] src/components/tasks/renderToolActivity.tsx
 - [ ] [FILE] src/components/tasks/taskStatusUtils.tsx
-- [ ] [FILE] src/components/teams/TeamStatus.tsx
-- [ ] [FILE] src/components/teams/TeamsDialog.tsx
+- [x] [FILE] src/components/teams/TeamStatus.tsx
+- [x] [FILE] src/components/teams/TeamsDialog.tsx
 - [ ] [FILE] src/components/ui/OrderedList.tsx
 - [ ] [FILE] src/components/ui/OrderedListItem.tsx
 - [ ] [FILE] src/components/ui/TreeSelect.tsx
