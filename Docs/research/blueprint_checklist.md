@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:44:59 +0800
+Generated at: 2026-04-01 08:46:43 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -646,7 +646,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/HelpV2/General.tsx
 - [x] [FILE] src/components/HelpV2/HelpV2.tsx
 - [x] [FILE] src/components/HighlightedCode.tsx
-- [ ] [FILE] src/components/HighlightedCode/Fallback.tsx
+- [x] [FILE] src/components/HighlightedCode/Fallback.tsx
 - [x] [FILE] src/components/HistorySearchDialog.tsx
 - [x] [FILE] src/components/IdeAutoConnectDialog.tsx
 - [ ] [FILE] src/components/IdeOnboardingDialog.tsx
