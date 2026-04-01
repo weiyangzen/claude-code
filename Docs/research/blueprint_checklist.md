@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 16:07:52 +0800
+Generated at: 2026-04-01 16:09:05 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1436,7 +1436,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tasks/DreamTask/DreamTask.ts
 - [x] [FILE] src/tasks/InProcessTeammateTask/InProcessTeammateTask.tsx
 - [x] [FILE] src/tasks/InProcessTeammateTask/types.ts
-- [ ] [FILE] src/tasks/LocalAgentTask/LocalAgentTask.tsx
+- [x] [FILE] src/tasks/LocalAgentTask/LocalAgentTask.tsx
 - [ ] [FILE] src/tasks/LocalMainSessionTask.ts
 - [ ] [FILE] src/tasks/LocalShellTask/LocalShellTask.tsx
 - [ ] [FILE] src/tasks/LocalShellTask/guards.ts
