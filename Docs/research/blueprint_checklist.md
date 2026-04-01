@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:10:43 +0800
+Generated at: 2026-04-01 13:11:21 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1102,8 +1102,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/useSkillsChange.ts
 - [x] [FILE] src/hooks/useSwarmInitialization.ts
 - [x] [FILE] src/hooks/useSwarmPermissionPoller.ts
-- [ ] [FILE] src/hooks/useTaskListWatcher.ts
-- [ ] [FILE] src/hooks/useTasksV2.ts
+- [x] [FILE] src/hooks/useTaskListWatcher.ts
+- [x] [FILE] src/hooks/useTasksV2.ts
 - [ ] [FILE] src/hooks/useTeammateViewAutoExit.ts
 - [ ] [FILE] src/hooks/useTeleportResume.tsx
 - [ ] [FILE] src/hooks/useTerminalSize.ts
@@ -1125,7 +1125,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/components/AlternateScreen.tsx
 - [x] [FILE] src/ink/components/App.tsx
 - [x] [FILE] src/ink/components/AppContext.ts
-- [ ] [FILE] src/ink/components/Box.tsx
+- [x] [FILE] src/ink/components/Box.tsx
 - [ ] [FILE] src/ink/components/Button.tsx
 - [ ] [FILE] src/ink/components/ClockContext.tsx
 - [ ] [FILE] src/ink/components/CursorDeclarationContext.ts
@@ -1153,9 +1153,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/ink/events/terminal-event.ts
 - [ ] [FILE] src/ink/events/terminal-focus-event.ts
 - [x] [FILE] src/ink/focus.ts
-- [ ] [FILE] src/ink/frame.ts
-- [ ] [FILE] src/ink/get-max-width.ts
-- [ ] [FILE] src/ink/hit-test.ts
+- [x] [FILE] src/ink/frame.ts
+- [x] [FILE] src/ink/get-max-width.ts
+- [x] [FILE] src/ink/hit-test.ts
 - [ ] [FILE] src/ink/hooks/use-animation-frame.ts
 - [ ] [FILE] src/ink/hooks/use-app.ts
 - [ ] [FILE] src/ink/hooks/use-declared-cursor.ts
