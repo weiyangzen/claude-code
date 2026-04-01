@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:04:59 +0800
+Generated at: 2026-04-01 10:06:52 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -741,18 +741,18 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/Spinner/FlashingChar.tsx
 - [x] [FILE] src/components/Spinner/GlimmerMessage.tsx
 - [x] [FILE] src/components/Spinner/ShimmerChar.tsx
-- [ ] [FILE] src/components/Spinner/SpinnerAnimationRow.tsx
-- [ ] [FILE] src/components/Spinner/SpinnerGlyph.tsx
+- [x] [FILE] src/components/Spinner/SpinnerAnimationRow.tsx
+- [x] [FILE] src/components/Spinner/SpinnerGlyph.tsx
 - [x] [FILE] src/components/Spinner/TeammateSpinnerLine.tsx
 - [x] [FILE] src/components/Spinner/TeammateSpinnerTree.tsx
-- [ ] [FILE] src/components/Spinner/index.ts
-- [ ] [FILE] src/components/Spinner/teammateSelectHint.ts
+- [x] [FILE] src/components/Spinner/index.ts
+- [x] [FILE] src/components/Spinner/teammateSelectHint.ts
 - [ ] [FILE] src/components/Spinner/useShimmerAnimation.ts
 - [ ] [FILE] src/components/Spinner/useStalledAnimation.ts
 - [ ] [FILE] src/components/Spinner/utils.ts
 - [x] [FILE] src/components/Stats.tsx
-- [ ] [FILE] src/components/StatusLine.tsx
-- [ ] [FILE] src/components/StatusNotices.tsx
+- [x] [FILE] src/components/StatusLine.tsx
+- [x] [FILE] src/components/StatusNotices.tsx
 - [ ] [FILE] src/components/StructuredDiff.tsx
 - [x] [FILE] src/components/StructuredDiff/Fallback.tsx
 - [x] [FILE] src/components/StructuredDiff/colorDiff.ts
