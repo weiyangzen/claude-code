@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:57:55 +0800
+Generated at: 2026-04-01 19:58:33 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2007,25 +2007,25 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/zipCache.ts
 - [x] [FILE] src/utils/plugins/zipCacheAdapters.ts
 - [x] [FILE] src/utils/powershell/dangerousCmdlets.ts
-- [ ] [FILE] src/utils/powershell/parser.ts
+- [x] [FILE] src/utils/powershell/parser.ts
 - [ ] [FILE] src/utils/powershell/staticPrefix.ts
 - [x] [FILE] src/utils/preflightChecks.tsx
 - [x] [FILE] src/utils/privacyLevel.ts
 - [x] [FILE] src/utils/process.ts
 - [ ] [FILE] src/utils/processUserInput/processBashCommand.tsx
-- [ ] [FILE] src/utils/processUserInput/processSlashCommand.tsx
-- [ ] [FILE] src/utils/processUserInput/processTextPrompt.ts
+- [x] [FILE] src/utils/processUserInput/processSlashCommand.tsx
+- [x] [FILE] src/utils/processUserInput/processTextPrompt.ts
 - [ ] [FILE] src/utils/processUserInput/processUserInput.ts
 - [x] [FILE] src/utils/profilerBase.ts
 - [x] [FILE] src/utils/promptCategory.ts
-- [ ] [FILE] src/utils/promptEditor.ts
+- [x] [FILE] src/utils/promptEditor.ts
 - [ ] [FILE] src/utils/promptShellExecution.ts
 - [ ] [FILE] src/utils/proxy.ts
 - [ ] [FILE] src/utils/queryContext.ts
 - [ ] [FILE] src/utils/queryHelpers.ts
 - [ ] [FILE] src/utils/queryProfiler.ts
 - [x] [FILE] src/utils/queueProcessor.ts
-- [ ] [FILE] src/utils/readEditContext.ts
+- [x] [FILE] src/utils/readEditContext.ts
 - [ ] [FILE] src/utils/readFileInRange.ts
 - [ ] [FILE] src/utils/releaseNotes.ts
 - [ ] [FILE] src/utils/renderOptions.ts
