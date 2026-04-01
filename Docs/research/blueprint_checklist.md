@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:22:14 +0800
+Generated at: 2026-04-01 19:23:51 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1830,7 +1830,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/git/gitignore.ts
 - [x] [FILE] src/utils/gitDiff.ts
 - [x] [FILE] src/utils/gitSettings.ts
-- [ ] [FILE] src/utils/github/ghAuthStatus.ts
+- [x] [FILE] src/utils/github/ghAuthStatus.ts
 - [ ] [FILE] src/utils/githubRepoPathMapping.ts
 - [ ] [FILE] src/utils/glob.ts
 - [ ] [FILE] src/utils/gracefulShutdown.ts
