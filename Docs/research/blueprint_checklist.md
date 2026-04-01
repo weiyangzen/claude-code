@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:08:05 +0800
+Generated at: 2026-04-01 20:09:13 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2047,7 +2047,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/sequential.ts
 - [x] [FILE] src/utils/sessionActivity.ts
 - [x] [FILE] src/utils/sessionEnvVars.ts
-- [ ] [FILE] src/utils/sessionEnvironment.ts
+- [x] [FILE] src/utils/sessionEnvironment.ts
 - [ ] [FILE] src/utils/sessionFileAccessHooks.ts
 - [ ] [FILE] src/utils/sessionIngressAuth.ts
 - [x] [FILE] src/utils/sessionRestore.ts
@@ -2082,8 +2082,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/shell/powershellDetection.ts
 - [x] [FILE] src/utils/shell/powershellProvider.ts
 - [x] [FILE] src/utils/shell/prefix.ts
-- [ ] [FILE] src/utils/shell/readOnlyCommandValidation.ts
-- [ ] [FILE] src/utils/shell/resolveDefaultShell.ts
+- [x] [FILE] src/utils/shell/readOnlyCommandValidation.ts
+- [x] [FILE] src/utils/shell/resolveDefaultShell.ts
 - [ ] [FILE] src/utils/shell/shellProvider.ts
 - [x] [FILE] src/utils/shell/shellToolUtils.ts
 - [x] [FILE] src/utils/shell/specPrefix.ts
@@ -2096,13 +2096,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/slashCommandParsing.ts
 - [x] [FILE] src/utils/sleep.ts
 - [x] [FILE] src/utils/sliceAnsi.ts
-- [ ] [FILE] src/utils/slowOperations.ts
-- [ ] [FILE] src/utils/standaloneAgent.ts
+- [x] [FILE] src/utils/slowOperations.ts
+- [x] [FILE] src/utils/standaloneAgent.ts
 - [ ] [FILE] src/utils/startupProfiler.ts
 - [ ] [FILE] src/utils/staticRender.tsx
 - [x] [FILE] src/utils/stats.ts
-- [ ] [FILE] src/utils/statsCache.ts
-- [ ] [FILE] src/utils/status.tsx
+- [x] [FILE] src/utils/statsCache.ts
+- [x] [FILE] src/utils/status.tsx
 - [ ] [FILE] src/utils/statusNoticeDefinitions.tsx
 - [ ] [FILE] src/utils/statusNoticeHelpers.ts
 - [ ] [FILE] src/utils/stream.ts
@@ -2112,10 +2112,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/subprocessEnv.ts
 - [x] [FILE] src/utils/suggestions/commandSuggestions.ts
 - [x] [FILE] src/utils/suggestions/directoryCompletion.ts
-- [ ] [FILE] src/utils/suggestions/shellHistoryCompletion.ts
+- [x] [FILE] src/utils/suggestions/shellHistoryCompletion.ts
 - [ ] [FILE] src/utils/suggestions/skillUsageTracking.ts
 - [ ] [FILE] src/utils/suggestions/slackChannelSuggestions.ts
-- [ ] [FILE] src/utils/swarm/It2SetupPrompt.tsx
+- [x] [FILE] src/utils/swarm/It2SetupPrompt.tsx
 - [ ] [FILE] src/utils/swarm/backends/ITermBackend.ts
 - [ ] [FILE] src/utils/swarm/backends/InProcessBackend.ts
 - [ ] [FILE] src/utils/swarm/backends/PaneBackendExecutor.ts
