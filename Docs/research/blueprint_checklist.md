@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:21:18 +0800
+Generated at: 2026-04-01 13:23:56 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1162,12 +1162,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/hooks/use-input.ts
 - [x] [FILE] src/ink/hooks/use-interval.ts
 - [x] [FILE] src/ink/hooks/use-search-highlight.ts
-- [ ] [FILE] src/ink/hooks/use-selection.ts
-- [ ] [FILE] src/ink/hooks/use-stdin.ts
-- [ ] [FILE] src/ink/hooks/use-tab-status.ts
-- [ ] [FILE] src/ink/hooks/use-terminal-focus.ts
-- [ ] [FILE] src/ink/hooks/use-terminal-title.ts
-- [ ] [FILE] src/ink/hooks/use-terminal-viewport.ts
+- [x] [FILE] src/ink/hooks/use-selection.ts
+- [x] [FILE] src/ink/hooks/use-stdin.ts
+- [x] [FILE] src/ink/hooks/use-tab-status.ts
+- [x] [FILE] src/ink/hooks/use-terminal-focus.ts
+- [x] [FILE] src/ink/hooks/use-terminal-title.ts
+- [x] [FILE] src/ink/hooks/use-terminal-viewport.ts
 - [x] [FILE] src/ink/ink.tsx
 - [x] [FILE] src/ink/instances.ts
 - [x] [FILE] src/ink/layout/engine.ts
@@ -1175,20 +1175,20 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/layout/node.ts
 - [x] [FILE] src/ink/layout/yoga.ts
 - [x] [FILE] src/ink/line-width-cache.ts
-- [ ] [FILE] src/ink/log-update.ts
-- [ ] [FILE] src/ink/measure-element.ts
-- [ ] [FILE] src/ink/measure-text.ts
-- [ ] [FILE] src/ink/node-cache.ts
-- [ ] [FILE] src/ink/optimizer.ts
+- [x] [FILE] src/ink/log-update.ts
+- [x] [FILE] src/ink/measure-element.ts
+- [x] [FILE] src/ink/measure-text.ts
+- [x] [FILE] src/ink/node-cache.ts
+- [x] [FILE] src/ink/optimizer.ts
 - [ ] [FILE] src/ink/output.ts
 - [ ] [FILE] src/ink/parse-keypress.ts
 - [ ] [FILE] src/ink/reconciler.ts
-- [ ] [FILE] src/ink/render-border.ts
+- [x] [FILE] src/ink/render-border.ts
 - [ ] [FILE] src/ink/render-node-to-output.ts
 - [ ] [FILE] src/ink/render-to-screen.ts
 - [ ] [FILE] src/ink/renderer.ts
 - [ ] [FILE] src/ink/root.ts
-- [ ] [FILE] src/ink/screen.ts
+- [x] [FILE] src/ink/screen.ts
 - [ ] [FILE] src/ink/searchHighlight.ts
 - [ ] [FILE] src/ink/selection.ts
 - [ ] [FILE] src/ink/squash-text-nodes.ts
