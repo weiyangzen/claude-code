@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:58:33 +0800
+Generated at: 2026-04-01 19:59:06 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2008,25 +2008,25 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/zipCacheAdapters.ts
 - [x] [FILE] src/utils/powershell/dangerousCmdlets.ts
 - [x] [FILE] src/utils/powershell/parser.ts
-- [ ] [FILE] src/utils/powershell/staticPrefix.ts
+- [x] [FILE] src/utils/powershell/staticPrefix.ts
 - [x] [FILE] src/utils/preflightChecks.tsx
 - [x] [FILE] src/utils/privacyLevel.ts
 - [x] [FILE] src/utils/process.ts
-- [ ] [FILE] src/utils/processUserInput/processBashCommand.tsx
+- [x] [FILE] src/utils/processUserInput/processBashCommand.tsx
 - [x] [FILE] src/utils/processUserInput/processSlashCommand.tsx
 - [x] [FILE] src/utils/processUserInput/processTextPrompt.ts
 - [ ] [FILE] src/utils/processUserInput/processUserInput.ts
 - [x] [FILE] src/utils/profilerBase.ts
 - [x] [FILE] src/utils/promptCategory.ts
 - [x] [FILE] src/utils/promptEditor.ts
-- [ ] [FILE] src/utils/promptShellExecution.ts
+- [x] [FILE] src/utils/promptShellExecution.ts
 - [ ] [FILE] src/utils/proxy.ts
 - [ ] [FILE] src/utils/queryContext.ts
 - [ ] [FILE] src/utils/queryHelpers.ts
 - [ ] [FILE] src/utils/queryProfiler.ts
 - [x] [FILE] src/utils/queueProcessor.ts
 - [x] [FILE] src/utils/readEditContext.ts
-- [ ] [FILE] src/utils/readFileInRange.ts
+- [x] [FILE] src/utils/readFileInRange.ts
 - [ ] [FILE] src/utils/releaseNotes.ts
 - [ ] [FILE] src/utils/renderOptions.ts
 - [ ] [FILE] src/utils/ripgrep.ts
@@ -2035,7 +2035,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/sanitization.ts
 - [ ] [FILE] src/utils/screenshotClipboard.ts
 - [ ] [FILE] src/utils/sdkEventQueue.ts
-- [ ] [FILE] src/utils/secureStorage/fallbackStorage.ts
+- [x] [FILE] src/utils/secureStorage/fallbackStorage.ts
 - [ ] [FILE] src/utils/secureStorage/index.ts
 - [ ] [FILE] src/utils/secureStorage/keychainPrefetch.ts
 - [ ] [FILE] src/utils/secureStorage/macOsKeychainHelpers.ts
