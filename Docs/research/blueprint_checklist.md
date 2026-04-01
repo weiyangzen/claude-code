@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:53:51 +0800
+Generated at: 2026-04-01 19:54:20 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1960,7 +1960,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/permissions/shellRuleMatching.ts
 - [x] [FILE] src/utils/permissions/yoloClassifier.ts
 - [x] [FILE] src/utils/planModeV2.ts
-- [ ] [FILE] src/utils/plans.ts
+- [x] [FILE] src/utils/plans.ts
 - [ ] [FILE] src/utils/platform.ts
 - [x] [FILE] src/utils/plugins/addDirPluginSettings.ts
 - [x] [FILE] src/utils/plugins/cacheUtils.ts
@@ -1971,12 +1971,12 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/hintRecommendation.ts
 - [x] [FILE] src/utils/plugins/installCounts.ts
 - [x] [FILE] src/utils/plugins/installedPluginsManager.ts
-- [ ] [FILE] src/utils/plugins/loadPluginAgents.ts
+- [x] [FILE] src/utils/plugins/loadPluginAgents.ts
 - [x] [FILE] src/utils/plugins/loadPluginCommands.ts
 - [x] [FILE] src/utils/plugins/loadPluginHooks.ts
 - [x] [FILE] src/utils/plugins/loadPluginOutputStyles.ts
 - [x] [FILE] src/utils/plugins/lspPluginIntegration.ts
-- [ ] [FILE] src/utils/plugins/lspRecommendation.ts
+- [x] [FILE] src/utils/plugins/lspRecommendation.ts
 - [ ] [FILE] src/utils/plugins/managedPlugins.ts
 - [ ] [FILE] src/utils/plugins/marketplaceHelpers.ts
 - [x] [FILE] src/utils/plugins/marketplaceManager.ts
@@ -1986,16 +1986,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/officialMarketplaceGcs.ts
 - [x] [FILE] src/utils/plugins/officialMarketplaceStartupCheck.ts
 - [x] [FILE] src/utils/plugins/orphanedPluginFilter.ts
-- [ ] [FILE] src/utils/plugins/parseMarketplaceInput.ts
+- [x] [FILE] src/utils/plugins/parseMarketplaceInput.ts
 - [ ] [FILE] src/utils/plugins/performStartupChecks.tsx
 - [x] [FILE] src/utils/plugins/pluginAutoupdate.ts
 - [x] [FILE] src/utils/plugins/pluginBlocklist.ts
 - [x] [FILE] src/utils/plugins/pluginDirectories.ts
 - [x] [FILE] src/utils/plugins/pluginFlagging.ts
 - [x] [FILE] src/utils/plugins/pluginIdentifier.ts
-- [ ] [FILE] src/utils/plugins/pluginInstallationHelpers.ts
+- [x] [FILE] src/utils/plugins/pluginInstallationHelpers.ts
 - [ ] [FILE] src/utils/plugins/pluginLoader.ts
-- [ ] [FILE] src/utils/plugins/pluginOptionsStorage.ts
+- [x] [FILE] src/utils/plugins/pluginOptionsStorage.ts
 - [ ] [FILE] src/utils/plugins/pluginPolicy.ts
 - [ ] [FILE] src/utils/plugins/pluginStartupCheck.ts
 - [ ] [FILE] src/utils/plugins/pluginVersioning.ts
