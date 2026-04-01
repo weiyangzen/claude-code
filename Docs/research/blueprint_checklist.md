@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 13:25:07 +0800
+Generated at: 2026-04-01 13:26:11 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1186,19 +1186,19 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/ink/render-border.ts
 - [x] [FILE] src/ink/render-node-to-output.ts
 - [x] [FILE] src/ink/render-to-screen.ts
-- [ ] [FILE] src/ink/renderer.ts
-- [ ] [FILE] src/ink/root.ts
+- [x] [FILE] src/ink/renderer.ts
+- [x] [FILE] src/ink/root.ts
 - [x] [FILE] src/ink/screen.ts
 - [x] [FILE] src/ink/searchHighlight.ts
 - [x] [FILE] src/ink/selection.ts
-- [ ] [FILE] src/ink/squash-text-nodes.ts
+- [x] [FILE] src/ink/squash-text-nodes.ts
 - [ ] [FILE] src/ink/stringWidth.ts
 - [x] [FILE] src/ink/styles.ts
 - [x] [FILE] src/ink/supports-hyperlinks.ts
 - [x] [FILE] src/ink/tabstops.ts
 - [x] [FILE] src/ink/terminal-focus-state.ts
-- [ ] [FILE] src/ink/terminal-querier.ts
-- [ ] [FILE] src/ink/terminal.ts
+- [x] [FILE] src/ink/terminal-querier.ts
+- [x] [FILE] src/ink/terminal.ts
 - [ ] [FILE] src/ink/termio.ts
 - [ ] [FILE] src/ink/termio/ansi.ts
 - [ ] [FILE] src/ink/termio/csi.ts
