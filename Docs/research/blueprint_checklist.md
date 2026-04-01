@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 08:53:31 +0800
+Generated at: 2026-04-01 08:55:32 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -659,17 +659,17 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/LanguagePicker.tsx
 - [x] [FILE] src/components/LogSelector.tsx
 - [x] [FILE] src/components/LogoV2/AnimatedAsterisk.tsx
-- [ ] [FILE] src/components/LogoV2/AnimatedClawd.tsx
-- [ ] [FILE] src/components/LogoV2/ChannelsNotice.tsx
+- [x] [FILE] src/components/LogoV2/AnimatedClawd.tsx
+- [x] [FILE] src/components/LogoV2/ChannelsNotice.tsx
 - [ ] [FILE] src/components/LogoV2/Clawd.tsx
 - [ ] [FILE] src/components/LogoV2/CondensedLogo.tsx
 - [ ] [FILE] src/components/LogoV2/EmergencyTip.tsx
 - [x] [FILE] src/components/LogoV2/Feed.tsx
 - [x] [FILE] src/components/LogoV2/FeedColumn.tsx
 - [x] [FILE] src/components/LogoV2/GuestPassesUpsell.tsx
-- [ ] [FILE] src/components/LogoV2/LogoV2.tsx
-- [ ] [FILE] src/components/LogoV2/Opus1mMergeNotice.tsx
-- [ ] [FILE] src/components/LogoV2/OverageCreditUpsell.tsx
+- [x] [FILE] src/components/LogoV2/LogoV2.tsx
+- [x] [FILE] src/components/LogoV2/Opus1mMergeNotice.tsx
+- [x] [FILE] src/components/LogoV2/OverageCreditUpsell.tsx
 - [ ] [FILE] src/components/LogoV2/VoiceModeNotice.tsx
 - [ ] [FILE] src/components/LogoV2/WelcomeV2.tsx
 - [ ] [FILE] src/components/LogoV2/feedConfigs.tsx
