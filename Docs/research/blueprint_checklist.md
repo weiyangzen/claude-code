@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:22:39 +0800
+Generated at: 2026-04-01 12:25:50 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1014,8 +1014,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/entrypoints/sdk/coreTypes.ts
 - [x] [FILE] src/history.ts
 - [x] [FILE] src/hooks/fileSuggestions.ts
-- [ ] [FILE] src/hooks/notifs/useAutoModeUnavailableNotification.ts
-- [ ] [FILE] src/hooks/notifs/useCanSwitchToExistingSubscription.tsx
+- [x] [FILE] src/hooks/notifs/useAutoModeUnavailableNotification.ts
+- [x] [FILE] src/hooks/notifs/useCanSwitchToExistingSubscription.tsx
 - [ ] [FILE] src/hooks/notifs/useDeprecationWarningNotification.tsx
 - [ ] [FILE] src/hooks/notifs/useFastModeNotification.tsx
 - [ ] [FILE] src/hooks/notifs/useIDEStatusIndicator.tsx
@@ -1039,11 +1039,11 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/unifiedSuggestions.ts
 - [x] [FILE] src/hooks/useAfterFirstRender.ts
 - [x] [FILE] src/hooks/useApiKeyVerification.ts
-- [ ] [FILE] src/hooks/useArrowKeyHistory.tsx
-- [ ] [FILE] src/hooks/useAssistantHistory.ts
-- [ ] [FILE] src/hooks/useAwaySummary.ts
-- [ ] [FILE] src/hooks/useBackgroundTaskNavigation.ts
-- [ ] [FILE] src/hooks/useBlink.ts
+- [x] [FILE] src/hooks/useArrowKeyHistory.tsx
+- [x] [FILE] src/hooks/useAssistantHistory.ts
+- [x] [FILE] src/hooks/useAwaySummary.ts
+- [x] [FILE] src/hooks/useBackgroundTaskNavigation.ts
+- [x] [FILE] src/hooks/useBlink.ts
 - [ ] [FILE] src/hooks/useCanUseTool.tsx
 - [ ] [FILE] src/hooks/useCancelRequest.ts
 - [ ] [FILE] src/hooks/useChromeExtensionNotification.tsx
