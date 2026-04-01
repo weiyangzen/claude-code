@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:25:50 +0800
+Generated at: 2026-04-01 12:30:01 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1016,26 +1016,26 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/fileSuggestions.ts
 - [x] [FILE] src/hooks/notifs/useAutoModeUnavailableNotification.ts
 - [x] [FILE] src/hooks/notifs/useCanSwitchToExistingSubscription.tsx
-- [ ] [FILE] src/hooks/notifs/useDeprecationWarningNotification.tsx
-- [ ] [FILE] src/hooks/notifs/useFastModeNotification.tsx
-- [ ] [FILE] src/hooks/notifs/useIDEStatusIndicator.tsx
-- [ ] [FILE] src/hooks/notifs/useInstallMessages.tsx
-- [ ] [FILE] src/hooks/notifs/useLspInitializationNotification.tsx
+- [x] [FILE] src/hooks/notifs/useDeprecationWarningNotification.tsx
+- [x] [FILE] src/hooks/notifs/useFastModeNotification.tsx
+- [x] [FILE] src/hooks/notifs/useIDEStatusIndicator.tsx
+- [x] [FILE] src/hooks/notifs/useInstallMessages.tsx
+- [x] [FILE] src/hooks/notifs/useLspInitializationNotification.tsx
 - [ ] [FILE] src/hooks/notifs/useMcpConnectivityStatus.tsx
 - [ ] [FILE] src/hooks/notifs/useModelMigrationNotifications.tsx
 - [ ] [FILE] src/hooks/notifs/useNpmDeprecationNotification.tsx
-- [ ] [FILE] src/hooks/notifs/usePluginAutoupdateNotification.tsx
-- [ ] [FILE] src/hooks/notifs/usePluginInstallationStatus.tsx
-- [ ] [FILE] src/hooks/notifs/useRateLimitWarningNotification.tsx
-- [ ] [FILE] src/hooks/notifs/useSettingsErrors.tsx
-- [ ] [FILE] src/hooks/notifs/useStartupNotification.ts
+- [x] [FILE] src/hooks/notifs/usePluginAutoupdateNotification.tsx
+- [x] [FILE] src/hooks/notifs/usePluginInstallationStatus.tsx
+- [x] [FILE] src/hooks/notifs/useRateLimitWarningNotification.tsx
+- [x] [FILE] src/hooks/notifs/useSettingsErrors.tsx
+- [x] [FILE] src/hooks/notifs/useStartupNotification.ts
 - [ ] [FILE] src/hooks/notifs/useTeammateShutdownNotification.ts
 - [x] [FILE] src/hooks/renderPlaceholder.ts
-- [ ] [FILE] src/hooks/toolPermission/PermissionContext.ts
+- [x] [FILE] src/hooks/toolPermission/PermissionContext.ts
 - [ ] [FILE] src/hooks/toolPermission/handlers/coordinatorHandler.ts
 - [ ] [FILE] src/hooks/toolPermission/handlers/interactiveHandler.ts
 - [ ] [FILE] src/hooks/toolPermission/handlers/swarmWorkerHandler.ts
-- [ ] [FILE] src/hooks/toolPermission/permissionLogging.ts
+- [x] [FILE] src/hooks/toolPermission/permissionLogging.ts
 - [x] [FILE] src/hooks/unifiedSuggestions.ts
 - [x] [FILE] src/hooks/useAfterFirstRender.ts
 - [x] [FILE] src/hooks/useApiKeyVerification.ts
