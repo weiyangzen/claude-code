@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 14:27:16 +0800
+Generated at: 2026-04-01 14:36:51 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1311,29 +1311,29 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/api/sessionIngress.ts
 - [x] [FILE] src/services/api/ultrareviewQuota.ts
 - [x] [FILE] src/services/api/usage.ts
-- [ ] [FILE] src/services/api/withRetry.ts
+- [x] [FILE] src/services/api/withRetry.ts
 - [x] [FILE] src/services/autoDream/autoDream.ts
 - [x] [FILE] src/services/autoDream/config.ts
 - [x] [FILE] src/services/autoDream/consolidationLock.ts
 - [x] [FILE] src/services/autoDream/consolidationPrompt.ts
-- [ ] [FILE] src/services/awaySummary.ts
-- [ ] [FILE] src/services/claudeAiLimits.ts
-- [ ] [FILE] src/services/claudeAiLimitsHook.ts
-- [ ] [FILE] src/services/compact/apiMicrocompact.ts
-- [ ] [FILE] src/services/compact/autoCompact.ts
-- [ ] [FILE] src/services/compact/compact.ts
-- [ ] [FILE] src/services/compact/compactWarningHook.ts
-- [ ] [FILE] src/services/compact/compactWarningState.ts
-- [ ] [FILE] src/services/compact/grouping.ts
-- [ ] [FILE] src/services/compact/microCompact.ts
+- [x] [FILE] src/services/awaySummary.ts
+- [x] [FILE] src/services/claudeAiLimits.ts
+- [x] [FILE] src/services/claudeAiLimitsHook.ts
+- [x] [FILE] src/services/compact/apiMicrocompact.ts
+- [x] [FILE] src/services/compact/autoCompact.ts
+- [x] [FILE] src/services/compact/compact.ts
+- [x] [FILE] src/services/compact/compactWarningHook.ts
+- [x] [FILE] src/services/compact/compactWarningState.ts
+- [x] [FILE] src/services/compact/grouping.ts
+- [x] [FILE] src/services/compact/microCompact.ts
 - [ ] [FILE] src/services/compact/postCompactCleanup.ts
 - [ ] [FILE] src/services/compact/prompt.ts
 - [ ] [FILE] src/services/compact/sessionMemoryCompact.ts
 - [ ] [FILE] src/services/compact/timeBasedMCConfig.ts
-- [ ] [FILE] src/services/diagnosticTracking.ts
+- [x] [FILE] src/services/diagnosticTracking.ts
 - [ ] [FILE] src/services/extractMemories/extractMemories.ts
 - [ ] [FILE] src/services/extractMemories/prompts.ts
-- [ ] [FILE] src/services/internalLogging.ts
+- [x] [FILE] src/services/internalLogging.ts
 - [ ] [FILE] src/services/lsp/LSPClient.ts
 - [ ] [FILE] src/services/lsp/LSPDiagnosticRegistry.ts
 - [ ] [FILE] src/services/lsp/LSPServerInstance.ts
@@ -1364,7 +1364,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/services/mcp/vscodeSdkMcp.ts
 - [ ] [FILE] src/services/mcp/xaa.ts
 - [ ] [FILE] src/services/mcp/xaaIdpLogin.ts
-- [ ] [FILE] src/services/mcpServerApproval.tsx
+- [x] [FILE] src/services/mcpServerApproval.tsx
 - [ ] [FILE] src/services/mockRateLimits.ts
 - [ ] [FILE] src/services/notifier.ts
 - [ ] [FILE] src/services/oauth/auth-code-listener.ts
