@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:03:40 +0800
+Generated at: 2026-04-01 12:04:20 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -950,10 +950,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/tasks/AsyncAgentDetailDialog.tsx
 - [x] [FILE] src/components/tasks/BackgroundTask.tsx
 - [x] [FILE] src/components/tasks/BackgroundTaskStatus.tsx
-- [ ] [FILE] src/components/tasks/BackgroundTasksDialog.tsx
+- [x] [FILE] src/components/tasks/BackgroundTasksDialog.tsx
 - [x] [FILE] src/components/tasks/DreamDetailDialog.tsx
 - [x] [FILE] src/components/tasks/InProcessTeammateDetailDialog.tsx
-- [ ] [FILE] src/components/tasks/RemoteSessionDetailDialog.tsx
+- [x] [FILE] src/components/tasks/RemoteSessionDetailDialog.tsx
 - [ ] [FILE] src/components/tasks/RemoteSessionProgress.tsx
 - [ ] [FILE] src/components/tasks/ShellDetailDialog.tsx
 - [ ] [FILE] src/components/tasks/ShellProgress.tsx
