@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 14:14:19 +0800
+Generated at: 2026-04-01 14:20:22 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1294,23 +1294,23 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/analytics/sinkKillswitch.ts
 - [x] [FILE] src/services/api/adminRequests.ts
 - [x] [FILE] src/services/api/bootstrap.ts
-- [ ] [FILE] src/services/api/claude.ts
-- [ ] [FILE] src/services/api/client.ts
-- [ ] [FILE] src/services/api/dumpPrompts.ts
-- [ ] [FILE] src/services/api/emptyUsage.ts
-- [ ] [FILE] src/services/api/errorUtils.ts
-- [ ] [FILE] src/services/api/errors.ts
-- [ ] [FILE] src/services/api/filesApi.ts
-- [ ] [FILE] src/services/api/firstTokenDate.ts
-- [ ] [FILE] src/services/api/grove.ts
-- [ ] [FILE] src/services/api/logging.ts
-- [ ] [FILE] src/services/api/metricsOptOut.ts
-- [ ] [FILE] src/services/api/overageCreditGrant.ts
-- [ ] [FILE] src/services/api/promptCacheBreakDetection.ts
-- [ ] [FILE] src/services/api/referral.ts
-- [ ] [FILE] src/services/api/sessionIngress.ts
-- [ ] [FILE] src/services/api/ultrareviewQuota.ts
-- [ ] [FILE] src/services/api/usage.ts
+- [x] [FILE] src/services/api/claude.ts
+- [x] [FILE] src/services/api/client.ts
+- [x] [FILE] src/services/api/dumpPrompts.ts
+- [x] [FILE] src/services/api/emptyUsage.ts
+- [x] [FILE] src/services/api/errorUtils.ts
+- [x] [FILE] src/services/api/errors.ts
+- [x] [FILE] src/services/api/filesApi.ts
+- [x] [FILE] src/services/api/firstTokenDate.ts
+- [x] [FILE] src/services/api/grove.ts
+- [x] [FILE] src/services/api/logging.ts
+- [x] [FILE] src/services/api/metricsOptOut.ts
+- [x] [FILE] src/services/api/overageCreditGrant.ts
+- [x] [FILE] src/services/api/promptCacheBreakDetection.ts
+- [x] [FILE] src/services/api/referral.ts
+- [x] [FILE] src/services/api/sessionIngress.ts
+- [x] [FILE] src/services/api/ultrareviewQuota.ts
+- [x] [FILE] src/services/api/usage.ts
 - [ ] [FILE] src/services/api/withRetry.ts
 - [ ] [FILE] src/services/autoDream/autoDream.ts
 - [ ] [FILE] src/services/autoDream/config.ts
