@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:14:05 +0800
+Generated at: 2026-04-01 10:14:33 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -766,14 +766,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/TeleportResumeWrapper.tsx
 - [x] [FILE] src/components/TeleportStash.tsx
 - [x] [FILE] src/components/TextInput.tsx
-- [ ] [FILE] src/components/ThemePicker.tsx
-- [ ] [FILE] src/components/ThinkingToggle.tsx
-- [ ] [FILE] src/components/TokenWarning.tsx
-- [ ] [FILE] src/components/ToolUseLoader.tsx
-- [ ] [FILE] src/components/TrustDialog/TrustDialog.tsx
+- [x] [FILE] src/components/ThemePicker.tsx
+- [x] [FILE] src/components/ThinkingToggle.tsx
+- [x] [FILE] src/components/TokenWarning.tsx
+- [x] [FILE] src/components/ToolUseLoader.tsx
+- [x] [FILE] src/components/TrustDialog/TrustDialog.tsx
 - [ ] [FILE] src/components/TrustDialog/utils.ts
-- [ ] [FILE] src/components/ValidationErrorsList.tsx
-- [ ] [FILE] src/components/VimTextInput.tsx
+- [x] [FILE] src/components/ValidationErrorsList.tsx
+- [x] [FILE] src/components/VimTextInput.tsx
 - [ ] [FILE] src/components/VirtualMessageList.tsx
 - [ ] [FILE] src/components/WorkflowMultiselectDialog.tsx
 - [ ] [FILE] src/components/WorktreeExitDialog.tsx
