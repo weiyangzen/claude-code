@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:07:06 +0800
+Generated at: 2026-04-01 12:08:51 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -954,16 +954,16 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/tasks/DreamDetailDialog.tsx
 - [x] [FILE] src/components/tasks/InProcessTeammateDetailDialog.tsx
 - [x] [FILE] src/components/tasks/RemoteSessionDetailDialog.tsx
-- [ ] [FILE] src/components/tasks/RemoteSessionProgress.tsx
-- [ ] [FILE] src/components/tasks/ShellDetailDialog.tsx
-- [ ] [FILE] src/components/tasks/ShellProgress.tsx
+- [x] [FILE] src/components/tasks/RemoteSessionProgress.tsx
+- [x] [FILE] src/components/tasks/ShellDetailDialog.tsx
+- [x] [FILE] src/components/tasks/ShellProgress.tsx
 - [ ] [FILE] src/components/tasks/renderToolActivity.tsx
 - [ ] [FILE] src/components/tasks/taskStatusUtils.tsx
 - [x] [FILE] src/components/teams/TeamStatus.tsx
 - [x] [FILE] src/components/teams/TeamsDialog.tsx
-- [ ] [FILE] src/components/ui/OrderedList.tsx
-- [ ] [FILE] src/components/ui/OrderedListItem.tsx
-- [ ] [FILE] src/components/ui/TreeSelect.tsx
+- [x] [FILE] src/components/ui/OrderedList.tsx
+- [x] [FILE] src/components/ui/OrderedListItem.tsx
+- [x] [FILE] src/components/ui/TreeSelect.tsx
 - [ ] [FILE] src/components/wizard/WizardDialogLayout.tsx
 - [ ] [FILE] src/components/wizard/WizardNavigationFooter.tsx
 - [ ] [FILE] src/components/wizard/WizardProvider.tsx
