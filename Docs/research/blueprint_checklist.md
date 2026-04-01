@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:26:04 +0800
+Generated at: 2026-04-01 20:27:27 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2179,8 +2179,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/todo/types.ts
 - [x] [FILE] src/utils/tokenBudget.ts
 - [x] [FILE] src/utils/tokens.ts
-- [ ] [FILE] src/utils/toolErrors.ts
-- [ ] [FILE] src/utils/toolPool.ts
+- [x] [FILE] src/utils/toolErrors.ts
+- [x] [FILE] src/utils/toolPool.ts
 - [x] [FILE] src/utils/toolResultStorage.ts
 - [x] [FILE] src/utils/toolSchemaCache.ts
 - [x] [FILE] src/utils/toolSearch.ts
@@ -2192,7 +2192,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/unaryLogging.ts
 - [x] [FILE] src/utils/undercover.ts
 - [x] [FILE] src/utils/user.ts
-- [ ] [FILE] src/utils/userAgent.ts
+- [x] [FILE] src/utils/userAgent.ts
 - [ ] [FILE] src/utils/userPromptKeywords.ts
 - [ ] [FILE] src/utils/uuid.ts
 - [ ] [FILE] src/utils/warningHandler.ts
