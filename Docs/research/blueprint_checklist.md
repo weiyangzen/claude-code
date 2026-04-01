@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:45:24 +0800
+Generated at: 2026-04-01 10:47:01 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -833,13 +833,13 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/mcp/ElicitationDialog.tsx
 - [x] [FILE] src/components/mcp/MCPAgentServerMenu.tsx
 - [x] [FILE] src/components/mcp/MCPListPanel.tsx
-- [ ] [FILE] src/components/mcp/MCPReconnect.tsx
+- [x] [FILE] src/components/mcp/MCPReconnect.tsx
 - [x] [FILE] src/components/mcp/MCPRemoteServerMenu.tsx
 - [x] [FILE] src/components/mcp/MCPSettings.tsx
 - [x] [FILE] src/components/mcp/MCPStdioServerMenu.tsx
 - [x] [FILE] src/components/mcp/MCPToolDetailView.tsx
 - [x] [FILE] src/components/mcp/MCPToolListView.tsx
-- [ ] [FILE] src/components/mcp/McpParsingWarnings.tsx
+- [x] [FILE] src/components/mcp/McpParsingWarnings.tsx
 - [ ] [FILE] src/components/mcp/index.ts
 - [ ] [FILE] src/components/mcp/utils/reconnectHelpers.tsx
 - [ ] [FILE] src/components/memory/MemoryFileSelector.tsx
