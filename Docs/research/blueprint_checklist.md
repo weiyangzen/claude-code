@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 12:32:48 +0800
+Generated at: 2026-04-01 12:47:58 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1034,7 +1034,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/toolPermission/PermissionContext.ts
 - [x] [FILE] src/hooks/toolPermission/handlers/coordinatorHandler.ts
 - [x] [FILE] src/hooks/toolPermission/handlers/interactiveHandler.ts
-- [ ] [FILE] src/hooks/toolPermission/handlers/swarmWorkerHandler.ts
+- [x] [FILE] src/hooks/toolPermission/handlers/swarmWorkerHandler.ts
 - [x] [FILE] src/hooks/toolPermission/permissionLogging.ts
 - [x] [FILE] src/hooks/unifiedSuggestions.ts
 - [x] [FILE] src/hooks/useAfterFirstRender.ts
@@ -1044,9 +1044,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/hooks/useAwaySummary.ts
 - [x] [FILE] src/hooks/useBackgroundTaskNavigation.ts
 - [x] [FILE] src/hooks/useBlink.ts
-- [ ] [FILE] src/hooks/useCanUseTool.tsx
-- [ ] [FILE] src/hooks/useCancelRequest.ts
-- [ ] [FILE] src/hooks/useChromeExtensionNotification.tsx
+- [x] [FILE] src/hooks/useCanUseTool.tsx
+- [x] [FILE] src/hooks/useCancelRequest.ts
+- [x] [FILE] src/hooks/useChromeExtensionNotification.tsx
 - [ ] [FILE] src/hooks/useClaudeCodeHintRecommendation.tsx
 - [ ] [FILE] src/hooks/useClipboardImageHint.ts
 - [ ] [FILE] src/hooks/useCommandKeybindings.tsx
@@ -1054,21 +1054,21 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/hooks/useCopyOnSelect.ts
 - [ ] [FILE] src/hooks/useDeferredHookMessages.ts
 - [ ] [FILE] src/hooks/useDiffData.ts
-- [ ] [FILE] src/hooks/useDiffInIDE.ts
-- [ ] [FILE] src/hooks/useDirectConnect.ts
-- [ ] [FILE] src/hooks/useDoublePress.ts
-- [ ] [FILE] src/hooks/useDynamicConfig.ts
-- [ ] [FILE] src/hooks/useElapsedTime.ts
-- [ ] [FILE] src/hooks/useExitOnCtrlCD.ts
-- [ ] [FILE] src/hooks/useExitOnCtrlCDWithKeybindings.ts
-- [ ] [FILE] src/hooks/useFileHistorySnapshotInit.ts
-- [ ] [FILE] src/hooks/useGlobalKeybindings.tsx
-- [ ] [FILE] src/hooks/useHistorySearch.ts
-- [ ] [FILE] src/hooks/useIDEIntegration.tsx
-- [ ] [FILE] src/hooks/useIdeAtMentioned.ts
-- [ ] [FILE] src/hooks/useIdeConnectionStatus.ts
-- [ ] [FILE] src/hooks/useIdeLogging.ts
-- [ ] [FILE] src/hooks/useIdeSelection.ts
+- [x] [FILE] src/hooks/useDiffInIDE.ts
+- [x] [FILE] src/hooks/useDirectConnect.ts
+- [x] [FILE] src/hooks/useDoublePress.ts
+- [x] [FILE] src/hooks/useDynamicConfig.ts
+- [x] [FILE] src/hooks/useElapsedTime.ts
+- [x] [FILE] src/hooks/useExitOnCtrlCD.ts
+- [x] [FILE] src/hooks/useExitOnCtrlCDWithKeybindings.ts
+- [x] [FILE] src/hooks/useFileHistorySnapshotInit.ts
+- [x] [FILE] src/hooks/useGlobalKeybindings.tsx
+- [x] [FILE] src/hooks/useHistorySearch.ts
+- [x] [FILE] src/hooks/useIDEIntegration.tsx
+- [x] [FILE] src/hooks/useIdeAtMentioned.ts
+- [x] [FILE] src/hooks/useIdeConnectionStatus.ts
+- [x] [FILE] src/hooks/useIdeLogging.ts
+- [x] [FILE] src/hooks/useIdeSelection.ts
 - [ ] [FILE] src/hooks/useInboxPoller.ts
 - [ ] [FILE] src/hooks/useInputBuffer.ts
 - [ ] [FILE] src/hooks/useIssueFlagBanner.ts
