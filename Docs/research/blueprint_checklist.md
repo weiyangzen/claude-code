@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 09:54:14 +0800
+Generated at: 2026-04-01 09:57:08 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -709,34 +709,34 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/PromptInput/PromptInputFooterSuggestions.tsx
 - [x] [FILE] src/components/PromptInput/PromptInputHelpMenu.tsx
 - [x] [FILE] src/components/PromptInput/PromptInputModeIndicator.tsx
-- [ ] [FILE] src/components/PromptInput/PromptInputQueuedCommands.tsx
-- [ ] [FILE] src/components/PromptInput/PromptInputStashNotice.tsx
+- [x] [FILE] src/components/PromptInput/PromptInputQueuedCommands.tsx
+- [x] [FILE] src/components/PromptInput/PromptInputStashNotice.tsx
 - [x] [FILE] src/components/PromptInput/SandboxPromptFooterHint.tsx
 - [x] [FILE] src/components/PromptInput/ShimmeredInput.tsx
 - [x] [FILE] src/components/PromptInput/VoiceIndicator.tsx
 - [x] [FILE] src/components/PromptInput/inputModes.ts
 - [x] [FILE] src/components/PromptInput/inputPaste.ts
-- [ ] [FILE] src/components/PromptInput/useMaybeTruncateInput.ts
-- [ ] [FILE] src/components/PromptInput/usePromptInputPlaceholder.ts
-- [ ] [FILE] src/components/PromptInput/useShowFastIconHint.ts
-- [ ] [FILE] src/components/PromptInput/useSwarmBanner.ts
-- [ ] [FILE] src/components/PromptInput/utils.ts
+- [x] [FILE] src/components/PromptInput/useMaybeTruncateInput.ts
+- [x] [FILE] src/components/PromptInput/usePromptInputPlaceholder.ts
+- [x] [FILE] src/components/PromptInput/useShowFastIconHint.ts
+- [x] [FILE] src/components/PromptInput/useSwarmBanner.ts
+- [x] [FILE] src/components/PromptInput/utils.ts
 - [x] [FILE] src/components/QuickOpenDialog.tsx
 - [x] [FILE] src/components/RemoteCallout.tsx
 - [x] [FILE] src/components/RemoteEnvironmentDialog.tsx
-- [ ] [FILE] src/components/ResumeTask.tsx
-- [ ] [FILE] src/components/SandboxViolationExpandedView.tsx
+- [x] [FILE] src/components/ResumeTask.tsx
+- [x] [FILE] src/components/SandboxViolationExpandedView.tsx
 - [x] [FILE] src/components/ScrollKeybindingHandler.tsx
 - [x] [FILE] src/components/SearchBox.tsx
 - [x] [FILE] src/components/SentryErrorBoundary.ts
 - [x] [FILE] src/components/SessionBackgroundHint.tsx
-- [ ] [FILE] src/components/SessionPreview.tsx
-- [ ] [FILE] src/components/Settings/Config.tsx
+- [x] [FILE] src/components/SessionPreview.tsx
+- [x] [FILE] src/components/Settings/Config.tsx
 - [x] [FILE] src/components/Settings/Settings.tsx
 - [x] [FILE] src/components/Settings/Status.tsx
 - [x] [FILE] src/components/Settings/Usage.tsx
-- [ ] [FILE] src/components/ShowInIDEPrompt.tsx
-- [ ] [FILE] src/components/SkillImprovementSurvey.tsx
+- [x] [FILE] src/components/ShowInIDEPrompt.tsx
+- [x] [FILE] src/components/SkillImprovementSurvey.tsx
 - [ ] [FILE] src/components/Spinner.tsx
 - [ ] [FILE] src/components/Spinner/FlashingChar.tsx
 - [ ] [FILE] src/components/Spinner/GlimmerMessage.tsx
