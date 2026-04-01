@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:25:40 +0800
+Generated at: 2026-04-01 20:26:04 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2178,7 +2178,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/tmuxSocket.ts
 - [x] [FILE] src/utils/todo/types.ts
 - [x] [FILE] src/utils/tokenBudget.ts
-- [ ] [FILE] src/utils/tokens.ts
+- [x] [FILE] src/utils/tokens.ts
 - [ ] [FILE] src/utils/toolErrors.ts
 - [ ] [FILE] src/utils/toolPool.ts
 - [x] [FILE] src/utils/toolResultStorage.ts
@@ -2191,7 +2191,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/ultraplan/keyword.ts
 - [x] [FILE] src/utils/unaryLogging.ts
 - [x] [FILE] src/utils/undercover.ts
-- [ ] [FILE] src/utils/user.ts
+- [x] [FILE] src/utils/user.ts
 - [ ] [FILE] src/utils/userAgent.ts
 - [ ] [FILE] src/utils/userPromptKeywords.ts
 - [ ] [FILE] src/utils/uuid.ts
@@ -2206,7 +2206,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/xdg.ts
 - [x] [FILE] src/utils/xml.ts
 - [x] [FILE] src/utils/yaml.ts
-- [ ] [FILE] src/utils/zodToJsonSchema.ts
+- [x] [FILE] src/utils/zodToJsonSchema.ts
 - [x] [FILE] src/vim/motions.ts
 - [x] [FILE] src/vim/operators.ts
 - [x] [FILE] src/vim/textObjects.ts
