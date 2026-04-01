@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 16:35:38 +0800
+Generated at: 2026-04-01 16:42:44 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1480,9 +1480,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/tools/BashTool/modeValidation.ts
 - [ ] [FILE] src/tools/BashTool/pathValidation.ts
 - [ ] [FILE] src/tools/BashTool/prompt.ts
-- [ ] [FILE] src/tools/BashTool/readOnlyValidation.ts
-- [ ] [FILE] src/tools/BashTool/sedEditParser.ts
-- [ ] [FILE] src/tools/BashTool/sedValidation.ts
+- [x] [FILE] src/tools/BashTool/readOnlyValidation.ts
+- [x] [FILE] src/tools/BashTool/sedEditParser.ts
+- [x] [FILE] src/tools/BashTool/sedValidation.ts
 - [ ] [FILE] src/tools/BashTool/shouldUseSandbox.ts
 - [ ] [FILE] src/tools/BashTool/toolName.ts
 - [ ] [FILE] src/tools/BashTool/utils.ts
