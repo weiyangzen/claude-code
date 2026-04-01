@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:51:40 +0800
+Generated at: 2026-04-01 19:51:56 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1933,7 +1933,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/pasteStore.ts
 - [x] [FILE] src/utils/path.ts
 - [x] [FILE] src/utils/pdf.ts
-- [ ] [FILE] src/utils/pdfUtils.ts
+- [x] [FILE] src/utils/pdfUtils.ts
 - [ ] [FILE] src/utils/peerAddress.ts
 - [x] [FILE] src/utils/permissions/PermissionMode.ts
 - [x] [FILE] src/utils/permissions/PermissionPromptToolResultSchema.ts
@@ -1969,7 +1969,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/gitAvailability.ts
 - [x] [FILE] src/utils/plugins/headlessPluginInstall.ts
 - [x] [FILE] src/utils/plugins/hintRecommendation.ts
-- [ ] [FILE] src/utils/plugins/installCounts.ts
+- [x] [FILE] src/utils/plugins/installCounts.ts
 - [ ] [FILE] src/utils/plugins/installedPluginsManager.ts
 - [ ] [FILE] src/utils/plugins/loadPluginAgents.ts
 - [x] [FILE] src/utils/plugins/loadPluginCommands.ts
@@ -1991,7 +1991,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/pluginAutoupdate.ts
 - [x] [FILE] src/utils/plugins/pluginBlocklist.ts
 - [x] [FILE] src/utils/plugins/pluginDirectories.ts
-- [ ] [FILE] src/utils/plugins/pluginFlagging.ts
+- [x] [FILE] src/utils/plugins/pluginFlagging.ts
 - [ ] [FILE] src/utils/plugins/pluginIdentifier.ts
 - [ ] [FILE] src/utils/plugins/pluginInstallationHelpers.ts
 - [ ] [FILE] src/utils/plugins/pluginLoader.ts
