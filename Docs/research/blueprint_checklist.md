@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:56:36 +0800
+Generated at: 2026-04-01 19:56:55 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1998,26 +1998,26 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/plugins/pluginOptionsStorage.ts
 - [x] [FILE] src/utils/plugins/pluginPolicy.ts
 - [x] [FILE] src/utils/plugins/pluginStartupCheck.ts
-- [ ] [FILE] src/utils/plugins/pluginVersioning.ts
-- [ ] [FILE] src/utils/plugins/reconciler.ts
+- [x] [FILE] src/utils/plugins/pluginVersioning.ts
+- [x] [FILE] src/utils/plugins/reconciler.ts
 - [ ] [FILE] src/utils/plugins/refresh.ts
 - [x] [FILE] src/utils/plugins/schemas.ts
 - [x] [FILE] src/utils/plugins/validatePlugin.ts
 - [x] [FILE] src/utils/plugins/walkPluginMarkdown.ts
 - [x] [FILE] src/utils/plugins/zipCache.ts
-- [ ] [FILE] src/utils/plugins/zipCacheAdapters.ts
-- [ ] [FILE] src/utils/powershell/dangerousCmdlets.ts
+- [x] [FILE] src/utils/plugins/zipCacheAdapters.ts
+- [x] [FILE] src/utils/powershell/dangerousCmdlets.ts
 - [ ] [FILE] src/utils/powershell/parser.ts
 - [ ] [FILE] src/utils/powershell/staticPrefix.ts
-- [ ] [FILE] src/utils/preflightChecks.tsx
-- [ ] [FILE] src/utils/privacyLevel.ts
-- [ ] [FILE] src/utils/process.ts
+- [x] [FILE] src/utils/preflightChecks.tsx
+- [x] [FILE] src/utils/privacyLevel.ts
+- [x] [FILE] src/utils/process.ts
 - [ ] [FILE] src/utils/processUserInput/processBashCommand.tsx
 - [ ] [FILE] src/utils/processUserInput/processSlashCommand.tsx
 - [ ] [FILE] src/utils/processUserInput/processTextPrompt.ts
 - [ ] [FILE] src/utils/processUserInput/processUserInput.ts
-- [ ] [FILE] src/utils/profilerBase.ts
-- [ ] [FILE] src/utils/promptCategory.ts
+- [x] [FILE] src/utils/profilerBase.ts
+- [x] [FILE] src/utils/promptCategory.ts
 - [ ] [FILE] src/utils/promptEditor.ts
 - [ ] [FILE] src/utils/promptShellExecution.ts
 - [ ] [FILE] src/utils/proxy.ts
