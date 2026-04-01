@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 14:41:40 +0800
+Generated at: 2026-04-01 14:46:26 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1344,8 +1344,8 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/services/mcp/InProcessTransport.ts
 - [ ] [FILE] src/services/mcp/MCPConnectionManager.tsx
 - [ ] [FILE] src/services/mcp/SdkControlTransport.ts
-- [ ] [FILE] src/services/mcp/auth.ts
-- [ ] [FILE] src/services/mcp/channelAllowlist.ts
+- [x] [FILE] src/services/mcp/auth.ts
+- [x] [FILE] src/services/mcp/channelAllowlist.ts
 - [ ] [FILE] src/services/mcp/channelNotification.ts
 - [ ] [FILE] src/services/mcp/channelPermissions.ts
 - [ ] [FILE] src/services/mcp/claudeai.ts
