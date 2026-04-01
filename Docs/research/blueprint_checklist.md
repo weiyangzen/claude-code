@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 17:14:01 +0800
+Generated at: 2026-04-01 17:14:36 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1522,7 +1522,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/FileReadTool/UI.tsx
 - [x] [FILE] src/tools/FileReadTool/imageProcessor.ts
 - [x] [FILE] src/tools/FileReadTool/limits.ts
-- [ ] [FILE] src/tools/FileReadTool/prompt.ts
+- [x] [FILE] src/tools/FileReadTool/prompt.ts
 - [x] [FILE] src/tools/FileWriteTool/FileWriteTool.ts
 - [x] [FILE] src/tools/FileWriteTool/UI.tsx
 - [x] [FILE] src/tools/FileWriteTool/prompt.ts
