@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 16:35:05 +0800
+Generated at: 2026-04-01 16:35:38 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1470,10 +1470,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/tools/AskUserQuestionTool/prompt.ts
 - [x] [FILE] src/tools/BashTool/BashTool.tsx
 - [x] [FILE] src/tools/BashTool/BashToolResultMessage.tsx
-- [ ] [FILE] src/tools/BashTool/UI.tsx
-- [ ] [FILE] src/tools/BashTool/bashCommandHelpers.ts
-- [ ] [FILE] src/tools/BashTool/bashPermissions.ts
-- [ ] [FILE] src/tools/BashTool/bashSecurity.ts
+- [x] [FILE] src/tools/BashTool/UI.tsx
+- [x] [FILE] src/tools/BashTool/bashCommandHelpers.ts
+- [x] [FILE] src/tools/BashTool/bashPermissions.ts
+- [x] [FILE] src/tools/BashTool/bashSecurity.ts
 - [ ] [FILE] src/tools/BashTool/commandSemantics.ts
 - [ ] [FILE] src/tools/BashTool/commentLabel.ts
 - [ ] [FILE] src/tools/BashTool/destructiveCommandWarning.ts
