@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 15:09:05 +0800
+Generated at: 2026-04-01 15:09:58 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1367,14 +1367,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/mcpServerApproval.tsx
 - [x] [FILE] src/services/mockRateLimits.ts
 - [x] [FILE] src/services/notifier.ts
-- [ ] [FILE] src/services/oauth/auth-code-listener.ts
-- [ ] [FILE] src/services/oauth/client.ts
-- [ ] [FILE] src/services/oauth/crypto.ts
-- [ ] [FILE] src/services/oauth/getOauthProfile.ts
+- [x] [FILE] src/services/oauth/auth-code-listener.ts
+- [x] [FILE] src/services/oauth/client.ts
+- [x] [FILE] src/services/oauth/crypto.ts
+- [x] [FILE] src/services/oauth/getOauthProfile.ts
 - [ ] [FILE] src/services/oauth/index.ts
-- [ ] [FILE] src/services/plugins/PluginInstallationManager.ts
-- [ ] [FILE] src/services/plugins/pluginCliCommands.ts
-- [ ] [FILE] src/services/plugins/pluginOperations.ts
+- [x] [FILE] src/services/plugins/PluginInstallationManager.ts
+- [x] [FILE] src/services/plugins/pluginCliCommands.ts
+- [x] [FILE] src/services/plugins/pluginOperations.ts
 - [ ] [FILE] src/services/policyLimits/index.ts
 - [ ] [FILE] src/services/policyLimits/types.ts
 - [x] [FILE] src/services/preventSleep.ts
