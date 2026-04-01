@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:07:13 +0800
+Generated at: 2026-04-01 19:07:49 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1744,10 +1744,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/computerUse/gates.ts
 - [x] [FILE] src/utils/computerUse/hostAdapter.ts
 - [x] [FILE] src/utils/computerUse/inputLoader.ts
-- [ ] [FILE] src/utils/computerUse/mcpServer.ts
-- [ ] [FILE] src/utils/computerUse/setup.ts
-- [ ] [FILE] src/utils/computerUse/swiftLoader.ts
-- [ ] [FILE] src/utils/computerUse/toolRendering.tsx
+- [x] [FILE] src/utils/computerUse/mcpServer.ts
+- [x] [FILE] src/utils/computerUse/setup.ts
+- [x] [FILE] src/utils/computerUse/swiftLoader.ts
+- [x] [FILE] src/utils/computerUse/toolRendering.tsx
 - [x] [FILE] src/utils/computerUse/wrapper.tsx
 - [x] [FILE] src/utils/concurrentSessions.ts
 - [x] [FILE] src/utils/config.ts
@@ -1758,9 +1758,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/contextSuggestions.ts
 - [x] [FILE] src/utils/controlMessageCompat.ts
 - [x] [FILE] src/utils/conversationRecovery.ts
-- [ ] [FILE] src/utils/cron.ts
-- [ ] [FILE] src/utils/cronJitterConfig.ts
-- [ ] [FILE] src/utils/cronScheduler.ts
+- [x] [FILE] src/utils/cron.ts
+- [x] [FILE] src/utils/cronJitterConfig.ts
+- [x] [FILE] src/utils/cronScheduler.ts
 - [ ] [FILE] src/utils/cronTasks.ts
 - [ ] [FILE] src/utils/cronTasksLock.ts
 - [ ] [FILE] src/utils/crossProjectResume.ts
