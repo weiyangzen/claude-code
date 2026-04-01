@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 14:20:22 +0800
+Generated at: 2026-04-01 14:27:16 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1312,10 +1312,10 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/services/api/ultrareviewQuota.ts
 - [x] [FILE] src/services/api/usage.ts
 - [ ] [FILE] src/services/api/withRetry.ts
-- [ ] [FILE] src/services/autoDream/autoDream.ts
-- [ ] [FILE] src/services/autoDream/config.ts
-- [ ] [FILE] src/services/autoDream/consolidationLock.ts
-- [ ] [FILE] src/services/autoDream/consolidationPrompt.ts
+- [x] [FILE] src/services/autoDream/autoDream.ts
+- [x] [FILE] src/services/autoDream/config.ts
+- [x] [FILE] src/services/autoDream/consolidationLock.ts
+- [x] [FILE] src/services/autoDream/consolidationPrompt.ts
 - [ ] [FILE] src/services/awaySummary.ts
 - [ ] [FILE] src/services/claudeAiLimits.ts
 - [ ] [FILE] src/services/claudeAiLimitsHook.ts
