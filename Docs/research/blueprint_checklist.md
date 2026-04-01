@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:18:14 +0800
+Generated at: 2026-04-01 19:21:25 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1784,48 +1784,48 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/doctorDiagnostic.ts
 - [x] [FILE] src/utils/dxt/helpers.ts
 - [x] [FILE] src/utils/dxt/zip.ts
-- [ ] [FILE] src/utils/earlyInput.ts
-- [ ] [FILE] src/utils/editor.ts
-- [ ] [FILE] src/utils/effort.ts
-- [ ] [FILE] src/utils/embeddedTools.ts
-- [ ] [FILE] src/utils/env.ts
-- [ ] [FILE] src/utils/envDynamic.ts
-- [ ] [FILE] src/utils/envUtils.ts
-- [ ] [FILE] src/utils/envValidation.ts
+- [x] [FILE] src/utils/earlyInput.ts
+- [x] [FILE] src/utils/editor.ts
+- [x] [FILE] src/utils/effort.ts
+- [x] [FILE] src/utils/embeddedTools.ts
+- [x] [FILE] src/utils/env.ts
+- [x] [FILE] src/utils/envDynamic.ts
+- [x] [FILE] src/utils/envUtils.ts
+- [x] [FILE] src/utils/envValidation.ts
 - [x] [FILE] src/utils/errorLogSink.ts
 - [x] [FILE] src/utils/errors.ts
-- [ ] [FILE] src/utils/exampleCommands.ts
-- [ ] [FILE] src/utils/execFileNoThrow.ts
-- [ ] [FILE] src/utils/execFileNoThrowPortable.ts
-- [ ] [FILE] src/utils/execSyncWrapper.ts
-- [ ] [FILE] src/utils/exportRenderer.tsx
-- [ ] [FILE] src/utils/extraUsage.ts
-- [ ] [FILE] src/utils/fastMode.ts
-- [ ] [FILE] src/utils/file.ts
-- [ ] [FILE] src/utils/fileHistory.ts
-- [ ] [FILE] src/utils/fileOperationAnalytics.ts
+- [x] [FILE] src/utils/exampleCommands.ts
+- [x] [FILE] src/utils/execFileNoThrow.ts
+- [x] [FILE] src/utils/execFileNoThrowPortable.ts
+- [x] [FILE] src/utils/execSyncWrapper.ts
+- [x] [FILE] src/utils/exportRenderer.tsx
+- [x] [FILE] src/utils/extraUsage.ts
+- [x] [FILE] src/utils/fastMode.ts
+- [x] [FILE] src/utils/file.ts
+- [x] [FILE] src/utils/fileHistory.ts
+- [x] [FILE] src/utils/fileOperationAnalytics.ts
 - [x] [FILE] src/utils/filePersistence/filePersistence.ts
 - [x] [FILE] src/utils/filePersistence/outputsScanner.ts
-- [ ] [FILE] src/utils/fileRead.ts
-- [ ] [FILE] src/utils/fileReadCache.ts
-- [ ] [FILE] src/utils/fileStateCache.ts
-- [ ] [FILE] src/utils/findExecutable.ts
-- [ ] [FILE] src/utils/fingerprint.ts
-- [ ] [FILE] src/utils/forkedAgent.ts
-- [ ] [FILE] src/utils/format.ts
-- [ ] [FILE] src/utils/formatBriefTimestamp.ts
-- [ ] [FILE] src/utils/fpsTracker.ts
-- [ ] [FILE] src/utils/frontmatterParser.ts
-- [ ] [FILE] src/utils/fsOperations.ts
-- [ ] [FILE] src/utils/fullscreen.ts
-- [ ] [FILE] src/utils/generatedFiles.ts
-- [ ] [FILE] src/utils/generators.ts
-- [ ] [FILE] src/utils/genericProcessUtils.ts
-- [ ] [FILE] src/utils/getWorktreePaths.ts
-- [ ] [FILE] src/utils/getWorktreePathsPortable.ts
-- [ ] [FILE] src/utils/ghPrStatus.ts
-- [ ] [FILE] src/utils/git.ts
-- [ ] [FILE] src/utils/git/gitConfigParser.ts
+- [x] [FILE] src/utils/fileRead.ts
+- [x] [FILE] src/utils/fileReadCache.ts
+- [x] [FILE] src/utils/fileStateCache.ts
+- [x] [FILE] src/utils/findExecutable.ts
+- [x] [FILE] src/utils/fingerprint.ts
+- [x] [FILE] src/utils/forkedAgent.ts
+- [x] [FILE] src/utils/format.ts
+- [x] [FILE] src/utils/formatBriefTimestamp.ts
+- [x] [FILE] src/utils/fpsTracker.ts
+- [x] [FILE] src/utils/frontmatterParser.ts
+- [x] [FILE] src/utils/fsOperations.ts
+- [x] [FILE] src/utils/fullscreen.ts
+- [x] [FILE] src/utils/generatedFiles.ts
+- [x] [FILE] src/utils/generators.ts
+- [x] [FILE] src/utils/genericProcessUtils.ts
+- [x] [FILE] src/utils/getWorktreePaths.ts
+- [x] [FILE] src/utils/getWorktreePathsPortable.ts
+- [x] [FILE] src/utils/ghPrStatus.ts
+- [x] [FILE] src/utils/git.ts
+- [x] [FILE] src/utils/git/gitConfigParser.ts
 - [ ] [FILE] src/utils/git/gitFilesystem.ts
 - [ ] [FILE] src/utils/git/gitignore.ts
 - [ ] [FILE] src/utils/gitDiff.ts
