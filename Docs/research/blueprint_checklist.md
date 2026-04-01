@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 20:20:44 +0800
+Generated at: 2026-04-01 20:24:28 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -2174,7 +2174,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/textHighlighting.ts
 - [x] [FILE] src/utils/theme.ts
 - [x] [FILE] src/utils/thinking.ts
-- [ ] [FILE] src/utils/timeouts.ts
+- [x] [FILE] src/utils/timeouts.ts
 - [ ] [FILE] src/utils/tmuxSocket.ts
 - [x] [FILE] src/utils/todo/types.ts
 - [ ] [FILE] src/utils/tokenBudget.ts
@@ -2183,7 +2183,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/toolPool.ts
 - [x] [FILE] src/utils/toolResultStorage.ts
 - [x] [FILE] src/utils/toolSchemaCache.ts
-- [ ] [FILE] src/utils/toolSearch.ts
+- [x] [FILE] src/utils/toolSearch.ts
 - [ ] [FILE] src/utils/transcriptSearch.ts
 - [ ] [FILE] src/utils/treeify.ts
 - [ ] [FILE] src/utils/truncate.ts
@@ -2200,7 +2200,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/windowsPaths.ts
 - [x] [FILE] src/utils/withResolvers.ts
 - [x] [FILE] src/utils/words.ts
-- [ ] [FILE] src/utils/workloadContext.ts
+- [x] [FILE] src/utils/workloadContext.ts
 - [ ] [FILE] src/utils/worktree.ts
 - [ ] [FILE] src/utils/worktreeModeEnabled.ts
 - [ ] [FILE] src/utils/xdg.ts
@@ -2208,7 +2208,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/yaml.ts
 - [ ] [FILE] src/utils/zodToJsonSchema.ts
 - [x] [FILE] src/vim/motions.ts
-- [ ] [FILE] src/vim/operators.ts
+- [x] [FILE] src/vim/operators.ts
 - [ ] [FILE] src/vim/textObjects.ts
 - [ ] [FILE] src/vim/transitions.ts
 - [ ] [FILE] src/vim/types.ts
