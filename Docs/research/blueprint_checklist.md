@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:33:19 +0800
+Generated at: 2026-04-01 10:34:09 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -805,22 +805,22 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/agents/validateAgent.ts
 - [x] [FILE] src/components/design-system/Byline.tsx
 - [x] [FILE] src/components/design-system/Dialog.tsx
-- [ ] [FILE] src/components/design-system/Divider.tsx
-- [ ] [FILE] src/components/design-system/FuzzyPicker.tsx
-- [ ] [FILE] src/components/design-system/KeyboardShortcutHint.tsx
+- [x] [FILE] src/components/design-system/Divider.tsx
+- [x] [FILE] src/components/design-system/FuzzyPicker.tsx
+- [x] [FILE] src/components/design-system/KeyboardShortcutHint.tsx
 - [ ] [FILE] src/components/design-system/ListItem.tsx
 - [x] [FILE] src/components/design-system/LoadingState.tsx
-- [ ] [FILE] src/components/design-system/Pane.tsx
-- [ ] [FILE] src/components/design-system/ProgressBar.tsx
+- [x] [FILE] src/components/design-system/Pane.tsx
+- [x] [FILE] src/components/design-system/ProgressBar.tsx
 - [ ] [FILE] src/components/design-system/Ratchet.tsx
 - [ ] [FILE] src/components/design-system/StatusIcon.tsx
 - [ ] [FILE] src/components/design-system/Tabs.tsx
 - [ ] [FILE] src/components/design-system/ThemeProvider.tsx
-- [ ] [FILE] src/components/design-system/ThemedBox.tsx
-- [ ] [FILE] src/components/design-system/ThemedText.tsx
-- [ ] [FILE] src/components/design-system/color.ts
-- [ ] [FILE] src/components/diff/DiffDetailView.tsx
-- [ ] [FILE] src/components/diff/DiffDialog.tsx
+- [x] [FILE] src/components/design-system/ThemedBox.tsx
+- [x] [FILE] src/components/design-system/ThemedText.tsx
+- [x] [FILE] src/components/design-system/color.ts
+- [x] [FILE] src/components/diff/DiffDetailView.tsx
+- [x] [FILE] src/components/diff/DiffDialog.tsx
 - [ ] [FILE] src/components/diff/DiffFileList.tsx
 - [x] [FILE] src/components/grove/Grove.tsx
 - [ ] [FILE] src/components/hooks/HooksConfigMenu.tsx
