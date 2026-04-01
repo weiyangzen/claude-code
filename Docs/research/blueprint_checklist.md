@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 18:37:16 +0800
+Generated at: 2026-04-01 18:37:59 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1646,28 +1646,28 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/CircularBuffer.ts
 - [x] [FILE] src/utils/Cursor.ts
 - [x] [FILE] src/utils/QueryGuard.ts
-- [ ] [FILE] src/utils/Shell.ts
-- [ ] [FILE] src/utils/ShellCommand.ts
-- [ ] [FILE] src/utils/abortController.ts
-- [ ] [FILE] src/utils/activityManager.ts
-- [ ] [FILE] src/utils/advisor.ts
+- [x] [FILE] src/utils/Shell.ts
+- [x] [FILE] src/utils/ShellCommand.ts
+- [x] [FILE] src/utils/abortController.ts
+- [x] [FILE] src/utils/activityManager.ts
+- [x] [FILE] src/utils/advisor.ts
 - [x] [FILE] src/utils/agentContext.ts
 - [x] [FILE] src/utils/agentId.ts
 - [x] [FILE] src/utils/agentSwarmsEnabled.ts
 - [x] [FILE] src/utils/agenticSessionSearch.ts
 - [x] [FILE] src/utils/analyzeContext.ts
 - [x] [FILE] src/utils/ansiToPng.ts
-- [ ] [FILE] src/utils/ansiToSvg.ts
-- [ ] [FILE] src/utils/api.ts
-- [ ] [FILE] src/utils/apiPreconnect.ts
-- [ ] [FILE] src/utils/appleTerminalBackup.ts
-- [ ] [FILE] src/utils/argumentSubstitution.ts
-- [ ] [FILE] src/utils/array.ts
-- [ ] [FILE] src/utils/asciicast.ts
+- [x] [FILE] src/utils/ansiToSvg.ts
+- [x] [FILE] src/utils/api.ts
+- [x] [FILE] src/utils/apiPreconnect.ts
+- [x] [FILE] src/utils/appleTerminalBackup.ts
+- [x] [FILE] src/utils/argumentSubstitution.ts
+- [x] [FILE] src/utils/array.ts
+- [x] [FILE] src/utils/asciicast.ts
 - [ ] [FILE] src/utils/attachments.ts
-- [ ] [FILE] src/utils/attribution.ts
-- [ ] [FILE] src/utils/auth.ts
-- [ ] [FILE] src/utils/authFileDescriptor.ts
+- [x] [FILE] src/utils/attribution.ts
+- [x] [FILE] src/utils/auth.ts
+- [x] [FILE] src/utils/authFileDescriptor.ts
 - [ ] [FILE] src/utils/authPortable.ts
 - [ ] [FILE] src/utils/autoModeDenials.ts
 - [ ] [FILE] src/utils/autoRunIssue.tsx
