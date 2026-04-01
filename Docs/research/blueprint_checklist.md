@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 19:00:13 +0800
+Generated at: 2026-04-01 19:02:02 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -1725,17 +1725,17 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/utils/cleanupRegistry.ts
 - [x] [FILE] src/utils/cliArgs.ts
 - [x] [FILE] src/utils/cliHighlight.ts
-- [ ] [FILE] src/utils/codeIndexing.ts
-- [ ] [FILE] src/utils/collapseBackgroundBashNotifications.ts
+- [x] [FILE] src/utils/codeIndexing.ts
+- [x] [FILE] src/utils/collapseBackgroundBashNotifications.ts
 - [ ] [FILE] src/utils/collapseHookSummaries.ts
-- [ ] [FILE] src/utils/collapseReadSearch.ts
+- [x] [FILE] src/utils/collapseReadSearch.ts
 - [ ] [FILE] src/utils/collapseTeammateShutdowns.ts
 - [ ] [FILE] src/utils/combinedAbortSignal.ts
 - [ ] [FILE] src/utils/commandLifecycle.ts
 - [ ] [FILE] src/utils/commitAttribution.ts
 - [ ] [FILE] src/utils/completionCache.ts
-- [ ] [FILE] src/utils/computerUse/appNames.ts
-- [ ] [FILE] src/utils/computerUse/cleanup.ts
+- [x] [FILE] src/utils/computerUse/appNames.ts
+- [x] [FILE] src/utils/computerUse/cleanup.ts
 - [ ] [FILE] src/utils/computerUse/common.ts
 - [ ] [FILE] src/utils/computerUse/computerUseLock.ts
 - [ ] [FILE] src/utils/computerUse/drainRunLoop.ts
@@ -1748,7 +1748,7 @@ Legend: `[ ]` pending, `[x]` researched.
 - [ ] [FILE] src/utils/computerUse/setup.ts
 - [ ] [FILE] src/utils/computerUse/swiftLoader.ts
 - [ ] [FILE] src/utils/computerUse/toolRendering.tsx
-- [ ] [FILE] src/utils/computerUse/wrapper.tsx
+- [x] [FILE] src/utils/computerUse/wrapper.tsx
 - [ ] [FILE] src/utils/concurrentSessions.ts
 - [ ] [FILE] src/utils/config.ts
 - [ ] [FILE] src/utils/configConstants.ts
