@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:18:37 +0800
+Generated at: 2026-04-01 10:19:56 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -774,14 +774,14 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/TrustDialog/utils.ts
 - [x] [FILE] src/components/ValidationErrorsList.tsx
 - [x] [FILE] src/components/VimTextInput.tsx
-- [ ] [FILE] src/components/VirtualMessageList.tsx
-- [ ] [FILE] src/components/WorkflowMultiselectDialog.tsx
-- [ ] [FILE] src/components/WorktreeExitDialog.tsx
-- [ ] [FILE] src/components/agents/AgentDetail.tsx
+- [x] [FILE] src/components/VirtualMessageList.tsx
+- [x] [FILE] src/components/WorkflowMultiselectDialog.tsx
+- [x] [FILE] src/components/WorktreeExitDialog.tsx
+- [x] [FILE] src/components/agents/AgentDetail.tsx
 - [ ] [FILE] src/components/agents/AgentEditor.tsx
 - [ ] [FILE] src/components/agents/AgentNavigationFooter.tsx
 - [x] [FILE] src/components/agents/AgentsList.tsx
-- [ ] [FILE] src/components/agents/AgentsMenu.tsx
+- [x] [FILE] src/components/agents/AgentsMenu.tsx
 - [ ] [FILE] src/components/agents/ColorPicker.tsx
 - [ ] [FILE] src/components/agents/ModelSelector.tsx
 - [ ] [FILE] src/components/agents/ToolSelector.tsx
