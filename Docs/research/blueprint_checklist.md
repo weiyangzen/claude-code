@@ -1,7 +1,7 @@
 # Research Blueprint Checklist
 
 Project: `claude-code-instructkr`
-Generated at: 2026-04-01 10:10:43 +0800
+Generated at: 2026-04-01 10:14:05 +0800
 
 Notes: code-only scope. Includes code files plus directories that contain code. Excludes docs, research outputs, dependency caches, and generated runtime paths.
 Legend: `[ ]` pending, `[x]` researched.
@@ -763,9 +763,9 @@ Legend: `[ ]` pending, `[x]` researched.
 - [x] [FILE] src/components/TeleportError.tsx
 - [x] [FILE] src/components/TeleportProgress.tsx
 - [x] [FILE] src/components/TeleportRepoMismatchDialog.tsx
-- [ ] [FILE] src/components/TeleportResumeWrapper.tsx
-- [ ] [FILE] src/components/TeleportStash.tsx
-- [ ] [FILE] src/components/TextInput.tsx
+- [x] [FILE] src/components/TeleportResumeWrapper.tsx
+- [x] [FILE] src/components/TeleportStash.tsx
+- [x] [FILE] src/components/TextInput.tsx
 - [ ] [FILE] src/components/ThemePicker.tsx
 - [ ] [FILE] src/components/ThinkingToggle.tsx
 - [ ] [FILE] src/components/TokenWarning.tsx
